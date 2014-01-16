@@ -5,6 +5,13 @@
 .. title: Another example post for Sven
 .. slug: another-example-post-for-sven
 
+This week we celebrate Zalando’s 5th anniversary. Zalando is one of the biggest success stories in the internet history, becoming Europe’s fastest growing company, ever.
+Especially from a tech perspective we have been through a real rollercoaster ride — with an exceptional pace, always a pulse at 180 and a whole lot of fun.
+I am very proud of our tremendous achievements and very thankful for having such an awesome team working together on all past and future challenges. And now I want to leave room for Henning, one of our “Oldies”, to give quite an impressive overview of our ride out of his tech diary.
+- Christoph, CPO
+
+.. TEASER_END
+
 Early 2010: Magento
 -------------------
 2 deploy units, > 800k PHP LOC
