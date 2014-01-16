@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
@@ -6,16 +7,16 @@ import time
 # Configuration, please edit
 
 # Data about this site
-BLOG_AUTHOR = "Your Name"
-BLOG_TITLE = "Zalando Tech Blog"
+BLOG_AUTHOR = 'Your Name'
+BLOG_TITLE = 'Zalando Tech Blog'
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://tech.zalando.com/"
+SITE_URL = 'http://tech.zalando.com/'
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
-BLOG_EMAIL = "joe@demo.site"
-BLOG_DESCRIPTION = "Official Zalando Tech Blog"
+BLOG_EMAIL = 'joe@demo.site'
+BLOG_DESCRIPTION = 'Official Zalando Tech Blog'
 
 # Nikola is multilingual!
 #
@@ -48,26 +49,19 @@ BLOG_DESCRIPTION = "Official Zalando Tech Blog"
 # in the default language will be shown instead.
 
 # What is the default language?
-DEFAULT_LANG = "en"
+DEFAULT_LANG = 'en'
 
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
-TRANSLATIONS = {
-    DEFAULT_LANG: "",
+TRANSLATIONS = {DEFAULT_LANG: ''}
     # Example for another language:
     # "es": "./es",
-}
 
 # Links for the sidebar / navigation bar.
 # You should provide a key-value pair for each used language.
-NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        ('/archive.html', 'Archives'),
-        ('/categories/index.html', 'Tags'),
-        ('/rss.xml', 'RSS'),
-    ),
-}
+NAVIGATION_LINKS = {DEFAULT_LANG: (('/archive.html', 'Archives'), ('/categories/index.html', 'Tags'), ('/rss.xml', 'RSS'
+                    ))}
 
 # Below this point, everything is optional
 
@@ -105,14 +99,8 @@ NAVIGATION_LINKS = {
 # just independent HTML pages.
 #
 
-POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-)
-PAGES = (
-    ("stories/*.rst", "stories", "story.tmpl"),
-    ("stories/*.txt", "stories", "story.tmpl"),
-)
+POSTS = ('posts/*.rst', 'posts', 'post.tmpl'), ('posts/*.txt', 'posts', 'post.tmpl')
+PAGES = ('stories/*.rst', 'stories', 'story.tmpl'), ('stories/*.txt', 'stories', 'story.tmpl')
 
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of "source" "relative destination".
@@ -128,19 +116,19 @@ PAGES = (
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
+    'rest': ('.rst', '.txt'),
+    'markdown': ('.md', '.mdown', '.markdown'),
+    'textile': ('.textile', ),
+    'txt2tags': ('.t2t', ),
+    'bbcode': ('.bb', ),
+    'wiki': ('.wiki', ),
+    'ipynb': ('.ipynb', ),
+    'html': ('.html', '.htm'),
+}
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
     # "pandoc": ('.rst', '.md', '.txt'),
-}
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
@@ -254,9 +242,9 @@ COMPILERS = {
 # return partial content of another representation for these resources. Do not
 # use this feature if you do not understand what this means.
 
-# #############################################################################
+##############################################################################
 # Image Gallery Options
-# #############################################################################
+##############################################################################
 
 # Galleries are folders in galleries/
 # Final location of galleries will be output / GALLERY_PATH / gallery_name
@@ -269,9 +257,9 @@ COMPILERS = {
 # If set to False, it will sort by filename instead. Defaults to True
 # GALLERY_SORT_BY_DATE = True
 
-# #############################################################################
+##############################################################################
 # HTML fragments and diverse things that are used by the templates
-# #############################################################################
+##############################################################################
 
 # Data about post-per-page indexes
 # INDEXES_TITLE = ""  # If this is empty, the default is BLOG_TITLE
@@ -279,7 +267,7 @@ COMPILERS = {
 # translated
 
 # Name of the theme to use.
-THEME = "techblog"
+THEME = 'techblog'
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored.
@@ -322,7 +310,7 @@ INDEX_TEASERS = True
 # READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
 
 # A HTML fragment describing the license, for the sidebar.
-LICENSE = ""
+LICENSE = ''
 # I recommend using the Creative Commons' wizard:
 # http://creativecommons.org/choose/
 # LICENSE = """
@@ -333,10 +321,9 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         {license}'
-CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
-                                       author=BLOG_AUTHOR,
-                                       date=time.gmtime().tm_year,
+CONTENT_FOOTER = \
+    'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL, author=BLOG_AUTHOR, date=time.gmtime().tm_year,
                                        license=LICENSE)
 
 # To use comments, you can choose between different third party comment
@@ -414,9 +401,9 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # MATHJAX_CONFIG = ""
 
 # If you are using the compile-ipynb plugin, just add this one:
-#MATHJAX_CONFIG = """
-#<script type="text/x-mathjax-config">
-#MathJax.Hub.Config({
+# MATHJAX_CONFIG = """
+# <script type="text/x-mathjax-config">
+# MathJax.Hub.Config({
 #    tex2jax: {
 #        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
 #        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
@@ -425,9 +412,9 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 #    "HTML-CSS": {
 #        styles: {'.MathJax_Display': {"margin": 0}}
 #    }
-#});
-#</script>
-#"""
+# });
+# </script>
+# """
 
 # Do you want to customize the nbconversion of your IPython notebook?
 # IPYNB_CONFIG = {}
@@ -483,30 +470,30 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:
 #
-#SEARCH_FORM = """
-#<!-- Custom search -->
-#<form method="get" id="search" action="http://duckduckgo.com/"
+# SEARCH_FORM = """
+# <!-- Custom search -->
+# <form method="get" id="search" action="http://duckduckgo.com/"
 # class="navbar-form pull-left">
-#<input type="hidden" name="sites" value="%s"/>
-#<input type="hidden" name="k8" value="#444444"/>
-#<input type="hidden" name="k9" value="#D51920"/>
-#<input type="hidden" name="kt" value="h"/>
-#<input type="text" name="q" maxlength="255"
+# <input type="hidden" name="sites" value="%s"/>
+# <input type="hidden" name="k8" value="#444444"/>
+# <input type="hidden" name="k9" value="#D51920"/>
+# <input type="hidden" name="kt" value="h"/>
+# <input type="text" name="q" maxlength="255"
 # placeholder="Search&hellip;" class="span2" style="margin-top: 4px;"/>
-#<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
-#</form>
-#<!-- End of custom search -->
-#""" % SITE_URL
+# <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+# </form>
+# <!-- End of custom search -->
+# """ % SITE_URL
 #
 # If you prefer a google search form, here's an example that should just work:
-#SEARCH_FORM = """
-#<!-- Custom search with google-->
-#<form id="search" action="http://google.com/search" method="get" class="navbar-form pull-left">
-#<input type="hidden" name="q" value="site:%s" />
-#<input type="text" name="q" maxlength="255" results="0" placeholder="Search"/>
-#</form>
-#<!-- End of custom search -->
-#""" % SITE_URL
+# SEARCH_FORM = """
+# <!-- Custom search with google-->
+# <form id="search" action="http://google.com/search" method="get" class="navbar-form pull-left">
+# <input type="hidden" name="q" value="site:%s" />
+# <input type="text" name="q" maxlength="255" results="0" placeholder="Search"/>
+# </form>
+# <!-- End of custom search -->
+# """ % SITE_URL
 
 # Also, there is a local search plugin you can use, based on Tipue, but it requires setting several
 # options:
@@ -536,7 +523,6 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # """
 # ENABLED_EXTRAS = ['local_search']
 #
-
 
 # Use content distribution networks for jquery and twitter-bootstrap css and js
 # If this is True, jquery is served from the Google CDN and twitter-bootstrap
@@ -592,7 +578,6 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 #     # 'creator:id': 654321,  # Same as creator, but the Twitter user's ID.
 # }
 
-
 # Post's dates are considered in GMT by default, if you want to use
 # another timezone, please set TIMEZONE to match. Check the available
 # list from Wikipedia:
@@ -627,9 +612,8 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 
 # You can configure the logging handlers installed as plugins or change the
 # log level of the default stdout handler.
-LOGGING_HANDLERS = {
-    'stderr': {'loglevel': 'WARNING', 'bubble': True},
-    #'smtp': {
+LOGGING_HANDLERS = {'stderr': {'loglevel': 'WARNING', 'bubble': True}}
+    # 'smtp': {
     #    'from_addr': 'test-errors@example.com',
     #    'recipients': ('test@example.com'),
     #    'credentials':('testusername', 'password'),
@@ -637,8 +621,7 @@ LOGGING_HANDLERS = {
     #    'secure': (),
     #    'level': 'DEBUG',
     #    'bubble': True
-    #}
-}
+    # }
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
