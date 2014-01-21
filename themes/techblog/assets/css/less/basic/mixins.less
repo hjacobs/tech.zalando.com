@@ -1,0 +1,36 @@
+
+
+    // POSITIONING ()---------------------------------------------------------------------------------------------------
+    .position(topLeft, @y: 0, @x: @y, @position: absolute) {
+        position: @position;
+        top: @y;
+        left: @x;
+    }
+
+    .position(topRight, @y: 0, @x: @y, @position: absolute) {
+        position: @position;
+        top: @y;
+        right: @x;
+    }
+
+    .position(bottomRight, @y: 0, @x: @y, @position: absolute) {
+        position: @position;
+        bottom: @y;
+        right: @x;
+    }
+
+    .position(bottomLeft, @y: 0, @x: @y, @position: absolute) {
+        position: @position;
+        bottom: @y;
+        left: @x;
+    }
+
+    .position(center, @height, @width, @position: absolute) {
+        height: @height;
+        margin-top: -@height / 2;
+        margin-left: -@width / 2;
+        position: @position;
+        top: 50%;
+        left: 50%;
+        width: @width;
+    }

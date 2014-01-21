@@ -1,0 +1,247 @@
+
+    // BORDER ()--------------------------------------------------------------------------------------------------------
+
+    //.border {
+    //  .borderDefault;
+    //}
+
+    .noBorder {
+        border: 0;
+    }
+
+
+
+    // BORDERBOX ()-----------------------------------------------------------------------------------------------------
+    .borderBox {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+
+    // DISPLAY ()-------------------------------------------------------------------------------------------------------
+    .block {
+        display: block;
+    }
+
+    .inline {
+        display: inline;
+    }
+
+    .inlineBlock {
+        display: inline-block;
+        *zoom: 1; *display: inline;
+    }
+
+    .none {
+        display: none;
+    }
+
+
+    // FLOAT ()---------------------------------------------------------------------------------------------------------
+    .clear {
+        clear: both;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .clearRight {
+        clear: right;
+    }
+
+
+    // MARGIN ()---------------------------------------------------------------------------------------------------------
+    .dMargin {
+        margin: @distanceDouble;
+    }
+
+    .dMarginTop {
+        margin-top: @distanceDouble;
+    }
+
+    .dMarginRight {
+        margin-right: @distanceDouble;
+    }
+
+    .dMarginBottom {
+        margin-bottom: @distanceDouble;
+    }
+
+    .dMarginLeft {
+        margin-left: @distanceDouble;
+    }
+
+    .dMarginHorizontal {
+        margin-right: @distanceDouble;
+        margin-left: @distanceDouble;
+    }
+
+    .dMarginVertical {
+        margin-top: @distanceDouble;
+        margin-bottom: @distanceDouble;
+    }
+
+    .margin {
+        margin: @distanceDefault;
+    }
+
+    .marginAuto {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .marginTop {
+        margin-top: @distanceDefault;
+    }
+
+    .marginRight {
+        margin-right: @distanceDefault;
+    }
+
+    .marginBottom {
+        margin-bottom: @distanceDefault;
+    }
+
+    .marginLeft {
+        margin-left: @distanceDefault;
+    }
+
+    .marginHorizontal {
+        margin-right: @distanceDefault;
+        margin-left: @distanceDefault;
+    }
+
+    .marginVertical {
+        margin-top: @distanceDefault;
+        margin-bottom: @distanceDefault;
+    }
+
+    .noMargin {
+        margin: 0;
+    }
+
+
+    // PADDING ()-------------------------------------------------------------------------------------------------------
+    .noPadding {
+        padding: 0;
+    }
+
+    .padding {
+        padding: @distanceDefault;
+    }
+
+    .paddingTop {
+        padding-top: @distanceDefault;
+    }
+
+    .paddingRight {
+        padding-right: @distanceDefault;
+    }
+
+    .paddingBottom {
+        padding-bottom: @distanceDefault;
+    }
+
+    .paddingLeft {
+        padding-left: @distanceDefault;
+    }
+
+    .paddingHorizontal {
+        padding-right: @distanceDefault;
+        padding-left: @distanceDefault;
+    }
+
+    .paddingVertical {
+        padding-top: @distanceDefault;
+        padding-bottom: @distanceDefault;
+    }
+
+    .dPaddingVertical {
+        padding-top: @distanceDefault * 2;
+        padding-bottom: @distanceDefault * 2;
+    }
+
+
+    // POSITIONING ()---------------------------------------------------------------------------------------------------
+    .absolute {
+        position: absolute;
+    }
+
+    .fixed {
+        position: fixed;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .static {
+        position: static;
+    }
+
+    .targetFix {
+        .position(topLeft, 0, 0, fixed);
+    }
+
+
+    // OVERFLOW ()------------------------------------------------------------------------------------------------------
+    .overAuto {
+        overflow: auto;
+    }
+
+    .overHidden {
+        overflow: hidden;
+    }
+
+    .overScroll {
+        overflow: scroll;
+    }
+
+    .overVisible {
+        overflow: visible;
+    }
+
+
+    // TEXT ()----------------------------------------------------------------------------------------------------------
+    .bold {
+        font-weight:bold;
+    }
+
+    .headline {
+        .block;
+    }
+
+    .listDisc li {
+        list-style-type: disc;
+        .dMarginLeft;
+    }
+
+    .textCenter {
+        text-align: center;
+    }
+
+    .textJustify {
+        text-align: justify;
+    }
+
+    .textLeft {
+        text-align: left;
+    }
+
+    .textRight {
+        text-align: right;
+    }
+
+    .uppercase {
+        text-transform: uppercase;
+    }
+
+    .pointer {
+        cursor: pointer;
+    }
