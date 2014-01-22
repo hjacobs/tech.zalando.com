@@ -15,4 +15,9 @@ Write your post here. Yes, really --- right your post here!
         Test
     </header>
 
+
+Links funktionieren so: Henning_
+
+.. _Henning: http://srcco.de
+
 Test
