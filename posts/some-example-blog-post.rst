@@ -7,5 +7,6 @@
 
 Write your post here. Yes, really --- right your post here!
 
+.. TEASER_END
+
 Test
-----
