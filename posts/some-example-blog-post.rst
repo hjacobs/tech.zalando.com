@@ -9,4 +9,10 @@ Write your post here. Yes, really --- right your post here!
 
 .. TEASER_END
 
+.. code:: html
+
+    <header>
+        Test
+    </header>
+
 Test
