@@ -99,7 +99,7 @@ NAVIGATION_LINKS = {DEFAULT_LANG: (('/archive.html', 'Archives'), ('/categories/
 # just independent HTML pages.
 #
 
-POSTS = ('posts/*.rst', 'posts', 'post.tmpl'), ('posts/*.txt', 'posts', 'post.tmpl')
+POSTS = ('posts/*.rst', 'posts', 'post.tmpl'), ('posts/*.md', 'posts', 'post.tmpl')
 PAGES = ('stories/*.rst', 'stories', 'story.tmpl'), ('stories/*.txt', 'stories', 'story.tmpl')
 
 # One or more folders containing files to be copied as-is into the output.
@@ -116,14 +116,9 @@ PAGES = ('stories/*.rst', 'stories', 'story.tmpl'), ('stories/*.txt', 'stories',
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
 COMPILERS = {
-    'rest': ('.rst', '.txt'),
-    'markdown': ('.md', '.mdown', '.markdown'),
-    'textile': ('.textile', ),
-    'txt2tags': ('.t2t', ),
-    'bbcode': ('.bb', ),
-    'wiki': ('.wiki', ),
-    'ipynb': ('.ipynb', ),
-    'html': ('.html', '.htm'),
+    'rest': ('.rst'),
+    'markdown': ('.md'),
+    'html': ('.html'),
 }
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
