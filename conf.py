@@ -115,11 +115,7 @@ PAGES = ('stories/*.rst', 'stories', 'story.tmpl'), ('stories/*.txt', 'stories',
 # 'rest' is reStructuredText
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
-COMPILERS = {
-    'rest': ('.rst'),
-    'markdown': ('.md'),
-    'html': ('.html'),
-}
+COMPILERS = {'rest': '.rst', 'markdown': '.md', 'html': '.html'}
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -302,7 +298,7 @@ INDEX_TEASERS = True
 # {read_more}   The string “Read more” in the current language.
 # {{            A literal { (U+007B LEFT CURLY BRACKET)
 # }}            A literal } (U+007D RIGHT CURLY BRACKET)
-# READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
+READ_MORE_LINK = '<a href="{link}">{read_more}…</a>'
 
 # A HTML fragment describing the license, for the sidebar.
 LICENSE = ''
@@ -324,12 +320,12 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL, author=BLOG_AUTHOR, dat
 # To use comments, you can choose between different third party comment
 # systems, one of "disqus", "livefyre", "intensedebate", "moot",
 #                 "googleplus" or "facebook"
-COMMENT_SYSTEM = ""
+COMMENT_SYSTEM = ''
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = ''
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
@@ -422,6 +418,7 @@ COMMENT_SYSTEM_ID = ""
 # done in the code, hope you don't mind ;-)
 # MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite']
 
+SOCIAL_BUTTONS_CODE = ''
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty.
 # SOCIAL_BUTTONS_CODE = """
