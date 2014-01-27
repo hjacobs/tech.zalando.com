@@ -1,0 +1,29 @@
+
+    // ARTICLE (on homepage and detail)---------------------------------------------------------------------------------
+    article {
+        .dMarginHorizontal;
+        margin-bottom: @distanceDefault * 3;
+
+        h1,
+        p {
+            .marginBottom;
+        }
+
+        h1 {
+            .font(@fontSizeHeadline, normal, @lineHeightDefault);
+            color: @colorHeadline;
+
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+
+        p {
+            .font(@fontSizeDefault, normal, @lineHeightDefault)
+        }
+
+        .more {
+            color: inherit;
+        }
+    }

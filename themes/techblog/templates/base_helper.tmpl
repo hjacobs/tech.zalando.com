@@ -1,6 +1,7 @@
 {#  -*- coding: utf-8 -*- #}
 {% macro html_head() %}
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
     {% if description %}
     <meta name="description" content="{{ description }}">
     {% endif %}
@@ -16,8 +17,7 @@
     {% else %}
         <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
         <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
-        <link href="/assets/css/theme.css" rel="stylesheet" type="text/css"/>
-        {% if has_custom_css %}
+               {% if has_custom_css %}
             <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">
         {% endif %}
     {% endif %}
@@ -43,6 +43,9 @@
     {% if comment_system == 'facebook' %}
         <meta property="fb:app_id" content="{{ comment_system_id }}">
     {% endif %}
+
+    <link href="/assets/css/theme.css" rel="stylesheet" type="text/css"/>
+
 {% endmacro %}
 
 {% macro late_load_js() %}
