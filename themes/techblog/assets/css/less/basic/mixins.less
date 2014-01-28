@@ -6,6 +6,7 @@
         line-height: @lineHeight;
     }
 
+
     // POSITIONING ()---------------------------------------------------------------------------------------------------
     .position(topLeft, @y: 0, @x: @y, @position: absolute) {
         position: @position;
@@ -38,5 +39,48 @@
         position: @position;
         top: 50%;
         left: 50%;
+        width: @width;
+    }
+
+
+    // BORDER ()--------------------------------------------------------------------------------------------------------
+    .borderDefault(@color: @colorBorder, @width: 1px) {
+        border: @width solid @color;
+    }
+
+    .border(top, @color: @colorBorder, @width: 1px) {
+        .borderDefault(@color);
+        border-width: @width 0 0 0;
+    }
+
+    .border(right, @color: @colorBorder, @width: 1px) {
+        .borderDefault(@color);
+        border-width: 0 @width 0 0;
+    }
+
+    .border(bottom, @color: @colorBorder, @width: 1px) {
+        .borderDefault(@color);
+        border-width: 0 0 @width 0;
+    }
+
+    .border(left, @color: @colorBorder, @width: 1px) {
+        .borderDefault(@color);
+        border-width: 0 0 0 @width;
+    }
+
+    .border(horizontal, @color: @colorBorder, @widthTop: 1px, @widthBottom: @widthTop) {
+        .borderDefault(@color);
+        border-width: @widthTop 0 @widthBottom 0;
+    }
+
+    .border(vertical, @color: @colorBorder, @widthRight: 1px, @widthLeft: @widthRight) {
+        .borderDefault(@color);
+        border-width: 0 @widthRight 0 @widthLeft;
+    }
+
+
+    // DIMENSION ()-----------------------------------------------------------------------------------------------------
+    .dimension(@height, @width: @height) {
+        height: @height;
         width: @width;
     }

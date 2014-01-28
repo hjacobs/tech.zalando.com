@@ -2,8 +2,34 @@
     // ARTICLE (on homepage and detail)---------------------------------------------------------------------------------
     article {
         .dPaddingHorizontal;
-        margin: 0 auto @distanceDefault * 3;
-        max-width: 720px;
+        max-width: 600px; // Keep container small for better readability!
+
+        @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+            margin: 0 auto @distanceDefault * 3;
+        }
+
+        @media screen and (min-width: @screenTabletPortrait) {
+            margin: 0 auto @distanceDouble * 2;
+        }
+
+        & > div {
+            .border(bottom);
+            .overHidden;
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+                .marginBottom;
+                .paddingBottom;
+
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .dMarginBottom;
+                .dPaddingBottom;
+
+            }
+        }
 
         h1,
         p {
@@ -11,12 +37,13 @@
         }
 
         h1 {
-            .font(@fontSizeHeadline, normal, @lineHeightDefault);
+            .font(@fontSizeH1, normal, @lineHeightDefault);
             color: @colorHeadline;
 
-            @media screen and (min-width: @screenTabletLandscape) {
+            @media screen and (min-width: @screenTabletPortrait) {
 
-                .font(@fontSizeHeadlineLarge);
+                .font(@fontSizeH1 + 8px);
+                .dMarginBottom;
                 .textCenter;
 
             }
@@ -28,10 +55,26 @@
         }
 
         p {
-            .font(@fontSizeDefault, normal, @lineHeightDefault)
+            .font(1em, normal, @lineHeightDefault);
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                line-height: @lineHeightDefault + .2em;
+
+            }
         }
 
         .more {
             color: inherit;
+        }
+
+        small {
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .block;
+                .textCenter;
+
+            }
         }
     }
