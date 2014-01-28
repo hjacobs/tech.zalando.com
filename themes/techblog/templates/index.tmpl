@@ -5,38 +5,39 @@
 {% block content %}
     {% for post in posts %}
 
-        <article>
+        <article itemscope itemtype="http://schema.org/BlogPosting">
 
-            <h1>
+            <h1 itemprop="name">
 
-                <a href="{{ post.permalink() }}" class="u-url">{{ post.title() }}</a>
+                <a href="{{ post.permalink() }}" itemprop="url">{{ post.title() }}</a>
 
             </h1>
 
-            {% if index_teasers %}
+            <!--Add a <div> just for that Rich Data Item-->
+            <div itemprop="articleBody">
 
-                <!--<div class="p-summary">-->
-                {{ post.text(teaser_only=True) }}
+                {% if index_teasers %}
 
-            {% else %}
+                    {{ post.text(teaser_only=True) }}
 
-                <!--<div class="e-content">-->
-                {{ post.text(teaser_only=False) }}
+                {% else %}
 
-            {% endif %}
+                    {{ post.text(teaser_only=False) }}
 
-            <!--</div>-->
+                {% endif %}
+
+            </div>
+
             {% if not post.meta('nocomments') %}
                 {{ comments.comment_link(post.permalink(), post._base_path) }}
             {% endif %}
 
-            <!--</div>-->
 
             <small>
 
                 {{ messages("Posted") }}:
 
-                <time class="published dt-published" datetime="{{ post.date.isoformat() }}">
+                <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
                     {{ post.formatted_date(date_format) }}
                 </time>
 

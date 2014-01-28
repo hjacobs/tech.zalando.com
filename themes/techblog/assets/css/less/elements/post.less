@@ -1,8 +1,9 @@
 
     // ARTICLE (on homepage and detail)---------------------------------------------------------------------------------
     article {
-        .dMarginHorizontal;
-        margin-bottom: @distanceDefault * 3;
+        .dPaddingHorizontal;
+        margin: 0 auto @distanceDefault * 3;
+        max-width: 720px;
 
         h1,
         p {
@@ -12,6 +13,13 @@
         h1 {
             .font(@fontSizeHeadline, normal, @lineHeightDefault);
             color: @colorHeadline;
+
+            @media screen and (min-width: @screenTabletLandscape) {
+
+                .font(@fontSizeHeadlineLarge);
+                .textCenter;
+
+            }
 
             a {
                 color: inherit;
