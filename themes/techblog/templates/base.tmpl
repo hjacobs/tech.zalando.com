@@ -16,31 +16,48 @@ lang="{{ lang }}">
 </head>
 <body>
 
-<a class="zalando" href="/"></a>
+<div class="content">
 
-<header>
-    Header go's here!
-</header>
-    <!--<h1 id="blog-title">
-        <a href="{{ abs_link('/') }}" title="{{ blog_title }}" rel="home">{{ blog_title }}</a>
-    </h1>-->
-    {% block belowtitle %}
-        {% if translations|length > 1 %}
-        <small>
-            {{ messages("Also available in") }}:&nbsp;
-            {{ base.html_translations() }}
-        </small>
-    {% endif %}
-    {% endblock %}
-    {% block content %}{% endblock %}
-    <small>{{ content_footer }}</small>
+    <a class="zalando" href="/"></a>
+
+    <header>
+        Header go's here!
+    </header>
+
+
+        <!--<h1 id="blog-title">
+            <a href="{{ abs_link('/') }}" title="{{ blog_title }}" rel="home">{{ blog_title }}</a>
+        </h1>-->
+        {% block belowtitle %}
+            {% if translations|length > 1 %}
+            <small>
+                {{ messages("Also available in") }}:&nbsp;
+                {{ base.html_translations() }}
+            </small>
+        {% endif %}
+        {% endblock %}
+        {% block content %}{% endblock %}
+
+</div>
+
+<footer>
+
+    {{ content_footer }}
+
+</footer>
+    <!--<small>{{ content_footer }}</small>-->
     <!--Sidebar content-->
+
+<!--
     <ul class="unstyled">
     <li>{{ license }}
     {{ base.html_social() }}
     {{ base.html_navigation_links() }}
     <li>{{ search_form }}
     </ul>
+
     {{ base.late_load_js() }}
     {{ social_buttons_code }}
+-->
+
 </body>
