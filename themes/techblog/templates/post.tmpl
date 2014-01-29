@@ -1,26 +1,39 @@
 {#  -*- coding: utf-8 -*- #}
 {% import 'post_helper.tmpl' as helper with context %}
 {% import 'comments_helper.tmpl' as comments with context %}
+
 {% extends 'base.tmpl' %}
+
 {% block extra_head %}
-{{ helper.twitter_card_information(post) }}
-{% if post.meta('keywords') %}
-    <meta name="keywords" content="{{ post.meta('keywords')|e }}">
-{% endif %}
+    {{ helper.twitter_card_information(post) }}
+
+    {% if post.meta('keywords') %}
+
+        <meta name="keywords" content="{{ post.meta('keywords')|e }}" xmlns="http://www.w3.org/1999/html">
+
+    {% endif %}
+
 {% endblock %}
+
+
 {% block content %}
 
     <article itemscope itemtype="http://schema.org/BlogPosting">
 
-        <div itemprop="articleBody text">
-
         {{ helper.html_title() }}
-
 
         <!--The Articles content -->
         <div itemprop="articleBody text">
 
             {{ post.text() }}
+
+            {% if post.meta('author') %}
+
+                <p>
+                    {% include 'author.tmpl' %}
+                </p>
+
+            {% endif %}
 
         </div>
 
@@ -30,46 +43,35 @@
 
         {% endif %}
 
-    </div>
+        <small>
 
-    <div>
-        <h4>About {{ post.meta('author')|e }}</h4>
-        <p>Lorem Ipsum</p>
-    </div>
+            {{ messages("Posted") }}:
 
-    <small>
+            <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
 
+                {{ post.formatted_date(date_format) }}
 
-        {{ messages("Posted") }}:
+            </time>
 
-        <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
+            {{ helper.html_translations(post) }}
 
-            {{ post.formatted_date(date_format) }}
+            {{ helper.html_tags(post) }}
 
-        </time>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
 
-        {{ helper.html_translations(post) }}
+        </small>
 
-        {{ helper.html_tags(post) }}
-
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-
-        <!--{% block sourcelink %}
-
-            {% if not post.meta('password') %}
-
-            <a href="{{ post.source_link() }}" id="sourcelink">{{ messages("Source") }}</a>
-
-            {% endif %}
-
-        {% endblock %}-->
-
-    </small>
 
     {{ helper.html_pager(post) }}
+
     {% if not post.meta('nocomments') %}
+
         {{ comments.comment_form(post.permalink(absolute=True), post.title(), post._base_path) }}
+
     {% endif %}
+
     {{ helper.mathjax_script(post) }}
+
     </article>
+
 {% endblock %}

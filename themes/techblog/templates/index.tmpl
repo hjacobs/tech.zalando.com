@@ -27,7 +27,9 @@
 
                     {{ post.text(teaser_only=False) }}
 
+
                 {% endif %}
+
 
             </div>
 
@@ -38,11 +40,19 @@
 
             <small>
 
-                {{ messages("Posted") }}:
+                {{ messages("Posted") }} on
 
                 <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
                     {{ post.formatted_date(date_format) }}
                 </time>
+
+                {% if post.meta('author') %}
+
+                    from
+
+                    {% include 'author.tmpl' %}
+
+                {% endif %}
 
             </small>
 
