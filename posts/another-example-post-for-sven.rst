@@ -1,9 +1,10 @@
 .. link:
 .. description:
-.. tags:
+.. tags: Me, Sven, All
 .. date: 2014/01/16 21:04:02
 .. title: Another example post for Sven
 .. slug: another-example-post-for-sven
+.. author: Henning Jacobs
 
 This week we celebrate Zalando’s 5th anniversary. Zalando is one of the biggest success stories in the internet history, becoming Europe’s fastest growing company, ever.
 Especially from a tech perspective we have been through a real rollercoaster ride — with an exceptional pace, always a pulse at 180 and a whole lot of fun.
@@ -12,6 +13,8 @@ I am very proud of our tremendous achievements and very thankful for having such
 
 .. TEASER_END
 
+*Early 2010: Magento*
+
 Early 2010: Magento
 -------------------
 2 deploy units, > 800k PHP LOC
@@ -19,7 +22,6 @@ When you get a call from a headhunter asking you whether the job position “PHP
 But I said yes, so here the story begins: I got back from South America just before Christmas 2009 and started looking around for jobs in Northern Germany when the aforementioned call arrived. I was tempted to decline the offer as I had some (bad) experience with Magento in Argentina — but why would I ignore the possibility to go to Berlin and get some more interview experience? So I showed up in cold, snowy, dirty Berlin in January 2010.
 Having used mainly C# and PHP professionally I wanted to switch to Java as I considered PHP an inferior language and the C# environment meant Microsoft hell. To be honest, I knew little about Zalando. However, the planned switch from PHP to Java (which I was eager to use professionally) and the welcoming people convinced me to accept the offer given to me just after the interview.
 The first weeks and months were dedicated to getting into Zalando’s Magento PHP code and evaluating some frontend technologies for tools. As no dedicated System Engineer (SysOp) was onboard, I somehow was given the SysOp role along with another colleague. I was therefore tasked with trying to keep up the small Apache/PHP and MySQL server farm. PHP changes were either deployed via Bash scripts (after creating a SVN tag) or PHP files were directly edited on the server. With a small team of not more than ten developers this was feasible, but still bad. Somehow — I do not remember exactly how — I was given the task to evaluate GWT and as Java was already in use for internal tooling, we decided to go forward with GWT for our existing and future frontends.
-
 
 Spring 2010: “Booster”
 ----------------------

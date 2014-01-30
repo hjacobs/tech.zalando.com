@@ -5,6 +5,9 @@ help you decide whether you have to repair you input data or you have to fix a
 bug in the script. Compiled source code does not give you this oportunity that
 easily. In case you dissassemble even a small program written in C or C++ back
 to a more human readable form, you wont recognize your program anymore.
+
+<!-- TEASER_END -->
+
 Furthermore, it takes a deep understanding of the operating system, the system
 architecture, and a lot of time to create normal looking source code from the
 compiled executable. Nowadays there are some tools that help you with the

@@ -1,5 +1,6 @@
 [![task board transition teaser](/files/2013/12/20131025_094912_teaser.jpg)](/
-files/2013/12/20131025_094912_teaser.jpg) **Do you prefer an analog task board
+files/2013/12/20131025_094912_teaser.jpg)
+**Do you prefer an analog task board
 over a digital one?** I did prefer an analog task board mainly for the
 following reasons:
 
@@ -16,7 +17,11 @@ to change to a digital board was kind of natural. Replacing the analog task
 board with something else was easy because the project team I am part of works
 on a project that will be finished sooner or later anyway. Even if we found
 out, a digital board was not a good idea, the board as well as the project
-will be done at one point in time.  [![analog board](/files/2013/12
+will be done at one point in time.
+
+  <!-- TEASER_END -->
+
+[![analog board](/files/2013/12
 /20130917_122710_-300x225.jpg)](/files/2013/12/20130917_122710_.jpg) These are
 the steps of transition we did:
 
