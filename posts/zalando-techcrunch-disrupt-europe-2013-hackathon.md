@@ -13,10 +13,7 @@ was completely free for all the 500 international participants. The venue
 "Arena Berlin", a huge indoor hall near the river Spree, was just perfect to
 host all hackers and create an open, bustling and productive atmosphere.
 
-[![Arena Berlin before Hackathon kick-off](/files/2013/10/Arena-Berlin-before-
-Hackathon-kick-off-300x225.jpg)](/files/2013/10/Arena-Berlin-before-Hackathon-
-kick-off.jpg)[![](/files/2013/10/Zalando-Booth-at-the-
-Hackathon.jpg)](/files/2013/10/Zalando-Booth-at-the-Hackathon.jpg)
+[![Arena Berlin before Hackathon kick-off](/files/2013/10/Arena-Berlin-before-Hackathon-kick-off-300x225.jpg)](/files/2013/10/Arena-Berlin-before-Hackathon-kick-off.jpg)[![](/files/2013/10/Zalando-Booth-at-the-Hackathon.jpg)](/files/2013/10/Zalando-Booth-at-the-Hackathon.jpg)
 
 We brought our brand new API with us and as you can imagine, we were very
 eager to find out the coders reactions and how many teams would choose our API
