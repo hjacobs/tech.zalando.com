@@ -619,6 +619,4 @@ LOGGING_HANDLERS = {'stderr': {'loglevel': 'WARNING', 'bubble': True}}
 # It can be anything, data, functions, modules, etc.
 
 from nikola.utils import slugify
-GLOBAL_CONTEXT = {
-    'slugify': slugify
-}
+GLOBAL_CONTEXT = {'slugify': slugify}
