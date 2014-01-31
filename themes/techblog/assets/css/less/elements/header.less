@@ -1,8 +1,27 @@
 
     //HEADER (Main)-----------------------------------------------------------------------------------------------------
     header {
-        .dimension(30px, 100%);
-        background-color: @zColorOrange;
+        .dimension(auto, 100%);
+        .overHidden;
+        background-color: @zColorGray;
+
+        // ZALANDO LOGO SVG
+        .zalando {
+            .block;
+            .dimension(21px, 110px);
+            .margin;
+            background-image: url('../img/zalando_logo.png');
+            background-image: url('../img/zalando_logo.svg'), none;
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .dimension(26px, 130px);
+
+            }
+        }
+
 
         @media screen and (max-width: (@screenTabletPortrait - 1px)) {
 

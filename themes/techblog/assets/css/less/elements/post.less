@@ -2,7 +2,7 @@
     // ARTICLE (on homepage and detail)---------------------------------------------------------------------------------
     article {
         .dPaddingHorizontal;
-        max-width: 600px; // Keep container small for better readability!
+        max-width: @distanceDefault * 60 ; // Keep container small for better readability!
 
         @media screen and (max-width: (@screenTabletPortrait - 1px)) {
             margin: 0 auto @distanceDefault * 3;
@@ -30,10 +30,6 @@
 
             }
 
-            a {
-                color: inherit;
-            }
-
             p:last-child {
                 .marginTop;
             }
@@ -47,6 +43,12 @@
         h1 {
             .font(@fontSizeH1, normal, @lineHeightDefault);
             color: @colorHeadline;
+
+            &:after {
+                .block;
+                .font(@fontSizeSmall, normal, @fontSizeDefault);
+                content: attr(data-posted);
+            }
 
             @media screen and (min-width: @screenTabletPortrait) {
 
@@ -62,7 +64,7 @@
             }
         }
 
-        p {
+        p, li {
             .font(1em, normal, @lineHeightDefault);
 
             @media screen and (min-width: @screenTabletPortrait) {
@@ -72,21 +74,77 @@
             }
         }
 
-        .more {
-            color: inherit;
-        }
-
         small {
-
-            a {
-                color: inherit;
-            }
 
             @media screen and (min-width: @screenTabletPortrait) {
 
                 .block;
                 .textCenter;
 
+            }
+        }
+
+        // THE ACTUAL BLOGPOST (Reformat)-------------------------------------------------------------------------------
+
+        h2 {
+            font-size: 1.2em;
+        }
+
+        ul, ol {
+            .clear;
+
+        }
+
+        // LIST ELEMENTS
+        ul, ol {
+            padding: 0 0 @distanceDefault @distanceDouble;
+        }
+
+        li {
+            .marginBottom;
+        }
+
+        ul li {
+            list-style: disc;
+        }
+
+        ol li {
+            list-style: decimal;
+        }
+
+        // IMAGES ()----------------------------------------------------------------------------------------------------
+        img {
+            .paddingBottom;
+
+            @media screen and (max-width: (@screenPhoneLandscape - 1px)) and (orientation: portrait) {
+
+                .dimension(auto, 100%);
+
+            }
+
+            @media screen and (orientation: landscape) {
+
+                .dimension(auto, 38%);
+                .dMarginRight;
+                .left;
+                margin-top: 7px;
+                max-width: @distanceDefault * 200;
+
+            }
+        }
+
+        // TEASER
+        p:first-child img {
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                p:first-child img {
+                    .dimension(auto, 50%);
+                    .dMarginRight;
+                    .left;
+                    margin-top: 7px;
+                    max-width: @distanceDefault * 23;
+                }
             }
         }
     }
