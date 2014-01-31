@@ -91,3 +91,16 @@
         content: @content;
         display: @display;
     }
+
+    // TRANSITION
+    .transition(@property, @duration, @timing: ease) {
+        -moz-transition: @property @duration @timing;
+        -webkit-transition: @property @duration @timing;
+        transition: @property @duration @timing;
+    }
+
+    .transition(@arguments) {
+        -moz-transition: @arguments;
+        -webkit-transition: @arguments;
+        transition: @arguments;
+    }

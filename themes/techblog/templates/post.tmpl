@@ -18,11 +18,9 @@
 
 {% block content %}
 
-    <article itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
         {{ helper.html_title() }}
-
-        {{ post.formatted_date('%B %Y')|e }}
 
         <!--The Articles content -->
         <div itemprop="articleBody text">

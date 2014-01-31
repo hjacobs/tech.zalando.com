@@ -18,16 +18,44 @@ lang="{{ lang }}">
 
 <div class="content">
 
-    <a class="zalando" href="/"></a>
 
     <header>
-        Header go's here!
+
+        <a class="zalando" href="/"></a>
+
+        <label class="trigger" for="menueClose"></label>
+
+        <input type="checkbox" id="menueClose" name="menu">
+
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="#">techblog</a>
+                </li>
+                <li>
+                    <a href="#">team & tech</a>
+                </li>
+                <li>
+                    <a href="#">events</a>
+                </li>
+                <li>
+                    <a href="#">jobs</a>
+                </li>
+                <li>
+                    <a href="#">open source</a>
+                </li>
+            </ul>
+
+        </nav>
+
     </header>
 
 
         <!--<h1 id="blog-title">
             <a href="{{ abs_link('/') }}" title="{{ blog_title }}" rel="home">{{ blog_title }}</a>
         </h1>-->
+
         {% block belowtitle %}
             {% if translations|length > 1 %}
             <small>

@@ -1,0 +1,191 @@
+
+    // NAVIGATION ()----------------------------------------------------------------------------------------------------
+
+
+    nav {
+        .overHidden;
+        .transition(max-height, .3s);
+        background-color: @zColorGray;
+        width: 100%;
+        z-index: 2;
+        max-height: 0;
+
+        ul {
+            .border(top,@colorBorder);
+            .borderBox;
+            .dimension(auto, 100%);
+            .marginBottom;
+            .paddingHorizontal;
+            .right;
+        }
+
+        li {
+            .textRight;
+        }
+
+        a {
+            .font(@fontSizeH3);
+            .inlineBlock;
+            .padding;
+            text-decoration: none;
+        }
+    }
+
+    .trigger {
+        .border(top, @menueIconGray, 5px);
+        .dimension(30px);
+        .marginTop;
+        .marginRight;
+        .pointer;
+        .relative;
+        .right;
+
+        &:before,
+        &:after {
+            .dimension(5px, 100%);
+            .pseudo('');
+            background-color: @menueIconGray;
+            margin-top: 5px;
+        }
+    }
+
+    header {
+
+        input[type="checkbox"] {
+            .none;
+            .position(topLeft, -100px, absolute);
+        }
+
+        input[type="checkbox"]:checked + nav {
+            max-height: 300px;
+
+        }
+    }
+//
+//
+//    @media screen and (max-width: 569px) {
+//        nav {
+//            background: rgba(0, 0, 0, 0.75);
+//            max-height: 5px;
+//            -webkit-transition: max-height 0.35s ease-in-out;
+//            -ms-transition: max-height 0.35s ease-in-out;
+//        }
+//    }
+//
+//    @media screen and (min-width: 570px) {
+//        nav {
+//            height: 40px;
+//        }
+//    }
+//
+//    nav ul {
+//        clear: right;
+//        float: right;
+//        overflow: hidden;
+//        margin: 7px 20px;
+//    }
+//
+//    @media screen and (min-width: 570px) {
+//        nav ul {
+//            margin-top: 15px;
+//        }
+//    }
+//
+//    nav li {
+//        text-align: right;
+//        padding-bottom: 20px;
+//    }
+//    nav li:first-of-type {
+//        color: #FFF;
+//        font-size: 150%;
+//        font-weight: normal;
+//        padding-right: 30px;
+//        text-transform: uppercase;
+//    }
+//    @media screen and (min-width: 570px) {
+//        nav li:first-of-type {
+//            display: none;
+//        }
+//    }
+//    @media screen and (min-width: 570px) {
+//        nav li {
+//            float: left;
+//            margin-right: 30px;
+//            padding-bottom: 0;
+//        }
+//        nav li:last-of-type {
+//            margin-right: 0;
+//        }
+//    }
+//    nav li a {
+//        color: #FFF;
+//        font-size: 300%;
+//        line-height: 1em;
+//        text-decoration: none;
+//        font-weight: lighter;
+//        text-transform: uppercase;
+//    }
+//    nav li a:hover {
+//        opacity: 0.75;
+//    }
+//    @media screen and (min-width: 570px) {
+//        nav li a {
+//            font-size: 170%;
+//        }
+//    }
+//    @media screen and (min-width: 800px) {
+//        nav li a {
+//            font-size: 200%;
+//        }
+//    }
+
+//    @media screen and (max-width: 569px) {
+//        label.trigger {
+//            background-color: rgba(0, 0, 0, 0.75);
+//            cursor: pointer;
+//            height: 30px;
+//            width: 40px;
+//            float: right;
+//            margin-right: 10px;
+//            border-bottom-right-radius: 3px;
+//            border-bottom-left-radius: 3px;
+//            position: absolute;
+//            right: 0;
+//            top: 5px;
+//        }
+//        label.trigger:before {
+//            background-color: #FFF;
+//            content: '';
+//            display: block;
+//            height: 20px;
+//            position: absolute;
+//            top: 3px;
+//            left: 9px;
+//            width: 22px;
+//        }
+//        label.trigger:after {
+//            background-color: #FFF;
+//            border-top: 4px solid #000 ;
+//            border-bottom: 4px solid #000 ;
+//            content: '';
+//            display: block;
+//            height: 4px;
+//            position: absolute;
+//            top: 7px;
+//            left: 9px;
+//            width: 22px;
+//        }
+//        label[for="menueOpen"] {
+//            z-index: 2;
+//        }
+//        label[for="menueClose"] {
+//            z-index: 1;
+//        }
+//        input:last-of-type:focus + nav {
+//            display: block;
+//            max-height: 480px;
+//        }
+//        input:last-of-type:focus + nav label {
+//            z-index: 3;
+//        }
+//    }
