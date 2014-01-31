@@ -100,7 +100,7 @@ NAVIGATION_LINKS = {DEFAULT_LANG: (('/archive.html', 'Archives'), ('/categories/
 #
 
 POSTS = ('posts/*.rst', 'posts', 'post.tmpl'), ('posts/*.md', 'posts', 'post.tmpl')
-PAGES = ('stories/*.rst', 'stories', 'story.tmpl'), ('stories/*.txt', 'stories', 'story.tmpl')
+PAGES = ('pages/*.rst', 'pages', 'story.tmpl'), ('authors/*.rst', 'authors', 'author_page.tmpl')
 
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of "source" "relative destination".
@@ -618,4 +618,5 @@ LOGGING_HANDLERS = {'stderr': {'loglevel': 'WARNING', 'bubble': True}}
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 
-GLOBAL_CONTEXT = {}
+from nikola.utils import slugify
+GLOBAL_CONTEXT = {'slugify': slugify}

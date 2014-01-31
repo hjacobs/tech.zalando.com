@@ -22,20 +22,10 @@
 
         {{ helper.html_title() }}
 
-        {{ post.formatted_date('%B %Y')|e }}
-
         <!--The Articles content -->
         <div itemprop="articleBody text">
 
             {{ post.text() }}
-
-            {% if post.meta('author') %}
-
-                <p>
-                    {% include 'author.tmpl' %}
-                </p>
-
-            {% endif %}
 
         </div>
 
@@ -55,8 +45,6 @@
 
             </time>
 
-            {{ helper.html_translations(post) }}
-
             {{ helper.html_tags(post) }}
 
             &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -65,12 +53,6 @@
 
 
     {{ helper.html_pager(post) }}
-
-    {% if not post.meta('nocomments') %}
-
-        {{ comments.comment_form(post.permalink(absolute=True), post.title(), post._base_path) }}
-
-    {% endif %}
 
     {{ helper.mathjax_script(post) }}
 
