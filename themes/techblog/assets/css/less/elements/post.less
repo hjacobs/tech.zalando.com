@@ -9,7 +9,7 @@
         }
 
         @media screen and (min-width: @screenTabletPortrait) {
-            margin: 0 auto @distanceDefault * 5;
+            margin: 0 auto @distanceDefault * 6;
         }
 
         & > div {
@@ -41,7 +41,7 @@
         }
 
         h1 {
-            .font(@fontSizeH1, normal, @lineHeightDefault);
+            .font(@fontSizeH1, normal, @lineHeightDefault - .1em);
             color: @colorHeadline;
 
             &:after {
@@ -52,7 +52,7 @@
 
             @media screen and (min-width: @screenTabletPortrait) {
 
-                .font(@fontSizeH1 + 8px);
+                .font(@fontSizeH1 + 8px, normal, @lineHeightDefault - .1em);
                 .dMarginBottom;
                 .textCenter;
 
@@ -69,7 +69,7 @@
 
             @media screen and (min-width: @screenTabletPortrait) {
 
-                line-height: @lineHeightDefault + .2em;
+                line-height: @lineHeightDefault + .15em;
 
             }
         }
@@ -114,7 +114,22 @@
 
         // IMAGES ()----------------------------------------------------------------------------------------------------
         img {
-            .paddingBottom;
+            .borderBox;
+            .paddingVertical;
+            .paddingRight;
+            height: auto;
+            max-width: 100%;
+
+            @media screen and (max-width: (@screenPhoneLandscape - 1px)) and (orientation: portrait) {
+
+                .block;
+                .marginAuto;
+
+            }
+        }
+
+        // TEASER
+        p:first-child img {
 
             @media screen and (max-width: (@screenPhoneLandscape - 1px)) and (orientation: portrait) {
 
@@ -127,14 +142,9 @@
                 .dimension(auto, 38%);
                 .dMarginRight;
                 .left;
-                margin-top: 7px;
                 max-width: @distanceDefault * 200;
 
             }
-        }
-
-        // TEASER
-        p:first-child img {
 
             @media screen and (min-width: @screenTabletPortrait) {
 
@@ -142,7 +152,6 @@
                     .dimension(auto, 50%);
                     .dMarginRight;
                     .left;
-                    margin-top: 7px;
                     max-width: @distanceDefault * 23;
                 }
             }

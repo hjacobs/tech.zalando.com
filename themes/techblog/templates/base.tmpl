@@ -16,61 +16,63 @@ lang="{{ lang }}">
 </head>
 <body>
 
-<div class="content">
 
 
-    <header>
 
-        <div>
+<header role="banner">
 
-            <a class="zalando" href="/"></a>
+    <section>
 
-            <label class="trigger" for="menueClose"></label>
+        <a class="zalando" href="/"></a>
 
-            <input type="checkbox" id="menueClose" name="menu">
+        <label class="trigger" for="menueClose"></label>
 
-            <nav>
+        <input type="checkbox" id="menueClose" name="menu">
 
-                <ul>
-                    <li>
-                        <a href="#">techblog</a>
-                    </li>
-                    <li>
-                        <a href="#">team & tech</a>
-                    </li>
-                    <li>
-                        <a href="#">events</a>
-                    </li>
-                    <li>
-                        <a href="#">jobs</a>
-                    </li>
-                    <li>
-                        <a href="#">open source</a>
-                    </li>
-                </ul>
+        <nav>
 
-            </nav>
+            <ul>
+                <li>
+                    <a href="#">techblog</a>
+                </li>
+                <li>
+                    <a href="#">team & tech</a>
+                </li>
+                <li>
+                    <a href="#">events</a>
+                </li>
+                <li>
+                    <a href="#">jobs</a>
+                </li>
+                <li>
+                    <a href="#">open source</a>
+                </li>
+            </ul>
 
-        </div>
+        </nav>
 
-    </header>
+    </section>
+
+</header>
+
+<main>
 
 
-        <!--<h1 id="blog-title">
-            <a href="{{ abs_link('/') }}" title="{{ blog_title }}" rel="home">{{ blog_title }}</a>
-        </h1>-->
+    <!--<h1 id="blog-title">
+        <a href="{{ abs_link('/') }}" title="{{ blog_title }}" rel="home">{{ blog_title }}</a>
+    </h1>-->
 
-        {% block belowtitle %}
-            {% if translations|length > 1 %}
-            <small>
-                {{ messages("Also available in") }}:&nbsp;
-                {{ base.html_translations() }}
-            </small>
-        {% endif %}
-        {% endblock %}
-        {% block content %}{% endblock %}
+    {% block belowtitle %}
+        {% if translations|length > 1 %}
+        <small>
+            {{ messages("Also available in") }}:&nbsp;
+            {{ base.html_translations() }}
+        </small>
+    {% endif %}
+    {% endblock %}
+    {% block content %}{% endblock %}
 
-</div>
+</main>
 
 <footer>
 
