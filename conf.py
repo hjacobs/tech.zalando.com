@@ -7,7 +7,7 @@ import time
 # Configuration, please edit
 
 # Data about this site
-BLOG_AUTHOR = 'Your Name'
+BLOG_AUTHOR = 'Zalando AG'
 BLOG_TITLE = 'Zalando Tech Blog'
 # This is the main URL for your site. It will be used
 # in a prominent link
