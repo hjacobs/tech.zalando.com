@@ -6,7 +6,11 @@ reached-1-mio-downloads/) after just three months in [Apple's App
 store](https://itunes.apple.com/de/app/zalando-mobil/id585629514?mt=8) and
 seven months in [Google Play
 Store](https://play.google.com/store/apps/details?id=de.zalando.mobile).
-Recently, we hit the two million download mark!  Yesterday, Idealo came up
+Recently, we hit the two million download mark!
+
+ <!-- TEASER_END -->
+
+ Yesterday, Idealo came up
 with a [test report](http://apps.idealo.de/news/zalando-app-so-geht-modernes-
 einkaufen.html) on our App. Unfortunately, the post is in German so we will
 share the main facts with you here in our blog. Besides very good rating for
@@ -16,9 +20,13 @@ app functionality in general, we got nice feedback on the following features:
   * The barcodes scanner facilitates the connection between off- and online shopping. Found a nice dress in a store? Check whether it is available at Zalando, too!
   * The Zalando magazine is also integrated in the app. Want to get the latest fashion news? Just receive regular updates on your smartphone!
   * Last but not least, when the user is logged in to the app, cart and wish list are synchronized through the Zalando user account.
+
 [![Foto 1](/files/2013/11/Foto-1-1-169x300.png)](/files/2013/11/Foto-1-1.png)
 [![Foto 2](/files/2013/11/Foto-2-1-169x300.png)](/files/2013/11/Foto-2-1.png)
-**My Retrospect And Outlook** The development time of the Zalando iPhone app
+
+**My Retrospect And Outlook**
+
+The development time of the Zalando iPhone app
 took us around five months. However, at the same time we put the first Mobile
 API version in place as well. All our apps are connected to our shop system
 via this API. We updated our iPhone app four times since it went live a year

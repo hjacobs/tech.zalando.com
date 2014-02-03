@@ -5,6 +5,7 @@ there was a very special (pre-)event two days before the first European
 **[TechCrunch Disrupt Conference 2013](http://techcrunch.com/events/disrupt-
 europe-berlin-2013/disrupteurope2013/)** in Berlin: **[The
 Hackathon!](http://techcrunch.com/events/disrupt-europe-berlin-hackathon/)
+
 Since it was the first time that the Techcrunch Hackathon took place in
 Europe, our team decided that we just had to support this event by offering
 our own contest! Besides Zalando, other great companies did a sponsorship such
@@ -13,14 +14,21 @@ was completely free for all the 500 international participants. The venue
 "Arena Berlin", a huge indoor hall near the river Spree, was just perfect to
 host all hackers and create an open, bustling and productive atmosphere.
 
-[![Arena Berlin before Hackathon kick-off](/files/2013/10/Arena-Berlin-before-Hackathon-kick-off-300x225.jpg)](/files/2013/10/Arena-Berlin-before-Hackathon-kick-off.jpg)[![](/files/2013/10/Zalando-Booth-at-the-Hackathon.jpg)](/files/2013/10/Zalando-Booth-at-the-Hackathon.jpg)
+  <!-- TEASER_END -->
+
+[![Arena Berlin before Hackathon kick-off](/files/2013/10/Arena-Berlin-before-Hackathon-kick-off-300x225.jpg)](/files/2013/10/Arena-Berlin-before-Hackathon-kick-off.jpg)
+[![](/files/2013/10/Zalando-Booth-at-the-Hackathon.jpg)](/files/2013/10/Zalando-Booth-at-the-Hackathon.jpg)
 
 We brought our brand new API with us and as you can imagine, we were very
 eager to find out the coders reactions and how many teams would choose our API
 for their hack. With this interface they had access to all of our over 150.000
 products in the catalog. This offered endless possibilities to create a cool
-piece of software. [![Lightning presentation](/files/2013/11/Lightning-
-presentation.jpg)](/files/2013/11/Lightning-presentation.jpg) After a short
+piece of software.
+
+[![Lightning presentation](/files/2013/11/Lightning-
+presentation.jpg)](/files/2013/11/Lightning-presentation.jpg)
+
+After a short
 lightning presentation of all available APIs, the Hackathon kicked off at
 Saturday noon. The hackers made about 100 teams with 2 to 5 members. From then
 on, the clock ticked and the 24-hour-hack began. The mission we gave to the
@@ -68,26 +76,30 @@ ttp://www.flickr.com/photos/techcrunch/10513808194/in/set-72157636973272026)
 
 The complete overview of all the teams, who used our API:
 
-[Glovr](http://disrupteurope2013.challengepost.com/submissions/18264-glovr) [P
-artylando](http://disrupteurope2013.challengepost.com/submissions/18242-partyl
-ando) [How to get into
-Berghain?](http://disrupteurope2013.challengepost.com/submissions/18241-how-
-to-get-into-berghain) [Zalando
-Matcher](http://disrupteurope2013.challengepost.com/submissions/18303-zalando-
-matcher)
-[Want+](http://disrupteurope2013.challengepost.com/submissions/18307-want)
+[Glovr](http://disrupteurope2013.challengepost.com/submissions/18264-glovr)<br>
+[Partylando](http://disrupteurope2013.challengepost.com/submissions/18242-partyl
+ando)<br>
+[How to get into Berghain?](http://disrupteurope2013.challengepost.com/submissions/18241-how-
+to-get-into-berghain)<br>
+[Zalando Matcher](http://disrupteurope2013.challengepost.com/submissions/18303-zalando-
+matcher)<br>
+[Want+](http://disrupteurope2013.challengepost.com/submissions/18307-want)<br>
 [Zalando Alert](http://disrupteurope2013.challengepost.com/submissions/18279
--zalando-alert) [price
-guru](http://disrupteurope2013.challengepost.com/submissions/18263-price-guru)
+-zalando-alert)<br>
+[price guru](http://disrupteurope2013.challengepost.com/submissions/18263-price-guru)<br>
 [FashionStats](http://disrupteurope2013.challengepost.com/submissions/18315-fa
-shionstats) And since we like it the spontaneous way we already invited the
+shionstats)
+
+And since we like it the spontaneous way we already invited the
 team, who used our API for creating “Partylando” to our Tech Headquarters in
 Berlin Mollstrasse. After an office tour and a short introduction in how we
 work at Zalando Technology we did a short TechTalk session, where Maarten and
 Bert presented their Hackathon-results to some of our developers. Thank you
 Maarten and Bert for your great efforts! And since this worked so well, we
 decided to invite more hack-teams to share their results with our shop-team:
-Next week we will welcome the winner team! [![Spontaneous TechTalk with
+Next week we will welcome the winner team!
+
+[![Spontaneous TechTalk with
 Maarten & Bert](/files/2013/10/Spontaneous-TechTalk-with-Maarten-Bert-
 1024x768.jpg)](/files/2013/10/Spontaneous-TechTalk-with-Maarten-Bert.jpg) All
 in all the [Disrupt Hackathon 2013](http://techcrunch.com/2013/10/26/meet-the-

@@ -1,11 +1,16 @@
 [![Mark Striebeck from Google @Zalando Technology ](/files/2013/11/Zalando-
 Tech-Talk_1-300x225.jpg)](/files/2013/11/Zalando-Tech-Talk_1.jpg) Last week,
 [Mark Striebeck](https://plus.google.com/+MarkStriebeck/about), Director of
-Engineering at Google in Mountain View spent a day at Zalando. Mark was the
-first guest of our “Infusion” talks within the Zalando Tech Academy, which are
+Engineering at Google in Mountain View spent a day at Zalando.
+
+Mark was the first guest of our “Infusion” talks within the Zalando Tech Academy, which are
 meant to exchange thoughts and insights on the cutting edge of internet
 technology. Having been in the GMail team for several years, Mark was the
-perfect choice - and an excellent speaker as well.  In a talk to a broad
+perfect choice - and an excellent speaker as well.
+
+  <!-- TEASER_END -->
+
+In a talk to a broad
 audience of Zalando’s Technology team, Mark explained the most important
 management methods of Google from an engineering point of view. Later on, Mark
 discussed some major technical topics with Zalando’s corresponding engineers
@@ -17,6 +22,7 @@ Google’s philosophy that Mark Striebeck did highlight:
   * _Collaboration and open information_: share all information you have in an openly manner and communicate it; information is only restricted if there is a reason. Google communicates mostly by email - there is a huge amount of mailing list to which developers can subscribe. And they do. Mark told us that Google engineers spend a significant amount of their working time at GMail; hopefully, Zalando engineers do less mailing as we are (still) smaller.
   * _Focus on user-impact and put the user first_: development is strictly done from an user-perspective, rather than “it sounds cool to engineers”. As with Google, Zalando’s product managers are in charge to keep the focus on a happy customer - which will in turn also make the engineer happy.
   * _Delegation downwards_: Even with more than 20.000 engineers, Google performs its product development bottom-up. The development teams with their respective leads are the true heroes, pushing the products forwards, taking all responsibility. In turn, they get all credits. We at Zalando handle this the same way and are happy to see that this model even works at Google’s scale.
+
 I had the pleasure to discuss some issues of release management and deployment
 with Mark. Interestingly, Google builds its own tools for nearly every single
 aspect of development, deployment, and testing. Zalando develops its own
@@ -29,6 +35,7 @@ things I learned from the discussion relate to responsibility:
 
   * “_don’t do checklists, because people will not feel responsible anymore_”
   * “_suggest tools, but don’t enforce them. If people think they can do better - let them do_”
+
 This afternoon was a great “infusion” for me and other Zalandos - thanks to
 Mark, a brilliant speaker.
 
