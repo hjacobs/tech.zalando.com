@@ -1,12 +1,74 @@
 
     // STICKY FOOTER ()-------------------------------------------------------------------------------------------------
-    html,
-    body {
-        height: 100%;
-    }
-
     main {
         .borderBox;
         min-height: 100%;
         padding-bottom: @distanceDefault * 12;
+    }
+
+    // BACK AND FORWARD ARROWS ()---------------------------------------------------------------------------------------
+    .pager {
+        &:extend(.content);
+        .dPaddingBottom;
+
+        li {
+            .borderBox;
+            .relative;
+            width: 50%;
+
+            a {
+                .paddingVertical;
+                text-decoration: none;
+
+                &:before,
+                &:after {
+                    .absolute;
+                    .dimension(0);
+                    .pseudo('');
+                    border-style: solid;
+                    top: -6px;
+                }
+            }
+
+            &.previous {
+                .left;
+
+                a {
+                    padding-left: 30px;
+
+                    &:before {
+                        border-color: transparent @black transparent transparent;
+                        border-width: 16px 16px 16px 0;
+                        left: -1px;
+                    }
+
+                    &:after {
+                        border-color: transparent @white transparent transparent;
+                        border-width: 16px 16px 16px 0;
+                        left: 0;
+                    }
+                }
+            }
+
+            &.next {
+                .right;
+                .textRight;
+
+                a {
+                    padding-right: 30px;
+                    
+                    &:before {
+                        border-color: transparent transparent transparent @black;
+                        border-width: 16px 0 16px 16px;
+                        right: -1px;
+                    }
+
+                    &:after {
+                        border-color: transparent transparent transparent @white;
+                        border-width: 16px 0 16px 16px;
+                        right: 0;
+                    }
+                }
+            }
+        }
     }

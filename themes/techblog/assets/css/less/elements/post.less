@@ -1,15 +1,14 @@
 
     // ARTICLE (on homepage and detail)---------------------------------------------------------------------------------
     article {
-        .dPaddingHorizontal;
-        max-width: @distanceDefault * 60 ; // Keep container small for better readability!
+        &:extend(.content);
 
         @media screen and (max-width: (@screenTabletPortrait - 1px)) {
-            margin: 0 auto @distanceDefault * 3;
+            margin-bottom: @distanceDefault * 3;
         }
 
         @media screen and (min-width: @screenTabletPortrait) {
-            margin: 0 auto @distanceDefault * 6;
+            margin-bottom: @distanceDefault * 6;
         }
 
         & > div {
@@ -113,23 +112,27 @@
         }
 
         // IMAGES ()----------------------------------------------------------------------------------------------------
-        img {
-            .borderBox;
-            .paddingVertical;
-            .paddingRight;
-            height: auto;
-            max-width: 100%;
+        li,
+        p:not(:first-child) {
+            img {
+                .borderBox;
+                .paddingRight;
+                .paddingVertical;
+                height: auto;
+                max-width: 100%;
 
-            @media screen and (max-width: (@screenPhoneLandscape - 1px)) and (orientation: portrait) {
+                @media screen and (max-width: (@screenPhoneLandscape - 1px)) and (orientation: portrait) {
 
-                .block;
-                .marginAuto;
+                    .block;
+                    .marginAuto;
 
+                }
             }
         }
 
         // TEASER
         p:first-child img {
+            .paddingBottom;
 
             @media screen and (max-width: (@screenPhoneLandscape - 1px)) and (orientation: portrait) {
 
@@ -137,12 +140,13 @@
 
             }
 
-            @media screen and (orientation: landscape) {
+            @media screen and (orientation: landscape),(min-width: @screenPhoneLandscape) {
 
                 .dimension(auto, 38%);
                 .dMarginRight;
                 .left;
-                max-width: @distanceDefault * 200;
+                margin-top: 5px;
+                max-width: @distanceDefault * 20;
 
             }
 
