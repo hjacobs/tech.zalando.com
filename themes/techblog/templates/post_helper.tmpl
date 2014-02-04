@@ -39,20 +39,31 @@
 
 
 {% macro html_pager(post) %}
+
     {% if post.prev_post or post.next_post %}
+
         <ul class="pager">
+
         {% if post.prev_post %}
+
             <li class="previous">
                 <a href="{{ post.prev_post.permalink() }}" rel="prev">{{ messages("Previous post") }}</a>
             </li>
+
         {% endif %}
+
         {% if post.next_post %}
+
             <li class="next">
                 <a href="{{ post.next_post.permalink() }}" rel="next">{{ messages("Next post") }}</a>
             </li>
+
         {% endif %}
+
         </ul>
+
     {% endif %}
+
 {% endmacro %}
 
 {% macro twitter_card_information(post) %}

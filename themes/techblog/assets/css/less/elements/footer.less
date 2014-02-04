@@ -3,9 +3,56 @@
     // FOOTER ()--------------------------------------------------------------------------------------------------------
     footer {
         .borderBox;
-        .dimension(@distanceDefault * 10, 100%);
-        .padding;
+        .dimension(auto, 100%);
+        .paddingVertical;
         .relative;
         background-color: @zColorGray;
         margin-top: -@distanceDefault * 10;
+        min-height: @distanceDefault * 10;
+
+        .content {
+            .textCenter;
+
+            li {
+                .inlineBlock;
+
+                @media screen and (max-width: (@screenTabletLandscape - 1px)) {
+
+                    width: 33%;
+
+                }
+
+                @media screen and (min-width: @screenTabletLandscape) {
+
+                    .relative;
+
+                    &:not(:last-of-type):after {
+                        .dimension(@linkSizeFooter, 0);
+                        .position(topRight, @linkSizeFooter, 0);
+                        .pseudo('');
+                        border-right: 1px solid #CCC
+                    }
+                }
+
+                }
+
+            a {
+                .font(@linkSizeFooter);
+                .inlineBlock;
+                padding: @distanceDefault (@distanceDefault / 2);
+                text-decoration: none;
+
+                @media screen and (min-width: @screenTabletLandscape) {
+
+                    .paddingLeft;
+                    padding-right: @distanceDefault - 1px;
+
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+            }
+        }
     }

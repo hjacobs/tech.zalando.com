@@ -44,19 +44,17 @@
                     left: 3px;
                 }
 
-                &:hover:before,
-                &:hover:after {
-                    .translate(-5px, 0);
-                }
+                @media screen and (min-width: @screenTabletPortrait) {
 
-                &:hover {
-                    &:before,
-                    &:after {
-                        .translate(-5px, 0);
-                    }
+                    &:hover {
+                        &:before,
+                        &:after {
+                            .translate(-5px, 0);
+                        }
 
-                    &:before {
-                        border-right-color: @black;
+                        &:before {
+                            border-right-color: @black;
+                        }
                     }
                 }
             }
@@ -81,14 +79,17 @@
                     right: 3px;
 
                 }
-                &:hover {
-                    &:before,
-                    &:after {
-                        .translate(5px, 0);
-                    }
+                @media screen and (min-width: @screenTabletPortrait) {
 
-                    &:before {
-                        border-left-color: @black;
+                    &:hover {
+                        &:before,
+                        &:after {
+                            .translate(5px, 0);
+                        }
+
+                        &:before {
+                            border-left-color: @black;
+                        }
                     }
                 }
             }
