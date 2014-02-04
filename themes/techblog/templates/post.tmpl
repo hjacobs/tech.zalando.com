@@ -61,9 +61,6 @@
 
         </small>
 
-
-    {{ helper.html_pager(post) }}
-
     {% if not post.meta('nocomments') %}
 
         {{ comments.comment_form(post.permalink(absolute=True), post.title(), post._base_path) }}
@@ -73,5 +70,7 @@
     {{ helper.mathjax_script(post) }}
 
     </article>
+
+    {{ helper.html_pager(post) }}
 
 {% endblock %}

@@ -1,0 +1,108 @@
+
+    // BACK AND FORWARD ARROWS ()---------------------------------------------------------------------------------------
+    .pager {
+        &:extend(.content);
+        padding-bottom: @distanceDouble * 2;
+
+        .previous,
+        .next {
+            .borderBox;
+            .relative;
+            width: 50%;
+
+            a {
+                .paddingVertical;
+                text-decoration: none;
+
+                &:before,
+                &:after {
+                    .absolute;
+                    .dimension(0);
+                    .pseudo('');
+                    .transition(all, .15s);
+                    border-style: solid;
+                    top: -6px;
+                }
+            }
+        }
+
+        .previous {
+            .left;
+
+            a {
+                padding-left: 30px;
+
+                &:before {
+                    border-color: transparent  @iconGray transparent transparent;
+                    border-width: 16px 16px 16px 0;
+                    left: 2px;
+                }
+
+                &:after {
+                    border-color: transparent @white transparent transparent;
+                    border-width: 16px 16px 16px 0;
+                    left: 3px;
+                }
+
+                &:hover:before,
+                &:hover:after {
+                    .translate(-5px, 0);
+                }
+
+                &:hover {
+                    &:before,
+                    &:after {
+                        .translate(-5px, 0);
+                    }
+
+                    &:before {
+                        border-right-color: @black;
+                    }
+                }
+            }
+        }
+
+        .next {
+            .right;
+            .textRight;
+
+            a {
+                padding-right: 30px;
+
+                &:before {
+                    border-color: transparent transparent transparent @iconGray;
+                    border-width: 16px 0 16px 16px;
+                    right: 2px;
+                }
+
+                &:after {
+                    border-color: transparent transparent transparent @white;
+                    border-width: 16px 0 16px 16px;
+                    right: 3px;
+
+                }
+                &:hover {
+                    &:before,
+                    &:after {
+                        .translate(5px, 0);
+                    }
+
+                    &:before {
+                        border-left-color: @black;
+                    }
+                }
+            }
+        }
+
+    }
+
+    // MOZ HACK (for that pixel bug)------------------------------------------------------------------------------------
+    @-moz-document url-prefix() {
+        .pager .previous a:after {
+            left: 2px
+        }
+
+        .pager .next a:after {
+            right: 2px
+        }
+    }

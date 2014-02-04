@@ -8,7 +8,7 @@
 .. type: text
 
 .. image:: ../files/python-logo.png
-   :class: left
+   :class: teaserimage
 
 Python is great for writing command line scripts. Before extending a three line Bash script I usually rethink and implement it in Python.
 This post should summarize some conventions and best practices I recommend.

@@ -94,13 +94,29 @@
 
     // TRANSITION
     .transition(@property, @duration, @timing: ease) {
+        -ms-transition: @property @duration @timing;
         -moz-transition: @property @duration @timing;
         -webkit-transition: @property @duration @timing;
         transition: @property @duration @timing;
     }
 
     .transition(@arguments) {
+        -ms-transition: @arguments;
         -moz-transition: @arguments;
         -webkit-transition: @arguments;
         transition: @arguments;
+    }
+
+//    .transform() {
+//        -ms-transform: translate(@x, @y);
+//        -moz-transform: translate(@x, @y);
+//        -webkit-transform: translate(@x, @y);
+//        transform:
+//    }
+
+    .translate(@x:0, @y:0) {
+        -ms-transform: translate(@x, @y);
+        -moz-transform: translate(@x, @y);
+        -webkit-transform: translate(@x, @y);
+        transform: translate(@x, @y);
     }
