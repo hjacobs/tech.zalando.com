@@ -8,6 +8,8 @@ a lot. For every talk I heard there was another with opposing opinions — I
 think it's good to hear a broad range of opinions and the GOTO conference
 facilitated this. I hope to join next year's GOTO Berlin again!
 
+<!-- TEASER_END -->
+
 ### Learnings
 
 Some discussion points we took away from the conference:

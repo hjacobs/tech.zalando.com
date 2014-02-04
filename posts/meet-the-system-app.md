@@ -10,6 +10,8 @@ different purposes, showing different aspects of your infrastructure. Maps can
 be created using the UI with drag-and-drop elements, or by writing a JS script
 to initialize and update the map depending on your requirements.
 
+<!-- TEASER_END -->
+
 [![System App -
 Dashboard](/files/2013/10/ss_full1.jpg)](/files/2013/10/ss_full1.jpg)
 
@@ -41,4 +43,3 @@ app's configuration file. **Get your hands on it! **So head on to
 **[systemapp.io](http://systemapp.io)** for more info and a working live demo.
 Any feedback is very welcome, and please let us know if you're interested in
 helping us building this amazing tool :-)
-

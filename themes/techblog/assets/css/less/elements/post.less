@@ -115,13 +115,14 @@
         li,
         p:not(:first-child) {
             img {
+                .block;
                 .borderBox;
                 .paddingRight;
                 .paddingVertical;
                 height: auto;
                 max-width: 100%;
 
-                @media screen and (max-width: (@screenPhoneLandscape - 1px)) and (orientation: portrait) {
+                @media screen and (min-width: @screenPhoneLandscape) {
 
                     .block;
                     .marginAuto;
