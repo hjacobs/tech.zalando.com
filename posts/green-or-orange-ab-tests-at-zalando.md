@@ -1,3 +1,10 @@
+<!--
+.. title: Green or Orange? - A/B tests at Zalando
+.. slug: green-or-orange-ab-tests-at-zalando
+.. date: 2013-04-30 15:48:00
+.. tags: A/b test,Frontend,Testing,Website
+.. author: ToDo
+-->
 [![A/B Test](/files/2013/04/ab_test_lowres-
 300x264.png)](/files/2013/04/ab_test_lowres.png) Have you ever wondered why
 the orange button you always click on to put something in your shopping bag

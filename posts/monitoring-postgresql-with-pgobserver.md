@@ -1,3 +1,10 @@
+<!--
+.. title: Monitoring PostgreSQL with PGObserver
+.. slug: monitoring-postgresql-with-pgobserver
+.. date: 2013-05-09 12:30:02
+.. tags: Database,Development,Open source,PGObserver,PostgreSQL
+.. author: ToDo
+-->
 [![tech_blog_1](/files/2013/05/tech_blog_1-300x193.png)](/files/2013/05/tech_b
 log_1.png)A large number of PostgreSQL databases has been serving Zalando
 since fall of 2010, successfully fulfilling our requirements with its good

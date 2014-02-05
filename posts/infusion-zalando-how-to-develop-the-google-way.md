@@ -1,3 +1,10 @@
+<!--
+.. title: Infusion @Zalando: how to develop the Google way
+.. slug: infusion-zalando-how-to-develop-the-google-way
+.. date: 2013-11-18 10:00:18
+.. tags: Development,Development,Engineering,Events,Management
+.. author: ToDo
+-->
 [![Mark Striebeck from Google @Zalando Technology ](/files/2013/11/Zalando-
 Tech-Talk_1-300x225.jpg)](/files/2013/11/Zalando-Tech-Talk_1.jpg) Last week,
 [Mark Striebeck](https://plus.google.com/+MarkStriebeck/about), Director of

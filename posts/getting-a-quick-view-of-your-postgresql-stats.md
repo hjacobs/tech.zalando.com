@@ -1,3 +1,10 @@
+<!--
+.. title: Getting a quick view of your PostgreSQL stats
+.. slug: getting-a-quick-view-of-your-postgresql-stats
+.. date: 2013-07-22 17:57:57
+.. tags: Backend,Database,Development,Open source,Pg_view,PostgreSQL
+.. author: ToDo
+-->
 [![pg_view
 screenshot](/files/2013/07/pg_view_shot.png)](/files/2013/07/pg_view_shot.png)
 Database health monitoring is important, especially if you are running your

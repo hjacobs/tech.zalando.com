@@ -1,3 +1,10 @@
+<!--
+.. title: The Cube. Our data management tool just got released!
+.. slug: the-cube-app-announcement
+.. date: 2013-08-15 10:31:45
+.. tags: Backbonejs,Development,Javascript,Node,Open source,Solr
+.. author: ToDo
+-->
 [![THE CUBE APP](/files/2013/08/cube-transparent-200x200.png)](/files/2013/08
 /cube-transparent-200x200.png) In a fast-paced environment, Zalando's
 Technology department - with more than 300 engineers, product and quality

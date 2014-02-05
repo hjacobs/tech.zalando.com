@@ -1,3 +1,10 @@
+<!--
+.. title: Zalando Android App - OUT NOW !
+.. slug: zalando-android-app-out-now
+.. date: 2013-04-24 16:17:43
+.. tags: Android,App,Mobile,Mobile,Zalando
+.. author: ToDo
+-->
 [![Zalando_Android](/files/2013/04/Android_Robot_200.png)](/files/2013/04/Andr
 oid_Robot_200.png) After a challenging development phase over the past weeks,
 our Shop Channel App Team has published the Zalando Android App v1.0 on the

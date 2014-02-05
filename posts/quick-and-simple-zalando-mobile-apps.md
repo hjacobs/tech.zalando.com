@@ -1,3 +1,10 @@
+<!--
+.. title: Zalando Mobile Apps: "Quick & Simple to Use"
+.. slug: quick-and-simple-zalando-mobile-apps
+.. date: 2013-11-28 18:13:24
+.. tags: Android,App,iOS,Iphone,Mobile,Mobile,Mobile API,Mobile app,Zalando
+.. author: ToDo
+-->
 [![App testet!](/files/2013/11/app-getestet-1-300x300.png)](/files/2013/11
 /app-getestet-1.png) It has been almost one year since we launched our first
 Zalando App. The launch is quite a success story - in July 2013 we already

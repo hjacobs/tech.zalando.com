@@ -1,3 +1,10 @@
+<!--
+.. title: Trainee Program Product Management
+.. slug: trainee-program-product-management
+.. date: 2014-01-08 19:24:56
+.. tags: Events,Product management,Trainee
+.. author: ToDo
+-->
 
 We are proud to present the first Trainee Program (18 months) for Product
 Management, starting in April. It'll include practical and theoretical phases

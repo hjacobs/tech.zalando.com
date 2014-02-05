@@ -1,3 +1,10 @@
+<!--
+.. title: Social Shopping: Utilizing the Open Graph API
+.. slug: social-shopping-at-zalando-utilizing-the-open-graph-api
+.. date: 2013-09-26 17:39:15
+.. tags: Draft,Facebook,Frontend,Open graph,Social shopping
+.. author: ToDo
+-->
 [![Social-Shopping](/files/2013/09/Screen-Shot-2013-09-26-at-5.34.46-PM-
 300x282.png)](/files/2013/09/Screen-Shot-2013-09-26-at-5.34.46-PM.png) By
 utilizing the powerful Facebook [Open Graph

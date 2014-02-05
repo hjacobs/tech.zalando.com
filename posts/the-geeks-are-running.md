@@ -1,3 +1,10 @@
+<!--
+.. title: THE GEEKS ARE RUNNING!
+.. slug: the-geeks-are-running
+.. date: 2013-06-07 14:08:38
+.. tags: Events,Running,Sports
+.. author: ToDo
+-->
 [![Pedro Alves](/files/2013/06/a-running-zalando-geek.jpg)](/files/2013/06/a
 -running-zalando-geek.jpg) Last Friday Berlin’s Tiergarten was invaded by one
 particular kind of geeks - athletes! About 400 Zalandos were at the [14th

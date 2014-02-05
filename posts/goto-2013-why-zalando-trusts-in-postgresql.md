@@ -1,3 +1,10 @@
+<!--
+.. title: GOTO 2013: Why Zalando trusts in PostgreSQL
+.. slug: goto-2013-why-zalando-trusts-in-postgresql
+.. date: 2013-10-23 11:57:16
+.. tags: Conference,Database,Events,PostgreSQL
+.. author: ToDo
+-->
 [![Zalando's session at GOTO Berlin 2013](/files/2013/10/20131018_102307-150x1
 50.jpg)](/files/2013/10/20131018_102307.jpg) The [GOTO
 conference](http://gotocon.com/berlin-2013/) took place in Berlin for the

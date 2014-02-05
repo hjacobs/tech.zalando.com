@@ -1,3 +1,10 @@
+<!--
+.. title: Zalando Android App – How we managed it in only eleven weeks
+.. slug: zalando-android-app-how-we-managed-it-in-only-eleven-weeks
+.. date: 2013-05-16 10:00:26
+.. tags: Android,App,Mobile,Mobile API,Mobile app,Mobile app development,Zalando
+.. author: ToDo
+-->
 [![Zalando_Android](/files/2013/04/Android_Robot_200.png)](/files/2013/04/Andr
 oid_Robot_200.png) Android is the most widely used mobile operating system in
 the world. So we, at Zalando, wanted to offer our Android users, a Zalando app

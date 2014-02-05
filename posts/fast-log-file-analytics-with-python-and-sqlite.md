@@ -1,3 +1,10 @@
+<!--
+.. title: Fast log file analytics with python and sqlite
+.. slug: fast-log-file-analytics-with-python-and-sqlite
+.. date: 2013-04-16 09:07:44
+.. tags: Logistics
+.. author: ToDo
+-->
 [![code-sample](/files/2013/04/python-code1-300x300.png)](/files/2013/04
 /python-code1.png) **‘Carsten, do you have 5 minutes?’** Sometimes work
 friends need small analytics jobs doing. Every time I hear ‘do you have five

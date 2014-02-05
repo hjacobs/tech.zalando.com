@@ -1,3 +1,10 @@
+<!--
+.. title: Team Management Technology - Fun Retreats
+.. slug: team-management-technology-fun-team-retreats
+.. date: 2013-05-10 12:18:37
+.. tags: Events
+.. author: ToDo
+-->
 [![Fun with LEGO on our team retreats](/files/2013/05/Screen-
 Shot-2013-05-06-at-4.21.41-PM-300x220.png)](/files/2013/05/Screen-
 Shot-2013-05-06-at-4.21.41-PM.png) Here at Zalando Technology, we held twelve

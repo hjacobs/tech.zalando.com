@@ -1,3 +1,10 @@
+<!--
+.. title: Zalando Tech @ KIT career fair in Karlsruhe
+.. slug: zalando-tech-kit-career-fair-in-karlsruhe
+.. date: 2013-05-14 16:33:34
+.. tags: Career fair,Events,Karlsruhe,KIT
+.. author: ToDo
+-->
 [![Zalando shop](/files/2013/05/zalando_shop-
 300x207.jpg)](/files/2013/05/zalando_shop.jpg)If you are a student or graduate
 and looking for a challenging job, you might want to visit our stand at the

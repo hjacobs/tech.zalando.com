@@ -1,3 +1,10 @@
+<!--
+.. title: Warehouse Optimization - Linear Time Routing Algorithm with Cart
+.. slug: defeating-the-travelling-salesman-problem-for-warehouse-optimization
+.. date: 2015-01-14 16:43:00
+.. tags: Draft,Logistics,Operations research,Travelling salesman problem,Warehouse logistics,Warehouse optimization
+.. author: ToDo
+-->
 It is generally known that the [travelling salesman
 problem](http://en.wikipedia.org/wiki/Travelling_salesman_problem) is NP-hard
 in its unrestricted form, and thus can not be solved efficiently for large

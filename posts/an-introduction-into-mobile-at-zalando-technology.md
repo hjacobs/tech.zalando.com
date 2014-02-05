@@ -1,3 +1,10 @@
+<!--
+.. title: An Introduction into Mobile at Zalando Technology
+.. slug: an-introduction-into-mobile-at-zalando-technology
+.. date: 2013-03-27 14:15:12
+.. tags: Android,App,iOS,Iphone,Mobile,Mobile,Mobile API,Windows 8
+.. author: ToDo
+-->
 [![zalando-app](/files/2013/04/zalando-app-300x300.png)](/files/2013/04
 /zalando-app.png) In the past four years, Zalando has experienced extremely
 rapid growth, becoming one of Europe’s largest online fashion shops.  During

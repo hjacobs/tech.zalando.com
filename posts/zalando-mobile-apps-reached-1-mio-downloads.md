@@ -1,3 +1,10 @@
+<!--
+.. title: Zalando Mobile Apps Reached 1 Mio Downloads
+.. slug: zalando-mobile-apps-reached-1-mio-downloads
+.. date: 2013-07-25 16:53:35
+.. tags: Android,iOS,Mobile,Mobile app
+.. author: ToDo
+-->
 [![Zalando Mobile Apps One Million](/files/2013/07
 /zalando_mobile_apps_one_million-
 300x297.jpg)](/files/2013/07/zalando_mobile_apps_one_million.jpg) Exactly
