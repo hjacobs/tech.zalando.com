@@ -7,8 +7,13 @@
         .paddingVertical;
         .relative;
         background-color: @zColorGray;
-        margin-top: -@distanceDefault * 10;
-        min-height: @distanceDefault * 10;
+        margin-top: -@distanceDefault * 8;
+        min-height: @distanceDefault * 8;
+
+        @media screen and (min-width: @screenTabletLandscape) {
+
+            .dPaddingTop;
+        }
 
         .content {
             .textCenter;

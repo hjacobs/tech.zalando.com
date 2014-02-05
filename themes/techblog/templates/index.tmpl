@@ -18,18 +18,22 @@
                     <!--Add a <div> just for that Rich Data Item-->
                     <div itemprop="description">
 
-                    {{ post.text(teaser_only=True) }}
+                        {% if post.meta('image') %}
+
+                            {% include 'teaser_image.tmpl' %}
+
+                        {% endif %}
+
+                        {{ post.text(teaser_only=True) }}
 
                 {% else %}
 
                     <!--Add a <div> just for that Rich Data Item-->
                     <div itemprop="articleBody">
 
-                    {{ post.text(teaser_only=False) }}
-
+                        {{ post.text(teaser_only=False) }}
 
                 {% endif %}
-
 
             </div>
 
