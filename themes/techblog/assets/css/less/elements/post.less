@@ -85,17 +85,20 @@
 
         // THE ACTUAL BLOGPOST (Reformat)-------------------------------------------------------------------------------
 
+        h2,
+        h3,
+        h4 {
+            .paddingVertical;
+        }
+
         h2 {
             font-size: 1.2em;
         }
 
-        ul, ol {
-            .clear;
-
-        }
-
         // LIST ELEMENTS
-        ul, ol {
+        ul,
+        ol {
+            .clear;
             padding: 0 0 @distanceDefault @distanceDouble;
         }
 
@@ -160,5 +163,11 @@
                     max-width: @distanceDefault * 23;
                 }
             }
+        }
+
+        .code {
+            .marginBottom;
+            .padding;
+            .overAuto;
         }
     }
