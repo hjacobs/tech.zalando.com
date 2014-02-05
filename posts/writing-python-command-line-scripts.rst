@@ -6,6 +6,7 @@
 .. description: 
 .. author: Henning Jacobs
 .. type: text
+.. image: python-logo.png
 
 .. image:: ../files/python-logo.png
    :class: teaserimage
