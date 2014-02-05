@@ -22,10 +22,14 @@
 
         {{ helper.html_title() }}
 
-    <img src="../images/{{ post.meta('image')|e }}" class="teaserImage" />
-
         <!--The Articles content -->
         <div itemprop="articleBody text">
+
+            {% if post.meta('image') %}
+
+                {% include 'teaser_image.tmpl' %}
+
+            {% endif %}
 
             {{ post.text() }}
 

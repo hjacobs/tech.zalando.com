@@ -1,1 +1,13 @@
-IMG IMG IMG
+
+    {% if index_teasers %}
+
+        <a href="{{ post.permalink() }}">
+            <img src="../images/{{ post.meta('image')|e }}" class="teaserImage" alt="" itemprop="thumbnailUrl">
+        </a>
+
+    {% else %}
+
+        <img src="../images/{{ post.meta('image')|e }}" class="teaserImage" alt="" itemprop="thumbnailUrl">
+
+    {% endif %}
+

@@ -3,21 +3,23 @@
 .. slug: meet-the-system-app
 .. date: 2013-10-28 10:47:41
 .. tags: Coffeescript,Development,Json,Mongodb,Monitoring,Nagios,Node,Open source,Platform,Svg,System,System app
-.. author: ToDo
+.. author: Igor Ramadas
+.. image: system-app.jpg
 -->
+
 After our handy [database utilities](http://tech.zalando.com/tag/postgresql/)
 and a nifty [data management tool](http://tech.zalando.com/the-cube-app-
 announcement/), it’s time to officially release yet another open-source tool.
 The System App is used internally at Zalando’s technology department to
 provide an overview of our network and systems health. We're talking about a
 diagramming tool which allows you to bind any external JSON data to its
-shapes, and create visual alerts based on rules applied to this data. We call
-each of these diagrams a map, and you can create as many maps as you want. For
+shapes, and create visual alerts based on rules applied to this data.
+<!-- TEASER_END -->
+We call each of these diagrams a map, and you can create as many maps as you want. For
 different purposes, showing different aspects of your infrastructure. Maps can
 be created using the UI with drag-and-drop elements, or by writing a JS script
 to initialize and update the map depending on your requirements.
 
-<!-- TEASER_END -->
 
 [![System App -
 Dashboard](/files/2013/10/ss_full1.jpg)](/files/2013/10/ss_full1.jpg)

@@ -29,8 +29,10 @@
 
             }
 
-            p:last-child {
+            div + p:last-of-type {
                 .marginTop;
+                margin-bottom: 0;
+
             }
         }
 
@@ -69,12 +71,27 @@
             }
         }
 
-        p, li {
+        p,
+        li {
             .font(1em, normal, @lineHeightDefault);
+
+            // MORE Link may inside the Text - so different Styling
+            .more {
+                .bold;
+                text-decoration: none;
+            }
 
             @media screen and (min-width: @screenTabletPortrait) {
 
                 line-height: @lineHeightDefault + .15em;
+
+            }
+        }
+
+        &:not(.post) p {
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .overHidden;
 
             }
         }
@@ -89,8 +106,8 @@
             }
         }
 
-        // THE ACTUAL BLOGPOST (Reformat)-------------------------------------------------------------------------------
 
+        // THE ACTUAL BLOGPOST (Reformat)-------------------------------------------------------------------------------
         h2,
         h3,
         h4 {
@@ -120,60 +137,5 @@
             list-style: decimal;
         }
 
-        // IMAGES ()----------------------------------------------------------------------------------------------------
-        li,
-        p:not(:first-child) {
-            img {
-                .block;
-                .borderBox;
-                .paddingRight;
-                .paddingVertical;
-                height: auto;
-                max-width: 100%;
 
-                @media screen and (min-width: @screenPhoneLandscape) {
-
-                    .marginAuto;
-
-                }
-            }
-        }
-
-        // TEASER
-        .teaserimage,
-        p:first-child img {
-            .paddingBottom;
-
-            @media screen and (max-width: (@screenPhoneLandscape - 1px)) and (orientation: portrait) {
-
-                .dimension(auto, 100%);
-
-            }
-
-            @media screen and (orientation: landscape),(min-width: @screenPhoneLandscape) {
-
-                .dimension(auto, 38%);
-                .dMarginRight;
-                .left;
-                margin-top: 5px;
-                max-width: @distanceDefault * 20;
-
-            }
-
-            @media screen and (min-width: @screenTabletPortrait) {
-
-                p:first-child img {
-                    .dimension(auto, 50%);
-                    .dMarginRight;
-                    .left;
-                    max-width: @distanceDefault * 23;
-                }
-            }
-        }
-
-        .code {
-            .marginBottom;
-            .padding;
-            .overAuto;
-        }
     }

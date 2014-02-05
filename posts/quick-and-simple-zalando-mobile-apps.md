@@ -3,10 +3,11 @@
 .. slug: quick-and-simple-zalando-mobile-apps
 .. date: 2013-11-28 18:13:24
 .. tags: Android,App,iOS,Iphone,Mobile,Mobile,Mobile API,Mobile app,Zalando
-.. author: ToDo
+.. author: Carsten Ernst
+.. image: app-tested.png
 -->
-[![App testet!](/files/2013/11/app-getestet-1-300x300.png)](/files/2013/11
-/app-getestet-1.png) It has been almost one year since we launched our first
+
+It has been almost one year since we launched our first
 Zalando App. The launch is quite a success story - in July 2013 we already
 achieved [one million downloads](http://tech.zalando.com/zalando-mobile-apps-
 reached-1-mio-downloads/) after just three months in [Apple's App
@@ -14,7 +15,6 @@ store](https://itunes.apple.com/de/app/zalando-mobil/id585629514?mt=8) and
 seven months in [Google Play
 Store](https://play.google.com/store/apps/details?id=de.zalando.mobile).
 Recently, we hit the two million download mark!
-
  <!-- TEASER_END -->
 
  Yesterday, Idealo came up

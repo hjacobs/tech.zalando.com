@@ -5,7 +5,6 @@
 .. link:
 .. description:
 .. author: Henning Jacobs
-.. image: python-logo.png
 .. type: text
 .. image: python-logo.png
 

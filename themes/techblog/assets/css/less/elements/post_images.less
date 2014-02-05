@@ -1,0 +1,55 @@
+
+    // IMAGES ()----------------------------------------------------------------------------------------------------
+    article {
+
+        // TEASER (not in floating content)
+        .teaserImage{
+            .paddingBottom;
+
+            @media screen and (max-width: (@screenPhoneLandscape - 1px)) and (orientation: portrait) {
+
+                .dimension(auto, 100%);
+
+            }
+
+            @media screen and (orientation: landscape),(min-width: @screenPhoneLandscape) {
+
+                .dimension(auto, 38%);
+                .dMarginRight;
+                .left;
+                margin-top: @distanceDefault / 2;
+                max-width: @distanceDefault * 20;
+
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                p:first-child img {
+                    .dimension(auto, 50%);
+                    .dMarginRight;
+                    .left;
+                    max-width: @distanceDefault * 20;
+                }
+            }
+        }
+
+        // IMAGES (not Teasers)
+        li,
+        p {
+            img {
+                .block;
+                .borderBox;
+                .paddingRight;
+                .paddingVertical;
+                height: auto;
+                max-width: 100%;
+
+                @media screen and (min-width: @screenPhoneLandscape) {
+
+                    .marginAuto;
+
+                }
+            }
+        }
+
+    }
