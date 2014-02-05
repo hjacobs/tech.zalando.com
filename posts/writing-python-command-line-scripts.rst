@@ -2,14 +2,12 @@
 .. slug: writing-python-command-line-scripts
 .. date: 2014/01/19 14:57:29
 .. tags: Python
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. author: Henning Jacobs
+.. image: python-logo.png
 .. type: text
 .. image: python-logo.png
-
-.. image:: ../files/python-logo.png
-   :class: teaserimage
 
 Python is great for writing command line scripts. Before extending a three line Bash script I usually rethink and implement it in Python.
 This post should summarize some conventions and best practices I recommend.
@@ -30,8 +28,8 @@ I use the following standard options for my scripts:
 The Python ``argparse`` module is excellent for command line option parsing:
 
 .. code:: python
-    
-    from argparse import ArgumentParser 
+
+    from argparse import ArgumentParser
     parser = ArgumentParser()
     group = parser.add_mutually_exclusive_group()
     group.add_argument('-v', '--verbose', help='Verbose (debug) logging', action='store_const', const=logging.DEBUG,
@@ -72,7 +70,7 @@ By using the standard ``logging`` module we get log levels, string formatting an
    import logging, sys
 
    logging.basicConfig(level=logging.DEBUG)
-   
+
    logging.debug('Starting the script %s..', sys.argv[0])
    try:
        logging.info('Doing something important')
