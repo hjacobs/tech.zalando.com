@@ -3,7 +3,7 @@
 .. slug: trainee-program-product-management
 .. date: 2014-01-08 19:24:56
 .. tags: Events,Product management,Trainee
-.. author: ToDo
+.. author: Marc Lamik
 -->
 
 We are proud to present the first Trainee Program (18 months) for Product
