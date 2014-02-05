@@ -1,3 +1,10 @@
+<!--
+.. title: A PM's view on building a ZEOS Article component
+.. slug: a-pms-view-on-building-a-article-component
+.. date: 2013-06-27 10:09:27
+.. tags: Article,Article,Backend,Development,Development,Erp system,Internal customers,Key-user,Product management,Project management,Project planing,Reporting,Zalando
+.. author: ToDo
+-->
 [![Zalando Merchandiser handling his articles](/files/2013/06/articles-
 300x262.jpg)](/files/2013/06/articles.jpg) Summer two years ago we made the
 decision to conceive and develop our own management system for our core

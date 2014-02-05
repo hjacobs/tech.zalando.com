@@ -1,3 +1,10 @@
+<!--
+.. title: Thanks for your visit @ KIT in Karlsruhe
+.. slug: thanks-for-your-visit-kit-in-karlsruhe
+.. date: 2013-05-21 17:08:37
+.. tags: Career fair,Events,Karlsruhe,KIT
+.. author: ToDo
+-->
 [![Zalando stand KIT career fair](/files/2013/05/Zalando_stand_KIT-
 284x300.jpg)](/files/2013/05/Zalando_stand_KIT.jpg) Last week we built up our
 Zalando stand at the KIT career fair in Karlsruhe and talked to many students

@@ -1,3 +1,10 @@
+<!--
+.. title: MapReduce: How to explain it to your non-geek friends
+.. slug: mapreduce-how-to-explain-to-your-non-geek-friends
+.. date: 2013-05-28 10:08:54
+.. tags: Cluster,Development,de_DE,Hadoop,Mapreduce,Node,Parallelism
+.. author: ToDo
+-->
 ![Hadoop](/files/2013/05/Hadoop-300x224.jpg) Even though it's not something
 new, the MapReduce concept was purely theoretical to me before I got to
 Zalando. I did read [the

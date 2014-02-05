@@ -1,3 +1,10 @@
+<!--
+.. title: Cleaning up - The new Product Detail Page
+.. slug: the-new-product-detail-page-pdp
+.. date: 2013-09-03 14:47:51
+.. tags: Frontend
+.. author: ToDo
+-->
 [![PDP Thumbnail](/files/2013/08/pdp-thumb.jpg)](/files/2013/08/pdp-thumb.jpg)
 After countless working hours involving different teams, designing and
 discarding over 20 different prototypes and a tremendous amount of user lab

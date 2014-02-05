@@ -1,3 +1,10 @@
+<!--
+.. title: Task Board Transition
+.. slug: task-board-transition
+.. date: 2013-12-12 10:01:46
+.. tags: Analog,Backend,Board,Digital,Transition
+.. author: ToDo
+-->
 [![task board transition teaser](/files/2013/12/20131025_094912_teaser.jpg)](/
 files/2013/12/20131025_094912_teaser.jpg)
 **Do you prefer an analog task board

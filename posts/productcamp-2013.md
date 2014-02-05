@@ -1,3 +1,10 @@
+<!--
+.. title: How product managers do their camping - Productcamp 2013
+.. slug: productcamp-2013
+.. date: 2013-10-17 17:37:48
+.. tags: Development,de_DE,Events,Logistics,Product management,Scrum,Zalando
+.. author: ToDo
+-->
 What sounds like yet another article about one of our team events, is actually a report dealing with this year’s
 Productcamp Berlin 2013 - an (un)conference where Product Managers shared their knowledge and experience.
 

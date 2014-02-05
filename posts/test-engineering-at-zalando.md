@@ -1,3 +1,10 @@
+<!--
+.. title: Test Engineering @Zalando
+.. slug: test-engineering-at-zalando
+.. date: 2013-06-21 12:00:18
+.. tags: Automation,BDD,Continuous integration,Cucumber,de_DE,Selenium,Test engineering,Testing,Testing
+.. author: ToDo
+-->
 [![Testers and test engineers at Zalando Technology](/files/2013/06/qa_small-
 228x300.jpg)](/files/2013/06/qa_small.jpg) Testers and test engineers at
 Zalando Technology Recently at Zalando Technology the new role _Test Engineer_

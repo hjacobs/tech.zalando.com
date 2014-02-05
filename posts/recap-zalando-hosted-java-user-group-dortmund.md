@@ -1,3 +1,10 @@
+<!--
+.. title: Recap - Zalando hosted Java User Group Dortmund
+.. slug: recap-zalando-hosted-java-user-group-dortmund
+.. date: 2013-04-19 08:52:11
+.. tags: Database,Events,Java user group
+.. author: ToDo
+-->
 [![Java User Group - Weaving Stored Procedures into Java at
 Zalando](/files/2013/04/IMG_6547_S-
 300x199.jpg)](/files/2013/04/IMG_6547_S.jpg)Only 3 days ago, on April 16,

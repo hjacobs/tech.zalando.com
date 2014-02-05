@@ -1,3 +1,10 @@
+<!--
+.. title: The System App, yet another OS tool by Zalando
+.. slug: meet-the-system-app
+.. date: 2013-10-28 10:47:41
+.. tags: Coffeescript,Development,Json,Mongodb,Monitoring,Nagios,Node,Open source,Platform,Svg,System,System app
+.. author: ToDo
+-->
 After our handy [database utilities](http://tech.zalando.com/tag/postgresql/)
 and a nifty [data management tool](http://tech.zalando.com/the-cube-app-
 announcement/), it’s time to officially release yet another open-source tool.

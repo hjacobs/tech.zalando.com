@@ -1,3 +1,10 @@
+<!--
+.. title: Old school database access using stored procedures
+.. slug: zalando-stored-procedure-wrapper-part-i
+.. date: 2013-09-11 10:00:54
+.. tags: Backend,Database,Development,PostgreSQL,Sproc-wrapper
+.. author: ToDo
+-->
 [![Sproc Wrapper](/files/2013/07/zalando_sproc_wrapper.jpg)](/files/2013/07/zalando_sproc_wrapper.jpg) A few weeks ago we introduced
 [PGObserver](http://github.com/zalando/PGObserver), hinting at the broad use
 of stored procedures for accessing our data. Today, we will get into a bit

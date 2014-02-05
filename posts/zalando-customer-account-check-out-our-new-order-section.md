@@ -1,3 +1,10 @@
+<!--
+.. title: Zalando Customer Account: Check out our new Order Section
+.. slug: zalando-customer-account-check-out-our-new-order-section
+.. date: 2013-06-04 10:15:11
+.. tags: Feature,Frontend
+.. author: ToDo
+-->
 [![status-shipped](/files/2013/06/status-shipped.png)](http://tech.zalando.com
 /zalando-customer-account-check-out-our-new-order-section) With the first step
 of our customer account redesign, you can now get quicker access to the most

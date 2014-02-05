@@ -1,3 +1,10 @@
+<!--
+.. title: Managing Zalando's Price Labels
+.. slug: managing-zalandos-price-labels
+.. date: 2013-08-02 11:49:15
+.. tags: Draft,Article,Backend
+.. author: ToDo
+-->
 Zalando has over 100 mio. different prices online in 14 countries for over 24
 shops. We update between 50 000 to 3 mio. prices per day, upload on average
 around 60 000 articles with new prices per week and have more than 50 sales

@@ -1,3 +1,10 @@
+<!--
+.. title: Women @Zalando Technology
+.. slug: women-zalando-technology
+.. date: 2013-05-31 10:03:41
+.. tags: Events
+.. author: ToDo
+-->
 [![Blog Pic1](/files/2013/05/Blog-Pic1-300x225.jpg)](/files/2013/05/Blog-
 Pic1.jpg) With the Technology team growing as fast as it does, unfortunately
 it is too easy to lose track of new colleagues that join us every month. But

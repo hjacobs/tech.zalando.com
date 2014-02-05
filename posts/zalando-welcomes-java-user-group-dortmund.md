@@ -1,3 +1,10 @@
+<!--
+.. title: Zalando welcomes Java User Group Dortmund
+.. slug: zalando-welcomes-java-user-group-dortmund
+.. date: 2013-04-08 15:22:39
+.. tags: Database,Events,Java user group
+.. author: ToDo
+-->
 ![jug-dortmund](/files/2013/04/jug-dortmund.png) On April 16th at 7pm, Zalando
 welcomes the [Java User Group Dortmund](http://www.jugdo.de/) into their
 offices for the very first time. Jan Mußler, one of our database specialists

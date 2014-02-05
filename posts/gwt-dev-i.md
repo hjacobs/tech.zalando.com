@@ -1,3 +1,10 @@
+<!--
+.. title: GWT - Developer's thoughts - Part 1
+.. slug: gwt-dev-i
+.. date: 2013-05-02 10:00:40
+.. tags: Development,Google web toolkit,GWT,Java,Logistics,Maven
+.. author: ToDo
+-->
 [![GWT](/files/2013/04/Gwt-logo.png)](/files/2013/04/Gwt-logo.png) **GWT
 Introduction and Setup** As a Java Developer my work in the Logistics Team at
 Zalando consists of creating functional and reliable software to be used in

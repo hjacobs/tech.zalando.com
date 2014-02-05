@@ -1,3 +1,10 @@
+<!--
+.. title: Zalando @ TechCrunch Disrupt Europe 2013 - Hackathon
+.. slug: zalando-techcrunch-disrupt-europe-2013-hackathon
+.. date: 2013-11-04 11:18:04
+.. tags: Development,Disrupt,Events,Hackathon,Hackathon,Techcrunch
+.. author: ToDo
+-->
 [![Entrance
 Area](/files/2013/10/DSCN0131-300x225.jpg)](/files/2013/10/DSCN0131.jpg) **The
 tech conference season this autumn is currently in full swing and this year

@@ -1,3 +1,10 @@
+<!--
+.. title: The Evolution of Zalos: The Story behind Zalando Logistics
+.. slug: the-evolution-of-zalos-the-story-behind-zalando-logistics
+.. date: 2013-03-19 17:26:22
+.. tags: Logistics,Logistics,Warehouses,ZALOS
+.. author: ToDo
+-->
 [![Zalando Erfurt](/files/2013/03/Blogpost1_small-
 300x199.jpg)](/files/2013/03/Blogpost1_small.jpg) If you’ve bought something
 at Zalando you’ve probably noticed that your package arrives very quickly. How

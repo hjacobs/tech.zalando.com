@@ -1,3 +1,10 @@
+<!--
+.. title: RWTH Aachen Hackathon winners @ Zalando
+.. slug: berlin-welcomes-rwth-aachen-hackathon-winners
+.. date: 2013-07-08 15:40:52
+.. tags: Berlin,Events,Hackathon,RWTH Aachen,Students
+.. author: ToDo
+-->
 [![Hackathon Award Ceremony](http://tech.zalando.com/files/2013/07/121115
 -RWTH-Gruenderwoche-28-300x225.jpg)](/files/2013/07/121115-RWTH-
 Gruenderwoche-28.jpg) Delicious burgers at Burgeramt Friedrichshain, an

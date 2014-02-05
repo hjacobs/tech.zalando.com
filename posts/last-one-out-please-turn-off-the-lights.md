@@ -1,3 +1,10 @@
+<!--
+.. title: Last one out, please turn off the lights
+.. slug: last-one-out-please-turn-off-the-lights
+.. date: 2013-09-16 11:16:11
+.. tags: Bbq,Event,Events,Party
+.. author: ToDo
+-->
 ![](/files/2013/09/IMG_1924.jpg) A late, yet dry and relatively hot summer
 with a number of opportunities to celebrate Zalando's 5th birthday has finally
 come to an end. Before temperatures dropped for good here in Berlin, we took

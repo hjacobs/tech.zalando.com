@@ -1,3 +1,10 @@
+<!--
+.. title: PGConf EU/DE 2013 recap and slides
+.. slug: pgconf-2013-recap-and-slides
+.. date: 2013-11-13 14:08:40
+.. tags: Event,Events,Platform,PostgreSQL
+.. author: ToDo
+-->
 ![postgresql-db](/files/2013/11/postgresql-db-300x231.png) The PGConf
 “marathon” 2013 is over, two weeks filled with traveling are over. First step
 Dublin, Ireland followed up by the town of Oberhausen, Germany. We followed

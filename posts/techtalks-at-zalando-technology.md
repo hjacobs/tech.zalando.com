@@ -1,3 +1,10 @@
+<!--
+.. title: TechTalks at Zalando Technology
+.. slug: techtalks-at-zalando-technology
+.. date: 2013-04-05 16:38:49
+.. tags: Education,Events,TechTalk,Zalando
+.. author: ToDo
+-->
 [![600px-Tafel_intro](/files/2013/04/600px-Tafel_intro-
 300x240.jpg)](/files/2013/04/600px-Tafel_intro.jpg) **What’s a TechTalk?**
 Here at Zalando Technology, “TechTalks” (Technology Talk) are weekly get-

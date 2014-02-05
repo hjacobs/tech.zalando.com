@@ -1,3 +1,10 @@
+<!--
+.. title: Breaking Up is Hard to do... or is it?: From Java 6 to 7
+.. slug: breaking-up-is-hard-to-do-not-migrating-from-java-6-to-7
+.. date: 2013-04-11 12:14:53
+.. tags: Development,Java,Maven,Python
+.. author: ToDo
+-->
 [![Silly walk](/files/2013/04/Python_Thumbnail.png)](/files/2013/04/Python_Thu
 mbnail.png) With the advent of Java 7, it’s time to move on and say goodbye to
 Java 6. For an extensive codebase like ours with about 400 modules, that’s a

@@ -32,7 +32,7 @@ for fn in glob.glob('*.md'):
         with open(fn) as fd:
             oldcontent = fd.read()
         with open(fn, 'wb') as fd:
-            fd.write('<!--\n')
+            fd.write('<!--')
             fd.write('''
 .. title: {}
 .. slug: {}
@@ -42,3 +42,4 @@ for fn in glob.glob('*.md'):
 '''.format(*[ l.strip() for l in lines]))
             fd.write('-->\n')
             fd.write(oldcontent)
+        os.unlink(meta_fn)
