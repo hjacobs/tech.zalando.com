@@ -29,10 +29,16 @@ for fn in glob.glob('*.md'):
     if os.path.exists(meta_fn):
         with open(meta_fn) as fd:
             lines = fd.readlines()
-        with open(fn, 'wb') as fd:
+        with open(fn) as fd:
             oldcontent = fd.read()
         with open(fn, 'wb') as fd:
             fd.write('<!--\n')
-            fd.writelines(lines)
+            fd.write('''
+.. title: {}
+.. slug: {}
+.. date: {}
+.. tags: {}
+.. author: ToDo
+'''.format(*[ l.strip() for l in lines]))
             fd.write('-->\n')
             fd.write(oldcontent)
