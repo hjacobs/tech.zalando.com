@@ -3,11 +3,12 @@
 .. slug: pgconf-2013-recap-and-slides
 .. date: 2013-11-13 14:08:40
 .. tags: Event,Events,Platform,PostgreSQL
-.. author: ToDo
+.. author: Jan Mußler
+.. image: postgresql-db_teaser.png
 -->
-![postgresql-db](/files/2013/11/postgresql-db-300x231.png) The PGConf
-“marathon” 2013 is over, two weeks filled with traveling are over. First step
-Dublin, Ireland followed up by the town of Oberhausen, Germany. We followed
+
+The PGConf "marathon" 2013 is over, two weeks filled with traveling are over. 
+First step Dublin, Ireland followed up by the town of Oberhausen, Germany. We followed
 presentations, exchanged experiences and enjoyed the social events and now we
 are back in Berlin with lots of positive impressions from the growing
 [PostgreSQL](http://www.postgresql.org) community.
@@ -22,7 +23,7 @@ database development and infrastructure. This promotion payed off, we got a
 lot of attendees to our talk and quite a few questions were raised and hallway
 discussions triggered.
 
-  <!-- TEASER_END -->
+<!-- TEASER_END -->
 
 On other frontiers it was interesting to learn about
 successful migrations to PostgreSQL and deployments on powerful machines
@@ -33,8 +34,7 @@ intelligence seem promising, including the min/max indexes. Current work on
 logical replication, which may finally lead to rolling major version upgrades,
 is of particular interest in our always available world.
 
-Back from Ireland
-just one week later we headed to the [German-speaking PostgreSQL
+Back from Ireland just one week later we headed to the [German-speaking PostgreSQL
 conference](http://2013.pgconf.de) to get to know the German user base and
 give our second talk, this time in German with a slight variation in what was
 covered, using some of the feedback we got the week before. It was a nice
@@ -49,13 +49,9 @@ organizing both the PGConf Europe and its German counterpart for their hard
 work, and to #blameMagnus for what did not work.
 
 Valentine’s talk from Dublin
-in English: [Elephants in fashion](http://tech.zalando.com/files/2013/10
-/pgconf-eu-2013-elephants-in-fashion.pdf)[
-](http://tech.zalando.com/files/2013/10/pgconf-eu-2013-elephants-in-
-fashion.pdf)
+in English: [Elephants in fashion](http://tech.zalando.com/files/2013/10/pgconf-eu-2013-elephants-in-fashion.pdf)[
+](http://tech.zalando.com/files/2013/10/pgconf-eu-2013-elephants-in-fashion.pdf)
 
 My own slides in German from PGConf.de: [Elefanten sind in
-Mode](http://tech.zalando.com/files/2013/10/pgconf-de-2013-elefanten-sind-in-
-mode.pdf)[ ](http://tech.zalando.com/files/2013/10/pgconf-de-2013-elefanten-
-sind-in-mode.pdf)
+Mode](http://tech.zalando.com/files/2013/10/pgconf-de-2013-elefanten-sind-in-mode.pdf)[ ](http://tech.zalando.com/files/2013/10/pgconf-de-2013-elefanten-sind-in-mode.pdf)
 
