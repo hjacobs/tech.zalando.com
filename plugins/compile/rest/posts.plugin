@@ -1,0 +1,10 @@
+[Core]
+Name = rest_posts
+Module = posts
+
+[Documentation]
+Author = Henning Jacobs
+Version = 0.1
+Website = http://getnikola.com
+Description = Directive to render list of posts
+
