@@ -56,7 +56,8 @@ with a strict time limit of 1 minute. Eight teams were competing for the
 hard time fo find an overall winner. In the end, the winner was
 "[Glovr](http://techcrunch.com/video/glovr-demo-at-hackathon-europe-2013/517988766/)"!
 
-**So what did they do?**
+## So what did they do?
+
 The two hackers managed to use a "Leap Motion" device to measure the exact size of a human hand by just
 hovering over the device. With this data a search can be done in the Zalando
 product catalog for such items like the perfect fitting gloves. The customer

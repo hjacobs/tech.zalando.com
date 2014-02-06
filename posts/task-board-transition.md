@@ -42,7 +42,7 @@ These are the steps of transition we did:
 
 Here some details about the transition steps.
 
-### 1. Jira options
+## 1. Jira options
 
 There are 2 board options Jira offers out of the box:
 
@@ -56,14 +56,14 @@ though. The way how to prioritize tickets using drag and drop is simply
 convenient. Certainly you can do similar prioritization with Kanban boards
 too.
 
-### 2. First board
+## 2. First board
 
 Creating the first kanban board was straight forward. As we used already a
 couple of Jira filters for other purposes, I based the first test board on
 existing filters. Filters are also a way to deal with the 3rd point of the
 transition list:
 
-### 3. Iteration controlling
+## 3. Iteration controlling
 
 Swimlanes are a good way to represent iterations in a kanban board. We used
 epics already on the analog board as container of a couple of tickets within a
@@ -105,14 +105,14 @@ represented by the column **in dev**. Column **QA todo** is the gateway as
 well as it represents the QA iteration. Once a ticket is considered done for
 the whole team, it is part of the column **QA done**.
 
-### 4. Do the stand up in front of screen
+## 4. Do the stand up in front of screen
 
 Having the new board in Jira is good. However it is much more valuable if we
 can do our daily stand up in front of the new board. We got a reasonable
 screen that let us almost forget the former task board. [![stand up in front
 of the digital board](/files/2013/12/20131025_094912.jpg)](/files/2013/12/20131025_094912.jpg)
 
-### 5. Live
+## 5. Live
 
 The digital board is in use for a couple of weeks now. The main pain point (tracking 
 the status twice: on the analog board and in Jira) is still the main
@@ -126,7 +126,7 @@ board when I am in meetings and might be asked about the status of tickets.
 Changing the boards structure such as including new columns is also an easy
 task with the new board.
 
-### Anything else?
+## Anything else?
 
 With the help of our Jira support team, we got a general Jira user with
 appropriate rights to move tickets in our stand up meeting. The Jira project
@@ -170,7 +170,7 @@ summaries. Moreover the extra effort feels worth for them the satisfaction of
 putting a ticket manually to 'done'. They also feel this helps both, product
 managers and developers, to improve ticket progress maintenance.
 
-### Take aways
+## Take aways
 
 The whole board transition last for our team only for a couple of days. From
 this point on, there was no need for our project team to go back to the analog

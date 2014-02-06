@@ -14,7 +14,7 @@ meant to exchange thoughts and insights on the cutting edge of internet
 technology. Having been in the GMail team for several years, Mark was the
 perfect choice - and an excellent speaker as well.
 
-  <!-- TEASER_END -->
+<!-- TEASER_END -->
 
 In a talk to a broad audience of Zalando’s Technology team, Mark explained the most important
 management methods of Google from an engineering point of view. Later on, Mark

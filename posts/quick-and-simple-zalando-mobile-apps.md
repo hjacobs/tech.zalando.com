@@ -12,10 +12,10 @@ Zalando App. The launch is quite a success story - in July 2013 we already
 achieved [one million downloads](http://tech.zalando.com/zalando-mobile-apps-
 reached-1-mio-downloads/) after just three months in [Apple's App
 store](https://itunes.apple.com/de/app/zalando-mobil/id585629514?mt=8) and
-seven months in [Google Play
-Store](https://play.google.com/store/apps/details?id=de.zalando.mobile).
+seven months in [Google Play Store](https://play.google.com/store/apps/details?id=de.zalando.mobile).
 Recently, we hit the two million download mark!
- <!-- TEASER_END -->
+
+<!-- TEASER_END -->
 
  Yesterday, Idealo came up
 with a [test report](http://apps.idealo.de/news/zalando-app-so-geht-modernes-
@@ -31,7 +31,7 @@ app functionality in general, we got nice feedback on the following features:
 [![Foto 1](/files/2013/11/Foto-1-1-169x300.png)](/files/2013/11/Foto-1-1.png)
 [![Foto 2](/files/2013/11/Foto-2-1-169x300.png)](/files/2013/11/Foto-2-1.png)
 
-**My Retrospect And Outlook**
+## My Retrospect And Outlook
 
 The development time of the Zalando iPhone app
 took us around five months. However, at the same time we put the first Mobile
