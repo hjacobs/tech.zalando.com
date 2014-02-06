@@ -14,7 +14,9 @@ The System App is used internally at Zalando’s technology department to
 provide an overview of our network and systems health. We're talking about a
 diagramming tool which allows you to bind any external JSON data to its
 shapes, and create visual alerts based on rules applied to this data.
+
 <!-- TEASER_END -->
+
 We call each of these diagrams a map, and you can create as many maps as you want. For
 different purposes, showing different aspects of your infrastructure. Maps can
 be created using the UI with drag-and-drop elements, or by writing a JS script
