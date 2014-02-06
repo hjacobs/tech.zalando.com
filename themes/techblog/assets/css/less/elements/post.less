@@ -28,46 +28,21 @@
                 .dPaddingBottom;
 
             }
+        }
 
-            div + p:last-of-type {
-                .marginTop;
-                margin-bottom: 0;
 
-            }
+        .signature {
+            .dMarginTop;
         }
 
         h1,
-        p {
+        p:not(.signature) {
             .marginBottom;
 
             @media screen and (min-width: @screenTabletPortrait) {
 
                 .dMarginBottom;
 
-            }
-        }
-
-        h1 {
-            .font(@fontSizeH1, normal, @lineHeightDefault - .1em);
-            color: @colorHeadline;
-
-            &:after {
-                .block;
-                .font(@fontSizeSmall, normal, @fontSizeDefault);
-                content: attr(data-posted);
-            }
-
-            @media screen and (min-width: @screenTabletPortrait) {
-
-                .font(@fontSizeH1 + 8px, normal, @lineHeightDefault - .1em);
-                .dMarginBottom;
-                .textCenter;
-
-            }
-
-            a {
-                color: inherit;
-                text-decoration: none;
             }
         }
 
@@ -106,7 +81,6 @@
             }
         }
 
-
         // THE ACTUAL BLOGPOST (Reformat)-------------------------------------------------------------------------------
         h2,
         h3,
@@ -114,8 +88,13 @@
             .paddingVertical;
         }
 
-        h2 {
+        h2,
+        tt {
             font-size: 1.2em;
+        }
+
+        h3 {
+            font-size: 1.1em;
         }
 
         // LIST ELEMENTS
@@ -137,5 +116,25 @@
             list-style: decimal;
         }
 
+        // TABLES
+        table {
+            border-spacing: @distanceDefault;
+            border-collapse: collapse;
 
+            td {
+                .paddingBottom;
+                .paddingRight
+            }
+        }
+
+        dd {
+            .marginBottom;
+            line-height: @lineHeightDefault;
+        }
+
+        tt {
+            background-color: @codeBgr;
+            padding: 3px 5px 1px;
+            white-space: pre;
+        }
     }

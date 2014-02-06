@@ -4,4 +4,49 @@
         .borderBox;
         min-height: 100%;
         padding-bottom: @distanceDefault * 10;
+
+        h1 {
+            .font(@fontSizeH1, normal, @lineHeightDefault - .1em);
+            color: @colorHeadline;
+
+            &:after {
+                .block;
+                .font(@fontSizeSmall, normal, @fontSizeDefault);
+                content: attr(data-posted);
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .font(@fontSizeH1 + 8px, normal, @lineHeightDefault - .1em);
+                .dMarginBottom;
+                .textCenter;
+
+            }
+
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+
+        .postbox {
+            &:extend(.content);
+
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            li {
+                .font(@fontSizeDefault, normal);
+                .overHidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
     }
+
+
