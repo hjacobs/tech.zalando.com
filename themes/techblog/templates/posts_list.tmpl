@@ -1,0 +1,11 @@
+
+
+    {% for post in posts %}
+
+        <h1>
+            <a href="{{ post.permalink() }}" itemprop="url">{{ post.title() }}</a>
+        </h1>
+
+        {{ post.text(teaser_only=True) }}
+
+    {% endfor %}

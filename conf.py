@@ -100,7 +100,7 @@ NAVIGATION_LINKS = {DEFAULT_LANG: (('/archive.html', 'Archives'), ('/categories/
 #
 
 POSTS = ('posts/*.rst', 'posts', 'post.tmpl'), ('posts/*.md', 'posts', 'post.tmpl')
-PAGES = ('pages/*.rst', 'pages', 'story.tmpl'), ('authors/*.rst', 'authors', 'author_page.tmpl')
+PAGES = ('pages/*.rst', 'pages', 'page.tmpl'), ('authors/*.rst', 'authors', 'author_page.tmpl')
 
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of "source" "relative destination".

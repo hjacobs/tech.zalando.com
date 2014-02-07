@@ -1,0 +1,61 @@
+{#  -*- coding: utf-8 -*- #}
+{% import 'post_helper.tmpl' as helper with context %}
+{% import 'comments_helper.tmpl' as comments with context %}
+
+{% extends 'base.tmpl' %}
+
+{% block extra_head %}
+{{ helper.twitter_card_information(post) }}
+
+{% if post.meta('keywords') %}
+
+<meta name="keywords" content="{{ post.meta('keywords')|e }}" xmlns="http://www.w3.org/1999/html">
+
+{% endif %}
+
+{% endblock %}
+
+
+{% block content %}
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+    {{ helper.html_title() }}
+
+    <!--The Articles content -->
+    <div itemprop="articleBody text">
+
+        {{ post.text() }}
+
+    </div>
+
+    {% if post.description() %}
+
+    <meta content="{{ post.description() }}" itemprop="description">
+
+    {% endif %}
+
+    <small>
+
+        {{ messages("Posted") }}:
+
+        <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
+
+            {{ post.formatted_date(date_format) }}
+
+        </time>
+
+        {{ helper.html_tags(post) }}
+
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+
+    </small>
+
+
+    {{ helper.html_pager(post) }}
+
+    {{ helper.mathjax_script(post) }}
+
+</article>
+
+{% endblock %}

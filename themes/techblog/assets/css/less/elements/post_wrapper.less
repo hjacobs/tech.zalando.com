@@ -30,25 +30,27 @@
             }
         }
 
+        h1 {
+            .font(@fontSizeH1, normal, @lineHeightDefault - .1em);
+            color: @colorHeadline;
 
-        .signature {
-            .dMarginTop;
-        }
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
 
-        h1,
-        p:not(.signature) {
-            .marginBottom;
+                .marginBottom;
+
+            }
 
             @media screen and (min-width: @screenTabletPortrait) {
 
+                .font(@fontSizeH1 + 8px, normal, @lineHeightDefault - .1em);
                 .dMarginBottom;
+                .textCenter;
 
             }
         }
 
         p,
         li {
-            .font(1em, normal, @lineHeightDefault);
 
             // MORE Link may inside the Text - so different Styling
             .more {
@@ -63,14 +65,6 @@
             }
         }
 
-        &:not(.post) p {
-            @media screen and (min-width: @screenTabletPortrait) {
-
-                .overHidden;
-
-            }
-        }
-
         small {
 
             @media screen and (min-width: @screenTabletPortrait) {
@@ -81,60 +75,5 @@
             }
         }
 
-        // THE ACTUAL BLOGPOST (Reformat)-------------------------------------------------------------------------------
-        h2,
-        h3,
-        h4 {
-            .paddingVertical;
-        }
 
-        h2,
-        tt {
-            font-size: 1.2em;
-        }
-
-        h3 {
-            font-size: 1.1em;
-        }
-
-        // LIST ELEMENTS
-        ul,
-        ol {
-            .clear;
-            padding: 0 0 @distanceDefault @distanceDouble;
-        }
-
-        li {
-            .marginBottom;
-        }
-
-        ul li {
-            list-style: disc;
-        }
-
-        ol li {
-            list-style: decimal;
-        }
-
-        // TABLES
-        table {
-            border-spacing: @distanceDefault;
-            border-collapse: collapse;
-
-            td {
-                .paddingBottom;
-                .paddingRight
-            }
-        }
-
-        dd {
-            .marginBottom;
-            line-height: @lineHeightDefault;
-        }
-
-        tt {
-            background-color: @codeBgr;
-            padding: 3px 5px 1px;
-            white-space: pre;
-        }
     }

@@ -14,8 +14,6 @@ h6,
 p,
 blockquote,
 pre,
-dl,
-dd,
 ol,
 ul,
 form,
@@ -616,16 +614,35 @@ table {
 .uppercase {
   text-transform: uppercase;
 }
+.noUnderline {
+  text-decoration: none;
+}
 .pointer {
   cursor: pointer;
 }
 .content,
+main .postbox,
 article,
 .pager {
   margin-right: auto;
   margin-left: auto;
-  max-width: 600px;
   width: 90%;
+}
+@media screen and (max-width: 1023px) {
+  .content,
+  main .postbox,
+  article,
+  .pager {
+    max-width: 600px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content,
+  main .postbox,
+  article,
+  .pager {
+    max-width: 650px;
+  }
 }
 header {
   height: auto;
@@ -823,6 +840,35 @@ main {
   min-height: 100%;
   padding-bottom: 100px;
 }
+main .postbox a {
+  text-decoration: none;
+}
+main .postbox a:hover {
+  text-decoration: underline;
+}
+main .postbox li {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+main h1 a,
+main h2 a,
+main h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+.pages h2 + div {
+  margin-bottom: 20px;
+}
+.pages h2 {
+  text-align: center;
+}
+.pages h2 a {
+  text-decoration: none;
+}
 @media screen and (max-width: 599px) {
   article {
     margin-bottom: 30px;
@@ -850,32 +896,16 @@ article > div {
     padding-bottom: 20px;
   }
 }
-article > div div + p:last-of-type {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-article h1,
-article p {
-  margin-bottom: 10px;
-}
-@media screen and (min-width: 600px) {
-  article h1,
-  article p {
-    margin-bottom: 20px;
-  }
-}
 article h1 {
   font-size: 22px;
   font-weight: normal;
   line-height: 1.4em;
   color: #000000;
 }
-article h1:after {
-  display: block;
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 16px;
-  content: attr(data-posted);
+@media screen and (max-width: 599px) {
+  article h1 {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 600px) {
   article h1 {
@@ -885,16 +915,6 @@ article h1:after {
     margin-bottom: 20px;
     text-align: center;
   }
-}
-article h1 a {
-  color: inherit;
-  text-decoration: none;
-}
-article p,
-article li {
-  font-size: 1em;
-  font-weight: normal;
-  line-height: 1.5em;
 }
 article p .more,
 article li .more {
@@ -908,15 +928,22 @@ article li .more {
   }
 }
 @media screen and (min-width: 600px) {
-  article:not(.post) p {
-    overflow: hidden;
-  }
-}
-@media screen and (min-width: 600px) {
   article small {
     display: block;
     text-align: center;
   }
+}
+@media screen and (min-width: 600px) {
+  .blogPostTeaser p {
+    overflow: hidden;
+  }
+}
+.blogPost h1:after {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 16px;
+  content: attr(data-posted);
 }
 article h2,
 article h3,
@@ -925,12 +952,41 @@ article h4 {
   padding-bottom: 10px;
 }
 article h2 {
-  font-size: 1.2em;
+  font-size: 20px;
+}
+article h3 {
+  font-size: 18px;
+}
+@media screen and (max-width: 599px) {
+  article p {
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 600px) {
+  article p {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  article p,
+  article li {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  article p,
+  article li {
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
 }
 article ul,
 article ol {
   clear: both;
-  padding: 0 0 10px 20px;
+  padding: 0 0 10px 35px;
 }
 article li {
   margin-bottom: 10px;
@@ -940,6 +996,27 @@ article ul li {
 }
 article ol li {
   list-style: decimal;
+}
+article table {
+  border-spacing: 10px;
+  border-collapse: collapse;
+}
+article table td {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+article dd {
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+article tt {
+  background-color: #f8f8f8;
+  padding: 2px 5px 1px;
+  white-space: pre;
+}
+article .signature {
+  margin-top: 20px;
+  padding: 0;
 }
 article .teaserImage {
   padding-bottom: 10px;

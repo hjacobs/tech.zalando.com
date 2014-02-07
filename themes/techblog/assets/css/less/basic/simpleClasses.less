@@ -262,6 +262,10 @@
         text-transform: uppercase;
     }
 
+    .noUnderline {
+        text-decoration: none;
+    }
+
     .pointer {
         cursor: pointer;
     }
@@ -269,6 +273,17 @@
 
     .content {
         .marginAuto;
-        max-width: @distanceDefault * 60 ;
         width: 90%;
+
+        @media screen and (max-width: (@screenDesktop - 1px)) {
+
+            max-width: @distanceDefault * 60 ;
+
+        }
+
+        @media screen and (min-width: @screenDesktop) {
+
+            max-width: @distanceDefault * 65 ;
+
+        }
     }
