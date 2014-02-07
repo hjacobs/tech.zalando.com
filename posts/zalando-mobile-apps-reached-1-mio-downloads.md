@@ -3,15 +3,14 @@
 .. slug: zalando-mobile-apps-reached-1-mio-downloads
 .. date: 2013-07-25 16:53:35
 .. tags: Android,iOS,Mobile,Mobile app
-.. author: ToDo
+.. author: Carsten Ernst
+.. image: mobile-apps-one-million_teaser.jpg
 -->
-[![Zalando Mobile Apps One Million](/files/2013/07
-/zalando_mobile_apps_one_million-
-300x297.jpg)](/files/2013/07/zalando_mobile_apps_one_million.jpg) Exactly
-after seven months in [Apple’s App Store](https://itunes.apple.com/de/app
-/zalando-mobil/id585629514?mt=8) and just three months in the [Google Play
-Store](https://play.google.com/store/apps/details?id=de.zalando.mobile), the
+
+Exactly after seven months in [Apple’s App Store](https://itunes.apple.com/de/app/zalando-mobil/id585629514?mt=8) and just three months in the [Google Play Store](https://play.google.com/store/apps/details?id=de.zalando.mobile), the
 Zalando smartphone apps have reached a pretty cool milestone.
+
+<!-- TEASER_END -->
 
   * 1 million downloads in Germany within seven months
   * 2 thirds iOS smartphones, 1 third Android phones
