@@ -1,0 +1,79 @@
+
+    // ARTICLE (on homepage and detail)---------------------------------------------------------------------------------
+    article {
+        &:extend(.content);
+
+        @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+            margin-bottom: @distanceDefault * 3;
+        }
+
+        @media screen and (min-width: @screenTabletPortrait) {
+            margin-bottom: @distanceDefault * 6;
+        }
+
+        & > div {
+            .border(bottom);
+            .overHidden;
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+                .marginBottom;
+                .paddingBottom;
+
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .dMarginBottom;
+                .dPaddingBottom;
+
+            }
+        }
+
+        h1 {
+            .font(@fontSizeH1, normal, @lineHeightDefault - .1em);
+            color: @colorHeadline;
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+                .marginBottom;
+
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .font(@fontSizeH1 + 8px, normal, @lineHeightDefault - .1em);
+                .dMarginBottom;
+                .textCenter;
+
+            }
+        }
+
+        p,
+        li {
+
+            // MORE Link may inside the Text - so different Styling
+            .more {
+                .bold;
+                text-decoration: none;
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                line-height: @lineHeightDefault + .15em;
+
+            }
+        }
+
+        small {
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .block;
+                .textCenter;
+
+            }
+        }
+
+
+    }

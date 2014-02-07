@@ -4,6 +4,11 @@
         font-size: @size;
         font-weight: @weight;
         line-height: @lineHeight;
+
+        // REM FALLBACK TEST
+     //   @px-fallback: @size * 16;
+    //    -: ~`(function () { return ';font-size: @{px-fallback}px'; }())`;
+    //    -: ~`(function () { return ';font-size: @{size}rem'; }())`;
     }
 
 
@@ -120,3 +125,16 @@
         -webkit-transform: translate(@x, @y);
         transform: translate(@x, @y);
     }
+
+//
+//    .x-rem (@property, @value) {
+//
+//        // This is a workaround, inspired by https://github.com/borodean/less-properties
+//        @px-fallback: @value * @main-font-size;
+//        -: ~`(function () { return ';@{property}: @{px-fallback}'; }())`;
+//        -: ~`(function () { return ';@{property}: @{value}rem'; }())`;
+//    }
+//
+//    .some-class {
+//        .x-rem(font-size, 1.4);
+//    }

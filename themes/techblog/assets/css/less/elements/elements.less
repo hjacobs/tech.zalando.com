@@ -5,29 +5,7 @@
         min-height: 100%;
         padding-bottom: @distanceDefault * 10;
 
-        h1 {
-            .font(@fontSizeH1, normal, @lineHeightDefault - .1em);
-            color: @colorHeadline;
 
-            &:after {
-                .block;
-                .font(@fontSizeSmall, normal, @fontSizeDefault);
-                content: attr(data-posted);
-            }
-
-            @media screen and (min-width: @screenTabletPortrait) {
-
-                .font(@fontSizeH1 + 8px, normal, @lineHeightDefault - .1em);
-                .dMarginBottom;
-                .textCenter;
-
-            }
-
-            a {
-                color: inherit;
-                text-decoration: none;
-            }
-        }
 
         .postbox {
             &:extend(.content);
@@ -45,6 +23,15 @@
                 .overHidden;
                 text-overflow: ellipsis;
                 white-space: nowrap;
+            }
+        }
+
+        h1,
+        h2,
+        h3 {
+            a {
+                color: inherit;
+                .noUnderline
             }
         }
     }

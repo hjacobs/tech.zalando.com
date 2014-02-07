@@ -1,0 +1,116 @@
+
+    // POST CONTENT ()--------------------------------------------------------------------------------------------------
+    &.blogPostTeaser {
+        p {
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .overHidden;
+
+            }
+        }
+    }
+
+    .blogPost {
+
+        // Headline gets published date
+        h1:after {
+            .block;
+            .font(@fontSizeSmall, normal, @fontSizeDefault);
+            content: attr(data-posted);
+        }
+    }
+
+    // START REFORMATING ()-----------------------------------------------------------------------------------------
+    article {
+        h2,
+        h3,
+        h4 {
+            .paddingVertical;
+        }
+
+        h2 {
+            font-size: @fontSizeH2;
+        }
+
+        h3 {
+            font-size: @fontSizeH3;
+        }
+
+        p {
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+                .paddingBottom;
+
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .dPaddingBottom;
+
+            }
+        }
+
+        p,
+        li {
+
+            @media screen and (max-width: (@screenDesktop - 1px)) {
+
+                .font(@fontSizeDefault, normal, @lineHeightDefault);
+
+            }
+
+            @media screen and (min-width: @screenDesktop) {
+
+                .font(@fontSizeDefault + 1px);
+
+            }
+        }
+
+        // LIST ELEMENTS
+        ul,
+        ol {
+            .clear;
+            padding: 0 0 @distanceDefault @distanceDefault * 3.5;
+        }
+
+        li {
+            .marginBottom;
+        }
+
+        ul li {
+            list-style: disc;
+        }
+
+        ol li {
+            list-style: decimal;
+        }
+
+        // TABLES
+        table {
+            border-spacing: @distanceDefault;
+            border-collapse: collapse;
+
+            td {
+                .paddingBottom;
+                .paddingRight
+            }
+        }
+
+        dd {
+            .marginBottom;
+            line-height: @lineHeightDefault;
+        }
+
+        tt {
+            background-color: @codeBgr;
+            padding: 2px 5px 1px;
+            white-space: pre;
+        }
+
+        // Signature under the post
+        .signature {
+            .dMarginTop;
+            .noPadding;
+        }
+    }

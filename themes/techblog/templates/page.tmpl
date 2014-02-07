@@ -22,12 +22,9 @@
         {{ post.title() }}
     {% endfor %}
 
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="pages">
 
         {{ helper.html_title() }}
-
-        <!--The Articles content -->
-        <div itemprop="articleBody text">
 
             {% if post.meta('image') %}
 
@@ -37,43 +34,11 @@
 
             {{ post.text() }}
 
-            {% if post.meta('author') %}
-
-                <p>
-                    {% include 'author.tmpl' %}
-                </p>
-
-            {% endif %}
-
-        </div>
-
-        {% if post.description() %}
+            {% if post.description() %}
 
             <meta content="{{ post.description() }}" itemprop="description">
 
         {% endif %}
-
-        <small>
-
-            {{ messages("Posted") }}:
-
-            <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
-
-                {{ post.formatted_date(date_format) }}
-
-            </time>
-
-            {{ helper.html_translations(post) }}
-
-            {{ helper.html_tags(post) }}
-
-        </small>
-
-    {% if not post.meta('nocomments') %}
-
-        {{ comments.comment_form(post.permalink(absolute=True), post.title(), post._base_path) }}
-
-    {% endif %}
 
     {{ helper.mathjax_script(post) }}
 
