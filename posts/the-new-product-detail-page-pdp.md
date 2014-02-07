@@ -3,9 +3,10 @@
 .. slug: the-new-product-detail-page-pdp
 .. date: 2013-09-03 14:47:51
 .. tags: Frontend
-.. author: ToDo
+.. author: Christian Leschke
+.. image: pdp_teaser.jpg
 -->
-[![PDP Thumbnail](/files/2013/08/pdp-thumb.jpg)](/files/2013/08/pdp-thumb.jpg)
+
 After countless working hours involving different teams, designing and
 discarding over 20 different prototypes and a tremendous amount of user lab
 testing it is now live: The new Zalando Product Detail Page (PDP)! When the
@@ -14,16 +15,18 @@ Germany. Over the time we conquered successfully new markets in new countries,
 added new product groups and created support for modern devices (e.g. mobile
 and tablets). The PDP was growing each time by gradually adding new features.
 Regarding this growing impact of requirements, we decided to rework the PDP.
-**Our main goals were**
+
+<!-- TEASER_END -->
+
+## Our main goals were
 
   * to create a better customer experience, by using a clean layout (less boxes, less text)
   * to increase the focus on article images and Call-To-Action buttons
   * and to find a solution for handling lots of different size values for different article types.
-[![Previous version (until August 2013)](/files/2013/08/PDP-old-
-1024x672.jpg)](/files/2013/08/PDP-old.jpg) Previous version (until August
+[![Previous version (until August 2013)](/files/2013/08/PDP-old.jpg)](/files/2013/08/PDP-old.jpg) Previous version (until August
 2013)
 
-**How did we manage this?**
+## How did we manage this?
 
 At the beginning Zalando started creating first prototypes of possible new
 product detail pages. In overall, it were more than 20 different versions.
@@ -37,7 +40,7 @@ the version with the best KPIs in all countries and also the best
 opportunities for integrating upcoming features. And finally, we found a
 winner.
 
-**So, what did we change at a glance:**
+## So, what did we change at a glance
 
   * we created an image centred design
   * size buttons were replaced by a size select box
@@ -46,9 +49,9 @@ winner.
   * images got a carousel function for an enhanced tablet experience
   * the recommendation box was moved below the article description and can contain more recommendations now
   * technology logos like “Gore-Tex” moved to the article description
-[![New version since August, 16th.](/files/2013/08/PDP-2013-08-1024x664.jpg)](
-/files/2013/08/PDP-2013-08.jpg) New version since August, 16th. **What's
-next?**
+[![New version since August, 16th.](/files/2013/08/PDP-2013-08.jpg)](/files/2013/08/PDP-2013-08.jpg) New version since August, 16th.
+
+## What's next?
 
 After some follow up PDP improvements, we will concentrate on pushing the
 article recommendations within the PDP. In parallel we are working  on
