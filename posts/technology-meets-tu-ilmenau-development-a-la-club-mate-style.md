@@ -20,6 +20,8 @@ fulfillment of Club-Mate?" This was a felicitous surprise, as we could read
 from the puzzled faces of the students - but the confusion quickly paved way
 for a big fun for all of us.
 
+<!-- TEASER_END -->
+
 According to our hands-on mentality, it seemed
 reasonable to put our students into the roles of a Zalando Technology scrum
 team, so they could learn, how we work at Zalando Technology. And lucky us,
