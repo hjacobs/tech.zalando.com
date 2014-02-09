@@ -5,6 +5,7 @@
 .. tags: Draft,Article exporter,Backend,Csv,Development,de_DE,Exporter,Xml
 .. author: ToDo
 -->
+
 There are many reasons to have a XML or CSV file containing the whole catalog
 from Zalando. Some people at the company use them to create different reports,
 and our partners use them to show our products on their websites (e.g. price
@@ -13,6 +14,8 @@ and scroll through the company's huge catalog and start filling up an Excel
 file themselves. However, here at Zalando Technology it’s all about
 efficiency. We’ve developed a program that creates the desired files: the
 Exporter.
+
+<!-- TEASER_END -->
 
 Based on our own Quartz Job-Framework, the Exporter starts itself every 15
 seconds multiple times, creating different threads that process the data for
