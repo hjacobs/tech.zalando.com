@@ -3,10 +3,11 @@
 .. slug: women-zalando-technology
 .. date: 2013-05-31 10:03:41
 .. tags: Events
-.. author: ToDo
+.. author: Anna Moersch
+.. image: women_teaser.jpg
 -->
-[![Blog Pic1](/files/2013/05/Blog-Pic1-300x225.jpg)](/files/2013/05/Blog-
-Pic1.jpg) With the Technology team growing as fast as it does, unfortunately
+
+With the Technology team growing as fast as it does, unfortunately
 it is too easy to lose track of new colleagues that join us every month. But
 be it Database Engineers, Product Managers, Quality Assurance Managers, or
 Developers, there is one group that shares a common denominator: they’re
@@ -15,9 +16,11 @@ science and technology. So what could be more obvious than giving this group
 the opportunity to connect, get to know each other, and share their
 experiences?
 
-[![Blog Pic2](/files/2013/05/Blog-Pic2-225x300.jpg)](/files/2013/05/Blog-
-Pic2.jpg)  [![Blog Pic3](/files/2013/05/Blog-Pic3-225x300.jpg)](/files/2013/05
-/Blog-Pic3.jpg)
+<!-- TEASER_END -->
+
+[![Technology Ladies Evening](/files/2013/05/Blog-Pic1.jpg)](/files/2013/05/Blog-Pic1.jpg)
+[![Technology Ladies Evening](/files/2013/05/Blog-Pic2.jpg)](/files/2013/05/Blog-Pic2.jpg)
+[![Technology Ladies Evening](/files/2013/05/Blog-Pic3.jpg)](/files/2013/05/Blog-Pic3.jpg)
 
 This is where the Technology Ladies Evening was born. After the first two very
 succesful evenings, we etablished the event at loose intervals (usually every
