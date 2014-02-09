@@ -3,10 +3,11 @@
 .. slug: zalando-android-app-out-now
 .. date: 2013-04-24 16:17:43
 .. tags: Android,App,Mobile,Mobile,Zalando
-.. author: ToDo
+.. author: Carsten Ernst
+.. image: android-logo_teaser.png
 -->
-[![Zalando_Android](/files/2013/04/Android_Robot_200.png)](/files/2013/04/Andr
-oid_Robot_200.png) After a challenging development phase over the past weeks,
+
+After a challenging development phase over the past weeks,
 our Shop Channel App Team has published the Zalando Android App v1.0 on the
 Google Play Store. You can find it
 [here](https://play.google.com/store/apps/details?id=de.zalando.mobile) or
@@ -16,6 +17,6 @@ the experience on our company's most recent shopping platform. In a follow-up
 blogpost, we will give you more insights on [how we managed to get the app up
 and running](http://tech.zalando.com/zalando-android-app-how-we-managed-it-in-
 only-eleven-weeks/) in only eleven development weeks. So stay tuned to hear
-from us pretty soon. [![Zalando_Android](/files/2013/04/en_app_rgb_wo_45.png)]
-(https://play.google.com/store/apps/details?id=de.zalando.mobile)
+from us pretty soon.
+[![Zalando_Android](/files/2013/04/en_app_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=de.zalando.mobile)
 
