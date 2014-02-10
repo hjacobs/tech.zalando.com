@@ -863,6 +863,7 @@ nav a {
   *zoom: 1;
   *display: inline;
   padding: 10px;
+  cursor: pointer;
   position: relative;
   text-decoration: none;
 }

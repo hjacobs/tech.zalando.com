@@ -5,12 +5,20 @@
 
 {% endif %}
 
+{% if not index_teasers %}
+
+    {% set link = ' href="/"' %}
+
+{% endif %}
+
+
+
 
 <header role="banner">
 
     <div>
 
-        <a class="zalando" href="/"></a>
+        <a {{ link }} class="zalando"></a>
 
         <label class="trigger" for="menueClose"></label>
 
@@ -20,7 +28,7 @@
 
             <ul>
                 <li>
-                    <a href="/">techblog</a>
+                    <a {{ link }}>techblog</a>
                 </li>
                 <li>
                     <a href="/pages/team.html">team & tech</a>
