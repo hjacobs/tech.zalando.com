@@ -7,6 +7,7 @@
 
         div:first-of-type {
             .marginAuto;
+            .overHidden;
             max-width: 1000px;
         }
 
@@ -49,35 +50,69 @@
         }
 
         .banner {
-            .left;
+            .overHidden;
+            .transition(height, .15s .3s);
             background-color: #e4e4e4;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
 
             &:not(.welcome) {
-                height: 50px;
+                height: @distanceDefault * 2.5;
             }
 
             @media screen and (max-width: (@screenTabletPortrait - 1px)) {
 
-                .dimension(100px, 100%);
                 background-image: url('../img/welcome_mobile.jpg');
+
+                &:not(.welcome) {
+                    height: @distanceDefault * 2.5;
+                }
+
+                &.welcome {
+                    .dimension(@distanceDefault * 5, 100%);
+                }
 
             }
 
             @media screen and (min-width: @screenTabletPortrait) and (max-width: (@screenDesktop - 1px)) {
 
-                .dimension(150px, 100%);
                 background-image:url('../img/welcome_tablet.jpg');
+
+                &:not(.welcome) {
+                    height: @distanceDefault * 5;
+                }
+
+                &.welcome {
+                    .dimension(@distanceDefault * 10, 100%);
+                }
 
             }
 
-            @media screen and (min-width: @screenDesktop) {
+            @media screen and (min-width: @screenDesktop) and (max-width: (@screenDesktopLarge - 1px)) {
 
-                .dimension(300px, 100%);
                 background-image: url('../img/welcome.jpg');
 
+                &:not(.welcome) {
+                    height: @distanceDefault * 7.5;
+                }
+
+                &.welcome {
+                    .dimension(@distanceDefault * 20, 100%);
+                }
+            }
+
+            @media screen and (min-width: @screenDesktopLarge) {
+
+                background-image: url('../img/welcome.jpg');
+
+                &:not(.welcome) {
+                    height: @distanceDefault * 10;
+                }
+
+                &.welcome {
+                    .dimension(@distanceDefault * 30, 100%);
+                }
             }
         }
     }

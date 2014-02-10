@@ -653,6 +653,7 @@ header {
 header div:first-of-type {
   margin-right: auto;
   margin-left: auto;
+  overflow: hidden;
   max-width: 1000px;
 }
 header .zalando {
@@ -692,34 +693,65 @@ header .zalando {
   }
 }
 header .banner {
-  float: left;
+  overflow: hidden;
+  -ms-transition: height 0.15s 0.3s ease;
+  -moz-transition: height 0.15s 0.3s ease;
+  -webkit-transition: height 0.15s 0.3s ease;
+  transition: height 0.15s 0.3s ease;
   background-color: #e4e4e4;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 header .banner:not(.welcome) {
-  height: 50px;
+  height: 25px;
 }
 @media screen and (max-width: 599px) {
   header .banner {
-    height: 100px;
-    width: 100%;
     background-image: url('../img/welcome_mobile.jpg');
+  }
+  header .banner:not(.welcome) {
+    height: 25px;
+  }
+  header .banner.welcome {
+    height: 50px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   header .banner {
-    height: 150px;
-    width: 100%;
     background-image: url('../img/welcome_tablet.jpg');
   }
+  header .banner:not(.welcome) {
+    height: 50px;
+  }
+  header .banner.welcome {
+    height: 100px;
+    width: 100%;
+  }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   header .banner {
+    background-image: url('../img/welcome.jpg');
+  }
+  header .banner:not(.welcome) {
+    height: 75px;
+  }
+  header .banner.welcome {
+    height: 200px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header .banner {
+    background-image: url('../img/welcome.jpg');
+  }
+  header .banner:not(.welcome) {
+    height: 100px;
+  }
+  header .banner.welcome {
     height: 300px;
     width: 100%;
-    background-image: url('../img/welcome.jpg');
   }
 }
 nav {
