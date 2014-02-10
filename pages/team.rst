@@ -1,4 +1,4 @@
-.. title: Team
+.. title: Team & Tech
 .. slug:
 .. date:
 .. tags:
