@@ -5,7 +5,7 @@
         .left;
         background-color: @zColorGray;
 
-        section:first-of-type {
+        div:first-of-type {
             .marginAuto;
             max-width: 1000px;
         }
@@ -46,5 +46,38 @@
 
             margin-bottom: @distanceDouble * 2;
 
+        }
+
+        .banner {
+            .left;
+            background-color: #e4e4e4;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            &:not(.welcome) {
+                height: 50px;
+            }
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+                .dimension(100px, 100%);
+                background-image: url('../img/welcome_mobile.jpg');
+
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) and (max-width: (@screenDesktop - 1px)) {
+
+                .dimension(150px, 100%);
+                background-image:url('../img/welcome_tablet.jpg');
+
+            }
+
+            @media screen and (min-width: @screenDesktop) {
+
+                .dimension(300px, 100%);
+                background-image: url('../img/welcome.jpg');
+
+            }
         }
     }

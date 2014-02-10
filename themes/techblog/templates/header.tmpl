@@ -1,0 +1,45 @@
+
+{% if index_teasers %}
+
+    {% set class = 'welcome' %}
+
+{% endif %}
+
+
+<header role="banner">
+
+    <div>
+
+        <a class="zalando" href="/"></a>
+
+        <label class="trigger" for="menueClose"></label>
+
+        <input type="checkbox" id="menueClose" name="menu">
+
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="#">techblog</a>
+                </li>
+                <li>
+                    <a href="#">team & tech</a>
+                </li>
+                <li>
+                    <a href="#">events</a>
+                </li>
+                <li>
+                    <a href="#">jobs</a>
+                </li>
+                <li>
+                    <a href="#">open source</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+        <div class="banner {{ class }}"></div>
+
+</header>

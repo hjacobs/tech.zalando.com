@@ -650,7 +650,7 @@ header {
   float: left;
   background-color: #f7f7f7;
 }
-header section:first-of-type {
+header div:first-of-type {
   margin-right: auto;
   margin-left: auto;
   max-width: 1000px;
@@ -689,6 +689,37 @@ header .zalando {
 @media screen and (min-width: 600px) {
   header {
     margin-bottom: 40px;
+  }
+}
+header .banner {
+  float: left;
+  background-color: #e4e4e4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .banner:not(.welcome) {
+  height: 50px;
+}
+@media screen and (max-width: 599px) {
+  header .banner {
+    height: 100px;
+    width: 100%;
+    background-image: url('../img/welcome_mobile.jpg');
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  header .banner {
+    height: 150px;
+    width: 100%;
+    background-image: url('../img/welcome_tablet.jpg');
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .banner {
+    height: 300px;
+    width: 100%;
+    background-image: url('../img/welcome.jpg');
   }
 }
 nav {
@@ -948,6 +979,7 @@ article li .more {
 article h2,
 article h3,
 article h4 {
+  clear: both;
   padding-top: 10px;
   padding-bottom: 10px;
 }
