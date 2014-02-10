@@ -713,6 +713,14 @@ header .banner:not(.welcome) {
   header .banner:not(.welcome) {
     height: 25px;
   }
+}
+@media screen and (max-width: 599px) and (orientation: landscape) {
+  header .banner.welcome {
+    height: 30px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 599px) and (orientation: portrait) {
   header .banner.welcome {
     height: 50px;
     width: 100%;

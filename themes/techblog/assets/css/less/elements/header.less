@@ -57,6 +57,7 @@
             background-repeat: no-repeat;
             background-size: cover;
 
+            // Banner everywhere exepet Homepage
             &:not(.welcome) {
                 height: @distanceDefault * 2.5;
             }
@@ -68,6 +69,18 @@
                 &:not(.welcome) {
                     height: @distanceDefault * 2.5;
                 }
+
+            }
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) and (orientation: landscape) {
+
+                &.welcome {
+                    .dimension(@distanceDefault * 3, 100%);
+                }
+
+            }
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) and (orientation: portrait) {
 
                 &.welcome {
                     .dimension(@distanceDefault * 5, 100%);
