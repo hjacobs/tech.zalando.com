@@ -7,7 +7,12 @@
 .. image: DSCN0131_teaser.jpg
 -->
 
-The tech conference season this autumn is currently in full swing and this year there was a very special (pre-)event two days before the first European [TechCrunch Disrupt Conference 2013](http://techcrunch.com/events/disrupt-europe-berlin-2013/disrupteurope2013/) in Berlin: [The Hackathon!](http://techcrunch.com/events/disrupt-europe-berlin-hackathon/)
+The tech conference season this autumn is currently in full swing and this year there
+was a very special (pre-)event two days before the first European [TechCrunch Disrupt
+Conference 2013](http://techcrunch.com/events/disrupt-europe-berlin-2013/disrupteurope2013/)
+in Berlin: [The Hackathon!](http://techcrunch.com/events/disrupt-europe-berlin-hackathon/)
+
+<!-- TEASER_END -->
 
 Since it was the first time that the Techcrunch Hackathon took place in
 Europe, our team decided that we just had to support this event by offering
@@ -16,8 +21,6 @@ as Foursquare, Xing, Yammer, Paymill. Due to these partnerships, the hackathon
 was completely free for all the 500 international participants. The venue
 "Arena Berlin", a huge indoor hall near the river Spree, was just perfect to
 host all hackers and create an open, bustling and productive atmosphere.
-
-<!-- TEASER_END -->
 
 [![Arena Berlin before Hackathon kick-off](/files/2013/10/Arena-Berlin-before-Hackathon-kick-off.jpg)](/files/2013/10/Arena-Berlin-before-Hackathon-kick-off.jpg)
 [![](/files/2013/10/Zalando-Booth-at-the-Hackathon.jpg)](/files/2013/10/Zalando-Booth-at-the-Hackathon.jpg)

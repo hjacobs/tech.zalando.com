@@ -1,0 +1,140 @@
+
+    // FONT ()----------------------------------------------------------------------------------------------------------
+    .font(@size: @fontSizeDefault, @weight: normal, @lineHeight: @lineHeightDefault) {
+        font-size: @size;
+        font-weight: @weight;
+        line-height: @lineHeight;
+
+        // REM FALLBACK TEST
+     //   @px-fallback: @size * 16;
+    //    -: ~`(function () { return ';font-size: @{px-fallback}px'; }())`;
+    //    -: ~`(function () { return ';font-size: @{size}rem'; }())`;
+    }
+
+
+    // POSITIONING ()---------------------------------------------------------------------------------------------------
+    .position(topLeft, @y: 0, @x: @y, @position: absolute) {
+        position: @position;
+        top: @y;
+        left: @x;
+    }
+
+    .position(topRight, @y: 0, @x: @y, @position: absolute) {
+        position: @position;
+        top: @y;
+        right: @x;
+    }
+
+    .position(bottomRight, @y: 0, @x: @y, @position: absolute) {
+        position: @position;
+        bottom: @y;
+        right: @x;
+    }
+
+    .position(bottomLeft, @y: 0, @x: @y, @position: absolute) {
+        position: @position;
+        bottom: @y;
+        left: @x;
+    }
+
+    .position(center, @height, @width, @position: absolute) {
+        height: @height;
+        margin-top: -@height / 2;
+        margin-left: -@width / 2;
+        position: @position;
+        top: 50%;
+        left: 50%;
+        width: @width;
+    }
+
+
+    // BORDER ()--------------------------------------------------------------------------------------------------------
+    .borderDefault(@color: @colorBorder, @width: 1px) {
+        border: @width solid @color;
+    }
+
+    .border(top, @color: @colorBorder, @width: 1px) {
+        .borderDefault(@color);
+        border-width: @width 0 0 0;
+    }
+
+    .border(right, @color: @colorBorder, @width: 1px) {
+        .borderDefault(@color);
+        border-width: 0 @width 0 0;
+    }
+
+    .border(bottom, @color: @colorBorder, @width: 1px) {
+        .borderDefault(@color);
+        border-width: 0 0 @width 0;
+    }
+
+    .border(left, @color: @colorBorder, @width: 1px) {
+        .borderDefault(@color);
+        border-width: 0 0 0 @width;
+    }
+
+    .border(horizontal, @color: @colorBorder, @widthTop: 1px, @widthBottom: @widthTop) {
+        .borderDefault(@color);
+        border-width: @widthTop 0 @widthBottom 0;
+    }
+
+    .border(vertical, @color: @colorBorder, @widthRight: 1px, @widthLeft: @widthRight) {
+        .borderDefault(@color);
+        border-width: 0 @widthRight 0 @widthLeft;
+    }
+
+
+    // DIMENSION ()-----------------------------------------------------------------------------------------------------
+    .dimension(@height, @width: @height) {
+        height: @height;
+        width: @width;
+    }
+
+
+    // PSEUDO ()--------------------------------------------------------------------------------------------------------
+    .pseudo(@content: '', @display: block) {
+        content: @content;
+        display: @display;
+    }
+
+    // TRANSITION
+    .transition(@property, @duration, @timing: ease) {
+        -ms-transition: @property @duration @timing;
+        -moz-transition: @property @duration @timing;
+        -webkit-transition: @property @duration @timing;
+        transition: @property @duration @timing;
+    }
+
+    .transition(@arguments) {
+        -ms-transition: @arguments;
+        -moz-transition: @arguments;
+        -webkit-transition: @arguments;
+        transition: @arguments;
+    }
+
+//    .transform() {
+//        -ms-transform: translate(@x, @y);
+//        -moz-transform: translate(@x, @y);
+//        -webkit-transform: translate(@x, @y);
+//        transform:
+//    }
+
+    .translate(@x:0, @y:0) {
+        -ms-transform: translate(@x, @y);
+        -moz-transform: translate(@x, @y);
+        -webkit-transform: translate(@x, @y);
+        transform: translate(@x, @y);
+    }
+
+//
+//    .x-rem (@property, @value) {
+//
+//        // This is a workaround, inspired by https://github.com/borodean/less-properties
+//        @px-fallback: @value * @main-font-size;
+//        -: ~`(function () { return ';@{property}: @{px-fallback}'; }())`;
+//        -: ~`(function () { return ';@{property}: @{value}rem'; }())`;
+//    }
+//
+//    .some-class {
+//        .x-rem(font-size, 1.4);
+//    }

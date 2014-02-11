@@ -70,8 +70,7 @@ textarea:focus {
   outline: none;
 }
 ul,
-ol,
-li {
+ol {
   list-style: none;
 }
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
@@ -595,7 +594,7 @@ table {
 .headline {
   display: block;
 }
-.listDisc li {
+.listDisc {
   list-style-type: disc;
   margin-left: 20px;
 }
@@ -650,7 +649,11 @@ header {
   float: left;
   background-color: #f7f7f7;
 }
-header div:first-of-type {
+header .navBar,
+header .banner {
+  overflow: hidden;
+}
+header .navBar {
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
@@ -694,17 +697,14 @@ header .zalando {
 }
 header .banner {
   overflow: hidden;
-  -ms-transition: height 0.15s 0.3s ease;
-  -moz-transition: height 0.15s 0.3s ease;
-  -webkit-transition: height 0.15s 0.3s ease;
-  transition: height 0.15s 0.3s ease;
+  -ms-transition: height 0.15s 0.25s ease;
+  -moz-transition: height 0.15s 0.25s ease;
+  -webkit-transition: height 0.15s 0.25s ease;
+  transition: height 0.15s 0.25s ease;
   background-color: #e4e4e4;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-header .banner:not(.welcome) {
-  height: 25px;
 }
 @media screen and (max-width: 599px) {
   header .banner {
@@ -1064,10 +1064,10 @@ article ol {
 article li {
   margin-bottom: 10px;
 }
-article ul li {
+article ul {
   list-style: disc;
 }
-article ol li {
+article ol {
   list-style: decimal;
 }
 article table {

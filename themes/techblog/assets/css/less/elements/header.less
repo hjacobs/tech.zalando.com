@@ -5,7 +5,12 @@
         .left;
         background-color: @zColorGray;
 
-        div:first-of-type {
+        .navBar,
+        .banner {
+            .overHidden
+        }
+
+        .navBar {
             .marginAuto;
             .overHidden;
             max-width: 1000px;
@@ -51,16 +56,11 @@
 
         .banner {
             .overHidden;
-            .transition(height, .15s .3s);
+            .transition(height, .15s .25s);
             background-color: #e4e4e4;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-
-            // Banner everywhere exepet Homepage
-            &:not(.welcome) {
-                height: @distanceDefault * 2.5;
-            }
 
             @media screen and (max-width: (@screenTabletPortrait - 1px)) {
 

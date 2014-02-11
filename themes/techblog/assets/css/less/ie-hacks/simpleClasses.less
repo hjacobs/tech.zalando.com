@@ -1,17 +1,17 @@
 
     // BORDER ()--------------------------------------------------------------------------------------------------------
-    .border {
+    .border() {
       .borderDefault;
     }
 
-    .noBorder {
+    .noBorder() {
         border: 0;
     }
 
 
 
     // BORDERBOX ()-----------------------------------------------------------------------------------------------------
-    .borderBox {
+    .borderBox() {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
@@ -19,259 +19,254 @@
 
 
     // DISPLAY ()-------------------------------------------------------------------------------------------------------
-    .block {
+    .block() {
         display: block;
     }
 
-    .inline {
+    .inline() {
         display: inline;
     }
 
-    .inlineBlock {
+    .inlineBlock() {
         display: inline-block;
         *zoom: 1; *display: inline;
     }
 
-    .none {
+    .none() {
         display: none;
     }
 
 
     // FLOAT ()---------------------------------------------------------------------------------------------------------
-    .clear {
+    .clear() {
         clear: both;
     }
 
-    .left {
+    .left() {
         float: left;
     }
 
-    .right {
+    .right() {
         float: right;
     }
 
-    .clearRight {
+    .clearRight() {
         clear: right;
     }
 
 
     // MARGIN ()---------------------------------------------------------------------------------------------------------
-    .dMargin {
+    .dMargin() {
         margin: @distanceDouble;
     }
 
-    .dMarginTop {
+    .dMarginTop() {
         margin-top: @distanceDouble;
     }
 
-    .dMarginRight {
+    .dMarginRight() {
         margin-right: @distanceDouble;
     }
 
-    .dMarginBottom {
+    .dMarginBottom() {
         margin-bottom: @distanceDouble;
     }
 
-    .dMarginLeft {
+    .dMarginLeft() {
         margin-left: @distanceDouble;
     }
 
-    .dMarginHorizontal {
+    .dMarginHorizontal() {
         margin-right: @distanceDouble;
         margin-left: @distanceDouble;
     }
 
-    .dMarginVertical {
+    .dMarginVertical() {
         margin-top: @distanceDouble;
         margin-bottom: @distanceDouble;
     }
 
-    .margin {
+    .margin() {
         margin: @distanceDefault;
     }
 
-    .marginAuto {
+    .marginAuto() {
         margin-right: auto;
         margin-left: auto;
     }
 
-    .marginTop {
+    .marginTop() {
         margin-top: @distanceDefault;
     }
 
-    .marginRight {
+    .marginRight() {
         margin-right: @distanceDefault;
     }
 
-    .marginBottom {
+    .marginBottom() {
         margin-bottom: @distanceDefault;
     }
 
-    .marginLeft {
+    .marginLeft() {
         margin-left: @distanceDefault;
     }
 
-    .marginHorizontal {
+    .marginHorizontal() {
         margin-right: @distanceDefault;
         margin-left: @distanceDefault;
     }
 
-    .marginVertical {
+    .marginVertical() {
         margin-top: @distanceDefault;
         margin-bottom: @distanceDefault;
     }
 
-    .noMargin {
+    .noMargin() {
         margin: 0;
     }
 
 
     // PADDING ()-------------------------------------------------------------------------------------------------------
-    .noPadding {
+    .noPadding() {
         padding: 0;
     }
 
-    .padding {
+    .padding() {
         padding: @distanceDefault;
     }
 
-    .paddingTop {
+    .paddingTop() {
         padding-top: @distanceDefault;
     }
 
-    .dPaddingTop {
+    .dPaddingTop() {
         padding-top: @distanceDouble;
     }
 
-    .paddingRight {
+    .paddingRight() {
         padding-right: @distanceDefault;
     }
 
-    .dPaddingRight {
+    .dPaddingRight() {
         padding-right: @distanceDouble;
     }
 
-    .paddingBottom {
+    .paddingBottom() {
         padding-bottom: @distanceDefault;
     }
 
-    .dPaddingBottom {
+    .dPaddingBottom() {
         padding-bottom: @distanceDouble;
     }
 
-    .paddingLeft {
+    .paddingLeft() {
         padding-left: @distanceDefault;
     }
 
-    .dPaddingLeft {
+    .dPaddingLeft() {
         padding-left: @distanceDouble;
     }
 
-    .paddingHorizontal {
+    .paddingHorizontal() {
         padding-right: @distanceDefault;
         padding-left: @distanceDefault;
     }
 
-    .dPaddingHorizontal {
+    .dPaddingHorizontal() {
         padding-right: @distanceDouble;
         padding-left: @distanceDouble;
     }
 
-    .paddingVertical {
+    .paddingVertical() {
         padding-top: @distanceDefault;
         padding-bottom: @distanceDefault;
     }
 
-    .dPaddingVertical {
+    .dPaddingVertical() {
         padding-top: @distanceDefault * 2;
         padding-bottom: @distanceDefault * 2;
     }
 
 
     // POSITIONING ()---------------------------------------------------------------------------------------------------
-    .absolute {
+    .absolute() {
         position: absolute;
     }
 
-    .fixed {
+    .fixed() {
         position: fixed;
     }
 
-    .relative {
+    .relative() {
         position: relative;
     }
 
-    .static {
+    .static() {
         position: static;
     }
 
-    .targetFix {
+    .targetFix() {
         .position(topLeft, 0, 0, fixed);
     }
 
 
     // OVERFLOW ()------------------------------------------------------------------------------------------------------
-    .overAuto {
+    .overAuto() {
         overflow: auto;
     }
 
-    .overHidden {
+    .overHidden() {
         overflow: hidden;
     }
 
-    .overScroll {
+    .overScroll() {
         overflow: scroll;
     }
 
-    .overVisible {
+    .overVisible() {
         overflow: visible;
     }
 
 
     // TEXT ()----------------------------------------------------------------------------------------------------------
-    .bold {
+    .bold() {
         font-weight:bold;
     }
 
-    .headline {
+    .headline() {
         .block;
     }
 
-    .listDisc {
-        list-style-type: disc;
-        .dMarginLeft;
-    }
-
-    .textCenter {
+    .textCenter() {
         text-align: center;
     }
 
-    .textJustify {
+    .textJustify(){
         text-align: justify;
     }
 
-    .textLeft {
+    .textLeft() {
         text-align: left;
     }
 
-    .textRight {
+    .textRight() {
         text-align: right;
     }
 
-    .uppercase {
+    .uppercase() {
         text-transform: uppercase;
     }
 
-    .noUnderline {
+    .noUnderline() {
         text-decoration: none;
     }
 
-    .pointer {
+    .pointer() {
         cursor: pointer;
     }
 
 
-    .content {
+    .content() {
         .marginAuto;
         width: 90%;
 

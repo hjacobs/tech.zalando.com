@@ -13,6 +13,8 @@ presentations, exchanged experiences and enjoyed the social events and now we
 are back in Berlin with lots of positive impressions from the growing
 [PostgreSQL](http://www.postgresql.org) community.
 
+<!-- TEASER_END -->
+
 At the [European conference](http://2013.pgconf.eu) in Dublin we used the lightning talks to
 present our PostgreSQL monitoring setup with
 [pg_view](http://github.com/zalando/pg_view) and
@@ -23,7 +25,6 @@ database development and infrastructure. This promotion payed off, we got a
 lot of attendees to our talk and quite a few questions were raised and hallway
 discussions triggered.
 
-<!-- TEASER_END -->
 
 On other frontiers it was interesting to learn about
 successful migrations to PostgreSQL and deployments on powerful machines

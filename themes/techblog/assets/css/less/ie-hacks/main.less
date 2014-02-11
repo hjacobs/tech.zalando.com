@@ -1,0 +1,55 @@
+
+    // BASIC ()---------------------------------------------------------------------------------------------------------
+    a,
+    a:active,
+    a:visited {
+        color: @black;
+    }
+
+
+    //HEADER (Main)-----------------------------------------------------------------------------------------------------
+    header {
+        .zalando {
+            .dimension(28px, 150px);
+        }
+
+        .banner {
+            height: @distanceDefault * 5;
+
+            &.welcome {
+                max-height: @distanceDefault * 25 !important;
+            }
+        }
+    }
+
+
+    // NAVIGATION ()----------------------------------------------------------------------------------------------------
+    nav {
+        li {
+            &:before {
+                .none !important;
+            }
+
+            &:hover {
+                background-color: @white;
+            }
+        }
+    }
+
+
+    // MAIN ()----------------------------------------------------------------------------------------------------------
+    main {
+        .clear;
+    }
+
+    .teaserImage {
+        .left;
+        .dMarginRight;
+        .paddingBottom;
+        margin-top: @distanceDefault / 2;
+        max-width: 200px;
+    }
+
+    .blogPost h1:after {
+        .textCenter;
+    }
