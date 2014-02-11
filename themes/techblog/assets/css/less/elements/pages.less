@@ -1,6 +1,11 @@
 
     //PAGEES (Static content)-------------------------------------------------------------------------------------------
     .pages {
+        h1 {
+            &:extend(.content);
+            &:extend(article h1);
+        }
+
         h2 + div {
             .dMarginBottom;
         }

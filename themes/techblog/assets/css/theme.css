@@ -621,6 +621,7 @@ table {
 }
 .content,
 main .postbox,
+.pages h1,
 article,
 .pager {
   margin-right: auto;
@@ -630,6 +631,7 @@ article,
 @media screen and (max-width: 1023px) {
   .content,
   main .postbox,
+  .pages h1,
   article,
   .pager {
     max-width: 600px;
@@ -638,6 +640,7 @@ article,
 @media screen and (min-width: 1024px) {
   .content,
   main .postbox,
+  .pages h1,
   article,
   .pager {
     max-width: 650px;
@@ -970,19 +973,22 @@ article > div {
     padding-bottom: 20px;
   }
 }
-article h1 {
+article h1,
+.pages h1 {
   font-size: 22px;
   font-weight: normal;
   line-height: 1.4em;
   color: #000000;
 }
 @media screen and (max-width: 599px) {
-  article h1 {
+  article h1,
+  .pages h1 {
     margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 600px) {
-  article h1 {
+  article h1,
+  .pages h1 {
     font-size: 30px;
     font-weight: normal;
     line-height: 1.4em;

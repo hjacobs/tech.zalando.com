@@ -2,10 +2,14 @@
 
     {% for post in posts %}
 
-        <h2>
-            <a href="{{ post.permalink() }}">{{ post.title() }}</a>
-        </h2>
+        <article>
 
-        {{ post.text(teaser_only=True) }}
+            <h2>
+                <a href="{{ post.permalink() }}">{{ post.title() }}</a>
+            </h2>
+
+            {{ post.text(teaser_only=True) }}
+
+        </article>
 
     {% endfor %}
