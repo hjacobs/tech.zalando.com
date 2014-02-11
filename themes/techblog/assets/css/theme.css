@@ -700,10 +700,10 @@ header .zalando {
 }
 header .banner {
   overflow: hidden;
-  -ms-transition: height 0.15s 0.25s ease;
-  -moz-transition: height 0.15s 0.25s ease;
-  -webkit-transition: height 0.15s 0.25s ease;
-  transition: height 0.15s 0.25s ease;
+  -ms-transition: height 0.15s ease;
+  -moz-transition: height 0.15s ease;
+  -webkit-transition: height 0.15s ease;
+  transition: height 0.15s ease;
   background-color: #e4e4e4;
   background-position: center;
   background-repeat: no-repeat;

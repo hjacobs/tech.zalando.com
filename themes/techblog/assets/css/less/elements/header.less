@@ -56,7 +56,7 @@
 
         .banner {
             .overHidden;
-            .transition(height, .15s .25s);
+            .transition(height, .15s);
             background-color: #e4e4e4;
             background-position: center;
             background-repeat: no-repeat;
@@ -72,7 +72,8 @@
 
             }
 
-            @media screen and (max-width: (@screenTabletPortrait - 1px)) and (orientation: landscape) {
+            @media screen and (max-width: (@screenTabletPortrait - 1px))
+                          and (orientation: landscape) {
 
                 &.welcome {
                     .dimension(@distanceDefault * 3, 100%);
@@ -80,7 +81,8 @@
 
             }
 
-            @media screen and (max-width: (@screenTabletPortrait - 1px)) and (orientation: portrait) {
+            @media screen and (max-width: (@screenTabletPortrait - 1px))
+                          and (orientation: portrait) {
 
                 &.welcome {
                     .dimension(@distanceDefault * 5, 100%);
@@ -88,7 +90,8 @@
 
             }
 
-            @media screen and (min-width: @screenTabletPortrait) and (max-width: (@screenDesktop - 1px)) {
+            @media screen and (min-width: @screenTabletPortrait)
+                          and (max-width: (@screenDesktop - 1px)) {
 
                 background-image:url('../img/welcome_tablet.jpg');
 
@@ -102,7 +105,8 @@
 
             }
 
-            @media screen and (min-width: @screenDesktop) and (max-width: (@screenDesktopLarge - 1px)) {
+            @media screen and (min-width: @screenDesktop)
+                          and (max-width: (@screenDesktopLarge - 1px)) {
 
                 background-image: url('../img/welcome.jpg');
 
