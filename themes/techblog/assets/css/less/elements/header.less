@@ -7,7 +7,8 @@
 
         .navBar,
         .banner {
-            .overHidden
+            .overHidden;
+            .textLeft;
         }
 
         .navBar {
@@ -19,12 +20,10 @@
         // ZALANDO LOGO SVG
         .zalando {
             .font(@fontSizeHeaderIcon);
-            .left;
             .icon;
-            .inlineBlock;
-            .relative;
+            .left;
             color: @white;
-            margin: (@distanceDefault * .8) @distanceDefault 0;
+            margin: (@distanceDefault * .7) @distanceDefault 0;
 
             &:after {
                 .font(@fontSizeSmallHeader, normal, 1.1em);
@@ -37,7 +36,7 @@
 
             @media screen and (min-width: @screenTabletLandscape) {
 
-                .left;
+                .paddingLeft;
 
             }
         }

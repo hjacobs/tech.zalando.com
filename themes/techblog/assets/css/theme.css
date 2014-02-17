@@ -650,7 +650,6 @@ article,
   font-weight: normal;
   text-decoration: none;
   text-transform: none;
-  -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
   -ms-text-rendering: optimizeLegibility;
   -o-text-rendering: optimizeLegibility;
@@ -667,6 +666,7 @@ header {
 header .navBar,
 header .banner {
   overflow: hidden;
+  text-align: left;
 }
 header .navBar {
   margin-right: auto;
@@ -677,7 +677,6 @@ header .navBar {
 header .zalando {
   font-size: 26px;
   line-height: 1.5em;
-  float: left;
   font-family: 'iconSet';
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -688,19 +687,15 @@ header .zalando {
   font-weight: normal;
   text-decoration: none;
   text-transform: none;
-  -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
   -ms-text-rendering: optimizeLegibility;
   -o-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
   speak: none;
   line-height: 1;
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  position: relative;
+  float: left;
   color: #ffffff;
-  margin: 8px 10px 0;
+  margin: 7px 10px 0;
 }
 header .zalando:after {
   font-size: 12px;
@@ -715,7 +710,7 @@ header .zalando:after {
 }
 @media screen and (min-width: 768px) {
   header .zalando {
-    float: left;
+    padding-left: 10px;
   }
 }
 @media screen and (max-width: 599px) {
@@ -857,8 +852,7 @@ nav li {
   }
 }
 @media screen and (min-width: 768px) {
-  nav li {
-    margin-right: 10px;
+  nav li:nth-of-type(n+2) {
     margin-left: 10px;
   }
   nav li:before {
@@ -889,7 +883,7 @@ nav li {
   }
 }
 nav a {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 1.5em;
   display: inline-block;
@@ -910,13 +904,12 @@ nav a {
   .trigger {
     border: 1px solid #ffffff;
     border-width: 5px 0 0 0;
-    height: 30px;
+    height: 27px;
     width: 27px;
-    margin-top: 10px;
-    margin-right: 10px;
     cursor: pointer;
     position: relative;
     float: right;
+    margin: 7px 10px 0;
   }
   .trigger:before,
   .trigger:after {
@@ -1013,7 +1006,7 @@ article > div {
 }
 article h1,
 .pages h1 {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: normal;
   line-height: 1.4em;
   color: #000000;
@@ -1027,7 +1020,7 @@ article h1,
 @media screen and (min-width: 600px) {
   article h1,
   .pages h1 {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: normal;
     line-height: 1.4em;
     margin-bottom: 20px;
@@ -1059,8 +1052,8 @@ article li .more {
 .blogPost h1:after {
   display: block;
   font-size: 13px;
-  font-weight: normal;
-  line-height: 16px;
+  font-weight: bold;
+  line-height: 1.5em;
   content: attr(data-posted);
 }
 article h2,
@@ -1071,19 +1064,19 @@ article h4 {
   padding-bottom: 10px;
 }
 article h2 {
-  font-size: 18px;
+  font-size: 20px;
 }
 @media screen and (min-width: 600px) {
   article h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 article h3 {
-  font-size: 16px;
+  font-size: 14px;
 }
 @media screen and (min-width: 600px) {
   article h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 599px) {

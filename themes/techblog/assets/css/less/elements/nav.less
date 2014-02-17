@@ -56,7 +56,10 @@
 
             @media screen and (min-width: @screenTabletLandscape) {
 
-                .marginHorizontal;
+                &:nth-of-type(n+2) {
+                    .marginLeft;
+                }
+
 
                 &:before {
                     .dimension(50px, 100%);
@@ -102,12 +105,11 @@
 
         .trigger {
             .border(top, @white, 5px);
-            .dimension(30px, 27px);
-            .marginTop;
-            .marginRight;
+            .dimension(27px);
             .pointer;
             .relative;
             .right;
+            margin: @distanceDefault * .7 @distanceDefault 0;
 
             &:before,
             &:after {
