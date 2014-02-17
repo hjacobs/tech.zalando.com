@@ -656,6 +656,7 @@ article,
   text-rendering: optimizeLegibility;
   speak: none;
   line-height: 1;
+  white-space: nowrap;
 }
 header {
   height: auto;
@@ -693,6 +694,7 @@ header .zalando {
   text-rendering: optimizeLegibility;
   speak: none;
   line-height: 1;
+  white-space: nowrap;
   float: left;
   color: #ffffff;
   margin: 7px 10px 0;
@@ -1007,8 +1009,8 @@ article > div {
 article h1,
 .pages h1 {
   font-size: 28px;
-  font-weight: normal;
-  line-height: 1.4em;
+  font-weight: bold;
+  line-height: 1.2em;
   color: #000000;
 }
 @media screen and (max-width: 599px) {
@@ -1021,11 +1023,19 @@ article h1,
   article h1,
   .pages h1 {
     font-size: 36px;
-    font-weight: normal;
-    line-height: 1.4em;
+    font-weight: bold;
+    line-height: 1.5em;
     margin-bottom: 20px;
     text-align: center;
   }
+}
+article.blogPost h1:after {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5em;
+  content: attr(data-posted);
+  color: #999999;
 }
 article p .more,
 article li .more {
@@ -1048,13 +1058,6 @@ article li .more {
   .blogPostTeaser p {
     overflow: hidden;
   }
-}
-.blogPost h1:after {
-  display: block;
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 1.5em;
-  content: attr(data-posted);
 }
 article h2,
 article h3,
@@ -1188,10 +1191,19 @@ article p img {
   }
 }
 .code {
-  margin-bottom: 10px;
   padding: 10px;
   overflow: auto;
   background: #f8f8f8;
+}
+@media screen and (max-width: 599px) {
+  .code {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .code {
+    margin-bottom: 20px;
+  }
 }
 .code .hll {
   background-color: #ffffcc;

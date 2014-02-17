@@ -1,22 +1,12 @@
 
     // POST CONTENT ()--------------------------------------------------------------------------------------------------
-    &.blogPostTeaser {
+    .blogPostTeaser {
         p {
             @media screen and (min-width: @screenTabletPortrait) {
 
                 .overHidden;
 
             }
-        }
-    }
-
-    .blogPost {
-
-        // Headline gets published date
-        h1:after {
-            .block;
-            .font(@fontSizeSmall, bold);
-            content: attr(data-posted);
         }
     }
 
