@@ -1,9 +1,9 @@
 
-    //HEADER (Main)-----------------------------------------------------------------------------------------------------
+    // HEADER (Main)----------------------------------------------------------------------------------------------------
     header {
         .dimension(auto, 100%);
         .left;
-        background-color: @zColorGray;
+        background-color: @zColorOrange;
 
         .navBar,
         .banner {
@@ -18,20 +18,21 @@
 
         // ZALANDO LOGO SVG
         .zalando {
+            .font(@fontSizeHeaderIcon);
+            .left;
+            .icon;
             .inlineBlock;
-            .dimension(25px, 120px);
-            .marginTop;
-            .marginHorizontal;
-            background-image: url('../img/zalando_logo.png');
-            background-image: url('../img/zalando_logo.svg'), none;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: center;
+            .relative;
+            color: @white;
+            margin: (@distanceDefault * .8) @distanceDefault 0;
 
-            @media screen and (min-width: @screenTabletPortrait) {
-
-                .dimension(25px, 130px);
-
+            &:after {
+                .font(@fontSizeSmallHeader, normal, 1.1em);
+                .pseudo('Zalando. \A We dress Code', inline-block);
+                .uppercase;
+                font-family: @defaultFontFamily;
+                padding-left: @distanceDefault / 2;
+                white-space:pre;
             }
 
             @media screen and (min-width: @screenTabletLandscape) {

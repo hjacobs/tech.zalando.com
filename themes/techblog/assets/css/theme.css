@@ -129,13 +129,10 @@ template {
 html {
   font-family: arial, sans-serif;
   /* 1 */
-
   -ms-text-size-adjust: 100%;
   /* 2 */
-
   -webkit-text-size-adjust: 100%;
   /* 2 */
-
 }
 /**
  * Remove default margin.
@@ -292,10 +289,8 @@ fieldset {
 legend {
   border: 0;
   /* 1 */
-
   padding: 0;
   /* 2 */
-
 }
 /**
  * 1. Correct font family not being inherited in all browsers.
@@ -308,10 +303,8 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
-
   margin: 0;
   /* 3 */
-
   outline: none;
 }
 /**
@@ -345,10 +338,8 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
-
   cursor: pointer;
   /* 3 */
-
 }
 /**
  * Re-set default cursor for disabled elements.
@@ -365,10 +356,8 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
-
   padding: 0;
   /* 2 */
-
 }
 /**
  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
@@ -378,11 +367,9 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-
   box-sizing: content-box;
 }
 /**
@@ -408,10 +395,8 @@ input::-moz-focus-inner {
 textarea {
   overflow: auto;
   /* 1 */
-
   vertical-align: top;
   /* 2 */
-
 }
 /* ==========================================================================
    Tables
@@ -646,11 +631,38 @@ article,
     max-width: 650px;
   }
 }
+@font-face {
+  font-family: 'iconSet';
+  src: url('../fonts/iconSet.eot');
+}
+@font-face {
+  font-family: 'iconSet';
+  src: url('../fonts/iconSet.eot?#iefix') format('eot'), /*src:*/ url('../fonts/iconSet.woff') format('woff'), /*src:*/ url('../fonts/iconSet.ttf') format('truetype');
+}
+.icon {
+  font-family: 'iconSet';
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  speak: none;
+  line-height: 1;
+}
 header {
   height: auto;
   width: 100%;
   float: left;
-  background-color: #f7f7f7;
+  background-color: #fb9521;
 }
 header .navBar,
 header .banner {
@@ -663,25 +675,43 @@ header .navBar {
   max-width: 1000px;
 }
 header .zalando {
+  font-size: 26px;
+  line-height: 1.5em;
+  float: left;
+  font-family: 'iconSet';
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  speak: none;
+  line-height: 1;
   display: inline-block;
   *zoom: 1;
   *display: inline;
-  height: 25px;
-  width: 120px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-image: url('../img/zalando_logo.png');
-  background-image: url('../img/zalando_logo.svg'), none;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  position: relative;
+  color: #ffffff;
+  margin: 8px 10px 0;
 }
-@media screen and (min-width: 600px) {
-  header .zalando {
-    height: 25px;
-    width: 130px;
-  }
+header .zalando:after {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.1em;
+  content: 'Zalando. \A We dress Code';
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  padding-left: 5px;
+  white-space: pre;
 }
 @media screen and (min-width: 768px) {
   header .zalando {
@@ -771,7 +801,6 @@ nav {
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  background-color: #f7f7f7;
   height: 0;
   max-height: 0;
   min-height: 0;
@@ -800,7 +829,8 @@ nav ul {
   nav ul {
     border: 1px solid #dddddd;
     border-width: 1px 0 0 0;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: #f7f7f7;
   }
 }
 @media screen and (min-width: 600px) {
@@ -845,17 +875,17 @@ nav li {
     -moz-transform: translateY(100px);
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
-    -ms-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease;
+    -ms-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
   }
   nav li:hover:before {
     opacity: 1;
-    -ms-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -ms-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
   }
 }
 nav a {
@@ -868,14 +898,20 @@ nav a {
   padding: 10px;
   cursor: pointer;
   position: relative;
+  text-transform: uppercase;
   text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  nav a {
+    color: #ffffff;
+  }
 }
 @media screen and (max-width: 767px) {
   .trigger {
-    border: 1px solid #4d4d4d;
+    border: 1px solid #ffffff;
     border-width: 5px 0 0 0;
     height: 30px;
-    width: 30px;
+    width: 27px;
     margin-top: 10px;
     margin-right: 10px;
     cursor: pointer;
@@ -888,7 +924,7 @@ nav a {
     width: 100%;
     content: '';
     display: block;
-    background-color: #4d4d4d;
+    background-color: #ffffff;
     margin-top: 5px;
   }
 }
@@ -898,12 +934,14 @@ header input[type="checkbox"] {
   top: -100px;
   left: -100px;
 }
-header input[type="checkbox"]:checked + nav {
-  max-height: 300px;
-  min-height: 50px;
-  height: 100%;
+@media screen and (max-width: 767px) {
+  header input[type="checkbox"]:checked + nav {
+    height: 100%;
+    max-height: 300px;
+    min-height: 50px;
+  }
 }
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 767px) and screen and (min-width: 600px) {
   header input[type="checkbox"]:checked + nav {
     max-height: 80px;
   }
