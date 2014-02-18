@@ -3,6 +3,8 @@ Zalando Technology public "Tech Blog"
 
 This repository contains the source files for our public Tech Blog (tech.zalando.com).
 
+The latest version of generated static HTML is always on https://proxy.zalando.net/tech.zalando.com-nikola/
+
 Getting started on Ubuntu
 -------------------------
 
