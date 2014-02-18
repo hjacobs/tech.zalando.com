@@ -2,7 +2,7 @@
 .. title: Last one out, please turn off the lights
 .. slug: last-one-out-please-turn-off-the-lights
 .. date: 2013-09-16 11:16:11
-.. tags: Bbq,Event,Events,Party
+.. tags: bbq,event,party
 .. author: Bastian Gerhard
 .. image: party-schuckert_teaser.jpg
 -->

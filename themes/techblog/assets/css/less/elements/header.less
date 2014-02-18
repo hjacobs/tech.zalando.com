@@ -27,7 +27,7 @@
 
             &:after {
                 .font(@fontSizeSmallHeader, normal, 1.1em);
-                .pseudo('Zalando. \A We dress Code', inline-block);
+                .pseudo('Zalando. \A We dress Code.', inline-block);
                 .uppercase;
                 font-family: @defaultFontFamily;
                 padding-left: @distanceDefault / 2;
@@ -57,10 +57,9 @@
         .banner {
             .overHidden;
             .transition(height, .15s);
-            background-color: #e4e4e4;
-            background-position: center;
+            background-color: @white;
+            background-position: center bottom;
             background-repeat: no-repeat;
-            background-size: cover;
 
             @media screen and (max-width: (@screenTabletPortrait - 1px)) {
 
@@ -76,7 +75,8 @@
                           and (orientation: landscape) {
 
                 &.welcome {
-                    .dimension(@distanceDefault * 3, 100%);
+                    .dimension(@distanceDefault * 10, 100%);
+                    background-size: cover;
                 }
 
             }
@@ -85,7 +85,8 @@
                           and (orientation: portrait) {
 
                 &.welcome {
-                    .dimension(@distanceDefault * 5, 100%);
+                    .dimension(@distanceDefault * 10, 100%);
+                    //background-size: contain;
                 }
 
             }
@@ -100,7 +101,7 @@
                 }
 
                 &.welcome {
-                    .dimension(@distanceDefault * 10, 100%);
+                    .dimension(@distanceDefault * 13, 100%);
                 }
 
             }

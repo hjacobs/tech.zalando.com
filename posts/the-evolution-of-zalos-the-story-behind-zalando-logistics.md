@@ -2,7 +2,7 @@
 .. title: The Evolution of Zalos: The Story behind Zalando Logistics
 .. slug: the-evolution-of-zalos-the-story-behind-zalando-logistics
 .. date: 2013-03-19 17:26:22
-.. tags: Logistics,Logistics,Warehouses,ZALOS
+.. tags: logistics,warehouses,zalos
 .. author: Konstantin Lazarev
 .. image: zalos_teaser.jpg
 -->

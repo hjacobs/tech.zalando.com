@@ -1,8 +1,8 @@
 <!--
-.. title: Zalando @ TechCrunch Disrupt Europe 2013 - Hackathon
+.. title: Zalando @TechCrunch Disrupt Europe 2013 - Hackathon
 .. slug: zalando-techcrunch-disrupt-europe-2013-hackathon
 .. date: 2013-11-04 11:18:04
-.. tags: Development,Disrupt,Events,Hackathon,Hackathon,Techcrunch
+.. tags: development,disrupt,event,hackathon,techcrunch
 .. author: Volker Pilz
 .. image: DSCN0131_teaser.jpg
 -->

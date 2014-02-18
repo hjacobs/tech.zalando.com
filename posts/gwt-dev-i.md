@@ -2,7 +2,7 @@
 .. title: GWT - Developer's thoughts - Part 1
 .. slug: gwt-dev-i
 .. date: 2013-05-02 10:00:40
-.. tags: Development,Google web toolkit,GWT,Java,Logistics,Maven
+.. tags: development,google-web-toolkit,gwt,java,logistics,maven
 .. author: Bruno Ribeiro
 .. image: gwt-logo_teaser.png
 -->

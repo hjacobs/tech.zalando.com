@@ -2,7 +2,7 @@
 .. title: Fast log file analytics with python and sqlite
 .. slug: fast-log-file-analytics-with-python-and-sqlite
 .. date: 2013-04-16 09:07:44
-.. tags: Logistics
+.. tags: logistics
 .. author: Carsten Pohl
 .. image: log-file-analytics_teaser.png
 -->

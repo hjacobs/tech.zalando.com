@@ -2,7 +2,7 @@
 .. title: Monitoring PostgreSQL with PGObserver
 .. slug: monitoring-postgresql-with-pgobserver
 .. date: 2013-05-09 12:30:02
-.. tags: Database,Development,Open source,PGObserver,PostgreSQL
+.. tags: database,development,open-source,pgobserver,postgresql
 .. author: Jan Mußler
 .. image: pgobserver_teaser.png
 -->

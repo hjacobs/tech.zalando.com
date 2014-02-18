@@ -2,7 +2,7 @@
 .. title: Zalando Android App – How we managed it in only eleven weeks
 .. slug: zalando-android-app-how-we-managed-it-in-only-eleven-weeks
 .. date: 2013-05-16 10:00:26
-.. tags: Android,App,Mobile,Mobile API,Mobile app,Mobile app development,Zalando
+.. tags: android,mobile
 .. author: Carsten Ernst
 .. image: android-logo_teaser.png
 -->

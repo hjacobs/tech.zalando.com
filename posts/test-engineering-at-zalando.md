@@ -2,7 +2,7 @@
 .. title: Test Engineering @Zalando
 .. slug: test-engineering-at-zalando
 .. date: 2013-06-21 12:00:18
-.. tags: Automation,BDD,Continuous integration,Cucumber,de_DE,Selenium,Test engineering,Testing,Testing
+.. tags: automation,bdd,continuous-integration,cucumber,selenium,test-engineering,testing,testing
 .. author: Enrico Hartung
 .. image: test-engineering_teaser.jpg
 -->

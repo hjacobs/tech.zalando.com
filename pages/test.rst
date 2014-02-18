@@ -8,4 +8,4 @@
 
 Write your post here.
 
-.. posts:: PostgreSQL
+.. posts:: postgresql

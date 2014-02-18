@@ -2,7 +2,7 @@
 .. title: Old school database access using stored procedures
 .. slug: zalando-stored-procedure-wrapper-part-i
 .. date: 2013-09-11 10:00:54
-.. tags: Backend,Database,Development,PostgreSQL,Sproc-wrapper
+.. tags: backend,database,development,postgresql,sproc-wrapper
 .. author: Jan Mußler
 .. image: sproc-wrapper_teaser.jpg
 -->

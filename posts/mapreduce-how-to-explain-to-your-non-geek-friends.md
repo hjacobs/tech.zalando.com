@@ -2,7 +2,7 @@
 .. title: MapReduce: How to explain it to your non-geek friends
 .. slug: mapreduce-how-to-explain-to-your-non-geek-friends
 .. date: 2013-05-28 10:08:54
-.. tags: Cluster,Development,de_DE,Hadoop,Mapreduce,Node,Parallelism
+.. tags: cluster,development,hadoop,mapreduce,node,parallelism
 .. author: Luis Mineiro
 .. image: hadoop_teaser.jpg
 -->

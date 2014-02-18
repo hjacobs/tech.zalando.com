@@ -2,7 +2,7 @@
 .. title: GOTO 2013: Why Zalando trusts in PostgreSQL
 .. slug: goto-2013-why-zalando-trusts-in-postgresql
 .. date: 2013-10-23 11:57:16
-.. tags: Conference,Database,Events,PostgreSQL
+.. tags: conference,database,event,postgresql
 .. author: Henning Jacobs
 .. image: postgresql-db_teaser.png
 -->

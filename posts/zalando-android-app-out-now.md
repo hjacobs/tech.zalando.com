@@ -2,7 +2,7 @@
 .. title: Zalando Android App - OUT NOW !
 .. slug: zalando-android-app-out-now
 .. date: 2013-04-24 16:17:43
-.. tags: Android,App,Mobile,Mobile,Zalando
+.. tags: android,mobile
 .. author: Carsten Ernst
 .. image: android-logo_teaser.png
 -->

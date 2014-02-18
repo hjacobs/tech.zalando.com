@@ -2,7 +2,7 @@
 .. title: Team Management Technology - Fun Retreats
 .. slug: team-management-technology-fun-team-retreats
 .. date: 2013-05-10 12:18:37
-.. tags: Events
+.. tags: event
 .. author: Martin Bell
 .. image: fun-retreats_teaser.jpg
 -->

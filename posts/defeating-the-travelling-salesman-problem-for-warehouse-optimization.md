@@ -2,7 +2,7 @@
 .. title: Warehouse Optimization - Linear Time Routing Algorithm with Cart
 .. slug: defeating-the-travelling-salesman-problem-for-warehouse-optimization
 .. date: 2015-01-14 16:43:00
-.. tags: Draft,Logistics,Operations research,Travelling salesman problem,Warehouse logistics,Warehouse optimization
+.. tags: draft,logistics,operations-research,travelling-salesman-problem,warehouse-logistics,warehouse-optimization
 .. author: ToDo
 -->
 It is generally known that the [travelling salesman

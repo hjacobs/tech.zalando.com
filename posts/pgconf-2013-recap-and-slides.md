@@ -2,7 +2,7 @@
 .. title: PGConf EU/DE 2013 recap and slides
 .. slug: pgconf-2013-recap-and-slides
 .. date: 2013-11-13 14:08:40
-.. tags: Event,Events,Platform,PostgreSQL
+.. tags: event,platform,postgresql
 .. author: Jan Mußler
 .. image: postgresql-db_teaser.png
 -->

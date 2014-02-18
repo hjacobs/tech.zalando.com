@@ -2,7 +2,7 @@
 .. title: Recap - Zalando hosted Java User Group Dortmund
 .. slug: recap-zalando-hosted-java-user-group-dortmund
 .. date: 2013-04-19 08:52:11
-.. tags: Database,Events,Java user group
+.. tags: database,event,java-user-group,jug,dortmund
 .. author: Simon Michel
 .. image: jug-dortmund_teaser.png
 -->
