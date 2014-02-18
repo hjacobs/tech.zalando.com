@@ -1,5 +1,10 @@
+Zalando Technology public "Tech Blog"
+=====================================
+
+This repository contains the source files for our public Tech Blog (tech.zalando.com).
+
 Getting started on Ubuntu
-=========================
+-------------------------
 
 First install Nikola:
 
