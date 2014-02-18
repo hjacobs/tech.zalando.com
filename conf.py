@@ -115,7 +115,7 @@ PAGES = ('pages/*.rst', 'pages', 'page.tmpl'), ('authors/*.rst', 'authors', 'aut
 # 'rest' is reStructuredText
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
-COMPILERS = {'rest': '.rst', 'markdown': '.md', 'html': '.html'}
+COMPILERS = {'rest': ('.rst',), 'markdown': ('.md',), 'html': ('.html',)}
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -277,7 +277,7 @@ THEME = 'techblog'
 
 # date format used to display post dates.
 # (str used by datetime.datetime.strftime)
-# DATE_FORMAT = '%Y-%m-%d %H:%M'
+DATE_FORMAT = '%Y-%m-%d'
 
 # FAVICONS contains (name, file, size) tuples.
 # Used for create favicon link like this:
