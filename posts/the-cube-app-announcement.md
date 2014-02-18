@@ -2,7 +2,7 @@
 .. title: The Cube. Our data management tool just got released!
 .. slug: the-cube-app-announcement
 .. date: 2013-08-15 10:31:45
-.. tags: Backbonejs,Development,Javascript,Node,OpenSource,Solr
+.. tags: backbonejs,development,javascript,node,open-source,solr
 .. author: Emanuel Lauria
 .. image: cube_teaser.png
 -->

@@ -2,7 +2,7 @@
 .. title: Introducing the Zalando Logistics System (Zalos)
 .. slug: introducing-zalo
 .. date: 2013-07-05 10:13:25
-.. tags: Draft,de_DE
+.. tags: draft
 .. author: ToDo
 -->
 

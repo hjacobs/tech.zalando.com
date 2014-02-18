@@ -2,7 +2,7 @@
 .. title: My three year journey into Zalando Technology
 .. slug: my-three-year-journey-into-zalando-technology
 .. date: 2013-09-30 14:00:04
-.. tags: Anniversary,Birthday,Platform,Tech diary
+.. tags: anniversary,birthday,platform,tech-diary
 .. author: Henning Jacobs
 .. image: zalando-birthday_teaser.jpg
 -->

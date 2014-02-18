@@ -2,7 +2,7 @@
 .. title: Zalando welcomes Java User Group Dortmund
 .. slug: zalando-welcomes-java-user-group-dortmund
 .. date: 2013-04-08 15:22:39
-.. tags: Database,Events,Java user group
+.. tags: database,events,java-user-group,jug,dortmund
 .. author: Simon Michel
 .. image: jug-dortmund_teaser.png
 -->

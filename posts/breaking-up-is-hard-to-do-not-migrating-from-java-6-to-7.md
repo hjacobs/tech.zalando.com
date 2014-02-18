@@ -2,7 +2,7 @@
 .. title: Breaking Up is Hard to do... or is it?: From Java 6 to 7
 .. slug: breaking-up-is-hard-to-do-not-migrating-from-java-6-to-7
 .. date: 2013-04-11 12:14:53
-.. tags: Development,Java,Maven,Python
+.. tags: development,java,maven,python
 .. author: Rodrigo Reis
 .. image: breaking-up_teaser.png
 -->

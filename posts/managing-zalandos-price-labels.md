@@ -2,7 +2,7 @@
 .. title: Managing Zalando's Price Labels
 .. slug: managing-zalandos-price-labels
 .. date: 2013-08-02 11:49:15
-.. tags: Draft,Article,Backend
+.. tags: draft,article,backend
 .. author: ToDo
 -->
 

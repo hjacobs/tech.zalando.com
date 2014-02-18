@@ -2,7 +2,7 @@
 .. title: The Exporter
 .. slug: the-exporter
 .. date: 2013-05-07 10:00:18
-.. tags: Draft,Article exporter,Backend,Csv,Development,de_DE,Exporter,Xml
+.. tags: draft,article-exporter,backend,csv,development,exporter
 .. author: ToDo
 -->
 
