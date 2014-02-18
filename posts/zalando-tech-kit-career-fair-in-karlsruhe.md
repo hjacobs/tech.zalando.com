@@ -1,8 +1,8 @@
 <!--
-.. title: Zalando Tech @ KIT career fair in Karlsruhe
+.. title: Zalando Tech @KIT career fair in Karlsruhe
 .. slug: zalando-tech-kit-career-fair-in-karlsruhe
 .. date: 2013-05-14 16:33:34
-.. tags: Career fair,Events,Karlsruhe,KIT
+.. tags: career-fair,events,kit
 .. author: Philip Harborth
 .. image: shop_teaser.jpg
 -->

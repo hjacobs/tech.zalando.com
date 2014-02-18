@@ -2,7 +2,7 @@
 .. title: Green or Orange? - A/B tests at Zalando
 .. slug: green-or-orange-ab-tests-at-zalando
 .. date: 2013-04-30 15:48:00
-.. tags: A/b test,Frontend,Testing,Website
+.. tags: ab-test,frontend,testing,website
 .. author: Philip Harborth
 .. image: ab-testing_teaser.png
 -->

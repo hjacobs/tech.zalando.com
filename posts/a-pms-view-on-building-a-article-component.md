@@ -2,7 +2,7 @@
 .. title: A PM's view on building a ZEOS Article component
 .. slug: a-pms-view-on-building-a-article-component
 .. date: 2013-06-27 10:09:27
-.. tags: Article,Article,Backend,Development,Development,Erp system,Internal customers,Key-user,Product management,Project management,Project planing,Reporting,Zalando
+.. tags: article,backend,development,erp-system,internal-customers,key-user,product-management,project-management,project-planing,reporting
 .. author: Artur Weber
 .. image: articles_teaser.jpg
 -->

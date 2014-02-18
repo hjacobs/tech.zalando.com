@@ -1,7 +1,7 @@
 .. title: Writing Python command line scripts
 .. slug: writing-python-command-line-scripts
 .. date: 2014/01/19 14:57:29
-.. tags: Python
+.. tags: python
 .. link:
 .. description:
 .. author: Henning Jacobs

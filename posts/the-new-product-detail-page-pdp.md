@@ -2,7 +2,7 @@
 .. title: Cleaning up - The new Product Detail Page
 .. slug: the-new-product-detail-page-pdp
 .. date: 2013-09-03 14:47:51
-.. tags: Frontend
+.. tags: frontend
 .. author: Christian Leschke
 .. image: pdp_teaser.jpg
 -->

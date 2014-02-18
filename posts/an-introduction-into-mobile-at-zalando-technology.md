@@ -2,7 +2,7 @@
 .. title: An Introduction into Mobile at Zalando Technology
 .. slug: an-introduction-into-mobile-at-zalando-technology
 .. date: 2013-03-27 14:15:12
-.. tags: Android,App,iOS,Iphone,Mobile,Mobile,Mobile API,Windows 8
+.. tags: android,app,ios,iphone,mobile,mobile-api,windows-8
 .. author: Carsten Ernst
 .. image: zalando-app_teaser.png
 -->

@@ -2,7 +2,7 @@
 .. title: Zalando Customer Account: Check out our new Order Section
 .. slug: zalando-customer-account-check-out-our-new-order-section
 .. date: 2013-06-04 10:15:11
-.. tags: Feature,Frontend
+.. tags: feature,frontend
 .. author: Ingmar Knudsen
 .. image: status-shipped_teaser.png
 -->

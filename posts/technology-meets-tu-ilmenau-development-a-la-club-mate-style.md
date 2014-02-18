@@ -2,7 +2,7 @@
 .. title: Technology meets TU Ilmenau - Development à la Club-Mate Style
 .. slug: technology-meets-tu-ilmenau-development-a-la-club-mate-style
 .. date: 2013-06-13 09:59:40
-.. tags: Development,Development,Event,Events,Ilmenau,Logistics,Product management,Scrum,Students,Workshop
+.. tags: development,events,logistics,product-management,scrum,students,workshop
 .. author: Marcus Daute
 .. image: tu-ilmenau-2013_teaser.jpg
 -->
