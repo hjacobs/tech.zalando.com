@@ -2,7 +2,7 @@
 .. title: How product managers do their camping - Productcamp 2013
 .. slug: productcamp-2013
 .. date: 2013-10-17 17:37:48
-.. tags: development,event,logistics,product-management,scrum,zalando
+.. tags: development,event,logistics,product-management,scrum,meet-up
 .. author: Rasmus Voigts
 .. image: productcamp_teaser.jpg
 -->
