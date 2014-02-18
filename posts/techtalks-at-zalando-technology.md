@@ -2,7 +2,7 @@
 .. title: TechTalks at Zalando Technology
 .. slug: techtalks-at-zalando-technology
 .. date: 2013-04-05 16:38:49
-.. tags: education,event,techtalk
+.. tags: education,event,tech-talk
 .. author: Ralf Heyde
 .. image: techtalks_teaser.jpg
 -->

@@ -1,23 +1,18 @@
 .. title: Zalando Hack Week - Making Innovation Visible
-.. description: Learn more about "Hack Week" at Zalando, one playful week for everyone to brainstorm and execute innovative ideas without limits across teams and functions.
+.. description: Learn more about Hack Week at Zalando, one playful week for everyone to brainstorm and execute innovative ideas without limits across teams and functions.
 .. slug: zalando-hack-week
 .. date: 2014-02-12 01:33:37
 .. tags: design-thinking, event, hack-week, innovation
 .. author: Bastian Gerhard
 .. type: text
+.. image: hack_week_awards.jpg
 
-**Five years of extremely fast growth and continuous success lie behind us. Always
+Five years of extremely fast growth and continuous success lie behind us. Always
 forward-focused, we hardly had time to look left or right. But for one week in
 late December, our Technology department made a full stop and let the year wind
 down with playful innovation and experimentation. Say “Hi” to Hack Week – one
 week for over 400 people to brainstorm and execute their very own ideas without
-limits across teams, functions and several office locations.**
-
-.. image: hack_week_awards.jpg
-   :width: 265
-   :height: 300
-   :align: right
-   :alt: Our Hack Week awards – all handmade!
+limits across teams, functions and several office locations.
 
 .. TEASER_END
 
@@ -51,9 +46,8 @@ left into the holidays. The most memorable moments of the week were captured on
 camera (see video below).
 
 .. youtube:: SU-IUjDnGes
-   :height: 399
-   :width: 710
-
+   :width: 650
+   
 Impressive outcome
 ------------------
 
@@ -68,43 +62,35 @@ underlying business processes and our office culture as a whole.
 The award winners should provide a rough understanding about the overall quality
 of Hack Week’s outcome:
 
-+-----------------------------------------------+-----------------------------------------------+ 
-| Award Category                                | Winner                                        | 
-+===============================================+===============================================+ 
-| **Dream Team**                                | **Zalando Wardrobe**                          |
-+-----------------------------------------------+-----------------------------------------------+ 
-
-test
-
-+-----------------------------------------------+-----------------------------------------------+ 
-| Award Category                                | Winner                                        | 
-+===============================================+===============================================+ 
-| **Dream Team**                                | **Zalando Wardrobe**                          |
-| Team player award for most diverse team       | Concept of an Internet-enabled personal wardrobe seamlessly integrated into Zalando to extent the fashion shopping experience to your home. |
-+-----------------------------------------------+-----------------------------------------------+ 
-| **BSD 4.3**                                   | **256 Shades of Grey** (a.k.a. Zearch by Color)   |
-| Best software coding project                  | Ultra-fast and powerful color filter to search fashion items in our catalog. It can be used to find the main color of an item, but also on little colored details like stripes or patches. |
-+-----------------------------------------------+-----------------------------------------------+ 
-| **Mars Rover**                                | **Picker Robot One (PKR1)**                   |
-| Best system/hardware prototyping project      | Working prototype of an autonomous robotic vehicle to perform arbitrary logistic tasks. |
-+-----------------------------------------------+-----------------------------------------------+ 
-| **Club-Mate**                                 | **The Zalando Cookbook**                      |
-| Best non-engineering project                  | Complete cookbook featuring recipes for fast and tasty food for the office without cooking. |
-+-----------------------------------------------+-----------------------------------------------+ 
-| **Cheap & Cheerful**                          | **Zalando Scream Map**                        |
-| Awarded for going after “low hanging fruit”,  | An interactive map displaying shop orders across Europe in real-time. |
-| i.e. best cost-benefit ratio                  |                                               |
-+-----------------------------------------------+-----------------------------------------------+ 
-| **Nikola Tesla**                              | **Kinect Shoe Recognition & Recommendation**  |
++-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
+| Award Category                                | Winner                                                                                                                                                                                                                                       | 
++===============================================+==============================================================================================================================================================================================================================================+ 
+| **Dream Team**                                | **Zalando Wardrobe**                                                                                                                                                                                                                         |
+| Team player award for most diverse team       | Concept of an Internet-enabled personal wardrobe seamlessly integrated into Zalando to extent the fashion shopping experience to your home.                                                                                                  |
++-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
+| **BSD 4.3**                                   | **256 Shades of Grey** (a.k.a. Zearch by Color)                                                                                                                                                                                              |
+| Best software coding project                  | Ultra-fast and powerful color filter to search fashion items in our catalog. It can be used to find the main color of an item, but also on little colored details like stripes or patches.                                                   |
++-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
+| **Mars Rover**                                | **Picker Robot One (PKR1)**                                                                                                                                                                                                                  |
+| Best system/hardware prototyping project      | Working prototype of an autonomous robotic vehicle to perform arbitrary logistic tasks.                                                                                                                                                      |
++-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
+| **Club-Mate**                                 | **The Zalando Cookbook**                                                                                                                                                                                                                     |
+| Best non-engineering project                  | Complete cookbook featuring recipes for fast and tasty food for the office without cooking.                                                                                                                                                  |
++-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
+| **Cheap & Cheerful**                          | **Zalando Scream Map**                                                                                                                                                                                                                       |
+| Awarded for going after “low hanging fruit”,  | An interactive map displaying shop orders across Europe in real-time.                                                                                                                                                                        |
+| i.e. best cost-benefit ratio                  |                                                                                                                                                                                                                                              |
++-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
+| **Nikola Tesla**                              | **Kinect Shoe Recognition & Recommendation**                                                                                                                                                                                                 |
 | Awarded for best innovation                   | Automated shoe recognition utilizing a motion sensing device (Microsoft Kinect) to detect various features of a shoe such as size, color, heel or shaft height. Combined with our catalog, it quickly recommends shoes that look much alike. |
-+-----------------------------------------------+-----------------------------------------------+ 
-| **31337**                                     | **Making the EventLog sing!**                 |
-| Awarded for the most geeky project            | An application that dynamically renders music from systems log files and the output of monitoring tools. |
-+-----------------------------------------------+-----------------------------------------------+ 
-| **Duke Nukem Forever**                        | n/a                                           |
-| Awarded for the most glorious or              | We will keep it for next time as all projects exceeded our expectations. |
-| spectacular fail                              |                                               |
-+-----------------------------------------------+-----------------------------------------------+ 
++-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
+| **31337**                                     | **Making the EventLog sing!**                                                                                                                                                                                                                |
+| Awarded for the most geeky project            | An application that dynamically renders music from systems log files and the output of monitoring tools.                                                                                                                                     |
++-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
+| **Duke Nukem Forever**                        | n/a                                                                                                                                                                                                                                          |
+| Awarded for the most glorious or              | We will keep it for next time as all projects exceeded our expectations.                                                                                                                                                                     |
+| spectacular fail                              |                                                                                                                                                                                                                                              |
++-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
 
 What we learned for next time
 -----------------------------

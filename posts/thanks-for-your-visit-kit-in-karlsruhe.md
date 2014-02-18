@@ -2,7 +2,7 @@
 .. title: Thanks for your visit @ KIT in Karlsruhe
 .. slug: thanks-for-your-visit-kit-in-karlsruhe
 .. date: 2013-05-21 17:08:37
-.. tags: career-fair,event,kit
+.. tags: career-fair,event,university-relation
 .. author: Philip Harborth
 .. image: kit2013_teaser.jpg
 -->

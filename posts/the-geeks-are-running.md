@@ -2,7 +2,7 @@
 .. title: THE GEEKS ARE RUNNING!
 .. slug: the-geeks-are-running
 .. date: 2013-06-07 14:08:38
-.. tags: event,running,sport
+.. tags: event,sport
 .. author: Rodrigo Reis
 .. image: running-geeks_teaser.jpg
 -->
