@@ -6,4 +6,4 @@
 .. description:
 .. type: text
 
-.. posts:: Platform
+.. posts:: platform

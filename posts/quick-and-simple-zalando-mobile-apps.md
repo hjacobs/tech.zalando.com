@@ -2,7 +2,7 @@
 .. title: Zalando Mobile Apps: "Quick & Simple to Use"
 .. slug: quick-and-simple-zalando-mobile-apps
 .. date: 2013-11-28 18:13:24
-.. tags: android,app,ios,iphone,mobile,mobile-api,mobile-app,zalando
+.. tags: android,ios,iphone,mobile
 .. author: Carsten Ernst
 .. image: app-tested.png
 -->
