@@ -23,3 +23,7 @@ First build:
 
 Now point your browser to http://localhost:8000/
 
+Editing files on Windows
+------------------------
+
+Please see http://stackoverflow.com/questions/2746692/restructuredtext-tool-support for editor support.
