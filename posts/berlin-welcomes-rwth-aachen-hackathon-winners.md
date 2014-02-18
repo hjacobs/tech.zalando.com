@@ -2,7 +2,7 @@
 .. title: RWTH Aachen Hackathon winners @ Zalando
 .. slug: berlin-welcomes-rwth-aachen-hackathon-winners
 .. date: 2013-07-08 15:40:52
-.. tags: events,hackathon,rwth-aachen,students,berlin
+.. tags: event,hackathon,rwth-aachen,student,berlin
 .. author: Ellen Nagel
 .. image: rwth-aachen-hackathon-winners-2013_teaser.jpg
 -->

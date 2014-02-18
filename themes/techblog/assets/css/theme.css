@@ -741,13 +741,14 @@ header .banner {
 }
 @media screen and (max-width: 599px) and (orientation: landscape) {
   header .banner.welcome {
-    height: 60px;
+    height: 100px;
     width: 100%;
+    background-size: cover;
   }
 }
 @media screen and (max-width: 599px) and (orientation: portrait) {
   header .banner.welcome {
-    height: 70px;
+    height: 100px;
     width: 100%;
   }
 }
@@ -759,7 +760,7 @@ header .banner {
     height: 50px;
   }
   header .banner.welcome {
-    height: 100px;
+    height: 130px;
     width: 100%;
   }
 }
@@ -771,7 +772,7 @@ header .banner {
     height: 75px;
   }
   header .banner.welcome {
-    height: 250px;
+    height: 200px;
     width: 100%;
   }
 }

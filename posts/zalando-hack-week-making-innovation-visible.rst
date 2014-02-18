@@ -1,10 +1,11 @@
 .. title: Zalando Hack Week - Making Innovation Visible
-.. description: Learn more about "Hack Week" at Zalando, one playful week for everyone to brainstorm and execute innovative ideas without limits across teams and functions.
+.. description: Learn more about Hack Week at Zalando, one playful week for everyone to brainstorm and execute innovative ideas without limits across teams and functions.
 .. slug: zalando-hack-week
 .. date: 2014-02-12 01:33:37
 .. tags: design-thinking, event, hack-week, innovation
 .. author: Bastian Gerhard
 .. type: text
+.. image: hack_week_awards.jpg
 
 **Five years of extremely fast growth and continuous success lie behind us. Always
 forward-focused, we hardly had time to look left or right. But for one week in
@@ -12,12 +13,6 @@ late December, our Technology department made a full stop and let the year wind
 down with playful innovation and experimentation. Say “Hi” to Hack Week – one
 week for over 400 people to brainstorm and execute their very own ideas without
 limits across teams, functions and several office locations.**
-
-.. image: hack_week_awards.jpg
-   :width: 265
-   :height: 300
-   :align: right
-   :alt: Our Hack Week awards – all handmade!
 
 .. TEASER_END
 
@@ -51,9 +46,9 @@ left into the holidays. The most memorable moments of the week were captured on
 camera (see video below).
 
 .. youtube:: SU-IUjDnGes
-   :height: 399
-   :width: 710
-
+   :width: 650
+   :height: 366
+   
 Impressive outcome
 ------------------
 
@@ -67,14 +62,6 @@ underlying business processes and our office culture as a whole.
 
 The award winners should provide a rough understanding about the overall quality
 of Hack Week’s outcome:
-
-+-----------------------------------------------+-----------------------------------------------+ 
-| Award Category                                | Winner                                        | 
-+===============================================+===============================================+ 
-| **Dream Team**                                | **Zalando Wardrobe**                          |
-+-----------------------------------------------+-----------------------------------------------+ 
-
-test
 
 +-----------------------------------------------+-----------------------------------------------+ 
 | Award Category                                | Winner                                        | 

@@ -6,4 +6,4 @@
 .. description:
 .. type: text
 
-.. posts:: OpenSource
+.. posts:: open-source
