@@ -22,7 +22,7 @@
 
         {{ helper.html_title() }}
 
-        <img src="images/authors/{{ post.slug|e }}.jpg" />
+        <img src="/images/authors/{{ post.meta('slug')|e }}.jpg" />
 
         <!--The Articles content -->
         <div itemprop="articleBody text">

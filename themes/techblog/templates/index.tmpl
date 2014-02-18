@@ -54,7 +54,11 @@
 
                     from
 
-                    {% include 'author.tmpl' %}
+            <a href="/authors/{{ slugify(post.meta('author'))|e }}.html" rel="author">
+
+                {{ post.meta('author')|e }}
+
+            </a>
 
                 {% endif %}
 
