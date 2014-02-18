@@ -2,7 +2,7 @@
 .. title: Trainee Program Product Management
 .. slug: trainee-program-product-management
 .. date: 2014-01-08 19:24:56
-.. tags: events,product-management,trainee
+.. tags: event,product-management,trainee
 .. author: Marc Lamik
 -->
 

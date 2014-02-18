@@ -2,7 +2,7 @@
 .. title: Women @Zalando Technology
 .. slug: women-zalando-technology
 .. date: 2013-05-31 10:03:41
-.. tags: events
+.. tags: event
 .. author: Anna Moersch
 .. image: women_teaser.jpg
 -->
