@@ -73,6 +73,9 @@ ul,
 ol {
   list-style: none;
 }
+iframe {
+  border: 0;
+}
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -609,29 +612,20 @@ table {
   cursor: pointer;
 }
 .content,
-main .postbox,
-.pages h1,
-article,
-.pager {
+main {
   margin-right: auto;
   margin-left: auto;
   width: 90%;
 }
 @media screen and (max-width: 1023px) {
   .content,
-  main .postbox,
-  .pages h1,
-  article,
-  .pager {
+  main {
     max-width: 600px;
   }
 }
 @media screen and (min-width: 1024px) {
   .content,
-  main .postbox,
-  .pages h1,
-  article,
-  .pager {
+  main {
     max-width: 650px;
   }
 }
@@ -984,6 +978,27 @@ main h3 a {
 .pages h2 a {
   text-decoration: none;
 }
+.pages h1 + div > p {
+  border: 1px solid #dddddd;
+  border-width: 0 0 1px 0;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 1023px) {
+  .pages h1 + div > p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .pages h1 + div > p {
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin-bottom: 60px;
+  }
+}
 @media screen and (max-width: 599px) {
   article {
     margin-bottom: 30px;
@@ -1128,12 +1143,19 @@ article ol {
   list-style: decimal;
 }
 article table {
+  border: 1px solid #dddddd;
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
   border-spacing: 10px;
   border-collapse: collapse;
 }
-article table td {
-  padding-bottom: 10px;
-  padding-right: 10px;
+article th,
+article td {
+  padding: 10px;
+}
+article th {
+  vertical-align: middle;
 }
 article dd {
   margin-bottom: 10px;
@@ -1143,6 +1165,10 @@ article tt {
   background-color: #f8f8f8;
   padding: 2px 5px 1px;
   white-space: pre;
+}
+article iframe {
+  margin-bottom: 20px;
+  width: 100%;
 }
 article .signature {
   margin-top: 20px;

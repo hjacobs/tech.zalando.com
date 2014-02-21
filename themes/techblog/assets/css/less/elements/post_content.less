@@ -91,14 +91,22 @@
 
         // TABLES
         table {
+            .borderDefault();
+            .dimension(auto, 100%);
+            .dMarginBottom;
             border-spacing: @distanceDefault;
             border-collapse: collapse;
-
-            td {
-                .paddingBottom;
-                .paddingRight
-            }
         }
+
+        th,
+        td {
+            .padding;
+        }
+
+        th {
+            vertical-align: middle;
+        }
+
 
         dd {
             .marginBottom;
@@ -109,6 +117,12 @@
             background-color: @codeBgr;
             padding: 2px 5px 1px;
             white-space: pre;
+        }
+
+        // IFRAME
+        iframe {
+            .dMarginBottom;
+            width: 100%;
         }
 
         // Signature under the post

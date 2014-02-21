@@ -2,7 +2,6 @@
     //PAGEES (Static content)-------------------------------------------------------------------------------------------
     .pages {
         h1 {
-            &:extend(.content);
             &:extend(article h1);
         }
 
@@ -19,6 +18,26 @@
 
             a {
                 .noUnderline;
+            }
+        }
+
+        // Ugly and need to be change by Henning in Python
+        h1 + div > p {
+            .border(bottom);
+            .dPaddingBottom;
+
+            @media screen and (max-width: (@screenDesktop - 1px)) {
+
+                .font(@fontSizeDefault, normal, @lineHeightDefault);
+                margin-bottom: @distanceDefault * 3;
+
+            }
+
+            @media screen and (min-width: @screenDesktop) {
+
+                .font(@fontSizeDefault + 1px);
+                margin-bottom: @distanceDefault * 6;
+
             }
         }
     }

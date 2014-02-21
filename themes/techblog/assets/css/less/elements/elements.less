@@ -1,6 +1,8 @@
 
     // STICKY FOOTER ()-------------------------------------------------------------------------------------------------
     main {
+        &:extend(.content);
+
         .borderBox;
         min-height: 100%;
         padding-bottom: @distanceDefault * 10;
@@ -8,7 +10,7 @@
 
 
         .postbox {
-            &:extend(.content);
+            //&:extend(.content);
 
             a {
                 text-decoration: none;
