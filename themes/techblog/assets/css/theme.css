@@ -978,13 +978,15 @@ main h3 a {
 .pages h2 a {
   text-decoration: none;
 }
-.pages h1 + div > p {
+.pages h1 + div > p,
+.pages h1 + p {
   border: 1px solid #dddddd;
   border-width: 0 0 1px 0;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 1023px) {
-  .pages h1 + div > p {
+  .pages h1 + div > p,
+  .pages h1 + p {
     font-size: 16px;
     font-weight: normal;
     line-height: 1.5em;
@@ -992,7 +994,8 @@ main h3 a {
   }
 }
 @media screen and (min-width: 1024px) {
-  .pages h1 + div > p {
+  .pages h1 + div > p,
+  .pages h1 + p {
     font-size: 17px;
     font-weight: normal;
     line-height: 1.5em;
@@ -1567,10 +1570,8 @@ article p img {
   }
 }
 .socialMedia {
-  margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
   display: table;
+  margin: 0 auto 30px;
 }
 .socialMedia .facebook,
 .socialMedia .twitter {
