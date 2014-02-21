@@ -666,7 +666,11 @@ header {
   height: auto;
   width: 100%;
   float: left;
-  background-color: #fe6a00;
+}
+@media screen and (min-width: 600px) {
+  header {
+    background-color: #fe6a00;
+  }
 }
 header .navBar,
 header .banner {
@@ -677,6 +681,7 @@ header .navBar {
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
+  background-color: #fe6a00;
   max-width: 1000px;
 }
 header .zalando {
@@ -734,6 +739,7 @@ header .banner {
   background-color: #ffffff;
   background-position: center bottom;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 @media screen and (max-width: 599px) {
   header .banner {
@@ -743,16 +749,15 @@ header .banner {
     height: 25px;
   }
 }
-@media screen and (max-width: 599px) and (orientation: landscape) {
-  header .banner.welcome {
-    height: 100px;
-    width: 100%;
-    background-size: cover;
-  }
-}
 @media screen and (max-width: 599px) and (orientation: portrait) {
   header .banner.welcome {
-    height: 100px;
+    height: 80px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 599px) and (orientation: landscape) {
+  header .banner.welcome {
+    height: 70px;
     width: 100%;
   }
 }
@@ -768,10 +773,12 @@ header .banner {
     width: 100%;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (min-width: 1024px) {
   header .banner {
     background-image: url('../img/welcome.jpg');
   }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
   header .banner:not(.welcome) {
     height: 75px;
   }
@@ -781,15 +788,13 @@ header .banner {
   }
 }
 @media screen and (min-width: 1440px) {
-  header .banner {
-    background-image: url('../img/welcome.jpg');
-  }
   header .banner:not(.welcome) {
     height: 100px;
   }
   header .banner.welcome {
-    height: 300px;
+    height: 253px;
     width: 100%;
+    background-size: cover;
   }
 }
 nav {
@@ -824,8 +829,8 @@ nav ul {
 }
 @media screen and (max-width: 767px) {
   nav ul {
-    border: 1px solid #dddddd;
-    border-width: 1px 0 0 0;
+    border: 1px solid #fe6a00;
+    border-width: 0 0 3px 0;
     padding-bottom: 10px;
     background-color: #f7f7f7;
   }
