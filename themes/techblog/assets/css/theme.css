@@ -1000,12 +1000,12 @@ main h3 a {
   }
 }
 @media screen and (max-width: 599px) {
-  article {
+  article:not(.blogPost) {
     margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 600px) {
-  article {
+  article:not(.blogPost) {
     margin-bottom: 60px;
   }
 }
@@ -1047,6 +1047,16 @@ article h1,
     line-height: 1.5em;
     margin-bottom: 20px;
     text-align: center;
+  }
+}
+@media screen and (max-width: 599px) {
+  article.blogPost {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 600px) {
+  article.blogPost {
+    margin-bottom: 30px;
   }
 }
 article.blogPost h1:after {
@@ -1143,11 +1153,13 @@ article ol {
   list-style: decimal;
 }
 article table {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #dddddd;
   height: auto;
   width: 100%;
   margin-bottom: 20px;
-  border-spacing: 10px;
   border-collapse: collapse;
 }
 article th,
@@ -1173,6 +1185,7 @@ article iframe {
 article .signature {
   margin-top: 20px;
   padding: 0;
+  overflow: hidden;
 }
 article .signature img {
   float: left;
@@ -1552,6 +1565,46 @@ article p img {
   .pager .next a:after {
     right: 2px;
   }
+}
+.socialMedia {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+}
+.socialMedia .facebook,
+.socialMedia .twitter {
+  float: left;
+  width: 130px;
+}
+.socialMedia .facebook {
+  margin-right: 10px;
+  text-align: right;
+}
+.socialMedia a {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: 'iconSet';
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  speak: none;
+  line-height: 1;
+  white-space: nowrap;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  color: #999999;
+  padding: 5px 3px;
+}
+.socialMedia a:hover {
+  color: #333333;
 }
 footer {
   -moz-box-sizing: border-box;

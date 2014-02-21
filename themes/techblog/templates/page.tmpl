@@ -26,15 +26,15 @@
 
         {{ helper.html_title() }}
 
-            {% if post.meta('image') %}
+        {% if post.meta('image') %}
 
-                {% include 'teaser_image.tmpl' %}
+            {% include 'teaser_image.tmpl' %}
 
-            {% endif %}
+        {% endif %}
 
-            {{ post.text() }}
+        {{ post.text() }}
 
-            {% if post.description() %}
+        {% if post.description() %}
 
             <meta content="{{ post.description() }}" itemprop="description">
 
