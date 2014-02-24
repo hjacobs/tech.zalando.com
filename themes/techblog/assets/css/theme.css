@@ -978,15 +978,13 @@ main h3 a {
 .pages h2 a {
   text-decoration: none;
 }
-.pages h1 + div > p,
-.pages h1 + p {
+.pages .teaser {
   border: 1px solid #dddddd;
   border-width: 0 0 1px 0;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 1023px) {
-  .pages h1 + div > p,
-  .pages h1 + p {
+  .pages .teaser {
     font-size: 16px;
     font-weight: normal;
     line-height: 1.5em;
@@ -994,13 +992,22 @@ main h3 a {
   }
 }
 @media screen and (min-width: 1024px) {
-  .pages h1 + div > p,
-  .pages h1 + p {
+  .pages .teaser {
     font-size: 17px;
     font-weight: normal;
     line-height: 1.5em;
     margin-bottom: 60px;
   }
+}
+.pages .legalNote {
+  text-align: center;
+}
+.pages .legalNote strong {
+  display: block;
+  padding-bottom: 5px;
+}
+.pages .legalNote p {
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 599px) {
   article:not(.blogPost) {

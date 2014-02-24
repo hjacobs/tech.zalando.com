@@ -22,8 +22,7 @@
         }
 
         // Ugly and need to be change by Henning in Python
-        h1 + div > p,
-        h1 + p {
+        .teaser {
             .border(bottom);
             .dPaddingBottom;
 
@@ -39,6 +38,19 @@
                 .font(@fontSizeDefault + 1px);
                 margin-bottom: @distanceDefault * 6;
 
+            }
+        }
+
+        .legalNote {
+            .textCenter;
+
+            strong {
+                .block;
+                padding-bottom: @distanceDefault / 2;
+            }
+
+            p {
+                .dMarginBottom;
             }
         }
     }

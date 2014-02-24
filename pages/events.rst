@@ -6,6 +6,8 @@
 .. description:
 .. type: text
 
+.. class:: teaser
+
 At Zalando Technology we attach high importance to connect with other people within and without Zalando to share
 expertise and ideas via various events. When it comes to internal relations we regularly hold Tech Talks. Sometimes
 we welcome guest speakers, either from another team within Zalando or a subject matter expert in Berlin. During these
@@ -14,6 +16,7 @@ we have the opportunity to attend or speak at `tech conferences`_ across Europe.
 communities we regularly host meet-ups. Furthermore we invest in university relations, do workshops and participate
 in career fairs. All in all, attending these and other events is a great chance for us to develop ourselfs and others
 in terms of tech- greatness!
+
 
 .. posts:: event
 
