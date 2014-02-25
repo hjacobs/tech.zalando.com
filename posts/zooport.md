@@ -2,7 +2,7 @@
 .. title: Introducing Technology's Zooport
 .. slug: zooport
 .. date: 2013-08-20 10:00:47
-.. tags: database,dba,development,support,sysop,test-engineering,testing,zooport
+.. tags: database,dba,development,support,sysop,test-engineering,testing,zooport,platform
 .. author: Enrico Hartung
 .. image: zooport_teaser.png
 -->

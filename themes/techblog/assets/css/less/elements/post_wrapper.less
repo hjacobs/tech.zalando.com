@@ -1,14 +1,21 @@
 
     // ARTICLE (on homepage and detail)---------------------------------------------------------------------------------
     article {
-        &:extend(.content);
+        //&:extend(.content);
 
-        @media screen and (max-width: (@screenTabletPortrait - 1px)) {
-            margin-bottom: @distanceDefault * 3;
-        }
+        &:not(.blogPost) {
 
-        @media screen and (min-width: @screenTabletPortrait) {
-            margin-bottom: @distanceDefault * 6;
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+                margin-bottom: @distanceDefault * 3;
+
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                margin-bottom: @distanceDefault * 6;
+
+            }
         }
 
         & > div {
@@ -50,6 +57,18 @@
         }
 
         &.blogPost {
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+                margin-bottom: @distanceDefault * 2;
+
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                margin-bottom: @distanceDefault * 3;
+
+            }
 
             // Headline gets published date
             h1:after {

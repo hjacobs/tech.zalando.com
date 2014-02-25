@@ -2,8 +2,14 @@
     //PAGEES (Static content)-------------------------------------------------------------------------------------------
     .pages {
         h1 {
-            &:extend(.content);
             &:extend(article h1);
+        }
+
+        h2,
+        h3,
+        h4 {
+            .clear;
+            .paddingVertical;
         }
 
         h2 + div {
@@ -19,6 +25,66 @@
 
             a {
                 .noUnderline;
+            }
+        }
+
+        p {
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+                .paddingBottom;
+
+            }
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .dPaddingBottom;
+
+            }
+        }
+
+        p,
+        li {
+
+            @media screen and (max-width: (@screenDesktop - 1px)) {
+
+                .font(@fontSizeDefault, normal, @lineHeightDefault);
+
+            }
+
+            @media screen and (min-width: @screenDesktop) {
+
+                .font(@fontSizeDefault + 1px);
+
+            }
+        }
+
+        // Ugly and need to be change by Henning in Python
+        .teaser {
+            .border(bottom);
+            .dPaddingBottom;
+
+            @media screen and (max-width: (@screenDesktop - 1px)) {
+
+                .font(@fontSizeDefault, normal, @lineHeightDefault);
+                margin-bottom: @distanceDefault * 3;
+
+            }
+
+            @media screen and (min-width: @screenDesktop) {
+
+                .font(@fontSizeDefault + 1px);
+                margin-bottom: @distanceDefault * 6;
+
+            }
+        }
+
+        .legalNote {
+            .textCenter;
+
+            strong {
+                .block;
+                padding-bottom: @distanceDefault / 2;
             }
         }
     }

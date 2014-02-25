@@ -18,14 +18,15 @@
 
 {% block content %}
 
-    <article itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="author" itemscope itemtype="http://schema.org/BlogPosting">
 
         {{ helper.html_title() }}
 
-        <img src="/images/authors/{{ post.meta('slug')|e }}.jpg" />
 
         <!--The Articles content -->
         <div itemprop="articleBody text">
+
+            <img src="/images/authors/{{ post.meta('slug')|e }}.jpg" />
 
             {{ post.text() }}
 

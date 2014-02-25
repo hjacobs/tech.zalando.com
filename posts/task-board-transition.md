@@ -2,7 +2,7 @@
 .. title: Task Board Transition
 .. slug: task-board-transition
 .. date: 2013-12-12 10:01:46
-.. tags: analog,backend,board,digital,transition
+.. tags: task-board,jira,kanban,agile
 .. author: Lothar Schulz
 .. image: 20131025_094912_teaser.jpg
 -->

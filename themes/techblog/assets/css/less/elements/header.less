@@ -3,7 +3,12 @@
     header {
         .dimension(auto, 100%);
         .left;
-        background-color: @zColorOrange;
+
+        @media screen and (min-width: @screenTabletPortrait) {
+
+            background-color: @zColorOrange;
+
+        }
 
         .navBar,
         .banner {
@@ -14,6 +19,7 @@
         .navBar {
             .marginAuto;
             .overHidden;
+            background-color: @zColorOrange;
             max-width: 1000px;
         }
 
@@ -60,6 +66,7 @@
             background-color: @white;
             background-position: center bottom;
             background-repeat: no-repeat;
+            background-size: cover;
 
             @media screen and (max-width: (@screenTabletPortrait - 1px)) {
 
@@ -72,21 +79,20 @@
             }
 
             @media screen and (max-width: (@screenTabletPortrait - 1px))
-                          and (orientation: landscape) {
+                          and (orientation: portrait) {
 
                 &.welcome {
-                    .dimension(@distanceDefault * 10, 100%);
-                    background-size: cover;
+                    .dimension(@distanceDefault * 8, 100%);
                 }
 
             }
 
+
             @media screen and (max-width: (@screenTabletPortrait - 1px))
-                          and (orientation: portrait) {
+            and (orientation: landscape) {
 
                 &.welcome {
-                    .dimension(@distanceDefault * 10, 100%);
-                    //background-size: contain;
+                    .dimension(@distanceDefault * 7, 100%);
                 }
 
             }
@@ -106,10 +112,14 @@
 
             }
 
-            @media screen and (min-width: @screenDesktop)
-                          and (max-width: (@screenDesktopLarge - 1px)) {
+            @media screen and (min-width: @screenDesktop) {
 
                 background-image: url('../img/welcome.jpg');
+
+            }
+
+            @media screen and (min-width: @screenDesktop)
+                          and (max-width: (@screenDesktopLarge - 1px)) {
 
                 &:not(.welcome) {
                     height: @distanceDefault * 7.5;
@@ -122,14 +132,13 @@
 
             @media screen and (min-width: @screenDesktopLarge) {
 
-                background-image: url('../img/welcome.jpg');
-
                 &:not(.welcome) {
                     height: @distanceDefault * 10;
                 }
 
                 &.welcome {
-                    .dimension(@distanceDefault * 30, 100%);
+                    .dimension(@distanceDefault * 25.3, 100%);
+                    background-size: cover;
                 }
             }
         }

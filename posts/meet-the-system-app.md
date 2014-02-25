@@ -2,7 +2,7 @@
 .. title: The System App, yet another OS tool by Zalando
 .. slug: meet-the-system-app
 .. date: 2013-10-28 10:47:41
-.. tags: coffeescript,development,json,mongodb,monitoring,nagios,node,open-source,platform,svg,system,system-app
+.. tags: coffeescript,development,json,mongodb,monitoring,nagios,node,open-source,platform,svg
 .. author: Igor Ramadas
 .. image: system-app.jpg
 -->

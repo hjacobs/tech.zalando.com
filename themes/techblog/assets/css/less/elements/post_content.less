@@ -91,14 +91,22 @@
 
         // TABLES
         table {
-            border-spacing: @distanceDefault;
+            .borderBox;
+            .borderDefault();
+            .dimension(auto, 100%);
+            .dMarginBottom;
             border-collapse: collapse;
-
-            td {
-                .paddingBottom;
-                .paddingRight
-            }
         }
+
+        th,
+        td {
+            .padding;
+        }
+
+        th {
+            vertical-align: middle;
+        }
+
 
         dd {
             .marginBottom;
@@ -111,9 +119,25 @@
             white-space: pre;
         }
 
+        // IFRAME
+        iframe {
+            .dMarginBottom;
+            width: 100%;
+        }
+
         // Signature under the post
         .signature {
             .dMarginTop;
             .noPadding;
+            .overHidden;
+
+            img {
+                .left;
+                padding-top: @distanceDefault / 2;
+                height: auto;
+                max-height: @distanceDefault * 6;
+                max-width: @distanceDefault * 6;
+                widows: auto;
+            }
         }
     }
