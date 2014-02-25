@@ -20,18 +20,7 @@ lang="{{ lang }}">
 
 <main>
 
-
-    <!--<h1 id="blog-title">
-        <a href="{{ abs_link('/') }}" title="{{ blog_title }}" rel="home">{{ blog_title }}</a>
-    </h1>-->
-
     {% block belowtitle %}
-        {% if translations|length > 1 %}
-        <small>
-            {{ messages("Also available in") }}:&nbsp;
-            {{ base.html_translations() }}
-        </small>
-    {% endif %}
     {% endblock %}
     {% block content %}{% endblock %}
 
