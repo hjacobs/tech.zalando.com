@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
-import time
+import os
 
 # Configuration, please edit
 
@@ -115,7 +115,7 @@ PAGES = ('pages/*.rst', 'pages', 'page.tmpl'), ('authors/*.rst', 'authors', 'aut
 # 'rest' is reStructuredText
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
-COMPILERS = {'rest': ('.rst',), 'markdown': ('.md',), 'html': ('.html',)}
+COMPILERS = {'rest': ('.rst', ), 'markdown': ('.md', ), 'html': ('.html', )}
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -219,6 +219,58 @@ COMPILERS = {'rest': ('.rst',), 'markdown': ('.md',), 'html': ('.html',)}
 # FILTERS = {
 #    ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
 # }
+from nikola import filters
+from functools import partial
+import re
+
+WHITESPACE_PATTERN = re.compile('\s+')
+PRE_BLOCKS = re.compile(r'<pre.*?pre>', re.DOTALL)
+PARAGRAPH_READ_MORE = re.compile(r'</p>\s*<a class="readMore" (.*?)</a>', re.DOTALL)
+
+
+def repl(m, captures):
+    name = '$$CAPTURE-{}$$'.format(len(captures))
+    captures[name] = m.group(0)
+    return name
+
+
+def compress_whitespace(raw):
+    '''
+    >>> compress_whitespace('a  b')
+    'a b'
+    >>> compress_whitespace('a <pre> \\n </pre> b')
+    'a <pre> \\n </pre> b'
+    '''
+
+    text = raw.decode('utf8')
+    captures = {}
+    text = PRE_BLOCKS.sub(partial(repl, captures=captures), text)
+    text = WHITESPACE_PATTERN.sub(' ', text)
+    for key, val in captures.items():
+        text = text.replace(key, val)
+    return text.encode('utf8')
+
+
+def make_read_more_inline(raw):
+    '''
+    >>> make_read_more_inline('<p>abc</p> <a class="readMore" href="..">lnk</a>')
+    '<p>abc <a href="..">lnk</a></p>'
+    '''
+
+    text = PARAGRAPH_READ_MORE.sub(r' <a \1</a></p>', raw.decode('utf8'))
+    return text.encode('utf8')
+
+
+def filter_html(raw):
+    raw = compress_whitespace(raw)
+    raw = make_read_more_inline(raw)
+    return raw
+
+
+FILTERS = {'.html': [filters.apply_to_file(filter_html)]}  # '.css': [filters.yui_compressor],
+                                                           # '.js': [filters.yui_compressor],
+                                                           # '.jpg': [filters.jpegoptim],
+                                                           # '.png': [filters.optipng],
 
 # Expert setting! Create a gzipped copy of each generated file. Cheap server-
 # side optimization for very high traffic sites or low memory servers.
@@ -298,7 +350,7 @@ INDEX_TEASERS = True
 # {read_more}   The string “Read more” in the current language.
 # {{            A literal { (U+007B LEFT CURLY BRACKET)
 # }}            A literal } (U+007D RIGHT CURLY BRACKET)
-READ_MORE_LINK = '<a href="{link}">{read_more}…</a>'
+READ_MORE_LINK = '<a class="readMore" href="{link}">{read_more}…</a>'
 
 # A HTML fragment describing the license, for the sidebar.
 LICENSE = ''
@@ -314,7 +366,7 @@ LICENSE = ''
 # Default is ''
 CONTENT_FOOTER = ''
 #    'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         {license}'
-#CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL, author=BLOG_AUTHOR, date=time.gmtime().tm_year, license=LICENSE)
+# CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL, author=BLOG_AUTHOR, date=time.gmtime().tm_year, license=LICENSE)
 
 # To use comments, you can choose between different third party comment
 # systems, one of "disqus", "livefyre", "intensedebate", "moot",
@@ -616,6 +668,20 @@ LOGGING_HANDLERS = {'stderr': {'loglevel': 'WARNING', 'bubble': True}}
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-
 from nikola.utils import slugify
-GLOBAL_CONTEXT = {'slugify': slugify}
+
+
+def get_author_title(author_name):
+    slug = slugify(author_name)
+    try:
+        with open(os.path.join('authors', slug + '.rst')) as fd:
+            for line in fd:
+                if line.startswith('.. author_title:'):
+                    key, value = line.split(':', 1)
+                    return value.strip()
+    except:
+        pass
+    return ''
+
+
+GLOBAL_CONTEXT = {'slugify': slugify, 'get_author_title': get_author_title}
