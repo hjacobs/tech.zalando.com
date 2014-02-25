@@ -13,34 +13,18 @@
 
             </h1>
 
-                {% if index_teasers %}
+                {# Add a <div> just for that Rich Data Item #}
+                <div itemprop="description">
 
-                    {# Add a <div> just for that Rich Data Item #}
-                    <div itemprop="description">
+                    {% if post.meta('image') %}
 
-                        {% if post.meta('image') %}
+                        {% include 'teaser_image.tmpl' %}
 
-                            {% include 'teaser_image.tmpl' %}
+                    {% endif %}
 
-                        {% endif %}
-
-                        {{ post.text(teaser_only=True) }}
-
-                {% else %}
-
-                    {# Add a <div> just for that Rich Data Item #}
-                    <div itemprop="articleBody">
-
-                        {{ post.text(teaser_only=False) }}
-
-                {% endif %}
+                    {{ post.text(teaser_only=True) }}
 
             </div>
-
-            {% if not post.meta('nocomments') %}
-                {{ comments.comment_link(post.permalink(), post._base_path) }}
-            {% endif %}
-
 
             <small>
 
@@ -70,6 +54,5 @@
 
     {{ helper.html_pager() }}
 
-    {{ comments.comment_link_script() }}
 	{{ helper.mathjax_script(posts) }}
 {% endblock %}
