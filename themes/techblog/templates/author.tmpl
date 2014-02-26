@@ -1,15 +1,11 @@
 
     <a href="/authors/{{ slugify(post.meta('author'))|e }}.html" rel="author">
-
         <img src="/images/authors/{{ slugify(post.meta('author'))|e }}.jpg" />
-
-        {{ post.meta('author')|e }}
-
-    </a>
+        {{ post.meta('author')|e }}</a>
 
     {% if not index_teasers %}
 
         <br>
-        Lorem Ipsum
+        {{ get_author_title(post.meta('author'))|e }}
 
     {% endif %}

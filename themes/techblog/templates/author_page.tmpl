@@ -20,8 +20,17 @@
 
     <article class="author" itemscope itemtype="http://schema.org/BlogPosting">
 
-        {{ helper.html_title() }}
+        <h1 itemprop="name author">
 
+            {{ title|e }}
+
+            <span>
+
+                {{ post.meta('author_title')|e }}
+
+            </span>
+
+        </h1>
 
         <!--The Articles content -->
         <div itemprop="articleBody text">
@@ -38,25 +47,10 @@
 
         {% endif %}
 
-        <small>
 
-            {{ messages("Posted") }}:
+        {{ helper.html_pager(post) }}
 
-            <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
-
-                {{ post.formatted_date(date_format) }}
-
-            </time>
-
-            {{ helper.html_tags(post) }}
-
-
-        </small>
-
-
-    {{ helper.html_pager(post) }}
-
-    {{ helper.mathjax_script(post) }}
+        {{ helper.mathjax_script(post) }}
 
     </article>
 

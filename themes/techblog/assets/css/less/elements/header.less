@@ -25,19 +25,24 @@
 
         // ZALANDO LOGO SVG
         .zalando {
-            .font(@fontSizeHeaderIcon);
-            .icon;
+            .font(@fontSizeSmallHeader, normal, 1.1em);
+            .inlineBlock;
             .left;
+            .marginLeft;
+            .uppercase;
             color: @white;
-            margin: (@distanceDefault * .7) @distanceDefault;
+            margin-top: (@distanceDefault * .7);
+            min-width: @distanceDefault * 15;
+            text-decoration: none;
 
-            &:after {
-                .font(@fontSizeSmallHeader, normal, 1.1em);
-                .pseudo('Zalando. \A We dress Code.', inline-block);
-                .uppercase;
-                font-family: @defaultFontFamily;
-                padding-left: @distanceDefault / 2;
-                white-space:pre;
+            &:before {
+                .dimension(26px);
+                .font(@fontSizeHeaderIcon);
+                .icon;
+                .left;
+                .pseudo('technologie');
+                padding-right: @distanceDefault / 2;
+
             }
 
             @media screen and (min-width: @screenTabletLandscape) {

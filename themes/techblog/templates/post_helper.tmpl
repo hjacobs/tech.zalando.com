@@ -1,8 +1,21 @@
 {#  -*- coding: utf-8 -*- #}
 {% macro html_title() %}
 
-    <h1 itemprop="name" data-posted="by {{ post.meta('author')|e }} - {{ post.formatted_date('%B %Y')|e }}">
+    <h1 itemprop="name">
+
         {{ title|e }}
+
+        <span>
+
+            {% if author %}
+                sdfsdfgdfhg
+            {% endif %}
+
+            by
+            <a href="/authors/{{ slugify(post.meta('author'))|e }}.html" rel="author">{{ post.meta('author')|e }}</a>
+            - {{ post.formatted_date('%B %Y')|e }}"
+        </span>
+
     </h1>
 
     {% if link %}

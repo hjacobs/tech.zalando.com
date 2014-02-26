@@ -3,6 +3,7 @@
 {% import 'comments_helper.tmpl' as comments with context %}
 {% extends 'base.tmpl' %}
 {% block content %}
+
     {% for post in posts %}
 
         <article class="blogPostTeaser" itemscope itemtype="http://schema.org/BlogPosting">
@@ -11,58 +12,30 @@
 
                 <a href="{{ post.permalink() }}" itemprop="url">{{ post.title() }}</a>
 
+                <span>
+                    by
+                    <a href="/authors/{{ slugify(post.meta('author'))|e }}.html" rel="author">{{ post.meta('author')|e }}</a>
+                    -
+                    <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
+                        {{ post.formatted_date('%B %Y')|e }}
+                    </time>
+
+                </span>
+
             </h1>
 
-                {% if index_teasers %}
+            {# Add a <div> just for that Rich Data Item #}
+            <div itemprop="description">
 
-                    <!--Add a <div> just for that Rich Data Item-->
-                    <div itemprop="description">
+                {% if post.meta('image') %}
 
-                        {% if post.meta('image') %}
-
-                            {% include 'teaser_image.tmpl' %}
-
-                        {% endif %}
-
-                        {{ post.text(teaser_only=True) }}
-
-                {% else %}
-
-                    <!--Add a <div> just for that Rich Data Item-->
-                    <div itemprop="articleBody">
-
-                        {{ post.text(teaser_only=False) }}
+                    {% include 'teaser_image.tmpl' %}
 
                 {% endif %}
 
-            </div>
+                {{ post.text(teaser_only=True) }}
 
-            {% if not post.meta('nocomments') %}
-                {{ comments.comment_link(post.permalink(), post._base_path) }}
-            {% endif %}
-
-
-            <small>
-
-                {{ messages("Posted") }} on
-
-                <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
-                    {{ post.formatted_date(date_format) }}
-                </time>
-
-                {% if post.meta('author') %}
-
-                    from
-
-            <a href="/authors/{{ slugify(post.meta('author'))|e }}.html" rel="author">
-
-                {{ post.meta('author')|e }}
-
-            </a>
-
-                {% endif %}
-
-            </small>
+        </div>
 
         </article>
 
@@ -70,6 +43,5 @@
 
     {{ helper.html_pager() }}
 
-    {{ comments.comment_link_script() }}
 	{{ helper.mathjax_script(posts) }}
 {% endblock %}
