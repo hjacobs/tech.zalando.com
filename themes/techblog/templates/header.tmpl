@@ -5,7 +5,7 @@
 
 {% endif %}
 
-{% if not index_teasers %}
+{% if not permalink == '/index.html' %}
 
     {% set link = ' href="/"' %}
 
@@ -32,7 +32,7 @@
                     <a href="/pages/team.html">Team & Tech</a>
                 </li>
                 <li>
-                    <a href="/pages/events.html">Events</a>
+                    <a href="/pages/events.html" {{ 'class="active"' if 'events.html' in permalink }}>Events</a>
                 </li>
                 <li>
                     <a href="http://jobs.zalando.de/en/jobs/technology" target="_blank">Jobs</a>
