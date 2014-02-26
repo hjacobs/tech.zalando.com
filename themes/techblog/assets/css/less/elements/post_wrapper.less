@@ -19,7 +19,6 @@
         }
 
         & > div {
-            .border(bottom);
             .overHidden;
 
             @media screen and (max-width: (@screenTabletPortrait - 1px)) {
@@ -54,6 +53,18 @@
                 .textCenter;
 
             }
+
+            // Headline gets published date
+            span {
+                .block;
+                .font(@fontSizeDefault, normal, @lineHeightDefault);
+                content: attr(data-posted);
+                color: @colorHeadlineNote;
+
+                a {
+                    text-decoration: underline;
+                }
+            }
         }
 
         &.blogPost {
@@ -68,14 +79,6 @@
 
                 margin-bottom: @distanceDefault * 3;
 
-            }
-
-            // Headline gets published date
-            h1:after {
-                .block;
-                .font(@fontSizeDefault, normal, @lineHeightDefault);
-                content: attr(data-posted);
-                color: @colorLightFont;
             }
         }
 

@@ -1056,8 +1056,6 @@ main h3 a {
   }
 }
 article > div {
-  border: 1px solid #dddddd;
-  border-width: 0 0 1px 0;
   overflow: hidden;
 }
 @media screen and (max-width: 599px) {
@@ -1095,6 +1093,17 @@ article h1,
     text-align: center;
   }
 }
+article h1 span {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5em;
+  content: attr(data-posted);
+  color: #777777;
+}
+article h1 span a {
+  text-decoration: underline;
+}
 @media screen and (max-width: 599px) {
   article.blogPost {
     margin-bottom: 20px;
@@ -1104,14 +1113,6 @@ article h1,
   article.blogPost {
     margin-bottom: 30px;
   }
-}
-article.blogPost h1:after {
-  display: block;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.5em;
-  content: attr(data-posted);
-  color: #999999;
 }
 article p .more,
 article li .more {
