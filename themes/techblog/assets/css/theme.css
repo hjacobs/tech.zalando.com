@@ -680,6 +680,21 @@ header .navBar {
   max-width: 1000px;
 }
 header .zalando {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.1em;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 7px;
+  min-width: 150px;
+  text-decoration: none;
+}
+header .zalando:before {
+  height: 26px;
+  width: 26px;
   font-size: 26px;
   line-height: 1.5em;
   font-family: 'iconSet';
@@ -696,19 +711,9 @@ header .zalando {
   line-height: 1;
   white-space: nowrap;
   float: left;
-  color: #ffffff;
-  margin: 7px 10px;
-}
-header .zalando:after {
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1.1em;
-  content: 'Zalando. \A We dress Code.';
-  display: inline-block;
-  text-transform: uppercase;
-  font-family: arial, sans-serif;
-  padding-left: 5px;
-  white-space: pre;
+  content: 'technologie';
+  display: block;
+  padding-right: 5px;
 }
 @media screen and (min-width: 768px) {
   header .zalando {
@@ -1051,8 +1056,6 @@ main h3 a {
   }
 }
 article > div {
-  border: 1px solid #dddddd;
-  border-width: 0 0 1px 0;
   overflow: hidden;
 }
 @media screen and (max-width: 599px) {
@@ -1090,6 +1093,17 @@ article h1,
     text-align: center;
   }
 }
+article h1 span {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5em;
+  content: attr(data-posted);
+  color: #777777;
+}
+article h1 span a {
+  text-decoration: underline;
+}
 @media screen and (max-width: 599px) {
   article.blogPost {
     margin-bottom: 20px;
@@ -1099,14 +1113,6 @@ article h1,
   article.blogPost {
     margin-bottom: 30px;
   }
-}
-article.blogPost h1:after {
-  display: block;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.5em;
-  content: attr(data-posted);
-  color: #999999;
 }
 article p .more,
 article li .more {
