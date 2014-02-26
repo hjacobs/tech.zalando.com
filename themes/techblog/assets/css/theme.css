@@ -1722,8 +1722,8 @@ footer .zalando {
   display: block;
   height: 27px;
   width: 135px;
-  background-image: url('../../files/zalando_logo.png');
-  background: url('../../files/zalando_logo.svg'), none;
+  background-image: url('../img/zalando_logo.png');
+  background: url('../img/zalando_logo.svg'), none;
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 20px auto;
