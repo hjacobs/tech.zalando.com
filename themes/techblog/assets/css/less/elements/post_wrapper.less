@@ -37,7 +37,7 @@
         }
 
         h1 {
-            .font(@fontSizeH1, bold, @lineHeightDefault - .5em);
+            .font(@fontSizeH1, bold, @lineHeightMainHeadline - .1em);
             color: @colorHeadline;
 
             @media screen and (max-width: (@screenTabletPortrait - 1px)) {
@@ -48,7 +48,7 @@
 
             @media screen and (min-width: @screenTabletPortrait) {
 
-                .font(@fontSizeH1 + 8px, bold);
+                .font(@fontSizeH1 + 8px, bold, @lineHeightMainHeadline);
                 .dMarginBottom;
                 .textCenter;
 
@@ -57,7 +57,7 @@
             // Headline gets published date
             span {
                 .block;
-                .font(@fontSizeDefault, normal, @lineHeightDefault);
+                .font(@fontSizeDefault, normal, @lineHeightDefault + .8);
                 content: attr(data-posted);
                 color: @colorHeadlineNote;
 
