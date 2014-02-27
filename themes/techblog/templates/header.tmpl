@@ -25,19 +25,23 @@
 
             <ul>
 
-                <li>
+                <li {{ 'class="active"' if '/posts/' in permalink }}>
                     <a {{ link }} >Tech blog</a>
                 </li>
-                <li>
+
+                <li {{ 'class="active"' if 'team.html' in permalink }}>
                     <a href="/pages/team.html">Team & Tech</a>
                 </li>
-                <li>
-                    <a href="/pages/events.html" {{ 'class="active"' if 'events.html' in permalink }}>Events</a>
+
+                <li {{ 'class="active"' if 'events.html' in permalink }}>
+                    <a href="/pages/events.html">Events</a>
                 </li>
+
                 <li>
                     <a href="http://jobs.zalando.de/en/jobs/technology" target="_blank">Jobs</a>
                 </li>
-                <li>
+
+                <li {{ 'class="active"' if 'open-source.html' in permalink }}>
                     <a href="/pages/open-source.html">Open Source</a>
                 </li>
 

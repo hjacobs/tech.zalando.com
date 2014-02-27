@@ -883,7 +883,8 @@ nav li {
     -webkit-transition: all 0.15s ease;
     transition: all 0.15s ease;
   }
-  nav li:hover:before {
+  nav li:hover:before,
+  nav li.active:before {
     opacity: 1;
     -ms-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -1095,7 +1096,9 @@ article h1,
     text-align: center;
   }
 }
-article h1 span {
+article h1 span,
+article h2 span,
+article h3 span {
   display: block;
   font-size: 16px;
   font-weight: normal;
@@ -1103,7 +1106,9 @@ article h1 span {
   content: attr(data-posted);
   color: #777777;
 }
-article h1 span a {
+article h1 span a,
+article h2 span a,
+article h3 span a {
   text-decoration: underline;
 }
 @media screen and (max-width: 599px) {
