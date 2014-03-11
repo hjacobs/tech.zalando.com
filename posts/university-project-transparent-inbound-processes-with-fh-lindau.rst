@@ -1,16 +1,14 @@
-<!--
 .. title: University Project "Transparent Inbound Processes" with FH Wildau
 .. slug: university-project-transparent-inbound-processes-with-fh-lindau
 .. date: 2014-02-21 09:15:12
 .. tags: university-relation
 .. author: Naz Schmidt
-.. image: Endpraesi_TH-Wildau.jpg
--->
+.. image: Endpraesi_TH-Wildau.png
 
 Back in September 2013, we had already announced on our company blog blog.zalando.de we would be welcoming a group of Bachelor students from the TH Wildau to take
 part in a joint project, organized in cooperation with Zalando/TH Wildau.
 
-<!-- TEASER_END -->
+.. TEASER_END
 
 So here they were! From beginning of October 2013 until mid of January 2014 Olga, Sabrina, Josephine, Aleksandra und Anne have successfully analyzed our logistic
 inbound processes. They identified potential issue areas and provided valuable solutions to improve transparency within these processes. All of this was being
