@@ -1,6 +1,6 @@
 <!--
 .. title: University Project "Transparent Inbound Processes" with FH Wildau
-.. slug: university-project-transparent-inbound-processes-with-fh-wildau
+.. slug: university-project-transparent-inbound-processes-with-fh-lindau
 .. date: 2014-02-21 09:15:12
 .. tags: university-relation
 .. author: Naz Schmidt
