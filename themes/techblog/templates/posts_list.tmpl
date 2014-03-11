@@ -8,6 +8,21 @@
 
                 <a href="{{ post.permalink() }}" itemprop="url">{{ post.title() }}</a>
 
+                <span>
+
+                    {% if author %}
+                        sdfsdfgdfhg
+                    {% endif %}
+
+                    by
+                    <a href="/authors/{{ slugify(post.meta('author'))|e }}.html" rel="author">{{ post.meta('author')|e }}</a>
+
+                    <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
+                        - {{ post.formatted_date('%B %Y')|e }}
+                    </time>
+
+                </span>
+
             </h1>
 
             {# Add a <div> just for that Rich Data Item #}
@@ -22,28 +37,6 @@
                 {{ post.text(teaser_only=True) }}
 
             </div>
-
-            <small>
-
-                {{ messages("Posted") }} on
-
-                <time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">
-                    {{ post.formatted_date(date_format) }}
-                </time>
-
-                {% if post.meta('author') %}
-
-                    from
-
-            <a href="/authors/{{ slugify(post.meta('author'))|e }}.html" rel="author">
-
-                {{ post.meta('author')|e }}
-
-            </a>
-
-                {% endif %}
-
-            </small>
 
         </article>
 
