@@ -1004,6 +1004,9 @@ main h3 a {
     padding-bottom: 20px;
   }
 }
+.pages p ~ article {
+  margin-top: 60px;
+}
 @media screen and (max-width: 1023px) {
   .pages p,
   .pages li {
