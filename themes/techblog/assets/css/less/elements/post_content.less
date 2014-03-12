@@ -93,10 +93,15 @@
         // TABLES
         table {
             .borderBox;
-            .borderDefault();
             .dimension(auto, 100%);
             .dMarginBottom;
             border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            .borderDefault;
         }
 
         th,
