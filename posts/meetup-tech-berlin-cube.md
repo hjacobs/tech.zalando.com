@@ -8,15 +8,16 @@
 -->
 
 On February 27th, Zalando had the opportunity to participate in Berlin's
-bi-monthly Tech MeetUp event in the Mobilesuite coworking space. Along with 6
-other great startups (AppLift, Uberall, Travis CI, Sensorberg, Mbrace and
-The Football App), we presented The Cube for the first time in public.
+bi-monthly Tech MeetUp event in the Mobilesuite coworking space. Along with six
+other great startups, we presented The Cube for the first time in public.
 
 <!-- TEASER_END -->
 The format of this event is simple but effective: 5 minutes presentation and
 5 minutes QA for each company participating. The only rule being that no one
 can talk or ask about the business model behind it; it is about the technology,
 not about the money.
+
+[![180 participants](/images/meetup-tech-03.jpeg)](/images/meetup-tech-03.jpeg)
 
 Events like this offer a great space for companies to present their ideas and
 to start communities around them. This is the main reason why Zalando is so
@@ -28,9 +29,6 @@ Berlin was a great opportunity that attracted users and developers.
 "How come is so snappy" or "Can I have a hierarchical tree view also?" were
 some of the questions given in the QA section. Overall people liked the Cube
 and some were interested to try it out in their own companies. Success!
-
-[![180 participants](/images/meetup-tech-03.jpeg)](/images/meetup-tech-03.jpeg)
-
 
 The other startups also presented really cool apps and ideas:
 
@@ -49,6 +47,9 @@ developing wiht Golang.
 [AppLift](http://www.applift.com/) is an interesting marketing platform for mobile games, and
 
 [Sensorberg](http://www.sensorberg.com/) as an iBeacon management platform full of nice ideas.
+
+
+[![cube](/images/cube-screenshot-mid.png)](http://cubeapp.io)
 
 If you're interested in attending the next event, registration is open to anyone
 but its limited. Visit [http://www.meetup.com/b-tech/](http://www.meetup.com/b-tech/)
