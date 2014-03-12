@@ -1,19 +1,61 @@
 
     // NAVIGATION ()----------------------------------------------------------------------------------------------------
+    .navBar {
+        max-height: @distanceDefault * 4;
+    }
+
     nav {
+        .dimension(auto);
+        .overHidden;
+        .right;
+        .transition(all, .3s);
+        max-height: 100%;
+        min-height: auto;
+        z-index: 2;
+
+
+        ul {
+            .borderBox;
+            .dimension(auto, 100%);
+            .inlineBlock;
+            .paddingHorizontal;
+            .textRight;
+
+        }
+
         li {
-            &:before {
-                .none
+            .inlineBlock;
+            .relative;
+            .textRight;
+
+            &:before,
+            &:hover:before,
+            &.active:before {
+                .none;
             }
+        }
+
+        a {
+            .font(@fontSizeH3, normal, @distanceDouble);
+            .inlineBlock;
+            .padding;
+            .pointer;
+            .relative;
+            .uppercase;
+            color: @white;
+            text-decoration: none;
 
             &:hover {
-                background-color: @white;
+                text-decoration: underline;
             }
         }
+    }
 
-        a,
-        a:active,
-        a:visited {
-            color: @black;
+    header {
+
+        input[type="checkbox"] {
+            .none;
+            .position(topLeft, -100px, -100px, absolute);
         }
     }
+

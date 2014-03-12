@@ -1,0 +1,57 @@
+
+// ARTICLE (on homepage and detail)---------------------------------------------------------------------------------
+article {
+    &:not(.blogPost) {
+        margin-bottom: @distanceDefault * 6;
+    }
+
+    & > div {
+        .dMarginBottom;
+        .dPaddingBottom;
+        .overHidden;
+        }
+    }
+
+    h1 {
+        .font(@fontSizeH1 + 8px, bold, @lineHeightMainHeadline);
+        .dMarginBottom;
+        .textCenter;
+        color: @colorHeadline;
+    }
+
+    // Headline gets published date
+    h1,
+    h2,
+    h3 {
+        span {
+            .block;
+            .font(@fontSizeDefault, normal, @lineHeightDefault + .8);
+            content: attr(data-posted);
+            color: @colorHeadlineNote;
+
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &.blogPost {
+        margin-bottom: @distanceDefault * 3;
+    }
+
+    p,
+    li {
+        line-height: @lineHeightDefault + .15em;
+
+        // MORE Link may inside the Text - so different Styling
+        .more {
+            .bold;
+            text-decoration: none;
+        }
+
+    }
+
+    small {
+        .block;
+        .textCenter;
+    }
