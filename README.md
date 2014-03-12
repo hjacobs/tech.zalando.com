@@ -21,21 +21,16 @@ Please make sure your blog post contains all necessary meta information (in the 
 * teaser image ("..image: my-example-image.jpg")
 
 
-Getting started on Ubuntu
--------------------------
+Getting started
+---------------
 
 First install Nikola:
 
-    git clone git://github.com/getnikola/nikola.git
-    cd nikola
-    sudo ./setup.py install
-    sudo apt-get install python-dev python-pip python-lxml python-imaging
-    sudo pip install -r requirements-full.txt
+    pip install git+https://github.com/getnikola/nikola.git@836e395a#egg=nikola[full]
 
-First build:
+Then build and run the test server:
 
-    nikola build
-    nikola serve
+    nikola auto
 
 Now point your browser to http://localhost:8000/
 
