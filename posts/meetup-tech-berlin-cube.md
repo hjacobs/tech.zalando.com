@@ -2,7 +2,7 @@
 .. title: The Cube App at Berlin's TECH MeetUp
 .. slug: meetup-tech-berlin-cube
 .. date: 2014-03-12 12:00:00
-.. tags: cube,backbonejs,development,javascript,node,open-source,solr,platform,meetup,berlin
+.. tags: cube,backbonejs,development,javascript,node,open-source,solr,platform,meet-up,berlin
 .. author: Emanuel Lauria
 .. image: meetup-tech-01.jpeg
 -->
