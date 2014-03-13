@@ -1,5 +1,7 @@
 {#  -*- coding: utf-8 -*- #}
+
 {% macro html_head() %}
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
     {% if description %}
@@ -22,11 +24,12 @@
     {% else %}
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ _link('rss', None) }}">
     {% endif %}
+
     {% if comment_system == 'facebook' %}
         <meta property="fb:app_id" content="{{ comment_system_id }}">
     {% endif %}
-<link rel="shortcut icon" href="/favicon.ico" />
-<meta property="og:title" content="??">
+
+
 
 {% endmacro %}
 

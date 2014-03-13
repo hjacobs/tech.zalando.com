@@ -1,4 +1,5 @@
 {#  -*- coding: utf-8 -*- #}
+
 {% macro html_title() %}
 
     <h1 itemprop="name">
@@ -8,7 +9,7 @@
         <span>
 
             {% if author %}
-                sdfsdfgdfhg
+
             {% endif %}
 
             by
@@ -112,6 +113,13 @@
             <meta name="og:description" content="{{ post.text(strip_html=True)[:200]|e }}">
         {% endif %}
     {% endif %}
+{% endmacro %}
+
+{% macro social_sharing(post) %}
+
+    <meta property="og:title" content="{{ title|e }}">
+    <meta property="og:image" content="{{ blog_url }}/images/{{ post.meta('image')|e }}">
+
 {% endmacro %}
 
 {% macro mathjax_script(post) %}

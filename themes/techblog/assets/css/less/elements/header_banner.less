@@ -35,9 +35,7 @@
             &.welcome {
                 .dimension(@distanceDefault * 8, 100%);
             }
-
         }
-
 
         @media screen and (max-width: (@screenTabletPortrait - 1px))
         and (orientation: landscape) {
@@ -45,13 +43,10 @@
             &.welcome {
                 .dimension(@distanceDefault * 8, 100%);
             }
-
         }
 
         @media screen and (min-width: @screenTabletPortrait)
         and (max-width: (@screenDesktop - 1px)) {
-
-
 
             &:not(.welcome) {
                 background: url('../img/welcome_tablet.jpg') center bottom;
@@ -63,7 +58,6 @@
                 background: url('../img/chip_tablet.png') center bottom,
                             url('../img/welcome_tablet.jpg') center bottom;
             }
-
         }
 
         @media screen and (min-width: @screenDesktop) {
@@ -76,7 +70,6 @@
                 background: url('../img/chip.png') center bottom,
                             url('../img/welcome.jpg') center bottom;
             }
-
         }
 
         @media screen and (min-width: @screenDesktop)
