@@ -3,6 +3,7 @@
 
 from __future__ import unicode_literals
 import os
+import time
 
 # Configuration, please edit
 
@@ -684,4 +685,4 @@ def get_author_title(author_name):
     return ''
 
 
-GLOBAL_CONTEXT = {'slugify': slugify, 'get_author_title': get_author_title}
+GLOBAL_CONTEXT = {'slugify': slugify, 'get_author_title': get_author_title, 'now': time.time()}

@@ -12,7 +12,7 @@ We spice up our days (and nights) with all kinds of fun and informative events_.
 .. posts:: event
 
 .. _`tech conferences`: /categories/conference.html
-.. _`university relations`: /categories/university-relations.html
+.. _`university relations`: /categories/university-relation.html
 .. _`workshops`: /categories/workshop.html
 .. _`fairs`: /categories/fair.html
 .. _`meet-ups`: /categories/meet-up.html
