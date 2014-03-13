@@ -2,7 +2,6 @@
     // HEADER (Main)----------------------------------------------------------------------------------------------------
     header {
         .dimension(auto, 100%);
-        .dMarginBottom;
         .left;
         background-color: @zColorOrange;
 
@@ -42,24 +41,20 @@
 
             }
         }
+    }
 
-        .banner {
-            .overHidden;
-            .transition(height, .15s);
-            background-color: @white;
-            background-image: url('../img/welcome.jpg');
-            background-position: center bottom;
-            background-repeat: no-repeat;
-            background-size: cover;
+    .banner {
+        .dimension(@distanceDefault * 12, 100%);
+        .dMarginBottom;
+        .overHidden;
+        background-color: @white;
+        background-image: url('../img/welcome_clean_IE.jpg');
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
 
-            &:not(.welcome) {
-                height: @distanceDefault * 7.5;
-            }
-
-            &.welcome {
-                .dimension(@distanceDefault * 25.3, 100%);
-                background-size: cover;
-
-            }
+        &.welcome {
+            background-image: url('../img/welcome_IE.jpg');
+            height: @distanceDefault * 24;
         }
     }
