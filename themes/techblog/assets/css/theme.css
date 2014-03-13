@@ -732,7 +732,7 @@ header .zalando:before {
     margin-bottom: 40px;
   }
 }
-header .banner {
+.banner {
   overflow: hidden;
   -ms-transition: height 0.15s ease;
   -moz-transition: height 0.15s ease;
@@ -744,57 +744,57 @@ header .banner {
   background-size: cover;
 }
 @media screen and (max-width: 599px) {
-  header .banner {
+  .banner {
     background-image: url('../img/welcome_mobile.jpg');
   }
-  header .banner:not(.welcome) {
+  .banner:not(.welcome) {
     height: 25px;
   }
 }
 @media screen and (max-width: 599px) and (orientation: portrait) {
-  header .banner.welcome {
+  .banner.welcome {
     height: 80px;
     width: 100%;
   }
 }
 @media screen and (max-width: 599px) and (orientation: landscape) {
-  header .banner.welcome {
+  .banner.welcome {
     height: 70px;
     width: 100%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  header .banner {
+  .banner {
     background-image: url('../img/welcome_tablet.jpg');
   }
-  header .banner:not(.welcome) {
+  .banner:not(.welcome) {
     height: 50px;
   }
-  header .banner.welcome {
-    height: 130px;
+  .banner.welcome {
+    height: 160px;
     width: 100%;
   }
 }
 @media screen and (min-width: 1024px) {
-  header .banner {
+  .banner {
     background-image: url('../img/welcome.jpg');
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  header .banner:not(.welcome) {
+  .banner:not(.welcome) {
     height: 75px;
   }
-  header .banner.welcome {
+  .banner.welcome {
     height: 200px;
     width: 100%;
   }
 }
 @media screen and (min-width: 1440px) {
-  header .banner:not(.welcome) {
+  .banner:not(.welcome) {
     height: 100px;
   }
-  header .banner.welcome {
-    height: 253px;
+  .banner.welcome {
+    height: 240px;
     width: 100%;
     background-size: cover;
   }

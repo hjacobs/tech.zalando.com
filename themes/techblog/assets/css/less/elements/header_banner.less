@@ -1,0 +1,84 @@
+
+    // HEADER (Bunner Illu)---------------------------------------------------------------------------------------------
+    .banner {
+        .overHidden;
+        .transition(height, .15s);
+        background-color: @white;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+            background-image: url('../img/welcome_mobile.jpg');
+
+            &:not(.welcome) {
+                height: @distanceDefault * 2.5;
+            }
+
+        }
+
+        @media screen and (max-width: (@screenTabletPortrait - 1px))
+        and (orientation: portrait) {
+
+            &.welcome {
+                .dimension(@distanceDefault * 8, 100%);
+            }
+
+        }
+
+
+        @media screen and (max-width: (@screenTabletPortrait - 1px))
+        and (orientation: landscape) {
+
+            &.welcome {
+                .dimension(@distanceDefault * 7, 100%);
+            }
+
+        }
+
+        @media screen and (min-width: @screenTabletPortrait)
+        and (max-width: (@screenDesktop - 1px)) {
+
+            background-image:url('../img/welcome_tablet.jpg');
+
+            &:not(.welcome) {
+                height: @distanceDefault * 5;
+            }
+
+            &.welcome {
+                .dimension(@distanceDefault * 16, 100%);
+            }
+
+        }
+
+        @media screen and (min-width: @screenDesktop) {
+
+            background-image: url('../img/welcome.jpg');
+
+        }
+
+        @media screen and (min-width: @screenDesktop)
+        and (max-width: (@screenDesktopLarge - 1px)) {
+
+            &:not(.welcome) {
+                height: @distanceDefault * 7.5;
+            }
+
+            &.welcome {
+                .dimension(@distanceDefault * 20, 100%);
+            }
+        }
+
+        @media screen and (min-width: @screenDesktopLarge) {
+
+            &:not(.welcome) {
+                height: @distanceDefault * 10;
+            }
+
+            &.welcome {
+                .dimension(@distanceDefault * 24, 100%);
+                background-size: cover;
+            }
+        }
+    }
