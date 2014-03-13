@@ -5,5 +5,6 @@
 .. link:
 .. description:
 .. type: text
+.. author_title: JS Dev
 
-Hola! I'm a JavaScript developer at Zalando and an Open Source enthusiast. Before coming to Zalando I used to promote the use and development of free software. Now I'm currently the main developer of the Cube App and I'm really glad to share it with the community. If you have any ideas, suggestions or complaints about the Cube, please don't hesitate to contact me. 
+Hola! I'm a JavaScript developer at Zalando and an Open Source enthusiast. I'm responsible for the Cube App ( http://cubeapp.io ) and contributor of many other internal tools. If you have any ideas, suggestions or comments please don't hesitate to contact me. 
