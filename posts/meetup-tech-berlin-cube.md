@@ -54,7 +54,7 @@ developing wiht Golang.
 If you're interested in attending the next event, registration is open to anyone
 but its limited. Visit [http://www.meetup.com/b-tech/](http://www.meetup.com/b-tech/)
 and RSVP. The next one is in April 24th, and theres free pretzels and beer, so
-hurry up!.
+hurry up!
 
 You can find more photos from the event in
 [this article](http://www.gruenderszene.de/allgemein/berlin-tech-meetup-2014-galerie)
