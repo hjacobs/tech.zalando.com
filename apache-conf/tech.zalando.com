@@ -18,6 +18,7 @@
     RewriteRule ^/team/    /pages/team.html [L,R=permanent]
     RewriteRule ^/open-source/    /pages/open-source.html [L,R=permanent]
     RewriteRule ^/page/(\d)/    /index-$1.html [L,R=permanent]
+    RewriteRule ^/tag/(.*)/    /categories/$1.html [L,R=permanent]
 
     RewriteRule ^/an-introduction-into-mobile-at-zalando-technology    /posts/an-introduction-into-mobile-at-zalando-technology.html [L,R=permanent]
     RewriteRule ^/a-pms-view-on-building-a-article-component    /posts/a-pms-view-on-building-a-article-component.html [L,R=permanent]
