@@ -15,8 +15,8 @@ SITE_URL = 'http://tech.zalando.com/'
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
-BLOG_EMAIL = 'joe@demo.site'
-BLOG_DESCRIPTION = 'Official Zalando Tech Blog'
+BLOG_EMAIL = 'service-tech@zalando.de'
+BLOG_DESCRIPTION = 'Zalando Tech Blog'
 
 # Nikola is multilingual!
 #
