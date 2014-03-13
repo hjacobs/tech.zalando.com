@@ -4,18 +4,29 @@
         .overHidden;
         .transition(height, .15s);
         background-color: @white;
-        background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
 
+        @media screen and (min-width: @screenTabletPortrait) {
+
+            margin-bottom: @distanceDefault * 4;
+
+        }
+
         @media screen and (max-width: (@screenTabletPortrait - 1px)) {
 
-            background-image: url('../img/welcome_mobile.jpg');
+            .dMarginBottom;
 
             &:not(.welcome) {
+                background-image: url('../img/welcome_mobile.jpg');
                 height: @distanceDefault * 2.5;
             }
 
+            &.welcome {
+                .dimension(@distanceDefault * 7, 100%);
+                background: url('../img/chip_mobile.png') 35% bottom,
+                            url('../img/welcome_mobile.jpg') 35% bottom;
+            }
         }
 
         @media screen and (max-width: (@screenTabletPortrait - 1px))
@@ -32,7 +43,7 @@
         and (orientation: landscape) {
 
             &.welcome {
-                .dimension(@distanceDefault * 7, 100%);
+                .dimension(@distanceDefault * 8, 100%);
             }
 
         }
@@ -40,21 +51,31 @@
         @media screen and (min-width: @screenTabletPortrait)
         and (max-width: (@screenDesktop - 1px)) {
 
-            background-image:url('../img/welcome_tablet.jpg');
+
 
             &:not(.welcome) {
+                background-image:url('../img/welcome_tablet.jpg');
                 height: @distanceDefault * 5;
             }
 
             &.welcome {
                 .dimension(@distanceDefault * 16, 100%);
+                background: url('../img/chip_tablet.png') center bottom,
+                            url('../img/welcome_tablet.jpg') center bottom;
             }
 
         }
 
         @media screen and (min-width: @screenDesktop) {
 
-            background-image: url('../img/welcome.jpg');
+            &:not(.welcome) {
+                background-image: url('../img/welcome.jpg');
+            }
+
+            &.welcome {
+                background: url('../img/chip.png') center bottom,
+                            url('../img/welcome.jpg') center bottom;
+            }
 
         }
 

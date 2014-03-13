@@ -660,22 +660,17 @@ main {
 header {
   height: auto;
   width: 100%;
-  float: left;
 }
 @media screen and (min-width: 600px) {
   header {
     background-color: #fe6a00;
   }
 }
-header .navBar,
-header .banner {
-  overflow: hidden;
-  text-align: left;
-}
 header .navBar {
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
+  text-align: left;
   background-color: #fe6a00;
   max-width: 1000px;
 }
@@ -722,16 +717,6 @@ header .zalando:before {
     margin-left: 20px;
   }
 }
-@media screen and (max-width: 599px) {
-  header {
-    margin-bottom: 20px;
-  }
-}
-@media screen and (min-width: 600px) {
-  header {
-    margin-bottom: 40px;
-  }
-}
 .banner {
   overflow: hidden;
   -ms-transition: height 0.15s ease;
@@ -739,16 +724,26 @@ header .zalando:before {
   -webkit-transition: height 0.15s ease;
   transition: height 0.15s ease;
   background-color: #ffffff;
-  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (min-width: 600px) {
+  .banner {
+    margin-bottom: 40px;
+  }
+}
 @media screen and (max-width: 599px) {
   .banner {
-    background-image: url('../img/welcome_mobile.jpg');
+    margin-bottom: 20px;
   }
   .banner:not(.welcome) {
+    background-image: url('../img/welcome_mobile.jpg');
     height: 25px;
+  }
+  .banner.welcome {
+    height: 70px;
+    width: 100%;
+    background: url('../img/chip_mobile.png') 35% bottom, url('../img/welcome_mobile.jpg') 35% bottom;
   }
 }
 @media screen and (max-width: 599px) and (orientation: portrait) {
@@ -759,25 +754,27 @@ header .zalando:before {
 }
 @media screen and (max-width: 599px) and (orientation: landscape) {
   .banner.welcome {
-    height: 70px;
+    height: 80px;
     width: 100%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  .banner {
-    background-image: url('../img/welcome_tablet.jpg');
-  }
   .banner:not(.welcome) {
+    background-image: url('../img/welcome_tablet.jpg');
     height: 50px;
   }
   .banner.welcome {
     height: 160px;
     width: 100%;
+    background: url('../img/chip_tablet.png') center bottom, url('../img/welcome_tablet.jpg') center bottom;
   }
 }
 @media screen and (min-width: 1024px) {
-  .banner {
+  .banner:not(.welcome) {
     background-image: url('../img/welcome.jpg');
+  }
+  .banner.welcome {
+    background: url('../img/chip.png') center bottom, url('../img/welcome.jpg') center bottom;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1439px) {

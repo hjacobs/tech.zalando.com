@@ -2,7 +2,7 @@
     // HEADER (Main)----------------------------------------------------------------------------------------------------
     header {
         .dimension(auto, 100%);
-        .left;
+        //.left;
 
         @media screen and (min-width: @screenTabletPortrait) {
 
@@ -10,15 +10,10 @@
 
         }
 
-        .navBar,
-        .banner {
-            .overHidden;
-            .textLeft;
-        }
-
         .navBar {
             .marginAuto;
             .overHidden;
+            .textLeft;
             background-color: @zColorOrange;
             max-width: 1000px;
         }
@@ -50,17 +45,5 @@
                 .dMarginLeft;
 
             }
-        }
-
-        @media screen and (max-width: (@screenTabletPortrait - 1px)) {
-
-            .dMarginBottom;
-
-        }
-
-        @media screen and (min-width: @screenTabletPortrait) {
-
-            margin-bottom: @distanceDouble * 2;
-
         }
     }
