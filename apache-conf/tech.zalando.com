@@ -1,18 +1,19 @@
 <VirtualHost *:80>
-	ServerName	techbeta.zalando.com
-	ServerAdmin	domain@zalando.de
+    ServerName  tech.zalando.com
+    ServerAlias techbeta.zalando.com
+    ServerAdmin domain@zalando.de
 
-	DocumentRoot	/data/www/tech.zalando.com/htdocs
-	<Location /server-status>
-	    SetHandler server-status
-	    Order deny,allow
-	    Deny from all
-	    Allow from 127.0.0.1 ::1
-	</Location>
+    DocumentRoot    /data/www/tech.zalando.com/htdocs
+    <Location /server-status>
+        SetHandler server-status
+        Order deny,allow
+        Deny from all
+        Allow from 127.0.0.1 ::1
+    </Location>
 
     ErrorDocument 404 /pages/error404-not-found.html
 
-    RewriteEngine	On
+    RewriteEngine   On
     RewriteRule ^/feed/     /rss.xml [L,R=permanent]
     RewriteRule ^/platform/    /pages/team.html [L,R=permanent]
     RewriteRule ^/team/    /pages/team.html [L,R=permanent]
@@ -70,17 +71,17 @@
     RewriteRule ^/zalando-welcomes-java-user-group-dortmund    /posts/zalando-welcomes-java-user-group-dortmund.html [L,R=permanent]
     RewriteRule ^/zooport    /posts/zooport.html [L,R=permanent]
 
-	<Directory /data/www/tech.zalando.com/htdocs>
-		Options -Indexes FollowSymLinks -MultiViews
-	</Directory>
+    <Directory /data/www/tech.zalando.com/htdocs>
+        Options -Indexes FollowSymLinks -MultiViews
+    </Directory>
 
-	ErrorLog /var/log/apache2/tech.zalando.com_error.log
+    ErrorLog /var/log/apache2/tech.zalando.com_error.log
 
-	# Possible values include: debug, info, notice, warn, error, crit,
-	# alert, emerg.
-	LogLevel warn
+    # Possible values include: debug, info, notice, warn, error, crit,
+    # alert, emerg.
+    LogLevel warn
 
-	CustomLog /var/log/apache2/tech.zalando.com_access.log combined
+    CustomLog /var/log/apache2/tech.zalando.com_access.log combined
 
 </VirtualHost>
 
