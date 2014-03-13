@@ -2,14 +2,14 @@
 .. title: The Cube App at Berlin's TECH MeetUp
 .. slug: meetup-tech-berlin-cube
 .. date: 2014-03-12 12:00:00
-.. tags: cube,backbonejs,development,javascript,node,open-source,solr,platform,meetup,berlin
+.. tags: cube,backbonejs,development,javascript,node,open-source,solr,platform,meet-up,berlin
 .. author: Emanuel Lauria
 .. image: meetup-tech-01.jpeg
 -->
 
 On February 27th, Zalando had the opportunity to participate in Berlin's
 bi-monthly Tech MeetUp event in the Mobilesuite coworking space. Along with six
-other great startups, we presented The Cube for the first time in public.
+other great startups, we presented the Cube for the first time in public.
 
 <!-- TEASER_END -->
 The format of this event is simple but effective: 5 minutes presentation and
@@ -22,7 +22,7 @@ not about the money.
 Events like this offer a great space for companies to present their ideas and
 to start communities around them. This is the main reason why Zalando is so
 happy to participate. Last year we licensed some of our tools with the Apache
-License and hosted them on github, hopping that other people would benefit from
+License and hosted them on github, hoping that other people would benefit from
 them, and also contribute. Presenting the Cube App to the tech community of
 Berlin was a great opportunity that attracted users and developers.
 
@@ -42,7 +42,7 @@ the open source community.
 'challenges' and smart people-match algorithms.
 
 [The Football App](http://www.thefootballapp.com/) showed us the advantages of
-developing wiht Golang.
+developing with Golang.
 
 [AppLift](http://www.applift.com/) is an interesting marketing platform for mobile games, and
 
@@ -54,7 +54,7 @@ developing wiht Golang.
 If you're interested in attending the next event, registration is open to anyone
 but its limited. Visit [http://www.meetup.com/b-tech/](http://www.meetup.com/b-tech/)
 and RSVP. The next one is in April 24th, and theres free pretzels and beer, so
-hurry up!.
+hurry up!
 
 You can find more photos from the event in
 [this article](http://www.gruenderszene.de/allgemein/berlin-tech-meetup-2014-galerie)
