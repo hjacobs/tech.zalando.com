@@ -18,8 +18,8 @@
             .dMarginBottom;
 
             &:not(.welcome) {
-                background-image: url('../img/welcome_mobile.jpg');
-                height: @distanceDefault * 2.5;
+                background: url('../img/welcome_mobile.jpg') 35% bottom;
+                height: @distanceDefault * 5;
             }
 
             &.welcome {
@@ -54,8 +54,8 @@
 
 
             &:not(.welcome) {
-                background-image:url('../img/welcome_tablet.jpg');
-                height: @distanceDefault * 5;
+                background: url('../img/welcome_tablet.jpg') center bottom;
+                height: @distanceDefault * 8;
             }
 
             &.welcome {
@@ -69,7 +69,7 @@
         @media screen and (min-width: @screenDesktop) {
 
             &:not(.welcome) {
-                background-image: url('../img/welcome.jpg');
+                background: url('../img/welcome.jpg') center bottom;
             }
 
             &.welcome {
@@ -83,7 +83,7 @@
         and (max-width: (@screenDesktopLarge - 1px)) {
 
             &:not(.welcome) {
-                height: @distanceDefault * 7.5;
+                height: @distanceDefault * 10;
             }
 
             &.welcome {
