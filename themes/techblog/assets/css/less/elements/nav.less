@@ -47,11 +47,6 @@
         li {
             .textRight;
 
-            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
-
-                 min-width: @distanceDefault * 20;
-            }
-
             @media screen and (min-width: @screenTabletPortrait) {
 
                 .inlineBlock;
@@ -98,6 +93,7 @@
             .relative;
             .uppercase;
             text-decoration: none;
+            white-space: nowrap;
 
             @media screen and (min-width: @screenTabletLandscape) {
 
