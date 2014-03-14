@@ -56,5 +56,10 @@
         &.welcome {
             background-image: url('../img/welcome_IE.jpg');
             height: @distanceDefault * 24;
+
+            &:before,
+            &:after {
+                .none;
+            }
         }
     }
