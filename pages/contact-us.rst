@@ -26,9 +26,6 @@ Sonnenburger Str. 73 |br|
 10437 Berlin |br|
 Germany
 
-**Telefax:**
-+49 (0)30 2759 4693
-
 **E-Mail:**
 service-tech@zalando.de
 
