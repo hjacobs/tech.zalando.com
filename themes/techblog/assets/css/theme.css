@@ -133,6 +133,7 @@ template {
 html {
   font-family: arial, sans-serif;
   /* 1 */
+  height: 100%;
   -moz-text-rendering: optimizeLegibility;
   -ms-text-rendering: optimizeLegibility;
   -o-text-rendering: optimizeLegibility;
@@ -146,11 +147,9 @@ html {
  * Remove default margin.
  */
 body {
+  position: relative;
   margin: 0;
-}
-html,
-body {
-  height: 100%;
+  min-height: 100%;
 }
 /* ==========================================================================
    Links
