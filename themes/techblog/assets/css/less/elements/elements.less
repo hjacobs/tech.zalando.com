@@ -6,7 +6,11 @@
         min-height: 100%;
         padding-bottom: @distanceDefault * 20;
 
+        @media screen and (min-width: @screenTabletPortrait) {
 
+            .border(top, @distanceDefault * 4, @white);
+
+        }
 
         .postbox {
             //&:extend(.content);
