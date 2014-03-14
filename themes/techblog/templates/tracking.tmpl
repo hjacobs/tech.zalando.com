@@ -1,7 +1,6 @@
 <script type="text/javascript">
 
     var live = 'tech.zalando.com';
-    var test =  'proxy.zalando.net';
 
     if(window.location.host == live) {
 
@@ -15,10 +14,6 @@
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
-    }
-
-    if(window.location.host == test) {
-        window.alert("TEST");
     }
 
 </script>
