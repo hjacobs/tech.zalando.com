@@ -2,31 +2,40 @@
     // HEADER (Bunner Illu)---------------------------------------------------------------------------------------------
     .banner {
         .overHidden;
+        .relative;
         .transition(height, .15s);
         background-color: @white;
-        background-repeat: no-repeat;
         background-size: cover;
+
+        &:before,
+        &:after {
+            .relative;
+            .transition(height, .15s);
+            background-size: cover;
+        }
 
         @media screen and (max-width: (@screenTabletPortrait - 1px)) {
 
             .dMarginBottom;
 
             &:not(.welcome) {
-                background: url('../img/welcome_mobile.jpg') 35% bottom;
+                background: url('../img/welcome_mobile.jpg') no-repeat 35% bottom;
                 height: @distanceDefault * 5;
             }
 
             &.welcome {
                 .dimension(@distanceDefault * 7, 100%);
-                background: url('../img/chip_mobile.png') 35% bottom,
-                            url('../img/welcome_mobile.jpg') 35% bottom;
+                background: url('../img/chip_mobile.png') no-repeat 35% bottom,
+                            url('../img/welcome_mobile.jpg') no-repeat 35% bottom;
             }
         }
 
         @media screen and (max-width: (@screenTabletPortrait - 1px))
         and (orientation: portrait) {
 
-            &.welcome {
+            &.welcome,
+            &:before,
+            &:after {
                 .dimension(@distanceDefault * 8, 100%);
             }
         }
@@ -34,7 +43,9 @@
         @media screen and (max-width: (@screenTabletPortrait - 1px))
         and (orientation: landscape) {
 
-            &.welcome {
+            &.welcome,
+            &:before,
+            &:after {
                 .dimension(@distanceDefault * 8, 100%);
             }
         }
@@ -43,26 +54,41 @@
         and (max-width: (@screenDesktop - 1px)) {
 
             &:not(.welcome) {
-                background: url('../img/welcome_tablet.jpg') center bottom;
+                background: url('../img/welcome_tablet.jpg') no-repeat center bottom;
                 height: @distanceDefault * 8;
             }
 
             &.welcome {
+                background: url('../img/chip_tablet.png') no-repeat center bottom fixed,
+                            url('../img/welcome_tablet.jpg') no-repeat center bottom;
+            }
+
+            &.welcome,
+            &:before,
+            &:after {
                 .dimension(@distanceDefault * 16, 100%);
-                background: url('../img/chip_tablet.png') center bottom fixed,
-                            url('../img/welcome_tablet.jpg') center bottom;
             }
         }
 
         @media screen and (min-width: @screenDesktop) {
 
             &:not(.welcome) {
-                background: url('../img/welcome.jpg') center bottom;
+                background: url('../img/welcome.jpg') no-repeat center bottom;
             }
 
             &.welcome {
-                background: url('../img/chip.png') fixed center bottom,
-                            url('../img/welcome.jpg') center bottom;
+                background: url('../img/welcome.jpg') no-repeat center bottom;
+
+                &:before {
+                    .fixed;
+                    .pseudo('');
+                    background: url('../img/chip.png') no-repeat center bottom;
+                }
+
+                &:after {
+                    .pseudo('');
+                    background: url('../img/hide_chip.png') no-repeat center bottom;
+                }
             }
         }
 
@@ -73,7 +99,9 @@
                 height: @distanceDefault * 10;
             }
 
-            &.welcome {
+            &.welcome,
+            &:before,
+            &:after {
                 .dimension(@distanceDefault * 20, 100%);
             }
         }
@@ -84,9 +112,11 @@
                 height: @distanceDefault * 10;
             }
 
-            &.welcome {
+            &.welcome,
+            &:before,
+            &:after {
                 .dimension(@distanceDefault * 24, 100%);
-                background-size: cover;
+
             }
         }
     }
