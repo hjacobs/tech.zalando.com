@@ -4,5 +4,12 @@
         img {
             .left;
             margin: @distanceDefault / 2 @distanceDouble @distanceDefault 0;
+            max-width: @distanceDefault * 10;
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                max-width: @distanceDefault * 15;
+
+            }
         }
     }
