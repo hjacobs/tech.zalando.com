@@ -46,7 +46,11 @@
 
         li {
             .textRight;
-            min-width: @distanceDefault * 20;
+
+            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+                 min-width: @distanceDefault * 20;
+            }
 
             @media screen and (min-width: @screenTabletPortrait) {
 
