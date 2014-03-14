@@ -3,12 +3,19 @@
     .author {
         img {
             .left;
+            .transition(min-width, .15s);
             margin: @distanceDefault / 2 @distanceDouble @distanceDefault 0;
             max-width: @distanceDefault * 10;
 
             @media screen and (min-width: @screenTabletPortrait) {
 
                 max-width: @distanceDefault * 15;
+
+            }
+
+            @media screen and (min-width: @screenTabletLandscape) {
+
+                max-width: @distanceDefault * 20;
 
             }
         }
