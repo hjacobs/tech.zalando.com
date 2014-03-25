@@ -13,6 +13,19 @@
 
     {% endif %}
 
+    <link rel="canonical" href="{{ blog_url[:-1] }}{{permalink}}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ blog_url[:-1] }}{{permalink}}">
+    <meta property="og:title" content="{{ title|e }}">
+    <meta property="og:image" content="{{ blog_url }}images/{{ post.meta('image')|e }}">
+    <meta property="og:site_name" content="Zalando Tech Blog">
+
+    {% if post.description() %}
+
+        <meta property="og:description" content="{{ post.description() }}">
+
+    {% endif %}
+
 {% endblock %}
 
 
@@ -22,7 +35,6 @@
 
         {{ helper.html_title() }}
 
-        <!--The Articles content -->
         <div itemprop="articleBody text">
 
             {% if post.meta('image') %}
@@ -46,21 +58,11 @@
 
         {% if post.description() %}
 
-            <meta content="{{ post.description() }}" itemprop="description">
+            <meta content="{{ post.description() }}">
 
         {% endif %}
 
         <small>
-
-            <!--{{ messages("Posted") }}:-->
-
-            <!--<time itemprop="datePublished" datetime="{{ post.date.isoformat() }}">-->
-
-                <!--{{ post.formatted_date(date_format) }}-->
-
-            <!--</time>-->
-
-            <!--{{ helper.html_translations(post) }}-->
 
             {{ helper.html_tags(post) }}
 
@@ -80,16 +82,20 @@
     <aside class="socialMedia">
 
         <div class="facebook">
-            <div class="fb-like" data-href="<? get_permalink ?>" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true" data-font="arial"></div>
+
+            <div class="fb-like" data-href="{{ blog_url[:-1] }}{{permalink}}" data-send="false" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false" data-width="100" data-font="arial"></div>
+
             <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=207842902576950";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
+            <script>
+                (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=207842902576950";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
             </script>
+
         </div>
 
         <div class="twitter">

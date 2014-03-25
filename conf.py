@@ -3,6 +3,7 @@
 
 from __future__ import unicode_literals
 import os
+import time
 
 # Configuration, please edit
 
@@ -15,8 +16,8 @@ SITE_URL = 'http://tech.zalando.com/'
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
-BLOG_EMAIL = 'joe@demo.site'
-BLOG_DESCRIPTION = 'Official Zalando Tech Blog'
+BLOG_EMAIL = 'service-tech@zalando.de'
+BLOG_DESCRIPTION = 'Zalando Tech Blog'
 
 # Nikola is multilingual!
 #
@@ -684,4 +685,4 @@ def get_author_title(author_name):
     return ''
 
 
-GLOBAL_CONTEXT = {'slugify': slugify, 'get_author_title': get_author_title}
+GLOBAL_CONTEXT = {'slugify': slugify, 'get_author_title': get_author_title, 'now': time.time()}

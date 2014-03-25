@@ -15,9 +15,7 @@ exceptional pace, always a pulse at 180 and a whole lot of fun.  I am very
 proud of our tremendous achievements and very thankful for having such an
 awesome team working together on all past and future challenges. And now I
 want to leave room for Henning, one of our "Oldies", to give quite an
-impressive overview of our ride out of his tech diary.
-
-- Christoph, CPO
+impressive overview of our ride out of his tech diary. _Christoph, CPO_
 
 <!-- TEASER_END -->
 

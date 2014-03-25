@@ -2,7 +2,7 @@
     // HEADER (Main)----------------------------------------------------------------------------------------------------
     header {
         .dimension(auto, 100%);
-        .left;
+        //.left;
 
         @media screen and (min-width: @screenTabletPortrait) {
 
@@ -10,15 +10,10 @@
 
         }
 
-        .navBar,
-        .banner {
-            .overHidden;
-            .textLeft;
-        }
-
         .navBar {
             .marginAuto;
             .overHidden;
+            .textLeft;
             background-color: @zColorOrange;
             max-width: 1000px;
         }
@@ -40,7 +35,7 @@
                 .font(@fontSizeHeaderIcon);
                 .icon;
                 .left;
-                .pseudo('technologie');
+                .pseudo('\e60d');
                 padding-right: @distanceDefault / 2;
 
             }
@@ -49,102 +44,6 @@
 
                 .dMarginLeft;
 
-            }
-        }
-
-
-        @media screen and (max-width: (@screenTabletPortrait - 1px)) {
-
-            .dMarginBottom;
-
-        }
-
-        @media screen and (min-width: @screenTabletPortrait) {
-
-            margin-bottom: @distanceDouble * 2;
-
-        }
-
-        .banner {
-            .overHidden;
-            .transition(height, .15s);
-            background-color: @white;
-            background-position: center bottom;
-            background-repeat: no-repeat;
-            background-size: cover;
-
-            @media screen and (max-width: (@screenTabletPortrait - 1px)) {
-
-                background-image: url('../img/welcome_mobile.jpg');
-
-                &:not(.welcome) {
-                    height: @distanceDefault * 2.5;
-                }
-
-            }
-
-            @media screen and (max-width: (@screenTabletPortrait - 1px))
-                          and (orientation: portrait) {
-
-                &.welcome {
-                    .dimension(@distanceDefault * 8, 100%);
-                }
-
-            }
-
-
-            @media screen and (max-width: (@screenTabletPortrait - 1px))
-            and (orientation: landscape) {
-
-                &.welcome {
-                    .dimension(@distanceDefault * 7, 100%);
-                }
-
-            }
-
-            @media screen and (min-width: @screenTabletPortrait)
-                          and (max-width: (@screenDesktop - 1px)) {
-
-                background-image:url('../img/welcome_tablet.jpg');
-
-                &:not(.welcome) {
-                    height: @distanceDefault * 5;
-                }
-
-                &.welcome {
-                    .dimension(@distanceDefault * 13, 100%);
-                }
-
-            }
-
-            @media screen and (min-width: @screenDesktop) {
-
-                background-image: url('../img/welcome.jpg');
-
-            }
-
-            @media screen and (min-width: @screenDesktop)
-                          and (max-width: (@screenDesktopLarge - 1px)) {
-
-                &:not(.welcome) {
-                    height: @distanceDefault * 7.5;
-                }
-
-                &.welcome {
-                    .dimension(@distanceDefault * 20, 100%);
-                }
-            }
-
-            @media screen and (min-width: @screenDesktopLarge) {
-
-                &:not(.welcome) {
-                    height: @distanceDefault * 10;
-                }
-
-                &.welcome {
-                    .dimension(@distanceDefault * 25.3, 100%);
-                    background-size: cover;
-                }
             }
         }
     }

@@ -3,10 +3,18 @@
     main {
         &:extend(.content);
         .borderBox;
+        .border(top, @white, @distanceDefault * 2);
+        .relative;
+        background-color: @white;
         min-height: 100%;
-        padding-bottom: @distanceDefault * 14;
+        padding-bottom: @distanceDefault * 20;
+        -webkit-transform: translate3d(0,0,0);
 
+        @media screen and (min-width: @screenTabletPortrait) {
 
+            .border(top, @white, @distanceDefault * 4);
+
+        }
 
         .postbox {
             //&:extend(.content);

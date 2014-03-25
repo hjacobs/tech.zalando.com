@@ -1,11 +1,33 @@
 
 
-    // config
-    @import "config";
+// setup
+@import "setup/reset";
+@import "setup/normalize";
 
-    // basic
-    @import "ie-hacks/simpleClasses";
-    @import "ie-hacks/mixins";
+// config
+@import "config";
 
-    // elements
-    @import "ie-hacks/main";
+// basic
+//@import "basic/setup";
+@import "basic/simpleClasses";
+@import "basic/mixins";
+@import "basic/fonts";
+
+// elements
+@import "elements/author";
+@import "ie-hacks/header";
+@import "elements/header_banner";
+@import "ie-hacks/nav";
+@import "ie-hacks/main";
+@import "elements/elements";
+@import "elements/pages";
+@import "ie-hacks/post_wrapper";
+@import "elements/post_content";
+@import "elements/post_images";
+@import "elements/code";
+@import "elements/pager";
+@import "elements/socialmedia";
+@import "elements/footer";
+
+// PLUGINS
+@import "plugins/jquery.fancybox.css";

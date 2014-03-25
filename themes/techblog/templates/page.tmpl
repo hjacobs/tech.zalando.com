@@ -24,7 +24,11 @@
 
     <section class="pages">
 
-        {{ helper.html_title() }}
+        <h1 itemprop="name">
+
+            {{ title|e }}
+
+        </h1>
 
         {% if post.meta('image') %}
 

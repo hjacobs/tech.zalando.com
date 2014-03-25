@@ -22,10 +22,6 @@
                 .textCenter;
 
             }
-
-            a {
-                .noUnderline;
-            }
         }
 
         p {
@@ -41,6 +37,10 @@
                 .dPaddingBottom;
 
             }
+        }
+
+        p ~ article {
+            margin-top: @distanceDefault * 6;
         }
 
         p,
@@ -80,7 +80,12 @@
         }
 
         .legalNote {
-            .textCenter;
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .textCenter;
+
+            }
 
             strong {
                 .block;

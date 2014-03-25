@@ -65,6 +65,7 @@ template {
 
 html {
     font-family: @defaultFontFamily; /* 1 */
+    height: 100%;
     -moz-text-rendering: optimizeLegibility;
     -ms-text-rendering: optimizeLegibility;
     -o-text-rendering: optimizeLegibility;
@@ -78,12 +79,9 @@ html {
  */
 
 body {
+    .relative;
     margin: 0;
-}
-
-html,
-body {
-    height: 100%;
+    min-height: 100%;
 }
 
 /* ==========================================================================
