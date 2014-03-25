@@ -47,7 +47,7 @@ in order to understand the first paper, it is very helpful to read this paper [#
 By implementing this algorithm, the optimal travel time problem is not yet fully solved since in our case minimizing travel distance doesn't always minimize travel time.  Consider yet again our
 intrepid shopper in the supermarket.  If he is particularly hungry, then he will pick up a shopping cart before he collects all the items he wishes to purchase.  And since the shopping cart is
 slow and unwieldy, he will often times leave it in the cross aisles, pick up a few items and return to his cart.  By not having to take the cart with him everywhere, he reduces his travel time
-while increasing his travel distance. 
+while increasing his travel distance.
 
 Calculating the Optimal Route With a Cart
 -----------------------------------------
@@ -58,6 +58,11 @@ picker with and without the cart.
 
 After doing all this, we had an algorithm that could calculate the optimal route that a warehouse worker had to take, and where he should leave and pick up his cart.  The optimal route for the
 warehouse above can be seen below, with the dark lines representing the path that the cart takes, and the light lines the path that the worker takes.
+
+.. image:: /images/pick-steps-2.PNG
+   :alt: Shortest walk with cart positions
+
+It is nice to know that, even though we didn't solve the general travelling salesman problem in polynomial time, we did manage to make it reveal its secrets for one special case and were able to apply that knowledge to an issue of great relevance: our order fulfillment efficiency, a must-have for success in online retail.
 
 ___________________________________________
 
