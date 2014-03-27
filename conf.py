@@ -185,7 +185,8 @@ COMPILERS = {'rest': ('.rst', ), 'markdown': ('.md', ), 'html': ('.html', )}
 # And then do a backup, or run `nikola ping` from the `ping`
 # plugin (`nikola install_plugin ping`).
 # To do manual deployment, set it to []
-DEPLOY_COMMANDS = ['rsync -av --no-owner --no-group --no-perms output/* root@tech.zalando.com:/data/www/tech.zalando.com/htdocs']
+DEPLOY_COMMANDS = \
+    ['rsync -av --no-owner --no-group --no-perms output/* root@tech.zalando.com:/data/www/tech.zalando.com/htdocs']
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
@@ -686,3 +687,15 @@ def get_author_title(author_name):
 
 
 GLOBAL_CONTEXT = {'slugify': slugify, 'get_author_title': get_author_title, 'now': time.time()}
+
+# List XML-RPC services (recommended) in PING_XMLRPC_SERVICES and HTTP
+# GET services (web pages) in PING_GET_SERVICES.
+# Entries pointing to domains, such as Ping-o-Matic, must end with
+# a forward slash to avoid having "/RPC2" appended automatically.
+# Consider adding `nikola ping` as the last entry in DEPLOY_COMMANDS.
+PING_XMLRPC_SERVICES = ['http://blogsearch.google.com/ping/RPC2', 'http://ping.blogs.yandex.ru/RPC2',
+                        'http://ping.baidu.com/ping/RPC2', 'http://rpc.pingomatic.com/']
+
+PING_GET_SERVICES = ['http://www.bing.com/webmaster/ping.aspx?sitemap={0}'.format(SITE_URL + 'sitemap.xml'),
+                     'http://www.google.com/webmasters/tools/ping?sitemap={0}'.format(SITE_URL + 'sitemap.xml')]
+
