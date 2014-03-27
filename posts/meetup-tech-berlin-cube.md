@@ -22,7 +22,7 @@ not about the money.
 Events like this offer a great space for companies to present their ideas and
 to start communities around them. This is the main reason why Zalando is so
 happy to participate. Last year we licensed some of our tools with the Apache
-License and hosted them on github, hoping that other people would benefit from
+License and [hosted them on github](https://github.com/zalando), hoping that other people would benefit from
 them, and also contribute. Presenting the Cube App to the tech community of
 Berlin was a great opportunity that attracted users and developers.
 
