@@ -1,13 +1,13 @@
 .. title: Defeating the Travelling Salesman Problem for Warehouse Logistics
 .. slug: defeating-the-travelling-salesman-problem-for-warehouse-logistics
 .. date: 2014-03-25 10:15:12
-.. tags: 
+.. tags:
 .. author: Calvin Seward
 .. image: warehouse.png
 
 Let’s say you know what items need to be retrieved from a warehouse and you know where the items are located. But can you retrieve all those items following an
 optimal route? Now further assume that you are using a cart to collect the items, can you also figure out how to optimally manage the cart, too? “Of course not!,”
-you cry, “Calculating the optimal route is the `travelling salesman problem <https://http://en.wikipedia.org/wiki/Travelling_salesman_problem>`_, and as to solving
+you cry, “Calculating the optimal route is the `travelling salesman problem <https://en.wikipedia.org/wiki/Travelling_salesman_problem>`_, and as to solving
 the problem with the cart, now that would be pure black magic.” Don’t believe me? Try your luck with the picture below, see if you can find the shortest route that
 passes by all the x-marks. At Zalando we have developed an efficient algorithm to solve just this problem, and today we’ll tell you more about it.
 
