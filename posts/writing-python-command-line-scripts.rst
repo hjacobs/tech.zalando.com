@@ -1,6 +1,6 @@
 .. title: Writing Python command line scripts
 .. slug: writing-python-command-line-scripts
-.. date: 2014/01/19 14:57:29
+.. date: 2014/03/31 17:55:29
 .. tags: python
 .. link:
 .. description:
@@ -8,7 +8,8 @@
 .. type: text
 .. image: python-logo.png
 
-Python is great for writing command line scripts. Before extending a three line Bash script I usually rethink and implement it in Python.
+Python is great for writing command line scripts and we use it a lot for internal tools and scripts at Zalando.
+Before extending a three line Bash script I usually rethink and implement it in Python.
 This post should summarize some conventions and best practices I recommend.
 
 .. TEASER_END
