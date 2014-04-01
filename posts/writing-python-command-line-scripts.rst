@@ -10,7 +10,7 @@
 
 Python is great for writing command line scripts and we use it a lot for internal tools and scripts at Zalando.
 Before extending a three line Bash script I usually rethink and implement it in Python.
-This post should summarize some conventions and best practices I recommend.
+This post summarizes some conventions and best practices I recommend.
 
 .. TEASER_END
 
@@ -92,7 +92,7 @@ WARN
   WARN log entries would also be shown in CRON mails for CRON command line scripts, i.e. they should be fixed (for consistency) but have no real impact. WARN log entries should be printed even if the ``--quiet`` (``-q``) command line flag is used.
 
 ERROR
-  Every error state requiring the user's attention and potentially preventing the successful script termination.
+  Every error state requiring the user's attention and potentially preventing the successful script completion.
 
 Header and Structure
 --------------------
