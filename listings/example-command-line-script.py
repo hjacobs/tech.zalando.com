@@ -4,6 +4,8 @@
 '''
 Stupid script to demonstrate how to write Python command line scripts.
 This script will overwrite given files with the string "FOOBAR"!
+
+Tested only with Python 2.7.
 '''
 
 import logging

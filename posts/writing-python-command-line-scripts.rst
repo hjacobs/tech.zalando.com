@@ -1,6 +1,6 @@
 .. title: Writing Python command line scripts
 .. slug: writing-python-command-line-scripts
-.. date: 2014/03/31 17:55:29
+.. date: 2014/03/31 15:55:29
 .. tags: python
 .. link:
 .. description:
