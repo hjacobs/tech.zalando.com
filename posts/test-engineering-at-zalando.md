@@ -42,7 +42,7 @@ they can be executed during all steps of the development process.
 
 ## Test Engineers Complement Teams
 
-[![Test engineer in a development team](/files/2013/06/Test_Engineer_in_Dev_Team.jpg)](/files/2013/06/Test_Engineer_in_Dev_Team.jpg) Test engineer in a development team We are not supposed to replace the testers in our development
+[![Test engineer in a development team](/files/2013/06/Test_Engineer_in_Dev_Team.jpg)](/files/2013/06/Test_Engineer_in_Dev_Team.jpg) Test engineer in a development team. We are not supposed to replace the testers in our development
 teams, but to work side by side with developers, testers and product managers
 in order to develop high quality software and to assure that new features can
 be delivered as fast as possible.
