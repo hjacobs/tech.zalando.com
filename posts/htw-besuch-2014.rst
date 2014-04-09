@@ -1,12 +1,10 @@
 .. title: HTW Students visiting Zalando Technology
 .. slug: htw-students-visiting-zalando-technology
-.. date: 2014/04/09 15:55:29
+.. date: 2014/04/08 15:55:29
 .. tags: python
-.. link:
 .. description:
 .. author: Christian Rochow
 .. type: text
-.. image: 
 
 Some weeks ago, a small group of 20 business informatics students from HTW Berlin visited Zalando at the technology office to catch a glimpse of the daily business behind the scenes.
 
