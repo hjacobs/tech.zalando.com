@@ -10,6 +10,8 @@
 
 Some weeks ago, a small group of 20 business informatics students from HTW Berlin visited Zalando at the technology office to catch a glimpse of the daily business behind the scenes.
 
+.. TEASER_END
+
 Unfortunately – or luckily for the young women, it was impossible to introduce every single team to the students. Besides this we wanted to make this day as exciting as possible.
 Therefore the agenda was split.
 In the morning three main areas of technology were presented:
