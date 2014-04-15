@@ -1,70 +1,117 @@
 .. title: AngularJS in a Java World
 .. slug: angularjs-in-a-java-world
-.. date: 2014-04-16 10:15:12
-.. tags:
-.. author: Calvin Seward
-.. image: warehouse.png
+.. date: 2014/04/16 10:14:00
+.. tags: angularjs
+.. author: Aike Sommer
+.. image: angularjs-logo.png
 
-Let’s say you know what items need to be retrieved from a warehouse and you know where the items are located. But can you retrieve all those items following an
-optimal route? Now further assume that you are using a cart to collect the items, can you also figure out how to optimally manage the cart, too? “Of course not!,”
-you cry, “Calculating the optimal route is the `travelling salesman problem <https://en.wikipedia.org/wiki/Travelling_salesman_problem>`_, and as to solving
-the problem with the cart, now that would be pure black magic.” Don’t believe me? Try your luck with the picture below, see if you can find the shortest route that
-passes by all the x-marks. At Zalando we have developed an efficient algorithm to solve just this problem, and today we’ll tell you more about it.
+My name is Aike and I work for the Tooling team of the Zalando Technology department - our job is to create applications for internal use in other teams. A little
+while ago, we decided to evaluate some new technologies for our applications. One of those technologies - and eventually the one that we went for - was AngularJS.
+We have since based some new applications on Angular - and other teams of Zalando Technology have just recently followed in this direction. But as quickly as we
+fell in love with Angular, we also realized that there are some challenges to be tackled.
 
 .. TEASER_END
 
-The Travelling Salesman Problem in Logistics
---------------------------------------------
+Before we started with Angular, all of my teams frontend development was based on SmartGWT, using the MVP-pattern. This allowed us to use Java for “everything” - and
+enabled us not only to develop and structure our code like in any other Java-GUI-framework, but also to use the great support of Java-IDEs. Moving away from this, we
+were suddenly involved with a few technologies that we just not had that much experience with.
 
-When an order is placed at the Zalando shop, the items don't just appear by magic at the doors of screaming customers like in the Zalando commercials, but the work is done in multiple steps in Zalando's warehouses. One of the steps is the so called “pick” step.  In this step, a worker retrieves a bunch of items from a large
-hall filled with shelves of clothes, shoes and accessories. The hall is not unlike a large supermarket where shelves are arranged and separated by aisles and cross
-aisles. The worker retrieves the items by picking up an empty cart and going from location to location as instructed by his bar code scanner, not unlike a shopper picking up all the items on his shopping list.  Once he has retrieved all the articles in his tour, he returns the full cart and starts on a new list. A figure of the situation can be seen below, where the x’s denote locations where the worker must
-retrieve an item, and the node at the very bottom is where he picks up and drops off his cart.
+The biggest challenges for us were:
 
-.. image:: /images/pick-steps.png
-   :alt: Pick position and route
+* Integrate all those new technologies into our Maven-based build
+* Find a structure that helps us in creating not only great applications - but also maintainable and reusable code
+* Understand some performance relevant internals, helping us push the limits just a little
 
-Clearly the distance the worker has to walk for a tour depends heavily on the order in which he retrieves all his items. An experienced customer in our
-supermarket example doesn't work through his shopping list in the order he has written the list, but he works through the list dependent on where the items are in
-the supermarket in order to minimize his travel time.  The goal of ourproject was thus to order the worker's list of locations such that he takes the route with
-the minimal travel time.  Solving this problem is equivalent to solving the travelling salesman problem in a special form.
+In this post I want to focus on the structure that we are using for our applications.
 
-It is generally known that the travelling salesman problem is NP-hard in its unrestricted form, meaning that it can not be solved efficiently for large scale
-problems. And if it is not solved, the route that the workers walk is longer than it needs to be.  We calculated that such inefficiencies were causing our workers
-to walk 40,000 extra kilometers each year, meaning they walked around the world simply because we couldn’t tell them the best route to walk.
+Structure that code
+-------------------
 
-It is also known that there are many special cases where the travelling salesman problem can be solved with polynomial complexity. Therefore, just because a
-problem is a travelling salesman problem doesn't mean all hope is lost. Over the last few months, my team implemented a linear complexity solution to a special
-case of the travelling salesman and extended it to also help the worker manage his cart.
+Angular defines a few types of application-components: controllers, services, directives and filters are mostly written in JavaScript, the template itself is plain
+HTML with some additional markup. When following some basic principles, it is usually quite obvious whether a piece of code belongs into a controller, a service or
+any of the other types. This leads to many Angular-based applications having a big template and a few JS-files: controllers.js, services.js and so on. For simple
+applications this is actually working quite nicely.
 
-Calculating the Optimal Route Without a Cart
---------------------------------------------
+When applications grow a little bigger - and especially if multiple developers are working on the same code-base - the first step is usually to split these files
+into smaller ones inside of corresponding directories. This does help in avoiding merge-wars because of multiple developers working on the same files. Some other
+downsides of a growing code-base might also be easy to fix or simply not worth the effort to come up with anything else.
 
-Luckily, our warehouse configuration is a special case that can be solved in polynomial time and where an algorithm to do this has already been published. Therefore we were able to implement an
-already existing algorithm in order to minimize the worker's travel distance.  The details of the exact algorithm are discussed in this paper [#]_ (or the free version `here <http://www.roodbergen.com/publications/EJOR2001.php>`_). Please be warned that,
-in order to understand the first paper, it is very helpful to read this paper [#]_  detailing the even simpler case of a warehouse without a cross aisle.
+But in the end the developers will still waste lots of time searching. Devs will have to search for the definition of some method or field available on the $scope,
+a specific controller or service or for the template or stylesheet that corresponds to some part of your application. In any case the question will be “Where is the
+code, that causes this behaviour?”. As JS and especially Angular support in current IDEs is just not as far as it is for Java - and also because of the dynamic
+nature of JS - your IDE will only get you that far in helping you with your search.
 
-By implementing this algorithm, the optimal travel time problem is not yet fully solved since in our case minimizing travel distance doesn't always minimize travel time.  Consider yet again our
-intrepid shopper in the supermarket.  If he is particularly hungry, then he will pick up a shopping cart before he collects all the items he wishes to purchase.  And since the shopping cart is
-slow and unwieldy, he will often times leave it in the cross aisles, pick up a few items and return to his cart.  By not having to take the cart with him everywhere, he reduces his travel time
-while increasing his travel distance.
+Another reason for a good structure of your code is the reverse question “What happens, when I change this code?”. Especially when working with very large
+controllers, possibly even across multiple views, side-effects can be very hard to trace. A usage-search on some $scope-method will in many cases just not give you
+the expected result.
 
-Calculating the Optimal Route With a Cart
------------------------------------------
+Same logical structure on all levels
+------------------------------------
 
-Thus, the last step of our project was to develop an algorithm that gives the worker hints about where to move and leave the cart so that his overall travel time is optimized.  In order to create
-an algorithm that does this, we built on the paper from above by adding more rules to ensure that the routes created with the cart were valid and more logic to calculate the travel speed of the
-picker with and without the cart.
+To make our code maintainable, we try to come up with a logical structure to our frontend (based on mockups and known requirements), that we then map onto all levels:
 
-After doing all this, we had an algorithm that could calculate the optimal route that a warehouse worker had to take, and where he should leave and pick up his cart.  The optimal route for the
-warehouse above can be seen below, with the dark lines representing the path that the cart takes, and the light lines the path that the worker takes.
+* DOM elements and ids
+* folder- and file-names
+* Angular views
+* Angular component naming
+* Angular scopes
 
-.. image:: /images/pick-steps-2.PNG
-   :alt: Shortest walk with cart positions
+To explain this, I will use a real world example - the project which I am currently most involved in: the Campaign and Media Planning tool (short: CaMP) for our
+marketing department. The UI consists of 3 views (for now) - the campaign-plan, media-plan and production-plan. All those views look very similar - a header
+including top-level navigation and a filter-bar on top and an overview of the corresponding entities below. A detail-view of those entities can be opened on the
+right side next to the overview-area.
 
-It is nice to know that, even though we didn't solve the general travelling salesman problem in polynomial time, we did manage to make it reveal its secrets for one special case and were able to apply that knowledge to an issue of great relevance: our order fulfillment efficiency, a must-have for success in online retail.
+For each of those views, we create a folder named by the view (/app/campaign-plan) and a template main.html inside of it. The root-element in this main.html gets
+the name of the view as id and an ng-controller-attribute with the camel-cased name of the view (<div id=”campaign-plan” ng-controller=”CampaignPlanController”>).
+This controller is then also created inside of the views folder (/app/campaign-plan/CampaignPlanController.js). For styling of this view, a LESS-file
+/asset/less/campaign-plan/main.less is created, which is completely scoped to the root-element of the template (#campaign-plan { ... }).
 
-___________________________________________
+The view is then further divided into logical areas. One of those is for example the detail-area on the right edge. For every such sub-areas a template
+(/app/campaign-plan/detail/main.html), an id (campaign-plan-detail), a controller (CampaignPlanDetailController) and a LESS-file (/asset/less/campaign-plan/detail.less)
+is created.
 
-.. [#] Kees Jan Roodbergen, René de Koster, Routing order pickers in a warehouse with a middle aisle, European Journal of Operational Research, Volume 133, Issue 1, 16 August 2001, Pages 32-43, ISSN 0377-2217
-.. [#] \H. Donald Ratliff and Arnon S. Rosenthal, Order-Picking in a Rectangular Warehouse: A Solvable Case of the Traveling Salesman Problem, Operations Research, Vol. 31, No. 3 (May - Jun., 1983), pp. 507-521
+The way the controllers are attached to the DOM-elements, the Angular scopes are automatically created in that same structure. For things like services, directives,
+filters and other components used by multiple views, there is also a folder /app/common.
+
+In the end we have something like this:
+
+.. image:: /images/camp-mock-areas.png
+   :width: 100%
+
+|
+
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| Logical Path                             | DOM Element                              | Controller                                                   |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| Template File                            | LESS File                                | Controller File                                              |
++==========================================+==========================================+==============================================================+
+| /                                        | body                                     | CampController                                               |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /index.jsp                               | /asset/less/main.less                    | /app/common/CampController.js                                |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /campaign-plan                           | #campaign-plan                           | CampaignPlanController                                       |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /app/campaign-plan/main.html             | /asset/less/campaign-plan/main.less      | /app/campaign-plan/ CampaignPlanController.js                |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /campaign-plan/overview                  | #campaign-plan-overview                  | CampaignPlanOverviewController                               |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /app/campaign-plan/overview.html         | /asset/less/campaign-plan/overview.less  | /app/campaign-plan/ CampaignPlanOverviewController.js        |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /campaign-plan/detail                    | #campaign-plan-detail                    | CampaignPlanDetailController                                 |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /app/campaign-plan/detail/main.html      | /asset/less/campaign-plan/detail.less    | /app/campaign-plan/detail/ CampaignPlanDetailController.js   |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /media-plan                              | #media-plan                              | MediaPlanController                                          |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /app/media-plan/main.html                | /asset/less/media-plan/main.less         | /app/media-plan/ MediaPlanController.js                      |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /media-plan/...                          | #media-plan-...                          | ...                                                          |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+| /...                                     | #...                                     | ...                                                          |
++------------------------------------------+------------------------------------------+--------------------------------------------------------------+
+
+
+This sounds trivial and it actually is quite simple to implement - but what’s important is: this makes it trivial to find the files corresponding to some feature in the
+application. Or to know what could be affected by a change in one of those files.
+
+I hope you enjoyed this article and that it gives you a little insight in how we develop tools - even though this only scratches the surface of our everyday work.
