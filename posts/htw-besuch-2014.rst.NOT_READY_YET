@@ -1,12 +1,13 @@
 .. title: HTW Students visiting Zalando Technology
 .. slug: htw-students-visiting-zalando-technology
 .. date: 2014/04/08 15:55:29
-.. tags: python
-.. description:
+.. tags: 
+.. description: business informatic students from HTW Berlin visited Zalando technology departmend
 .. author: Christian Rochow
+.. image: htw_final.jpg
 .. type: text
 
-Some weeks ago, a small group of 20 business informatics students from HTW Berlin visited Zalando at the technology office to catch a glimpse of the daily business behind the scenes.
+Some weeks ago, a small group of 20 business informatics students from HTW Berlin_ visited Zalando at the technology office to catch a glimpse of the daily business behind the scenes.
 
 .. TEASER_END
 
@@ -16,6 +17,9 @@ In the morning three main areas of technology were presented:
 Jan Mußler from Platform/Database team talked about our platform and the basic setup of our system.
 Product Manager Katarina Matthes showed, how the product management at Zalando works.
 I for myself work in QA and gave an overview about the quality assurance and its themes.
+
+.. image:: /images/htw_presentation_small.jpg
+   :alt: Jan Mußler presenting the platform structure
 
 Product management and testing were about to be enlarged later in the practical part in the afternoon.
 
@@ -27,7 +31,7 @@ But before this, the visitors were guided through the office. They looked very s
 
 Once all questions regarding team structure, processes and working hours were answered, we went back towards "home base" - the Technology Mentoring Area, which usually is used to train our new colleagues.
 In the meantime a tasty lunch was prepared and the lunch break was a good opportunity to share the impressions between students and Zalando-manias who joined in to answer questions.
- 
+
 After the lunch we started the practical part of the day. Main theme was the test of catalog pages. While four students got the chance to test new product pages within the Userlab, all others worked in small groups on the following tasks:
 - Definition of test cases to verify catalog pages on their functionality
 - Monitor and review the Userlab goup
@@ -41,3 +45,5 @@ Another group had the opportunity to see a new navigation element that was in pr
 
 The day was almost over. At the end everyone joined the Mentoring Area again and a small conclusion of the day was made and some giveaways were handed to the students.
 The last task came from the professor: Every student got some homework to do. That's how a student's life is - You can have a great day outside the campus. But in the end you have to write a report :-)
+
+.. _HTW Berlin: http://fiw.htw-berlin.de/
