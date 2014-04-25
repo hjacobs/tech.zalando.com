@@ -1,15 +1,13 @@
 .. title: HTW Students visiting Zalando Technology
 .. slug: htw-students-visiting-zalando-technology
-.. date: 2014/04/08 15:55:29
+.. date: 2014/04/24 13:55:29
 .. tags: 
 .. description: business informatic students from HTW Berlin visited Zalando technology departmend
 .. author: Christian Rochow
 .. image: htw_final.jpg
 .. type: text
 
-Some weeks ago, a small group of 20 business informatics students from HTW Berlin_ visited Zalando at the technology office to catch a glimpse of the daily business behind the scenes.
-
-.. TEASER_END
+Some weeks ago, a small group of 20 business informatics students from `HTW Berlin <http://fiw.htw-berlin.de/>`_ visited Zalando at the technology office to catch a glimpse of the daily business behind the scenes.
 
 Unfortunately – or luckily for the young women, it was impossible to introduce every single team to the students. Besides this we wanted to make this day as exciting as possible.
 Therefore the agenda was split.
@@ -18,12 +16,12 @@ Jan Mußler from Platform/Database team talked about our platform and the basic 
 Product Manager Katarina Matthes showed, how the product management at Zalando works.
 I for myself work in QA and gave an overview about the quality assurance and its themes.
 
+.. TEASER_END
+
 .. image:: /images/htw_presentation_small.jpg
    :alt: Jan Mußler presenting the platform structure
 
-Product management and testing were about to be enlarged later in the practical part in the afternoon.
-
-But before this, the visitors were guided through the office. They looked very surprised as they left the tight corridors of the main building and entered the huge open space office on the second floor. Everything that makes our work fast and flexible could be seen:
+Both Product management and Testing were about to be enlarged later in the practical part in the afternoon. But before this, the visitors were guided through the office. They looked very surprised as they left the tight corridors of the main building and entered the huge open space office on the second floor. Everything that makes our work fast and flexible could be seen:
 - Dynamic interacting teams without physical boundaries
 - Active control of our system by live monitoring
 - Open and unproblematic communication
@@ -45,5 +43,3 @@ Another group had the opportunity to see a new navigation element that was in pr
 
 The day was almost over. At the end everyone joined the Mentoring Area again and a small conclusion of the day was made and some giveaways were handed to the students.
 The last task came from the professor: Every student got some homework to do. That's how a student's life is - You can have a great day outside the campus. But in the end you have to write a report :-)
-
-.. _HTW Berlin: http://fiw.htw-berlin.de/
