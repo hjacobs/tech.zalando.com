@@ -9,12 +9,11 @@
 
 Some weeks ago, a small group of 20 business informatics students from `HTW Berlin <http://fiw.htw-berlin.de/>`_ visited Zalando at the technology office to catch a glimpse of the daily business behind the scenes.
 
-Unfortunately – or luckily for the young women, it was impossible to introduce every single team to the students. Besides this we wanted to make this day as exciting as possible.
-Therefore the agenda was split.
+Unfortunately – or luckily for the young women, it was impossible to introduce every single technology team to the students. As we wanted to make this day as exciting and interesting as possible the agenda was split.
 In the morning three main areas of technology were presented:
-Jan Mußler from Platform/Database team talked about our platform and the basic setup of our system.
-Product Manager Katarina Matthes showed, how the product management at Zalando works.
-I for myself work in QA and gave an overview about the quality assurance and its themes.
+Jan Mußler from Platform/Software team talked about our platform and the basic setup of our system.
+Product Manager Katarina Matthes showed, how product management at Zalando Technology works.
+I myself work in QA and gave an overview about the quality assurance and its themes.
 
 .. TEASER_END
 
