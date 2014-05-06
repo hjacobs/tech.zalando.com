@@ -21,7 +21,7 @@
 |div|
 
 **Address:**
-Zalando AG |br|
+Zalando AG (Public limited company) |br|
 Sonnenburger Str. 73 |br|
 10437 Berlin |br|
 Germany
@@ -32,21 +32,23 @@ Germany
 **E-Mail:**
 service-tech@zalando.de
 
-**Management:**
+**Management Board:**
 Robert Gentz, David Schneider, Rubin Ritter |br|
 
-**Registered at:**
-Amtsgericht Charlottenburg Berlin, |br|
-HRB112394B
+**Chairman of the Supervisory Board:**
+Cristina Mayville Stenbeck
 
-**Value-Added Tax-ID:**
-DE 260543043
+**Registered at:**
+Amtsgericht Charlottenburg Berlin, HRB154823B |br|
+
+**Value Added Tax-ID:**
+DE 260543043 |br|
 
 **Tax Number:**
-37/125/21423
+37/125/21423 |br|
 
 **Responsible:**
-for contents of Zalando AG acc. To § 55 RStV: Robert Gentz
+for contents of Zalando AG acc. To § 55 RStV: Robert Gentz |br|
 
 **Illustrations by:**
 Kolja Wilcke
