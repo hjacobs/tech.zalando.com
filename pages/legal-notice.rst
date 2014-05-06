@@ -21,7 +21,7 @@
 |div|
 
 **Address:**
-Zalando AG (Public limited company) |br|
+Zalando AG |br|
 Sonnenburger Str. 73 |br|
 10437 Berlin |br|
 Germany
