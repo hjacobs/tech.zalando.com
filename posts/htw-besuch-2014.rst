@@ -21,6 +21,7 @@ I myself work in QA and gave an overview about the quality assurance and its the
    :alt: Jan Mußler presenting the platform structure
 
 Both Product management and Testing were about to be enlarged later in the practical part in the afternoon. But before this, the visitors were guided through the office. They looked very surprised as they left the tight corridors of the main building and entered the huge open space office on the second floor. Everything that makes our work fast and flexible could be seen:
+
 * Dynamic interacting teams without physical boundaries
 * Active control of our system by live monitoring
 * Open and unproblematic communication
@@ -30,6 +31,7 @@ Once all questions regarding team structure, processes and working hours were an
 In the meantime a tasty lunch was prepared and the lunch break was a good opportunity to share the impressions between students and Zalando-manias who joined in to answer questions.
 
 After the lunch we started the practical part of the day. Main theme was the test of catalog pages. While four students got the chance to test new product pages within the Userlab, all others worked in small groups on the following tasks:
+
 * Definition of test cases to verify catalog pages on their functionality
 * Monitor and review the Userlab goup
 * Examine and discuss the new product layouts
