@@ -19,7 +19,7 @@ completed his presentation with an overview of the achieved results. Rolands and
 other perfectly! While Drew was talking about Data Science from a more theoretical perspective Roland has given an exciting real life example of Data Science and was somehow confirmed the
 theory of hacking skills + math + expertise.
 
-Another mentionable talk from Michael Hausenblas (MapR) was covering Spark as "the light at the end of the tunnel". For me especially his explanations about the `Lambda Architecture <>http://www.mapr.com/developercentral/lambda-architecture`_ were
+Another mentionable talk from Michael Hausenblas (MapR) was covering Spark as "the light at the end of the tunnel". For me especially his explanations about the `Lambda Architecture <http://www.mapr.com/developercentral/lambda-architecture>`_ were
 pretty interesting as were are currently dealing with that. Fore sure at the end of his talk everybody was convinced the light at the end of the tunnel isn't an oncoming train ;-)
 
 Next to the mentioned talks there were even more about streamdrill, IBM Watson and Singapore for example. The day ended with three workshops a lot of talks and of course pizza and bear. To
