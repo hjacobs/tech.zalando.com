@@ -9,8 +9,17 @@ this time, together with The Unbelievable Machine Company (UM), Zalando had the 
 
 .. TEASER_END
 
+.. image:: /images/data-science-steven-and-klaas.jpg
+   :alt: steven & klaas
+
 In the morning Steven from Zalando and Klaas from UM did a bracing opening and introduced the first speaker Drew Conway. Drew is not only a successful author but as well one of
 the most important and best known Data Scientist in the US. It was fascinating to see Drew speaking at the Data Science Day in Berlin! Ok, this was not only luck, Drew were invited and one week in Berlin was a fine deal for Drew as well I suppose ;-) During his brilliant talk Drew elaborated the job profile of a Data Scientist. He emphasized the needed skills to be a successful Data Scientist: Hacking skills, math & statistical knowledge and substantive expertise. So, to be good in Math in University isn't enough for sure. Drew wondered why so many of smart people invest their time and energy in optimizing Online Ads ... I have an idea but that's not subject for now.
+
+.. image:: /images/data-science-drew.jpg
+   :alt: drew
+
+.. image:: /images/data-science-drew-and-listeners.jpg
+   :alt: drew & listeners
 
 A few talks later Roland from the Zalando Data Intelligence team was talking about the development of a machine learning system calculating the weight of our articles shipped to customers.
 We will benefit significantly from this system, obviously is much easier to calculate the weight as weighing every article and we need this data for many logistic use-cases. Roland explained
@@ -19,11 +28,17 @@ completed his presentation with an overview of the achieved results. Rolands and
 other perfectly! While Drew was talking about Data Science from a more theoretical perspective Roland has given an exciting real life example of Data Science and was somehow confirmed the
 theory of hacking skills + math + expertise.
 
+.. image:: /images/data-science-roland.jpg
+   :alt: roland
+
 Another mentionable talk from Michael Hausenblas (MapR) was covering Spark as "the light at the end of the tunnel". For me especially his explanations about the `Lambda Architecture <http://www.mapr.com/developercentral/lambda-architecture>`_ were
 pretty interesting as were are currently dealing with that. Fore sure at the end of his talk everybody was convinced the light at the end of the tunnel isn't an oncoming train ;-)
 
 Next to the mentioned talks there were even more about streamdrill, IBM Watson and Singapore for example. The day ended with three workshops a lot of talks and of course pizza and bear. To
 sum it up: it was a lot of fun. "Data Science" is somehow buzz-wording but the number of participants, the many good talks and evolving tool landscape is proving that there is as well
 relevance! I’m looking forward to the next Data Science Day.
+
+.. image:: /images/data-science-crowd.jpg
+   :alt: crowd
 
 Eric.
