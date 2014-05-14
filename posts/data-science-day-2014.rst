@@ -38,6 +38,4 @@ relevance! I’m looking forward to the next Data Science Day.
 .. image:: /images/data-science-crowd.jpg
    :alt: Crowd
 
-Eric.
-
 P.S.: Thanks to Jürgen-Arne Klein for sharing his pictures with us.
