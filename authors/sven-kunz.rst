@@ -3,7 +3,7 @@
 .. date: 2014/05/20 00:01:00
 .. tags:
 .. link:
-.. description:
+.. description: Sven Kunz, Frontend Developer at Zalando AG. I am most interested in creating clean markup and prefer to implement features using only CSS when possible.
 .. type: text
 .. author_title: Frontend Developer
 
