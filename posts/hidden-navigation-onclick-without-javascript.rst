@@ -1,160 +1,78 @@
-.. title: Writing Python command line scripts
-.. slug: writing-python-command-line-scripts
-.. date: 2014/03/31 15:55:29
-.. tags: python
+.. title: Show hidden Navigation on-click without JavaScript
+.. slug: hidden-navigation-onclick-without-javascrip
+.. date: 2014/05/22 10:21:29
+.. tags: css
 .. link:
-.. description:
-.. author: Henning Jacobs
+.. description: How to build a hidden Navigation and show it  on click without JavaScript and just using HTML and CSS
+.. author:Sven Kunz
 .. type: text
-.. image: python-logo.png
+.. image: css3.png
 
-Python is great for writing command line scripts and we use it a lot for internal tools and scripts at Zalando.
-Before extending a three line Bash script I usually rethink and implement it in Python.
-This post summarizes some conventions and best practices I recommend.
+We all have seen many of those famous “Hamburgers” in headers while surfing on pages with our beloved mobile devices. So what is it all about?
 
+As we have been used to build web pages for larger screens we were not forced to face the problem of available space that much and if so, well, we just had to add an overlay navigation on hover to add more links to our navigation.
+
+This still works fine for desktop screens and maybe it will always do. But what happens to mobile devices such as smartphones or tablets?
 .. TEASER_END
+Mostly there is no hover-event or mouseover on touch-devices. And there is probably not enough space to fit in all the navigation links to the screen, too.
 
-Command Line Options
---------------------
+The most common method is to hide the navigation and only show it to the user by touching an icon or wording. Nothing special so far, right? There are different ways to implement that and usually it is not worth thinking of different ways, it’s just so easy with JQuery and co.
 
-Do you know the command line options of GNU tar? Probably not all of them. Does ``-v`` just show the version or does it enable verbose mode?
-Defining some standard options avoids confusion and will let you focus on the more important aspects: writing the actual script logic.
-I use the following standard options for my scripts:
+But what about doing this without JavaScript? Is there any way to do so and if so, what will be the advantage?
 
--v, --verbose  Enable verbose/debug output/logging
--q, --quiet    Enable quiet/silent mode (only show warnings and errors)
---dry-run      No-op mode which should not modify anything
+So believe me, it is quite easy to get it done. And we do not even have to use JavaScript for such a tiny thing. You just need one more additional HTML element and two CSS selectors with six lines in total!
 
-The Python ``argparse`` module is excellent for command line option parsing:
+The explanation below will show you how:
 
-.. code:: python
+#. First of all we are adding a <label> to our DOM. In our case we would like to add it to the <header>. But it can be placed everywhere you need it.
+#. We now add the element we want to be triggered by the <label>. We go for the <nav> because we are building a hidden navigation.
+#. Finally we add an <input> element to address the navigation. We are doing that by placing it as sibling element right before the <nav>. We use type “checkbox” to set it checked and unchecked with our <label>
 
-    from argparse import ArgumentParser
-    parser = ArgumentParser()
-    group = parser.add_mutually_exclusive_group()
-    group.add_argument('-v', '--verbose', help='Verbose (debug) logging', action='store_const', const=logging.DEBUG,
-                        dest='loglevel')
-    group.add_argument('-q', '--quiet', help='Silent mode, only log warnings', action='store_const',
-                        const=logging.WARN, dest='loglevel')
-    parser.add_argument('--dry-run', help='No-op, do not write anything', action='store_true')
-    args = parser.parse_args()
+.. code:: html
 
-By using ``add_mutually_exclusive_group``, the user is prevented from accidentally specifying both ``-v`` and ``-q`` (they would contradict each other).
+    <header>
+        <label for=”menuTrigger”>Trigger</label>
+    </header>
 
-There is something to watch out if you are defining command line options: Often you will need some sensitive data passed into your script,
-e.g. user and password to connect to a database. As command line options are visible in shell history, in CRON logs, CRON mails and even remote via SNMP (!) **it should never be necessary to pass credentials via command line options**!
-To avoid passing passwords on the command line you can either:
+    <input id=”menuTrigger” type=”checkbox”>
 
-* require a config file for your script --- but a config file should only be used if the configuration is complex enough
-* use some other authentication mechanism (e.g. Kerberos) --- this is often not possible
-* use an existing credentials store (e.g. ``~/.pgpass`` for PostgreSQL when using psycopg2_) --- if you can, use this solution (esp. for psycopg2)
-* allow passing passwords via special files
-
-I'm often using the last approach by allowing to load a password from file if the option value starts with "@":
-
-.. code:: bash
-
-    ./my-script.py --host myhost --user hjacobs --password @~/.mysecretpw
-
-Another pitfall comes when printing/logging options passed to the script. It should be a matter of course not printing complete database connection strings or similar sensitive information.
+    <nav>
+        Your Navigation Content
+    </nav>
 
 
-Logging
--------
+Let us add some CSS to make it work:
 
-Sprinkling your script with ``print`` statements is a bad idea.
-By using the standard ``logging`` module we get log levels, string formatting and exception printing for free:
+#. We have to hide our navigation and of course the <input> element, we do not want to see.
 
-.. code:: python
+#. To show the navigation by click on our <label> we add a “display: block” to the navigation if the <input> element will have the status “:checked”. We can address the sibling everywhere in the DOM but this perhaps won't work in every Browser. So we placed the <input> right before the <nav> element.
 
-   import logging, sys
+.. code:: css
 
-   logging.basicConfig(level=logging.DEBUG)
+    nav,
+    #menuTrigger {
+        display: none;
+    }
 
-   logging.debug('Starting the script %s..', sys.argv[0])
-   try:
-       logging.info('Doing something important')
-       # .. do something ..
-   except:
-       logging.exception('Something went wrong')
-
-I recommend the following guidelines for log levels:
-
-DEBUG
-  Information about the script's execution details normally not necessary to see.
-  DEBUG lines will be printed/logged if ``--verbose`` (``-v``) command line argument is used.
-
-INFO
-  This should be the default expected output of your script. The script's main tasks should be appropriately reflected by INFO log lines.
-
-WARN
-  Warnings should be "fixable" by the user.
-  WARN log entries would also be shown in CRON mails for CRON command line scripts, i.e. they should be fixed (for consistency) but have no real impact. WARN log entries should be printed even if the ``--quiet`` (``-q``) command line flag is used.
-
-ERROR
-  Every error state requiring the user's attention and potentially preventing the successful script completion.
-
-Header and Structure
---------------------
-
-By adding the right shebang we can make the script executable (still needs ``chmod +x`` of course). The encoding is important for string literals:
-
-.. code:: python
-
-    #!/usr/bin/env python
-    # -*- coding: utf-8 -*-
-    '''
-    A docstring header can contain the script's main purpose
-    and author information
-    '''
-
-By using a docstring instead of a regular comment we can easily reuse it in different places, e.g. we can pass it as a ``description`` parameter to the ``ArgumentParser`` class.
-
-Split your main script logic from argument parsing and use the ``__name__`` check to allow importing your script:
-
-.. code:: python
-
-    def main(args):
-        # main script logic
-
-    if __name__ == '__main__':
-        # ....
-        args = parser.parse_args()
-        main(args)
-
-Now you can use the standard python repl or ipython_ to import and test your script:
-
-.. code:: bash
-
-    python
-    >>> import myscript
-    >>> myscript.some_func()
+    #menuTrigger:checked + nav {
+        display: block;
+    }
 
 
-
-DOs and DON'Ts
---------------
-
-* DO use the ``argparse`` module
-* DO allow specifying all configurations via arguments (if they are not overly complicated)
-* DO use the ``logging`` module and follow logging guidelines
-* DO check your code with ``pyflakes``
-* DO format your code according to PEP8_
-* DO use meaningful return codes (``sys.exit(retcode)``)
-* DON'T (never!) pass sensitive credentials (passwords) via command line options
-* DON'T (never!) print information which could contain sensitive information (e.g. database connection strings)
-* DON'T use ``print`` statements, use standard logging instead
-* DON'T use old-style string formatting (``%`` operator), use built-in logging format strings or ``"{}".format(..)``.
-
-For pyflakes and code formatting (PEP8-like) I use my codevalidator.py_ script.
-
-Example Script
---------------
-
-.. listing:: example-command-line-script.py python
+DEMO on Fiddle: http://jsfiddle.net/GLORIEN/YuzqF/
 
 
-.. _psycopg2: https://pypi.python.org/pypi/psycopg2
-.. _ipython: http://ipython.org/
-.. _PEP8: http://www.python.org/dev/peps/pep-0008/
-.. _codevalidator.py: https://github.com/hjacobs/codevalidator
+So what happened here?
+We take that state of the element to actually give the sibling element right behind a different style.
+In this example from “display: none” to “display: block”.
+
+And we do that by using the CSS3 pseudo-class selector :checked http://www.w3.org/wiki/CSS/Selectors/pseudo-classes/:checked
+
+
+As we can see it is very easy, very fast and you don’t need any JavaScript for it at all. If you are fine with adding an additional <input> element than it could possibly be your next on-click menu.
+
+As already mentioned, it won’t work in every Browser. So as the pseudo-class is part of CSS3 there is no support in IE8 and below. Browser support: http://www.quirksmode.org/css/selectors/#t60
+I also had some issues related to the ~ selector for siblings in Android-browsers on HTC Devices. So make sure to always check your work properly.
+
+
+.. _fiddle: http://jsfiddle.net/GLORIEN/YuzqF/
