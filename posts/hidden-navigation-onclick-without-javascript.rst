@@ -26,9 +26,9 @@ So believe me, it is quite easy to get it done. And we do not even have to use J
 
 The explanation below will show you how:
 
-#. First of all we are adding a <label> to our DOM. In our case we would like to add it to the <header>. But it can be placed everywhere you need it.
-#. We now add the element we want to be triggered by the <label>. We go for the <nav> because we are building a hidden navigation.
-#. Finally we add an <input> element to address the navigation. We are doing that by placing it as sibling element right before the <nav>. We use type “checkbox” to set it checked and unchecked with our <label>
+#. First of all we are adding a ``<label>`` to our DOM. In our case we would like to add it to the ``<header>``. But it can be placed everywhere you need it.
+#. We now add the element we want to be triggered by the ``<label>``. We go for the <nav> because we are building a hidden navigation.
+#. Finally we add an ``<input>`` element to address the navigation. We are doing that by placing it as sibling element right before the ``<nav>``. We use type “checkbox” to set it checked and unchecked with our ``<label>``
 
 .. code:: html
 
@@ -45,9 +45,9 @@ The explanation below will show you how:
 
 Let us add some CSS to make it work:
 
-#. We have to hide our navigation and of course the <input> element, we do not want to see.
+#. We have to hide our navigation and of course the ``<input>`` element, we do not want to see.
 
-#. To show the navigation by click on our <label> we add a “display: block” to the navigation if the <input> element will have the status “:checked”. We can address the sibling everywhere in the DOM but this perhaps won't work in every Browser. So we placed the <input> right before the <nav> element.
+#. To show the navigation by click on our ``<label>`` we add a “display: block” to the navigation if the <input> element will have the status “:checked”. We can address the sibling everywhere in the DOM but this perhaps won't work in every Browser. So we placed the ``<input>`` right before the ``<nav>`` element.
 
 .. code:: css
 
@@ -71,10 +71,8 @@ In this example from “display: none” to “display: block”.
 And we do that by using the CSS3 pseudo-class selector :checked http://www.w3.org/wiki/CSS/Selectors/pseudo-classes/:checked
 
 
-As we can see it is very easy, very fast and you don’t need any JavaScript for it at all. If you are fine with adding an additional <input> element than it could possibly be your next on-click menu.
+As we can see it is very easy, very fast and you don’t need any JavaScript for it at all. If you are fine with adding an additional ``<input>`` element than it could possibly be your next on-click menu.
 
 As already mentioned, it won’t work in every Browser. So as the pseudo-class is part of CSS3 there is no support in IE8 and below. Browser support: http://www.quirksmode.org/css/selectors/#t60
 I also had some issues related to the ~ selector for siblings in Android-browsers on HTC Devices. So make sure to always check your work properly.
 
-
-.. _fiddle: http://jsfiddle.net/GLORIEN/YuzqF/
