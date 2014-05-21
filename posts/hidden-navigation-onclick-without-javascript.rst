@@ -1,5 +1,5 @@
 .. title: Show hidden Navigation on-click without JavaScript
-.. slug: hidden-navigation-onclick-without-javascrip
+.. slug: hidden-navigation-onclick-without-javascript
 .. date: 2014/05/20 10:21:29
 .. tags: css
 .. link:
@@ -13,7 +13,9 @@ We all have seen many of those famous “Hamburgers” in headers while surfing 
 As we have been used to build web pages for larger screens we were not forced to face the problem of available space that much and if so, well, we just had to add an overlay navigation on hover to add more links to our navigation.
 
 This still works fine for desktop screens and maybe it will always do. But what happens to mobile devices such as smartphones or tablets?
+
 .. TEASER_END
+
 Mostly there is no hover-event or mouseover on touch-devices. And there is probably not enough space to fit in all the navigation links to the screen, too.
 
 The most common method is to hide the navigation and only show it to the user by touching an icon or wording. Nothing special so far, right? There are different ways to implement that and usually it is not worth thinking of different ways, it’s just so easy with JQuery and co.
@@ -59,7 +61,7 @@ Let us add some CSS to make it work:
     }
 
 
-DEMO on Fiddle: http://jsfiddle.net/GLORIEN/YuzqF/
+**DEMO** on Fiddle: http://jsfiddle.net/GLORIEN/YuzqF/
 
 
 So what happened here?
