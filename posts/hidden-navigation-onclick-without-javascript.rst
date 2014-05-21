@@ -1,6 +1,6 @@
 .. title: Show hidden Navigation on-click without JavaScript
 .. slug: hidden-navigation-onclick-without-javascrip
-.. date: 2014/05/22 10:21:29
+.. date: 2014/05/20 10:21:29
 .. tags: css
 .. link:
 .. description: How to build a hidden Navigation and show it  on click without JavaScript and just using HTML and CSS
