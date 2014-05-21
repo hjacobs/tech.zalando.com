@@ -47,7 +47,7 @@ Let's add some CSS to make it work:
 
 #. We have to hide our navigation and of course the ``<input>`` element, we do not want to see.
 
-#. To show the navigation by click on our ``<label>`` we add a “display: block” to the navigation if the <input> element will have the status “:checked”. We can address the sibling everywhere in the DOM but this perhaps won't work in every Browser. So we placed the ``<input>`` right before the ``<nav>`` element.
+#. To show the navigation by click on our ``<label>`` we add a “``display: block``” to the navigation if the <input> element will have the status “``:checked``”. We can address the sibling everywhere in the DOM but this perhaps won't work in every Browser. So we placed the ``<input>`` right before the ``<nav>`` element.
 
 .. code:: css
 
@@ -66,7 +66,7 @@ Let's add some CSS to make it work:
 
 So what happened here?
 We take that state of the element to actually give the sibling element right behind a different style.
-In this example from “display: none” to “display: block”.
+In this example from “``display: none``” to “``display: block``”.
 
 And we do that by using the CSS3 pseudo-class selector :checked http://www.w3.org/wiki/CSS/Selectors/pseudo-classes/:checked
 
