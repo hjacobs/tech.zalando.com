@@ -47,7 +47,7 @@ Let's add some CSS to make it work:
 
 #. We have to hide our navigation and of course the ``<input>`` element, we do not want to see.
 
-#. To show the navigation by click on our ``<label>`` we add a “``display: block``” to the navigation if the <input> element will have the status “``:checked``”. We can address the sibling everywhere in the DOM but this perhaps won't work in every Browser. So we placed the ``<input>`` right before the ``<nav>`` element.
+#. To show the navigation by click on our ``<label>`` we add a ``display: block`` to the navigation if the <input> element will have the status ``:checked``. We can address the sibling everywhere in the DOM but this perhaps won't work in every Browser. So we placed the ``<input>`` right before the ``<nav>`` element.
 
 .. code:: css
 
