@@ -7,9 +7,6 @@
 .. type: text
 .. author_title: Frontend Developer
 
-Hi, I’m Sven and I am a Frontend Developer addicted to HTML5 and CSS3.
+Hi, I’m Sven and I am a Frontend Developer addicted to HTML5 and CSS3. I had the opportunity to work on several Projects at Zalando like the Shop-Page itself, the TechBlog and many more.
 
-I had the opportunity to work on several Projects at Zalando like the Shop-Page itself, the TechBlog and many more.
-
-I really love working with HTML and CSS and it is always challenging to get the best out of HTML and CSS.
-What I am interest the most is, to create clean markup and prefer CSS-features whenever possible.
+I really love working with HTML and CSS and it is always challenging to get the best out of HTML and CSS. I am most interested in creating clean markup and prefer  to implement features using only CSS when possible.
