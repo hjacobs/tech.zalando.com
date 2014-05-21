@@ -4,7 +4,7 @@
 .. tags: css
 .. link:
 .. description: How to build a hidden Navigation and show it  on click without JavaScript and just using HTML and CSS
-.. author:Sven Kunz
+.. author: Sven Kunz
 .. type: text
 .. image: css3.png
 
