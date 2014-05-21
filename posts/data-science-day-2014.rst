@@ -3,6 +3,7 @@
 .. date: 2014-05-11 10:15:12
 .. tags:
 .. author: Eric von Czapiewski
+.. image: data-science-crowd.jpg
 
 Last Thursday the 6th Data Science Day in the context of the worldwide Big Data Week 2014 took place. In that last years the Data Science Day was hosted by ImmobilienScout24 but
 this time, together with The Unbelievable Machine Company (UM), Zalando had the chance to show as a good host. First of all: It was a great Event! More than 100 people participated, we had/provided give-aways, tasty snacks and cool drinks and most of all we had awesome speakers!

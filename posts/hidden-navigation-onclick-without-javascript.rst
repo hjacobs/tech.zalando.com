@@ -22,7 +22,7 @@ The most common method is to hide the navigation and only show it to the user by
 
 But what about doing this without JavaScript? Is there any way to do so and if so, what will be the advantage?
 
-So believe me, it is quite easy to get it done. And we do not even have to use JavaScript for such a tiny thing. You just need one more additional HTML element and two CSS selectors with six lines in total!
+So believe me, it is quite easy to get it done. You just need one more additional HTML element and two CSS selectors with six lines in total!
 
 The explanation below will show you how:
 
@@ -43,7 +43,7 @@ The explanation below will show you how:
     </nav>
 
 
-Let us add some CSS to make it work:
+Let's add some CSS to make it work:
 
 #. We have to hide our navigation and of course the ``<input>`` element, we do not want to see.
 
