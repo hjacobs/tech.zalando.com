@@ -22,8 +22,8 @@
 
 **Address:**
 Zalando SE |br|
-Sonnenburger Str. 73 |br|
-10437 Berlin |br|
+Tamara-Danz-Straße 1 |br|
+10243 Berlin |br|
 Germany
 
 **E-Mail:**
