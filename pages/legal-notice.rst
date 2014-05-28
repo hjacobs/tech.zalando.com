@@ -21,9 +21,9 @@
 |div|
 
 **Address:**
-Zalando AG |br|
-Sonnenburger Str. 73 |br|
-10437 Berlin |br|
+Zalando SE |br|
+Tamara-Danz-Straße 1 |br|
+10243 Berlin |br|
 Germany
 
 **Telefax:**
@@ -36,10 +36,10 @@ service-tech@zalando.de
 Robert Gentz, David Schneider, Rubin Ritter |br|
 
 **Chairman of the Supervisory Board:**
-Cristina Mayville Stenbeck
+Cristina Stenbeck
 
 **Registered at:**
-Amtsgericht Charlottenburg Berlin, HRB154823B |br|
+Amtsgericht Charlottenburg Berlin, HRB 158855 B |br|
 
 **Value Added Tax-ID:**
 DE 260543043 |br|
