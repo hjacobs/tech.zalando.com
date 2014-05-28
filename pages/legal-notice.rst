@@ -48,7 +48,7 @@ DE 260543043 |br|
 37/125/21423 |br|
 
 **Responsible:**
-for contents of Zalando AG acc. To § 55 RStV: Robert Gentz |br|
+for contents of Zalando SE acc. To § 55 RStV: Robert Gentz |br|
 
 **Illustrations by:**
 Kolja Wilcke

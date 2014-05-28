@@ -19,7 +19,7 @@ The blog is designed to appeal to all people interested in technology.
 1. General
 ----------
 
-1.1. The blog is owned by Zalando AG.
+1.1. The blog is owned by Zalando SE.
 
 1.2. This document outlines terms of use for Users (bloggers) and Commenters on the TechBlog. Bloggers refers to all
 publishers of active content on the TechBlog. Commenters are all people that enter comments on blog entries.
