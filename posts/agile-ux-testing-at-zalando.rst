@@ -3,6 +3,7 @@
 .. date: 2014/05/30 10:14:00
 .. tags: ux testing
 .. author: Carina Kuhr
+.. image: agile_schedule_ux_post_3.png
 
 Some weeks ago we – Zalando’s UserLab Team - introduced a new user experience research approach to our stakeholders that supports the fast pace and flexibility of their agile product development processes. In this post I would like to share our ideas and findings about the development and implementation of this agile UX testing approach with you. But let me give you a brief introduction of the UserLabs role at Zalando first:
 
