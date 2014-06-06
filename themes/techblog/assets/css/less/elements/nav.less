@@ -56,11 +56,6 @@
 
             @media screen and (min-width: @screenTabletLandscape) {
 
-                &:nth-of-type(n+2) {
-                    .marginLeft;
-                }
-
-
                 &:before {
                     .dimension(@distanceDefault / 2, 100%);
                     .position(bottomLeft, 0, 0, absolute);
@@ -81,6 +76,14 @@
                     -moz-transform: translateY(0);
                     -webkit-transform: translateY(0);
                     transform: translateY(0);
+                }
+            }
+
+            // For Additial Navigation Item new min-widht
+            @media screen and (min-width: (@screenTabletLandscape + @distanceDefault * 10)) {
+
+                &:nth-of-type(n+2) {
+                    .marginLeft;
                 }
             }
         }
