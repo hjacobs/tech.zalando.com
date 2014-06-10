@@ -6,4 +6,6 @@
 .. description:
 .. type: text
 
+.. image:: /images/hackweek-2014-banner.png
+
 .. posts:: hackweek2014

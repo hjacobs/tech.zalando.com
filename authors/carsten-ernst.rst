@@ -5,5 +5,7 @@
 .. link:
 .. description:
 .. type: text
+.. author_title: Product Manager Mobile Apps
 
-Hi, I'm Carsten. I'm a product manager in the Shop Channel App team, taking care of Zalando's mobile applications development planning, and I'm a smartphone enthusiast of the highest caliber. At Zalando, I enjoy the professional working atmosphere, which provides me an environment to play with my mobile mania. Hope you enjoy our tech blog and your feedback is always welcome. 
+Hi,  I'm a Product Owner of Zalando's iOS application and I'm passionate about product management and technology. It's fun creating products and tweak them in agile development process. If I'm not working on the products, I take care of this Techblog and help to provide interesting insights into various aspects of our work at Zalando Technology... where, We Dress Code ;-)
+
