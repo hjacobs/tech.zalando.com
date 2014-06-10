@@ -1,7 +1,7 @@
 .. title: HACK WEEK: Let’s Hack!
 .. slug: hackweek-2014
 .. date: 2014/06/10 16:40:25
-.. tags: hackweek2014
+.. tags: hackweek2014, design-thinking, event, hack-week, innovation
 .. link:
 .. description:
 .. type: text
