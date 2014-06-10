@@ -126,12 +126,12 @@
                 height: @distanceDefault * 10;
             }
 
-            // REMOVE AFTER HACKWEEK!
-            /*&.welcome,
+            &.welcome,
             &:before,
             &:after {
-                .dimension(@distanceDefault * 20, 100%);
-            }*/
+                // HACKWEEK ONLY > 240px (200px) reduced header height removed
+                .dimension(@distanceDefault * 24, 100%);
+            }
 
         }
 
