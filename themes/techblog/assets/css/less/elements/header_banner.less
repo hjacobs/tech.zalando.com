@@ -51,7 +51,9 @@
             &.welcome,
             &:before,
             &:after {
-                .dimension(@distanceDefault * 8, 100%);
+                // HACKWEEK HACK to remove the reduced height
+                //.dimension(@distanceDefault * 8, 100%);
+                .dimension(@distanceDefault * 8.5, 100%);
             }
         }
 
