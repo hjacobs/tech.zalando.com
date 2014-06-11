@@ -3,7 +3,7 @@
 .. date: 2014/06/10 16:40:25
 .. tags: hackweek2014, design-thinking, event, hack-week, innovation
 .. link:
-.. description:
+.. description: Zalando’s second Hack Week has officially been kicked off. It’s an event where Zalando Technology staff creates, innovates and participates to various projects and events which are not necessarily connected to their daily work.
 .. type: text
 .. author: Carsten Ernst
 .. image: hackweek-2014-frontdoor.jpg
