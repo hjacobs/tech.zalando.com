@@ -20,4 +20,8 @@ We will follow further how this this exciting highlight project develops for the
 
 .. media:: http://flickr.com/photos/zalandotech/14211220080/
 
+KINECT is not just for gaming! We do fashion with it!
+
 .. media:: http://flickr.com/photos/zalandotech/14367771006/
+
+Ahh!! Good idea. Let's discuss.
