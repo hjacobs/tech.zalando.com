@@ -1,12 +1,12 @@
-.. title: Technology Hackweek Masters - Office Golf
+.. title: HACK WEEK: Office Golf
 .. slug: technology-hackweek-masters-office-golf
-.. date: 2014/06/10 12:34:41
+.. date: 2014/06/12 12:34:41
 .. tags: hackweek2014
 .. link:
 .. description:
 .. type: text
 .. author: Henning Jacobs
-.. image: technology-hackweek-masters-2014-office-golf-water-hazard.jpg
+.. image: hackweek-2014-bastian-putting-hole6.jpg
 
 Tired of hacking? Need to refill your "batteries" with a short break?
 Relax with a round of Office Golf!
@@ -18,7 +18,26 @@ Office Golfers just have to come by in our BMO office with 1 or 2 colleagues (or
 Participants do not have to know anything before. Rules are printed on `the scorecard`_.
 Clubs and balls are provided.
 
-We even have a water hazard with a ball-eating crocodile prepared (see photo) :-).
+We even have a water hazard with a ball-eating crocodile prepared :-).
+
+.. image:: /images/technology-hackweek-masters-2014-office-golf-water-hazard.jpg
+
+Leaderboard
+-----------
+
+During the first two days everbody could play a round of golf and submit their scorecard to the organizer.
+On the second day it got quite competetive and we had 63 participants in the end :-)
+Some players even played multiple rounds to climb up in the leaderboard.
+We had a final tournament with the best 9 players at day three.
+After 6 holes we had a tie for second place and three players played another round of 6 holes.
+
+The prize for 1st place is a 15 EUR cinema voucher, 2nd place gets a 10 EUR voucher.
+
+We congratulate Evans (1st place, right) and Bastian (2nd, left)!
+
+.. image:: /images/hackweek-2014-office-golf-winners-20140612.jpg
+
+
 
 Our Office Golf Rules
 ---------------------
