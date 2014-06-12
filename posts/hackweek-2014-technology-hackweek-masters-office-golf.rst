@@ -25,11 +25,13 @@ We even have a water hazard with a ball-eating crocodile prepared :-).
 Leaderboard
 -----------
 
-During the first two days everbody could play a round of golf and submit their scorecard to the organizer.
+During the first two days everybody could play a round of golf and submit their scorecard to the organizer.
 On the second day it got quite competitive and we had 63 participants in the end :-)
 Some players even played multiple rounds to climb up on the leaderboard.
 We had a final tournament with the best 9 players at day three.
 After 6 holes we had a tie for second place and three players played another round of 6 holes.
+
+.. image:: /images/hackweek-2014-office-golf-leaderboard.png
 
 The prize for 1st place is a 15 EUR cinema voucher, 2nd place gets a 10 EUR voucher.
 
