@@ -1,4 +1,4 @@
-.. title: HACK WEEK: Design Thinking applied
+.. title: HACK WEEK: Design Thinking Applied
 .. slug: design-thinking-applied
 .. date: 2014/06/12 16:00:00
 .. tags: hackweek2014
