@@ -1,12 +1,12 @@
 
     // POST CONTENT ()--------------------------------------------------------------------------------------------------
-    .blogPostTeaser p,
-    .blogPost .articleBody p:first-of-type {
+    .blogPostTeaser {
+        p {
+            @media screen and (min-width: @screenTabletPortrait) {
 
-        @media screen and (min-width: @screenTabletPortrait) {
+                .overHidden;
 
-            .overHidden;
-
+            }
         }
     }
 
