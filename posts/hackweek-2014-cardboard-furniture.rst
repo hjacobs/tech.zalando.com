@@ -1,4 +1,4 @@
-.. title: Everything that works with wood, also works with cardboard!
+.. title: HACK WEEK: Everything that works with wood, also works with cardboard!
 .. slug: everything-that-works-with-wood-also-works-with-cardboard
 .. date: 2014/06/13 8:00:00
 .. tags: hackweek2014
