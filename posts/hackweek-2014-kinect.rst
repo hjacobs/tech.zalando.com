@@ -1,5 +1,5 @@
 .. title: HACK WEEK: Taking the Shopping Experience to the next level
-.. slug: kack-week-taking-the-shopping-experience-to-the-next-level
+.. slug: hack-week-taking-the-shopping-experience-to-the-next-level
 .. date: 2014/06/11 8:00:00
 .. tags: hackweek2014
 .. link:
