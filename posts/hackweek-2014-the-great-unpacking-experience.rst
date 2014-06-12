@@ -1,21 +1,34 @@
-.. title: HACK WEEK: Hacked Cucumber with spices
-.. slug: hacked-cucumber-with-spices
-.. date: 2014/06/12 18:00:00
+.. title: HACK WEEK: The Great Unpacking Experience
+.. slug: the-great-unpacking-experience
+.. date: 2014/06/12 18:10:00
 .. tags: hackweek2014
 .. link:
 .. description: Hacked Cucumber with spices: When the Zalando hackers develop an internal tool for behaviour driven development
-.. author: Hélène Levert
+.. author: Rushil Dave
 .. type: text
-.. image: hackweek-2014-hacked-cucumber.jpg
+.. image: hackweek-2014-the-great-unpacking-experience.jpg
 
-Daily stand-ups, programming, tests, meetings… At first glance, you may not guess that the Gewürzgurke team, composed of two developers, three product managers and one QA has changed their daily routine for the HackWeek. And yet, they have an ambitious goal: Their project Gewürgurke - or gherkin in German, aims at implementing a new tool where Cucumber scenarios can be correctly written, read and tested.
+How do you feel when you receive your favorite shoes from Zalando? I am sure you would be very excited to put them on as quickly as possible. But, in order to get those shoes out of the box, you shall also unpack the Zalando box. What if Zalando makes you happier and catches your emotions also when you unpack that box?
 
 .. TEASER_END
 
-Added value of the gherkin-based feature? Providing a central repository where PMs can write directly their scenarios via a user interface, accessible by devs and QA teams for their tests. A great time gain for the tech teams where behaviour driven development is central.
+A team, at Hack Week, is working hard to find out what would be the best unpacking experience for Zalando customers. The idea is to make them feel special, sometimes also by surprising them, when they get their favorite items out of Zalando boxes. This experiment also shows how creative and innovative we are at Zalando where we put our efforts in tiny details and greater user experience.
 
-After the morning stand-up, the tasks are assigned among the project members: Pablo and Jörn implement additional features in the backend part of the tool while Sarah and Raphael prepare the user guidelines. A good working prototype will be ready at the end of the week.
+.. media:: http://flickr.com/photos/zalandotech/14211133149/
 
-Peter and Sascha are taking care of the presentation part, for there is an Hack Week award to win. “We want to win all the awards”, explain several team members, laughing, with this one nuance however: “We may win the low-hanging fruit award, since the feature is a real gain and quite easy to implement.”
+Customer is the king
 
-One day to go, and we’ll see if this prophecy is fulfilled.
+The team members started this project with design thinking in focus, to find out how Zalando can improve its current unpacking experience. They gathered details on various box types, different kind of package content and also evaluated technical feasibility for the project. They spoke to the internal experts from logistics and also interviewed some customers.
+
+.. media:: http://flickr.com/photos/zalandotech/14211282220/
+
+“Paula” to keep screaming with joy
+
+After that, they created a user persona, popular with design thinking methodology, called “Paula”. They started brainstorming and experimenting with different ideas, like adding fragrances or putting puzzles inside the box, which could make “Paula” happy when she unpacks that box. They created five different prototypes and they tested them with Zalando users within the company. They asked users to give “+1” to the prototypes they like and also give their overall feedback. In the end, they will analyze these results in order to find out the best unpacking experience for Zalando customers.
+
+.. media:: http://flickr.com/photos/zalandotech/14406362425/
+
+Surprise surprise!!!
+
+As excited as the team is, I would expect our users to say “Ohh nice! I would like that again!”, when they unpack their Zalando boxes. Of course, all these to keep “Paula” screaming with joy!!!
+
