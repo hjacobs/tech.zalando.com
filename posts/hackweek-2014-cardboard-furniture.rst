@@ -1,6 +1,6 @@
 .. title: Everything that works with wood, also works with cardboard!
 .. slug: everything-that-works-with-wood-also-works-with-cardboard
-.. date: 2014/06/11 8:00:00
+.. date: 2014/06/13 8:00:00
 .. tags: hackweek2014
 .. link:
 .. description: Usually you can identify the best Zalando customers among your colleagues by the amount of Zalando boxes they collect under their desks
