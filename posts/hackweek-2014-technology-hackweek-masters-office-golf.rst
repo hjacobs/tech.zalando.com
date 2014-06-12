@@ -3,7 +3,7 @@
 .. date: 2014/06/12 12:34:41
 .. tags: hackweek2014
 .. link:
-.. description:
+.. description: Tired of hacking? Need to refill your "batteries" with a short break? Relax with a round of Office Golf!
 .. type: text
 .. author: Henning Jacobs
 .. image: hackweek-2014-bastian-putting-hole6.jpg
