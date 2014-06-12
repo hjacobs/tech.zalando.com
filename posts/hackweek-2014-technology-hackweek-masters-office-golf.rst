@@ -11,7 +11,7 @@
 Tired of hacking? Need to refill your "batteries" with a short break?
 Relax with a round of Office Golf!
 
-Office Golfers just have to come by in our BMO office with 1 or 2 colleagues (or more, but a round is played with 2-3 players at a time), they pick up their scorecard and start playing!
+Office Golfers just have to come by in our BMO office with one or two colleagues (or more, but a round is played with 2-3 players at a time), they pick up their scorecard and start playing!
 
 .. TEASER_END
 
@@ -28,8 +28,8 @@ Leaderboard
 During the first two days everybody could play a round of golf and submit their scorecard to the organizer.
 On the second day it got quite competitive and we had 63 participants in the end :-)
 Some players even played multiple rounds to climb up on the leaderboard.
-We had a final tournament with the best 9 players at day three.
-After 6 holes we had a tie for second place and three players played another round of 6 holes.
+We had a final tournament with the best nine players at day three.
+After six holes we had a tie for second place and three players played another round of six holes.
 
 .. image:: /images/hackweek-2014-office-golf-leaderboard.png
 
