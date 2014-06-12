@@ -38,7 +38,6 @@ We congratulate Evans (1st place, right) and Bastian (2nd, left)!
 .. image:: /images/hackweek-2014-office-golf-winners-20140612.jpg
 
 
-
 Our Office Golf Rules
 ---------------------
 * Office Golf consists of playing a ball with a putter from the teeing ground (marked by two blue tees) into the hole (white plastic ring) by successive strokes.
@@ -51,5 +50,10 @@ Our Office Golf Rules
 * The player may deem his ball unplayable at any place on the course. If the player deems his ball to be unplayable, he must, under penalty of one stroke, play a ball as nearly as possible at the spot from which the original ball was last played
 * At the end of the course, the strokes will be summarized.
 * The player with the least strokes wins. In case of a tie, the game goes on to make a decision between the participants.
+
+.. image:: /images/hackweek-2014-office-golf-christoph-hole2.jpg
+
+Obstacles ahead! --- Christoph at hole 2 of our Office Golf course.
+
 
 .. _the scorecard: /files/201405-technology-hackweek-office-golf-scorecard.pdf
