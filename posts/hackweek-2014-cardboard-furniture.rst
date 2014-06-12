@@ -1,6 +1,6 @@
 .. title: HACK WEEK: “Everything that works with wood, also works with cardboard!”
 .. slug: everything-that-works-with-wood-also-works-with-cardboard
-.. date: 2014/06/12 8:00:00
+.. date: 2014/06/12 10:00:00
 .. tags: hackweek2014
 .. link:
 .. description: HackWeek is not only about coding and building features for Zalando’s customers, but about being creative and having fun. When you take a closer look at their cardboard art development processes however, the team’s technological background becomes visible.
