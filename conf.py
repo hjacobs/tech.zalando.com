@@ -186,7 +186,7 @@ COMPILERS = {'rest': ('.rst', ), 'markdown': ('.md', ), 'html': ('.html', )}
 # plugin (`nikola install_plugin ping`).
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = \
-    ['rsync -av --no-owner --no-group --no-perms output/* root@tech.zalando.com:/data/www/tech.zalando.com/htdocs']
+    ['rsync -av -4 --no-owner --no-group --no-perms output/* root@tech.zalando.com:/data/www/tech.zalando.com/htdocs']
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
