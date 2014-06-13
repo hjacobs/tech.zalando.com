@@ -20,7 +20,7 @@ Dream Team Award
 Team player award for most diverse team, i.e. working across locations, functions, cultures and hierarchies, while also considering each team member's individual contribution to the project.
 
 
-BSD 4.3 Award (why?_)
+BSD 4.3 Award (why_ ?)
 -------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224912010/
@@ -28,7 +28,7 @@ BSD 4.3 Award (why?_)
 Best software coding project which somehow contributes to Zalando goals and/or drastically improves product/process, game changer and/or business-enabler, prospective high financial impact.
 
 
-Mars Rover Award (what is this?_)
+Mars Rover Award (what is this_ ?)
 -------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14410199842/
