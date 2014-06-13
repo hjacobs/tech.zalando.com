@@ -12,11 +12,11 @@ It is the last day of HackWeek and the projects are in the final phase. Meanwhil
 
 .. TEASER_END
 
+
 .. image:: https://farm4.staticflickr.com/3877/14408141861_56e6319fa0_b.jpg
    :class: imagefloat
 
-_Dream Team Award_
-
+**Dream Team Award**
 
 Team player award for most diverse team, i.e. working across locations, functions, cultures and hierarchies, while also considering each team member's individual contribution to the project.
 
@@ -24,7 +24,7 @@ Team player award for most diverse team, i.e. working across locations, function
 .. image:: https://farm3.staticflickr.com/2932/14224912010_a0ce3c5796_z.jpg
     :class: imagefloat
 
-_BSD 4.3 Award (`why? <http://gunkies.org/wiki/4.3_BSD>`__)_
+**BSD 4.3 Award (`why? <http://gunkies.org/wiki/4.3_BSD>`__)**
 
 Best software coding project which somehow contributes to Zalando goals and/or drastically improves product/process, game changer and/or business-enabler, prospective high financial impact.
 
@@ -32,8 +32,7 @@ Best software coding project which somehow contributes to Zalando goals and/or d
 .. image:: https://farm4.staticflickr.com/3880/14410199842_c99a205ac6_z.jpg
    :class: imagefloat
 
-Mars Rover Award (`what is this? <http://en.wikipedia.org/wiki/Mars_rover>`__)
---------------------------------------------------------------------------------------------
+**Mars Rover Award (`what is this? <http://en.wikipedia.org/wiki/Mars_rover>`__)**
 
 Best system/hardware prototyping project (same criteria as above).
 
@@ -41,8 +40,7 @@ Best system/hardware prototyping project (same criteria as above).
 .. image:: https://farm6.staticflickr.com/5479/14224902428_f73b6016c0_z.jpg
    :class: imagefloat
 
-Club-Mate Award (`what is this? <http://en.wikipedia.org/wiki/Club-Mate>`__)
---------------------------------------------------------------------------------------------
+**Club-Mate Award (`what is this? <http://en.wikipedia.org/wiki/Club-Mate>`__)**
 
 Best non-engineering project (same criteria as above).
 
@@ -50,17 +48,15 @@ Best non-engineering project (same criteria as above).
 .. image:: https://farm4.staticflickr.com/3911/14224911430_3f703d066a_z.jpg
    :class: imagefloat
 
-Nikola Tesla Award (`Nikola who? <http://en.wikipedia.org/wiki/Nikola_Tesla>`__)
---------------------------------------------------------------------------------
+**Nikola Tesla Award (`Nikola who? <http://en.wikipedia.org/wiki/Nikola_Tesla>`__)**
 
 Awarded for best innovation, i.e. project that is disruptive and employs new technology or generates new market needs.
 
 
-Cheap & Cheerful Award
-----------------------
-
 .. image:: https://farm4.staticflickr.com/3912/14411510315_7dc215863f_z.jpg
    :class: imagefloat
+
+**Cheap & Cheerful Award**
 
 Awarded for going after "low hanging fruit" based on cost-benefit ratio, i.e. minimum effort and maximum outcome.
 
