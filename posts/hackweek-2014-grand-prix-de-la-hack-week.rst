@@ -1,6 +1,6 @@
 .. title: HACK WEEK: Grand Prix de la Hack Week
 .. slug: grand-prix-de-la-hack-week
-.. date: 2014/06/13 12:00:00
+.. date: 2014/06/13 11:00:00
 .. tags: hackweek2014
 .. link:
 .. description: There are ten different Zalando HackWeek trophies waiting to be awarded in ten underlying categories. It’s a fantastically built set of trophies with scrupulous attention to detail.
@@ -20,8 +20,8 @@ Dream Team Award
 Team player award for most diverse team, i.e. working across locations, functions, cultures and hierarchies, while also considering each team member's individual contribution to the project.
 
 
-BSD 4.3 Award (why_ ?)
-----------------------
+BSD 4.3 Award (`why? <http://gunkies.org/wiki/4.3_BSD>`_)
+---------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224912010/
 
@@ -59,7 +59,7 @@ Cheap & Cheerful Award
 Awarded for going after "low hanging fruit" based on cost-benefit ratio, i.e. minimum effort and maximum outcome.
 
 31337 Award (what is this?)
---------------------------
+---------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14408142481/
 
