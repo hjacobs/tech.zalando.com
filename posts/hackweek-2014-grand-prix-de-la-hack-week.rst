@@ -45,7 +45,7 @@ Club-Mate Award (`what is this? <http://en.wikipedia.org/wiki/Club-Mate>`__)
 Best non-engineering project (same criteria as above).
 
 Nikola Tesla Award (`Nikola who? <http://en.wikipedia.org/wiki/Nikola_Tesla>`__)
--------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224911430/
 
