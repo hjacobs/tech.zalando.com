@@ -12,12 +12,11 @@ It is the last day of HackWeek and the projects are in the final phase. Meanwhil
 
 .. TEASER_END
 
-
 .. image:: https://farm4.staticflickr.com/3877/14408141861_56e6319fa0_b.jpg
    :class: imagefloat
 
-Dream Team Award
-----------------
+_Dream Team Award_
+
 
 Team player award for most diverse team, i.e. working across locations, functions, cultures and hierarchies, while also considering each team member's individual contribution to the project.
 
@@ -25,8 +24,7 @@ Team player award for most diverse team, i.e. working across locations, function
 .. image:: https://farm3.staticflickr.com/2932/14224912010_a0ce3c5796_z.jpg
     :class: imagefloat
 
-BSD 4.3 Award (`why? <http://gunkies.org/wiki/4.3_BSD>`__)
--------------------------------------------------------------
+_BSD 4.3 Award (`why? <http://gunkies.org/wiki/4.3_BSD>`__)_
 
 Best software coding project which somehow contributes to Zalando goals and/or drastically improves product/process, game changer and/or business-enabler, prospective high financial impact.
 
