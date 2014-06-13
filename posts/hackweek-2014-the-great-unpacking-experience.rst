@@ -3,7 +3,7 @@
 .. date: 2014/06/12 18:10:00
 .. tags: hackweek2014
 .. link:
-.. description: How do you feel when you receive your favorite shoes from Zalando? I am sure you would be very excited to put them on as quickly as possible. 
+.. description: How do you feel when you receive your favorite shoes from Zalando? I am sure you would be very excited to put them on as quickly as possible.
 .. author: Rushil Dave
 .. type: text
 .. image: hackweek-2014-the-great-unpacking-experience.jpg
