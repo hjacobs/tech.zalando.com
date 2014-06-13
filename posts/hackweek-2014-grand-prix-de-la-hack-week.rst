@@ -24,7 +24,7 @@ Team player award for most diverse team, i.e. working across locations, function
 BSD 4.3 Award (`why? <http://gunkies.org/wiki/4.3_BSD>`__)
 -------------------------------------------------------------
 
-.. media:: http://flickr.com/photos/zalandotech/14224912010/
+.. image:: https://farm3.staticflickr.com/2932/14224912010_a0ce3c5796_z.jpg
 
 Best software coding project which somehow contributes to Zalando goals and/or drastically improves product/process, game changer and/or business-enabler, prospective high financial impact.
 
@@ -32,7 +32,8 @@ Best software coding project which somehow contributes to Zalando goals and/or d
 Mars Rover Award (`what is this? <http://en.wikipedia.org/wiki/Mars_rover>`__)
 --------------------------------------------------------------------------------------------
 
-.. media:: http://flickr.com/photos/zalandotech/14410199842/
+.. image:: https://farm4.staticflickr.com/3880/14410199842_c99a205ac6_z.jpg
+   :class: imagefloat
 
 Best system/hardware prototyping project (same criteria as above).
 
@@ -40,14 +41,16 @@ Best system/hardware prototyping project (same criteria as above).
 Club-Mate Award (`what is this? <http://en.wikipedia.org/wiki/Club-Mate>`__)
 --------------------------------------------------------------------------------------------
 
-.. media:: http://flickr.com/photos/zalandotech/14224902428/
+.. image:: https://farm6.staticflickr.com/5479/14224902428_f73b6016c0_z.jpg
+   :class: imagefloat
 
 Best non-engineering project (same criteria as above).
 
 Nikola Tesla Award (`Nikola who? <http://en.wikipedia.org/wiki/Nikola_Tesla>`__)
 --------------------------------------------------------------------------------
 
-.. media:: http://flickr.com/photos/zalandotech/14224911430/
+.. image:: https://farm4.staticflickr.com/3911/14224911430_3f703d066a_z.jpg
+   :class: imagefloat
 
 Awarded for best innovation, i.e. project that is disruptive and employs new technology or generates new market needs.
 
@@ -55,14 +58,16 @@ Awarded for best innovation, i.e. project that is disruptive and employs new tec
 Cheap & Cheerful Award
 ----------------------
 
-.. media:: http://flickr.com/photos/zalandotech/14411510315/
+.. image:: https://farm4.staticflickr.com/3912/14411510315_7dc215863f_z.jpg
+   :class: imagefloat
 
 Awarded for going after "low hanging fruit" based on cost-benefit ratio, i.e. minimum effort and maximum outcome.
 
 31337 Award (`what is this? <http://www.urbandictionary.com/define.php?term=31337>`__)
 --------------------------------------------------------------------------------------
 
-.. media:: http://flickr.com/photos/zalandotech/14408142481/
+.. image:: https://farm4.staticflickr.com/3859/14408142481_8443e7263d_z.jpg
+   :class: imagefloat
 
 Awarded for the most geeky project in terms of nasty technical challenges solved, extreme difficulty, use of low-level programming language or extreme networking hacking etc.
 
@@ -70,7 +75,8 @@ Awarded for the most geeky project in terms of nasty technical challenges solved
 Duke Nukem Forever Award (`what is this? <http://en.wikipedia.org/wiki/Duke_Nukem_Forever>`__)
 ----------------------------------------------------------------------------------------------
 
-.. media:: http://flickr.com/photos/zalandotech/14411510725/
+.. image:: https://farm3.staticflickr.com/2907/14411510725_b9c6170026_z.jpg
+   :class: imagefloat
 
 Awarded for the most glorious or spectacular fail after raising great expectations
 
@@ -78,7 +84,8 @@ Awarded for the most glorious or spectacular fail after raising great expectatio
 Bridge Builder Award
 --------------------
 
-.. media:: http://flickr.com/photos/zalandotech/14408141341/
+.. image:: https://farm6.staticflickr.com/5076/14408141341_ba4f25fa0f_z.jpg
+   :class: imagefloat
 
 Recognize colleagues who establish or support connections between project groups and collaboration between different Zalando departments for a common goal.
 
@@ -86,7 +93,8 @@ Recognize colleagues who establish or support connections between project groups
 Andy Warhol Award (`why? <http://en.wikipedia.org/wiki/Andy_Warhol>`__)
 ------------------------------------------------------------------------
 
-.. media:: http://flickr.com/photos/zalandotech/14225068697/
+.. image:: https://farm4.staticflickr.com/3915/14225068697_f9446dd2b4_z.jpg
+   :class: imagefloat
 
 Awarded for the most creative and innovative presentation.
 
