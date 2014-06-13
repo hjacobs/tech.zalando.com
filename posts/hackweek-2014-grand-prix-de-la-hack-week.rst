@@ -43,7 +43,7 @@ Club-Mate Award (`what is this? <http://en.wikipedia.org/wiki/Club-Mate>`__)
 
 Best non-engineering project (same criteria as above).
 
-Nikola Tesla Award (`Nikola who? <http://theoatmeal.com/comics/tesla>`__)
+Nikola Tesla Award (`Nikola who? <http://en.wikipedia.org/wiki/Nikola_Tesla>`__)
 -------------------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224911430/
@@ -82,7 +82,7 @@ Bridge Builder Award
 Recognize colleagues who establish or support connections between project groups and collaboration between different Zalando departments for a common goal.
 
 
-Andy Warhol Award (`why? <http://en.wikipedia.org/wiki/Nikola_Tesla>`__)
+Andy Warhol Award (`why? <http://en.wikipedia.org/wiki/Andy_Warhol>`__)
 ------------------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14225068697/
