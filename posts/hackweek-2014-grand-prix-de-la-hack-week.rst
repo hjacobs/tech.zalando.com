@@ -20,31 +20,31 @@ Dream Team Award
 Team player award for most diverse team, i.e. working across locations, functions, cultures and hierarchies, while also considering each team member's individual contribution to the project.
 
 
-BSD 4.3 Award (`why? <http://gunkies.org/wiki/4.3_BSD>`_)
----------------------------------------------------------
+BSD 4.3 Award (`why? <http://gunkies.org/wiki/4.3_BSD>`__)
+-------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224912010/
 
 Best software coding project which somehow contributes to Zalando goals and/or drastically improves product/process, game changer and/or business-enabler, prospective high financial impact.
 
 
-Mars Rover Award (what is this?)
---------------------------------
+Mars Rover Award (`what is this? <http://en.wikipedia.org/wiki/Mars_rover>`__)
+--------------------------------------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14410199842/
 
 Best system/hardware prototyping project (same criteria as above).
 
 
-Club-Mate Award (what is this?)
--------------------------------
+Club-Mate Award (`what is this? <http://en.wikipedia.org/wiki/Club-Mate>`__)
+--------------------------------------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224902428/
 
 Best non-engineering project (same criteria as above).
 
-Nikola Tesla Award (Nikola who?)
---------------------------------
+Nikola Tesla Award (`Nikola who? <http://theoatmeal.com/comics/tesla>`__)
+-------------------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224911430/
 
@@ -67,7 +67,7 @@ Awarded for the most geeky project in terms of nasty technical challenges solved
 
 
 Duke Nukem Forever Award (what is this?)
----------------------------------------
+-----------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14411510725/
 
@@ -95,7 +95,3 @@ Afterwards, the victory ceremony will take place. You can already feel the antic
 
 
 
-.. _why?: http://gunkies.org/wiki/4.3_BSD
-.. _what is this?: http://en.wikipedia.org/wiki/Mars_rover
-.. _what is this?: http://en.wikipedia.org/wiki/Club-Mate
-.. _Nikola who?: http://theoatmeal.com/comics/tesla
