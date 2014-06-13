@@ -36,4 +36,6 @@ Design thinking in action
 
 And of course have fun with great smile! Zalandoites have it all.
 
+`We keep you updated on this <http://tech.zalando.com/posts/grand-prix-de-la-hack-week.html>`_
+
 
