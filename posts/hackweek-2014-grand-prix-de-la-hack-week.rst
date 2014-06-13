@@ -25,7 +25,7 @@ BSD 4.3 Award (`why? <http://gunkies.org/wiki/4.3_BSD>`__)
 -------------------------------------------------------------
 
 .. image:: https://farm3.staticflickr.com/2932/14224912010_a0ce3c5796_z.jpg
-:class: imagefloat
+    :class: imagefloat
 
 Best software coding project which somehow contributes to Zalando goals and/or drastically improves product/process, game changer and/or business-enabler, prospective high financial impact.
 
