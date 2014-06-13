@@ -66,8 +66,8 @@ Awarded for going after "low hanging fruit" based on cost-benefit ratio, i.e. mi
 Awarded for the most geeky project in terms of nasty technical challenges solved, extreme difficulty, use of low-level programming language or extreme networking hacking etc.
 
 
-Duke Nukem Forever Award (what is this?)
------------------------------------------------------------
+Duke Nukem Forever Award (`what is this? <http://en.wikipedia.org/wiki/Duke_Nukem_Forever>`__)
+----------------------------------------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14411510725/
 
@@ -82,8 +82,8 @@ Bridge Builder Award
 Recognize colleagues who establish or support connections between project groups and collaboration between different Zalando departments for a common goal.
 
 
-Andy Warhol Award (why?)
-------------------------
+Andy Warhol Award (`why? <http://en.wikipedia.org/wiki/Nikola_Tesla>`__)
+------------------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14225068697/
 
