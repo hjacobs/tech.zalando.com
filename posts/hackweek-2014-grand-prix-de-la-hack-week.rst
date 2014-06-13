@@ -21,7 +21,7 @@ Team player award for most diverse team, i.e. working across locations, function
 
 
 BSD 4.3 Award (why_ ?)
--------------------
+----------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224912010/
 
@@ -29,7 +29,7 @@ Best software coding project which somehow contributes to Zalando goals and/or d
 
 
 Mars Rover Award (what is this_ ?)
--------------------------------
+----------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14410199842/
 
@@ -37,14 +37,14 @@ Best system/hardware prototyping project (same criteria as above).
 
 
 Club-Mate Award (what is this?_)
--------------------------------
+--------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224902428/
 
 Best non-engineering project (same criteria as above).
 
 Nikola Tesla Award (Nikola who?_)
--------------------------------
+--------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224911430/
 
@@ -67,7 +67,7 @@ Awarded for the most geeky project in terms of nasty technical challenges solved
 
 
 Duke Nukem Forever Award (what is this?_)
-----------------------------------------
+-----------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14411510725/
 
@@ -83,7 +83,7 @@ Recognize colleagues who establish or support connections between project groups
 
 
 Andy Warhol Award (why?_)
-------------------------
+-------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14225068697/
 
