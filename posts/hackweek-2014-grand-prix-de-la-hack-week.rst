@@ -28,22 +28,22 @@ BSD 4.3 Award (why_ ?)
 Best software coding project which somehow contributes to Zalando goals and/or drastically improves product/process, game changer and/or business-enabler, prospective high financial impact.
 
 
-Mars Rover Award (what is this_ ?)
-----------------------------------
+Mars Rover Award (what is this?)
+--------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14410199842/
 
 Best system/hardware prototyping project (same criteria as above).
 
 
-Club-Mate Award (what is this?_)
---------------------------------
+Club-Mate Award (what is this?)
+-------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224902428/
 
 Best non-engineering project (same criteria as above).
 
-Nikola Tesla Award (Nikola who?_)
+Nikola Tesla Award (Nikola who?)
 --------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14224911430/
@@ -58,16 +58,16 @@ Cheap & Cheerful Award
 
 Awarded for going after "low hanging fruit" based on cost-benefit ratio, i.e. minimum effort and maximum outcome.
 
-31337 Award (what is this?_)
----------------------------
+31337 Award (what is this?)
+--------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14408142481/
 
 Awarded for the most geeky project in terms of nasty technical challenges solved, extreme difficulty, use of low-level programming language or extreme networking hacking etc.
 
 
-Duke Nukem Forever Award (what is this?_)
------------------------------------------
+Duke Nukem Forever Award (what is this?)
+---------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14411510725/
 
@@ -82,8 +82,8 @@ Bridge Builder Award
 Recognize colleagues who establish or support connections between project groups and collaboration between different Zalando departments for a common goal.
 
 
-Andy Warhol Award (why?_)
--------------------------
+Andy Warhol Award (why?)
+------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14225068697/
 
