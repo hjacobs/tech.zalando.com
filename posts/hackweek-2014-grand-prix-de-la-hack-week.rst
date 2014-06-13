@@ -58,8 +58,8 @@ Cheap & Cheerful Award
 
 Awarded for going after "low hanging fruit" based on cost-benefit ratio, i.e. minimum effort and maximum outcome.
 
-31337 Award (what is this?)
----------------------------
+31337 Award (`what is this? <http://www.urbandictionary.com/define.php?term=31337>`__)
+--------------------------------------------------------------------------------------
 
 .. media:: http://flickr.com/photos/zalandotech/14408142481/
 
