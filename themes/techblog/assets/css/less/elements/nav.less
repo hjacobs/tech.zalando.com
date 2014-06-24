@@ -56,6 +56,11 @@
 
             @media screen and (min-width: @screenTabletLandscape) {
 
+                &:nth-of-type(n+2) {
+                    .marginLeft;
+                }
+
+
                 &:before {
                     .dimension(@distanceDefault / 2, 100%);
                     .position(bottomLeft, 0, 0, absolute);
@@ -78,14 +83,6 @@
                     transform: translateY(0);
                 }
             }
-
-            // For Additial Navigation Item new min-widht
-            @media screen and (min-width: (@screenTabletLandscape + @distanceDefault * 10)) {
-
-                &:nth-of-type(n+2) {
-                    .marginLeft;
-                }
-            }
         }
 
         a {
@@ -103,11 +100,6 @@
                 color: @white;
 
             }
-        }
-
-        .hackWeek {
-            color: #66ff00;
-            text-shadow: 0 0 1px #215000, 0 0 @distanceDefault / 2 @white;
         }
     }
 
