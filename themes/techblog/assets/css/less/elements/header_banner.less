@@ -28,8 +28,7 @@
                 &:before {
                     .fixed;
                     .pseudo('');
-                    //background: url('../img/chip_mobile.png') no-repeat 35% bottom;
-                    background: url('../img/hackweek_mobile.png') no-repeat 35% bottom;
+                    background: url('../img/chip_mobile.png') no-repeat 35% bottom;
                 }
 
                 &:after {
@@ -51,9 +50,7 @@
             &.welcome,
             &:before,
             &:after {
-                // HACKWEEK HACK to remove the reduced height
-                //.dimension(@distanceDefault * 8, 100%);
-                .dimension(@distanceDefault * 8.5, 100%);
+                .dimension(@distanceDefault * 8, 100%);
             }
         }
 
@@ -81,8 +78,7 @@
                 &:before {
                     .fixed;
                     .pseudo('');
-                    //background: url('../img/hackweek_tablet.png') no-repeat center bottom;
-                    background: url('../img/hackweek_tablet.png') no-repeat center bottom;
+                    background: url('../img/chip_tablet.png') no-repeat center bottom;
                 }
 
                 &:after {
@@ -110,8 +106,7 @@
                 &:before {
                     .fixed;
                     .pseudo('');
-                    //background: url('../img/chip.png') no-repeat center bottom;
-                    background: url('../img/hackweek.png') no-repeat center bottom;
+                    background: url('../img/chip.png') no-repeat center bottom;
                 }
 
                 &:after {
@@ -131,10 +126,8 @@
             &.welcome,
             &:before,
             &:after {
-                // HACKWEEK ONLY > 240px (200px) reduced header height removed
-                .dimension(@distanceDefault * 24, 100%);
+                .dimension(@distanceDefault * 20, 100%);
             }
-
         }
 
         @media screen and (min-width: @screenDesktopLarge) {
