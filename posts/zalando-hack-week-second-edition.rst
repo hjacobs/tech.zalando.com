@@ -36,7 +36,7 @@ brainstorming everywhere. All project teams were very focused on delivering
 results and thus devoted themselves to whatever they pursued with a lot of
 passion.
 
-And the winner is...
+And the winner is..
 --------------------
 
 Ultimately, we have seen over 100 project proposals and more than 80 teams working together. The award winners are listed as follows:
