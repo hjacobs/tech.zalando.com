@@ -20,14 +20,15 @@ bloggers and even the `state government`_.
 
 It all started with a little kick-off event reminding everyone about the process
 and schedule. Each day was again accompanied by a few side shows that helped to
-strengthen the team spirit - video games, `office golf`_ and public viewing of the
+strengthen the team spirit – video games, `office golf`_ and public viewing of the
 FIFA World Cup opening match.
 
 Hack Week ended with the closing event where again ten `handmade trophies`_ were
-awarded to the most distinctive projects along with our special guests Robert,
-David and Rubin. Two new awards were presented this time - the Bridge Builder
-award for projects fostering collaboration across departments, and Andy Warhol
-for the most creative project or optionally the most creative presentation.
+awarded to the most distinctive projects along with our special guests from the
+Management Board – Robert, David and Rubin. Two new awards were presented this
+time – the Bridge Builder award for projects fostering collaboration across
+departments, and Andy Warhol for the most creative project or optionally the
+most creative presentation.
 
 Putting the event together was much easier this time. The organization team was
 already experienced, and the staff knew the whole ideation process and what to
@@ -36,7 +37,7 @@ brainstorming everywhere. All project teams were very focused on delivering
 results and thus devoted themselves to whatever they pursued with a lot of
 passion.
 
-.. image:: /images/hackweek-2014-crowd.jpg
+.. image:: /images/hackweek-2014-awards2.jpg
 
 And the winners are...
 ----------------------
@@ -75,13 +76,13 @@ Ultimately, we have seen over 100 project proposals and more than 80 teams worki
 | Most creative project or presentation         | Inspiring presentation of a concept allowing customers to change payment methods after the delivery of shopping items.                                                                                                                       |
 +-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. image:: /images/hackweek-2014-awards2.jpg
+.. image:: /images/hackweek-2014-crowd.jpg
 
 Open innovation is daily business
 ---------------------------------
 
 A lot of these Hack Week projects help us to innovate the customer experience.
-They have an impact on how customers perceive and interact with Zalando - now or
+They have an impact on how customers perceive and interact with Zalando – now or
 in the long-term. Even more so they help to make our internal processes much
 more efficient. Be it logistics processes at our warehouses, or within our
 engineering department through the development of internal tools and little
@@ -89,7 +90,7 @@ helpers that improve the way we plan, build and test software features (see one 
 
 Additionally, Hack Week is all about thinking outside the box and working across
 teams and boundaries. Therefore it is crucial that people with different
-backgrounds and ideas develop solutions together - all that without the bias,
+backgrounds and ideas develop solutions together – all that without the bias,
 blinkers and pressure imposed by daily business. As a result, we achieve a very
 positive impact on our work environment and company culture – characterized by
 teamwork, creativity and playful innovation – that we do not want to spare in
@@ -102,7 +103,7 @@ to make that part of our daily business will follow.
 
 .. image:: /images/hackweek-2014-prototype.jpg
 
-As usual, more impressions of Hack Week #2 are available on Flickr_.
+More impressions of Hack Week #2 can be found on Flickr_.
 
 .. _`Hack Week`: http://tech.zalando.com/posts/zalando-hack-week.html
 .. _`second time`: http://tech.zalando.com/posts/hackweek-2014.html
