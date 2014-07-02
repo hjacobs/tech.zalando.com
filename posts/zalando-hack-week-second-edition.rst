@@ -1,29 +1,29 @@
 .. title: Zalando Hack Week - A Driving Force in Innovation
 .. description: Learn more about how we celebrated Hack Week for the second time, again with very positive outcome and new learnings.
 .. slug: zalando-hack-week-2
-.. date: 2014-06-27 01:33:37
+.. date: 2014-07-02 01:33:37
 .. tags: design-thinking, event, hack-week, innovation
 .. author: Bastian Gerhard
 .. type: text
 .. image: hackweek-2014-ceremony.jpg
 
-Earlier this year, we reported about Hack Week, the first open innovation week
+Earlier this year, we reported about `Hack Week`_, the first open innovation week
 where Zalando Technology experiments without limits. Now, in the middle of June,
-we have “celebrated” it for the second time, again with very positive outcome
+we have “celebrated” it for the `second time`_, again with very positive outcome
 and new learnings. We are quite excited to see how Hack Week has grown from a
 fun little side show into a cornerstone of Zalando’s innovation culture. This
 time around, Hack Week also involved a few other Zalando departments and
-attracted a lot of attention from the executive board as well as journalists,
-bloggers and even the state government.
+attracted a lot of attention from the executive board, journalists,
+bloggers and even the `state government`_.
 
 .. TEASER_END
 
 It all started with a little kick-off event reminding everyone about the process
 and schedule. Each day was again accompanied by a few side shows that helped to
-strengthen the team spirit - video games, office golf and public viewing of the
+strengthen the team spirit - video games, `office golf`_ and public viewing of the
 FIFA World Cup opening match.
 
-Hack Week ended with the closing event where again ten handmade trophies were
+Hack Week ended with the closing event where again ten `handmade trophies`_ were
 awarded to the most distinctive projects along with our special guests Robert,
 David and Rubin. Two new awards were presented this time - the Bridge Builder
 award for projects fostering collaboration across departments, and Andy Warhol
@@ -36,8 +36,8 @@ brainstorming everywhere. All project teams were very focused on delivering
 results and thus devoted themselves to whatever they pursued with a lot of
 passion.
 
-And the winner is...
---------------------
+And the winners are...
+----------------------
 
 Ultimately, we have seen over 100 project proposals and more than 80 teams working together. The award winners are listed as follows:
 
@@ -81,7 +81,7 @@ They have an impact on how customers perceive and interact with Zalando - now or
 in the long-term. Even more so they help to make our internal processes much
 more efficient. Be it logistics processes at our warehouses, or within our
 engineering department through the development of internal tools and little
-helpers that improve the way we plan, build and test software features.
+helpers that improve the way we plan, build and test software features (see one example `here`_).
 
 Additionally, Hack Week is all about thinking outside the box and working across
 teams and boundaries. Therefore it is crucial that people with different
@@ -96,6 +96,12 @@ capacity. Therefore our goal is to take open ideation to the next level and
 enable such groundbreaking collaborations throughout the year. An update on how
 to make that part of our daily business will follow.
 
-More impressions of Hack Week are available on Flickr_.
+As usual, more impressions of Hack Week #2 are available on Flickr_.
 
+.. _`Hack Week`: http://tech.zalando.com/posts/zalando-hack-week.html
+.. _`second time`: http://tech.zalando.com/posts/hackweek-2014.html
+.. _`state government`: http://tech.zalando.com/posts/berlins-senator-for-economics-technology-and-research-visits-zalando-tech-hq.html
+.. _`office golf`: http://tech.zalando.com/posts/technology-hackweek-masters-office-golf.html
+.. _`handmade trophies`: http://tech.zalando.com/posts/grand-prix-de-la-hack-week.html
+.. _`here`: http://tech.zalando.com/posts/hacked-cucumber-with-spices.html
 .. _Flickr: http://www.flickr.com/photos/zalandotech/
