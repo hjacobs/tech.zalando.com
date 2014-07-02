@@ -36,6 +36,8 @@ brainstorming everywhere. All project teams were very focused on delivering
 results and thus devoted themselves to whatever they pursued with a lot of
 passion.
 
+.. image:: /images/hackweek-2014-crowd.jpg
+
 And the winners are...
 ----------------------
 
@@ -73,6 +75,8 @@ Ultimately, we have seen over 100 project proposals and more than 80 teams worki
 | Most creative project or presentation         | Inspiring presentation of a concept allowing customers to change payment methods after the delivery of shopping items.                                                                                                                       |
 +-----------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+.. image:: /images/hackweek-2014-awards2.jpg
+
 Open innovation is daily business
 ---------------------------------
 
@@ -95,6 +99,8 @@ But Hack Week is just a tiny little extract of a full year's worth of innovative
 capacity. Therefore our goal is to take open ideation to the next level and
 enable such groundbreaking collaborations throughout the year. An update on how
 to make that part of our daily business will follow.
+
+.. image:: /images/hackweek-2014-prototype.jpg
 
 As usual, more impressions of Hack Week #2 are available on Flickr_.
 
