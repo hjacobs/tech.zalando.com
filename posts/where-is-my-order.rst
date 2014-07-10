@@ -64,7 +64,7 @@ If I look back, for me as a product manager it was an absolute great experience 
 In the order overview you can already see what the current delivery status is and for any further details simply click on “Sendung verfolgen” (Engl. “Track my parcel”):
 
 
-.. image:: /images/order-tracking-neighbor-delivery.jpg
+.. image:: /images/order-tracking-overview-new.jpg
    :alt: Order-tracking Neighbor-delivery
 
 
@@ -72,13 +72,17 @@ You will then see the modal window with all the important information for the se
 Here is an example where the parcel was successfully delivered to a neighbor Sandra Mustermann:
 
 
-.. image:: /images/order-tracking-payment-information.jpg
-   :alt: Order-tracking Payment-information
+.. image:: /images/order-tracking-neighbor-delivery.jpg
+   :alt: Order-tracking Neighbor-delivery
 
 
 Prepayment, credit card, or PayPal payments display the payment icon after the “order placed” icon. However,
 if you pay by invoice we display a useful message which contains the open amount and bank account information at the end
 of the process so you may easily find all you need in order to make a payment:
+
+
+.. image:: /images/order-tracking-payment-information.jpg
+   :alt: Order-tracking Payment-information
 
 
 **How did we test it?**
