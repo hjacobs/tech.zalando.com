@@ -37,7 +37,6 @@
         img:not(.teaserImage) {
             .block;
             .borderBox;
-            .paddingRight;
             .paddingVertical;
             height: auto;
             max-width: 100%;
@@ -45,6 +44,19 @@
             @media screen and (min-width: @screenPhoneLandscape) {
 
                 .marginAuto;
+
+            }
+        }
+
+        // IMAGES FLOATING
+        .imagefloat {
+
+            @media screen and (min-width: @screenTabletPortrait) {
+
+                .left;
+                .paddingRight;
+                height: auto;
+                max-width: 35% !important;
 
             }
         }
