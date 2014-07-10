@@ -91,20 +91,20 @@ During the development phase we already knew without any testing that we cannot 
 because of the potential customer impact. Therefore, we thought about how we could test it in a more efficient way and
 concentrated on the following points:
 
-- User lab test. It was very important for us to see if our new feature will be valuable and understandable for the
+* **User lab test.** It was very important for us to see if our new feature will be valuable and understandable for the
 customers or not. That’s why we tested the prototype face-to-face with some new employees in our own user lab. On the one
 hand we could gain some valuable feedback and as consequence improve some wordings so that everybody could better
 understand every single status we display. On the other hand, the testers could confirm our hypotheses regarding the
 progress bar flow meaning and icons which will be used.
 
-- Internal test. After finishing the first fully working prototype, we activated the feature for 50 employees who wanted to
+* **Internal test.** After finishing the first fully working prototype, we activated the feature for 50 employees who wanted to
 test it and help us improve the feature. With their feedback we could see that everybody is able to understand the feature
 quite well and it is extremely helpful for them to see the whole order tracking information at once because of transparency
 and the amount of time saved. Additionally, the testers provided bug reports so we could identify important issues quickly
 in order to fix them in a timely manner. The next step was to enable the feature for all employees. After several weeks,
 we were able to see happy customers inside of our testing group. It was a great sign for us that we were finally ready to go live.
 
-- Test framework. Another problem we encountered was the large number of scenarios which depend on different parcel
+* **Test framework.** Another problem we encountered was the large number of scenarios which depend on different parcel
 statuses and payment methods. In order to test every use case we decided to come up with a framework with which even a
 non-developer should be able to write test cases without worrying about the implementation. This gave birth to an XML
 document structure of a test case, which could be easily copied over with minor changes to vary the test data. It was
