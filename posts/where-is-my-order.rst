@@ -1,6 +1,6 @@
 .. title: Where is my order?
 .. slug: where-is-my-order
-.. date: 2014/05/28 10:21:29
+.. date: 2014/07/10 10:21:29
 .. tags: feature, frontend, user-account
 .. link:
 .. description: “Where is my order?” is the most important question for our customers once they ordered at Zalando. With our new feature we are able to answer that question in the most elegant and comfortable way possible.
