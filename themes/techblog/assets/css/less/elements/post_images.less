@@ -34,7 +34,8 @@
         }
 
         // IMAGES (not Teasers)
-        img:not(.teaserImage):not(.imagefloat) {
+        img:not(.teaserImage):not(.imagefloat),
+        :not(.signature) img {
             .block;
             .borderBox;
             .marginAuto;
