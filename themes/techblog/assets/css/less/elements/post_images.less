@@ -34,7 +34,8 @@
         }
 
         // IMAGES (not Teasers)
-        img:not(.teaserImage) {
+        img:not(.teaserImage),
+        img:not(.imagefloat) {
             .block;
             .borderBox;
             .paddingVertical;
@@ -54,9 +55,9 @@
             @media screen and (min-width: @screenTabletPortrait) {
 
                 .left;
-                .paddingRight;
                 height: auto;
                 max-width: 35% !important;
+                padding: 0 @distanceDefault @distanceDefault 0;
 
             }
         }
