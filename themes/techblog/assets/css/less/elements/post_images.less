@@ -34,8 +34,7 @@
         }
 
         // IMAGES (not Teasers)
-        img:not(.teaserImage):not(.imagefloat),
-        :not(.signature) img {
+        img:not(.teaserImage):not(.imagefloat) {
             .block;
             .borderBox;
             .marginAuto;
@@ -57,7 +56,7 @@
             }
         }
 
-        .signature img {
+        p.signature img {
             .borderBox;
             padding: 0 @distanceDefault 0 0;
         }
