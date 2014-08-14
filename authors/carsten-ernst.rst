@@ -7,4 +7,4 @@
 .. type: text
 .. author_title: Product Manager Mobile Apps
 
-Hi, I'm a Product Owner of Zalando's iOS application and I'm passionate about product management and technology. It's fun creating products and tweak them in an agile development process. If I'm not working on the products, I take care of this Techblog to help to providing interesting insights into various aspects of our work at Zalando Technology #WeDressCode ;-)
+Hi, I'm a Product Owner of Zalando's iOS application and I'm passionate about product management and technology. It's fun creating and tweaking products in an agile development process. If I'm not working on the products, I take care of this Techblog to helping to provide interesting insights into various aspects of our work at Zalando Technology #WeDressCode ;-)
