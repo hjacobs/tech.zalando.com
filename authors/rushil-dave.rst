@@ -3,7 +3,7 @@
 .. date: 2014/06/12 10:58:00
 .. tags:
 .. link:
-.. description: Hello, I am a Product Owner for Zalando’s Android application and I also take care of Mobile APIs.
+.. description: Hello, I am a Product Owner for Zalando\'s Android application and I also take care of Mobile APIs.
 .. type: text
 .. author_title: Product Manager - Mobile Apps
 
