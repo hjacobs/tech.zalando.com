@@ -5,13 +5,13 @@
 .. author: Nils Tillmann
 .. image: books-beer-toilets-testing-0.jpg
 
-At Zalando we are growing rapidly, facing big challenges, and constantly integrating new technologies, while committed to maintain software quality. Through the creativity, motivation, and diversity of each Zalando IT employee matched with the external innovations, ideas, and improvements we adopt, we accomplish this successfully. 
+At Zalando we are growing rapidly, facing big challenges, and constantly integrating new technologies, while committed to maintain software quality. Through the creativity, motivation, and diversity of each Zalando Tech employee matched with the external innovations, ideas, and improvements we adopt, we accomplish this successfully. 
 
 .. TEASER_END
 
 I was seeking exactly this kind of external input at the 6th World Congress of Software Quality the other day in London – and lucky for me I ran into Antoine Picard. A seasoned Software Engineer at Google, he reflected on his career and shared insights going back more than 10 years – stories which had many similarities to our work here at Zalando. 
 
-After its IPO in 2005, horizons were endless for Google and software quality was great. Not unlike Zalando and other successful startups Google's Technology department had a rapid growth. However, integrating everyone and maintaining established conventions and guidelines, while also staying versatile and innovative was the challenge. Google managed to stay innovative, but seemed to lose focus on basics such as proper testing - releases got blocked and software quality seemed to suffer on the way.
+After its IPO in 2004, horizons were endless for Google and software quality was great. Not unlike Zalando and other successful startups Google's Technology department had a rapid growth. However, integrating everyone and maintaining established conventions and guidelines, while also staying versatile and innovative was the challenge. Google managed to stay innovative, but seemed to lose focus on basics such as proper testing - releases got blocked and software quality seemed to suffer on the way.
 
 
 Something seems not right? Get on it!
