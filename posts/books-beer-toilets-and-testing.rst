@@ -16,7 +16,7 @@ After its IPO in 2004, horizons were endless for Google and software quality was
 
 **Something seems not right? Get on it!**
 
-To remedy this fading focus on testing, Antoine started a testing “grouplet” - equivalent to our kaizen user groups – whose goal was to make testing become part of the developer's culture!
+To remedy this fading focus on testing, a group of engineers (including Antoine) led by his colleague Bharat started a testing “grouplet” - equivalent to our kaizen user groups - whose goal was to make testing become part of the developer's culture!
 
 .. image:: /images/books-beer-toilets-and-testing-1.png
 
