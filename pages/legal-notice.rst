@@ -45,7 +45,7 @@ Amtsgericht Charlottenburg Berlin, HRB 158855 B |br|
 DE 260543043 |br|
 
 **Tax Number:**
-37/125/21423 |br|
+29/560/00596 |br|
 
 **Responsible:**
 for contents of Zalando SE acc. To § 55 RStV: Robert Gentz |br|
