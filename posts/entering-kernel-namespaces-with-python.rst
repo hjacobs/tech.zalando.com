@@ -71,6 +71,7 @@ You can use the provided context manager to do this:
 
 You can find the `source code on GitHub`_.
 
+We are currently building our own Docker-based PaaS (Platform as a Service) with IPv6 --- so stay tuned...
 
 .. _Docker: https://www.docker.com/
 .. _a bad idea: http://jpetazzo.github.io/2014/06/23/docker-ssh-considered-evil/
