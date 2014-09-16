@@ -8,8 +8,8 @@
 .. type: text
 .. image: python-logo.png
 
-Working with Docker_ containers usually arises the question: How do I connect into my running container without starting an explicit SSH daemon (which is considered `a bad idea`_)?
-This leads us to the Linux Kernel namespaces.
+When working with Docker_ containers usually the question arises on how to connect into a running container without starting an explicit SSH daemon (which is considered `a bad idea`_).
+This leads us to Linux Kernel namespaces.
 
 .. TEASER_END
 
@@ -23,6 +23,7 @@ Docker uses Linux Kernel namespaces to restrict the view from within containers:
 * UTS namespace: isolate hostname and domain name
 
 You can use the ``nsenter`` command line utility which is provided in the ``util-linux`` package. Sadly ``nsenter`` is `not yet part of Ubuntu 14.04 LTS`_.
+Jérôme Petazzoni provides a `Docker recipe for nsenter on GitHub`_ or you can `compile nsenter from source`_.
 
 As there is only one simple syscall to enter a namespace, we can do the call directly from within Python using the ``ctypes`` module:
 
@@ -76,6 +77,8 @@ We are currently building our own Docker-based PaaS (Platform as a Service) with
 .. _Docker: https://www.docker.com/
 .. _a bad idea: http://jpetazzo.github.io/2014/06/23/docker-ssh-considered-evil/
 .. _not yet part of Ubuntu 14.04 LTS: http://askubuntu.com/questions/439056/why-there-is-no-nsenter-in-util-linux
+.. _Docker recipe for nsenter on GitHub: https://github.com/jpetazzo/nsenter
+.. _compile nsenter from source: http://askubuntu.com/questions/439056/why-there-is-no-nsenter-in-util-linux
 .. _available on PyPI: https://pypi.python.org/pypi/nsenter
 .. _source code on GitHub: https://github.com/zalando/python-nsenter
 
