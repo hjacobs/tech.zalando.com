@@ -74,8 +74,6 @@ You can find the `source code on GitHub`_.
 
 We are currently building our own Docker-based PaaS (Platform as a Service) with IPv6 --- so stay tuned...
 
-We're hiring! e.g. `Cloud Specialist`_ but also Java Developers and System Engineers, see `our job portal`_.
-
 .. _Docker: https://www.docker.com/
 .. _a bad idea: http://jpetazzo.github.io/2014/06/23/docker-ssh-considered-evil/
 .. _not yet part of Ubuntu 14.04 LTS: http://askubuntu.com/questions/439056/why-there-is-no-nsenter-in-util-linux
@@ -84,4 +82,3 @@ We're hiring! e.g. `Cloud Specialist`_ but also Java Developers and System Engin
 .. _available on PyPI: https://pypi.python.org/pypi/nsenter
 .. _source code on GitHub: https://github.com/zalando/python-nsenter
 .. _Cloud Specialist: https://jobs.zalando.de/jobportal/index.php?ac=jobad&id=2097
-.. _our job portal: https://jobs.zalando.de/
