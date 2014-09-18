@@ -244,13 +244,13 @@ def compress_whitespace(raw):
     'a <pre> \\n </pre> b'
     '''
 
-    text = raw.decode('utf8')
+    text = raw
     captures = {}
     text = PRE_BLOCKS.sub(partial(repl, captures=captures), text)
     text = WHITESPACE_PATTERN.sub(' ', text)
     for key, val in captures.items():
         text = text.replace(key, val)
-    return text.encode('utf8')
+    return text
 
 
 def make_read_more_inline(raw):
@@ -259,8 +259,8 @@ def make_read_more_inline(raw):
     '<p>abc <a href="..">lnk</a></p>'
     '''
 
-    text = PARAGRAPH_READ_MORE.sub(r' <a \1</a></p>', raw.decode('utf8'))
-    return text.encode('utf8')
+    text = PARAGRAPH_READ_MORE.sub(r' <a \1</a></p>', raw)
+    return text
 
 
 def filter_html(raw):
@@ -269,7 +269,7 @@ def filter_html(raw):
     return raw
 
 
-FILTERS = {'.html': [filters.apply_to_file(filter_html)]}  # '.css': [filters.yui_compressor],
+FILTERS = {'.html': [filters.apply_to_text_file(filter_html)]}  # '.css': [filters.yui_compressor],
                                                            # '.js': [filters.yui_compressor],
                                                            # '.jpg': [filters.jpegoptim],
                                                            # '.png': [filters.optipng],
