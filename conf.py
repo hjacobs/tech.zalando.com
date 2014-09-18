@@ -352,7 +352,7 @@ INDEX_TEASERS = True
 # {read_more}   The string “Read more” in the current language.
 # {{            A literal { (U+007B LEFT CURLY BRACKET)
 # }}            A literal } (U+007D RIGHT CURLY BRACKET)
-READ_MORE_LINK = '<a class="readMore" href="{link}">{read_more}…</a>'
+INDEX_READ_MORE_LINK = '<a class="readMore" href="{link}">{read_more}…</a>'
 
 # A HTML fragment describing the license, for the sidebar.
 LICENSE = ''
