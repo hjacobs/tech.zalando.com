@@ -26,7 +26,7 @@ Getting started
 
 First install Nikola:
 
-    pip install "git+https://github.com/getnikola/nikola.git@836e395a#egg=nikola[full]"
+    pip3 install Nikola[extras]
 
 Then build and run the test server:
 
