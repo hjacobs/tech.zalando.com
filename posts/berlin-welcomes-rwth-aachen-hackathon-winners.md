@@ -10,8 +10,7 @@
 Delicious burgers at Burgeramt Friedrichshain, an
 exciting tour through the museum of computer games, a boat trip to discover
 one of the most beautiful cities from water made it a great and funny weekend
-with the winners of last year’s hackathon at [RWTH Aachen.](http://www.rwth-
-aachen.de/) The hackathon was taking place during the entrepreneurship week
+with the winners of last year’s hackathon at [RWTH Aachen.](http://www.rwth-aachen.de/) The hackathon was taking place during the entrepreneurship week
 and was sponsored by Zalando and Wooga.The students Simon, Frederik, Lars and
 Matthias, working on their bachelor degrees in computer science, won a weekend
 in Berlin for their great achievements in building an app in just a few hours.

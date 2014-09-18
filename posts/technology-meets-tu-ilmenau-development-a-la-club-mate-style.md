@@ -9,8 +9,7 @@
 
 At Zalando Technology we love [Club-Mate](http://www.clubmate.de/). And, we
 are totally in love with our own logistics software
-[ZALOS](http://tech.zalando.com/the-evolution-of-zalos-the-story-behind-
-zalando-logistics/). When we were asked to do a workshop in the context of the
+[ZALOS](http://tech.zalando.com/the-evolution-of-zalos-the-story-behind-zalando-logistics/). When we were asked to do a workshop in the context of the
 [sci business week](http://www.sci-business-week.de/) at [TU
 Ilmenau](http://www.tu-ilmenau.de/), we had to put our deeply loved ones into
 the concept. Themed "Agile software engineering for Europe’s biggest wardrobe.

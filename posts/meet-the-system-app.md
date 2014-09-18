@@ -8,8 +8,7 @@
 -->
 
 After our handy [database utilities](http://tech.zalando.com/tag/postgresql/)
-and a nifty [data management tool](http://tech.zalando.com/the-cube-app-
-announcement/), it’s time to officially release yet another open-source tool.
+and a nifty [data management tool](http://tech.zalando.com/the-cube-app-announcement/), it’s time to officially release yet another open-source tool.
 The System App is used internally at Zalando’s technology department to
 provide an overview of our network and systems health. We're talking about a
 diagramming tool which allows you to bind any external JSON data to its

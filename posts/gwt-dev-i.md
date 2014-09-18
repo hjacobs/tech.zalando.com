@@ -34,11 +34,11 @@ limitations. These limitations are worth their own post so I’ll discuss them
 in the future.
 
 I believe that user experience plays a significant role in
-[enterprise software development](http://geek-and-poke.com/2010/07/how-to-make-enterprise-software.html). 
+[enterprise software development](http://geek-and-poke.com/2010/07/how-to-make-enterprise-software.html).
 
 In this series of posts about GWT, my goal is
 to share with you some thoughts on how to leverage those capabilities and how
-to overcome some of its limitations. 
+to overcome some of its limitations.
 
 For that purpose we will start developing
 a GWT based application from scratch; I will try to cover topics like
@@ -78,8 +78,7 @@ gone well we should now have the skeleton of our first application, so lets
 test it.
 
 First we need a servlet container to run our application. For that we
-will use the [Apache Tomcat Maven Plugin](http://tomcat.apache.org/maven-
-plugin-2.1/). Just edit the pom.xml in our project folder and add the
+will use the [Apache Tomcat Maven Plugin](http://tomcat.apache.org/maven-plugin-2.1/). Just edit the pom.xml in our project folder and add the
 following lines inside the plugins section.
 
 ```xml
