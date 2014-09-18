@@ -24,15 +24,11 @@ Please make sure your blog post contains all necessary meta information (in the 
 Getting started
 ---------------
 
-First install Nikola:
+You need Docker (will not work with boot2docker):
 
-    pip3 install Nikola[extras]
+    docker run -v $(pwd):/workdir -t hjacobs/nikola build
 
-Then build and run the test server:
-
-    nikola auto
-
-Now point your browser to http://localhost:8000/
+Now open the generated HTML files in the "output" directory.
 
 Editing files on Windows
 ------------------------
