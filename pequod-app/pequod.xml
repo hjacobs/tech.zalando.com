@@ -16,5 +16,9 @@
 
     </services>
 
+    <network-rules>
+        <allow network="::/0" protocol="tcp" port="7999" />
+    </network-rules>
+
 
 </manifest>
