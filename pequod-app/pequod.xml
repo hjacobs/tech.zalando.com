@@ -14,6 +14,8 @@
 
         <provide service-name="tech-zalando-com" service-version="0" local-port="8000"/>
 
+        <require service-name="stash-ssh" service-version="1" local-hostname="stash.zalando.net" local-port="7999" />
+
     </services>
 
     <network-rules>
