@@ -9,7 +9,7 @@ export GIT_SSH=/git_ssh
 
 echo 'Sleeping 10s..'
 sleep 10
-/serve.py &
+/serve.py tech.zalando.com-nikola &
 
 while true; do
     git clone ssh://git@stash.zalando.net:7999/platform/tech.zalando.com-nikola.git

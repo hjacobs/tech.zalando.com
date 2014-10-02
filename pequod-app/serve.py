@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import os
 import cherrypy
+import sys
 
-PATH = os.path.abspath(os.path.dirname(__file__))
+PATH = os.path.abspath(sys.argv[1])
 class Root(object): pass
 
 cherrypy.server.socket_port = 8000
