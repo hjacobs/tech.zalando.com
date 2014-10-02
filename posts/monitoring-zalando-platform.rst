@@ -1,7 +1,7 @@
 <!--
 .. title: Monitoring the Zalando platform
 .. slug: monitoring-the-zalando-platform
-.. date: 2014-12-31 12:30:02
+.. date: 2014-10-01 12:30:02
 .. tags: development,open-source,monitoring,zmon,python,cassandra,redis
 .. author: Jan Mussler
 .. image: zmon2.png
