@@ -16,8 +16,9 @@ while true; do
     (
     cd tech.zalando.com-nikola
     git pull
+    rm -fr .doit*
     nikola build
     )
-    echo 'Sleeping 30s..'
-    sleep 30
+    echo 'Sleeping 45s..'
+    sleep 45
 done
