@@ -8,6 +8,12 @@
 .. type: text
 .. image: zalando-new-header.png
 
+
+.. |br| raw:: html
+
+   <br />
+
+
 ‘I love it!’ - that was the reaction of colleagues from other departments when we did the internal testing for the new design.
 I was pleased with that and the fact that the design sessions and user tests ended well. But let’s start from the beginning…
 
@@ -16,7 +22,7 @@ I was pleased with that and the fact that the design sessions and user tests end
 
 .. image:: /images/new-face-header-page.jpg
 
- 
+ |br|
 
 
 Things change over time
