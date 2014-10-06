@@ -16,6 +16,9 @@ I was pleased with that and the fact that the design sessions and user tests end
 
 .. image:: /images/new-face-header-page.jpg
 
+ 
+
+
 Things change over time
 -----------------------
 
