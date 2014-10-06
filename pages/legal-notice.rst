@@ -14,9 +14,10 @@
 
     <div class="legalNote">
 
-.. |div-close| raw:: html
+.. |close| raw:: html
 
-    <div>
+    </div>
+
 
 |div|
 
@@ -53,5 +54,5 @@ for contents of Zalando SE acc. To § 55 RStV: Robert Gentz |br|
 **Illustrations by:**
 Kolja Wilcke
 
-|div-close|
+|close|
 
