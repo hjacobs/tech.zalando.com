@@ -6,7 +6,7 @@
 .. description:
 .. author: Christian Leschke
 .. type: text
-.. image:
+.. image: zalando-new-header.png
 
 ‘I love it!’ - that was the reaction of colleagues from other departments when we did the internal testing for the new design.
 I was pleased with that and the fact that the design sessions and user tests ended well. But let’s start from the beginning…
