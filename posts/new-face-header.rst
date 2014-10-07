@@ -1,4 +1,4 @@
-.. title: We did it again! Zalando has dressed up its header.
+.. title: We did it again! Zalando has dressed up its header
 .. slug: zalando-new-face-header
 .. date: 2014/09/29 10:00:00
 .. tags: frontend,ab-test,innovation
