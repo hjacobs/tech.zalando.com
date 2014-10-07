@@ -10,7 +10,7 @@
         <temporary default-mb="1000" mountpoint="/workdir"/>
     </filesystems>
     <services>
-        <provide service-name="tech-zalando-com" service-version="0" local-port="8000"/>
+        <provide service-name="tech-zalando-com" service-version="0" local-port="8000" health-check-http-path="/" health-check-timeout-seconds="600"/>
         <require service-name="stash-ssh" service-version="1" local-hostname="stash.zalando.net" local-port="7999"/>
     </services>
 </manifest>
