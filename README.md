@@ -24,7 +24,7 @@ Please make sure your blog post contains all necessary meta information (in the 
 Getting started
 ---------------
 
-You need Docker (will not work with boot2docker):
+You need Docker (should also work now with latest version of boot2docker and Docker 1.3):
 
     docker run -v $(pwd):/workdir -t hjacobs/nikola build
 
