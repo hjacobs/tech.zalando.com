@@ -26,7 +26,7 @@ Getting started
 
 You need Docker (should also work now with latest version of boot2docker and Docker 1.3):
 
-    docker run -v $(pwd):/workdir -t hjacobs/nikola build
+    docker run -u $(id -u) -v $(pwd):/workdir -t hjacobs/nikola build
 
 Now open the generated HTML files in the "output" directory.
 
