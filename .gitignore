@@ -4,3 +4,4 @@ output
 .doit*
 cache
 *.pyc
+npm-debug.log
