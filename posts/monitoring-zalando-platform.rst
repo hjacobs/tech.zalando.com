@@ -1,11 +1,9 @@
-<!--
 .. title: Monitoring the Zalando platform
 .. slug: monitoring-the-zalando-platform
-.. date: 2014-11-01 12:30:02
+.. date: 2014-11-04 12:30:02
 .. tags: development,open-source,monitoring,zmon,python,cassandra,redis
 .. author: Jan Mussler
 .. image: zmon2.png
--->
 
 Some time ago we already presented our PostgreSQL database monitoring tool, but today it is time to show you how we monitor the other parts of the Zalando platform. For that particular purpose during the past months ZMON2 was developed to enable basically everyone at Zalando to monitor relevant services and define his own alerting.
 
@@ -29,7 +27,7 @@ The schedulers and any number of workers communicate using Redis lists, the sche
 
 **Problems ...**
 
-There were some problems along the way: We first used Celery as a task broker with Redis, however we did not manage to make it run fast enough, and in the end we did not really need a big framework if all we wanted was encode some task in JSON and fire and forget it into the queue. So Celery was dropped, significantly improving the throughput. Unfortunately this period of problems created a bad smell, that one really should avoid if trying to sell a new monitoring solution people put their trust in. Second, the scheduler is in Python, too, and with the growing number of checks and data, our implementation for scheduling combined with some cleanup tasks and background threads for refreshing data, was no longer fast enough for checks with intervals < 5s. This was solved with spawning another scheduler responsible only for checks with intervals 30s or less, yielding a much better throughput of low interval checks. 
+There were some problems along the way: We first used Celery as a task broker with Redis, however we did not manage to make it run fast enough, and in the end we did not really need a big framework if all we wanted was encode some task in JSON and fire and forget it into the queue. So Celery was dropped, significantly improving the throughput. Unfortunately this period of problems created a bad smell, that one really should avoid if trying to sell a new monitoring solution people put their trust in. Second, the scheduler is in Python, too, and with the growing number of checks and data, our implementation for scheduling combined with some cleanup tasks and background threads for refreshing data, was no longer fast enough for checks with intervals < 5s. This was solved with spawning another scheduler responsible only for checks with intervals 30s or less, yielding a much better throughput of low interval checks.
 
 Currently we are adding more features and working on solving one big remaining issue, that is the Redis dependency in a multi data center environment. We run UI nodes in all DCs with multiple LBs, so UI will be fine and available, but the queue and state is currently a hot topic. On a prototype basis we wrapped all Redis calls, and now mirror writes to our Cassandra cluster (see charts when feature was enabled). For writing this seems to work well so far, we have a very limited dataset ( scales with hosts, applications, checks ) and get replication across nodes and DC for free. The results of this migration will remain open for now ...
 
