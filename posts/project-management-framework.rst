@@ -52,8 +52,8 @@ We want to make sure that everybody is heading in the same direction, minimise m
 
 To facilitate this we created the “Project Charter” artefact. In the various versions of templates we provide for this artefact the Canvas is the most haptical. You can really get the team involved physically when they brainstorm Post-It’s (or Statty’s) and move them on a big printout of this canvas. It is project and team building at the same time.
 
-*So feel free to use this Canvas - and give us feedback.*
-
+| *So feel free to use this Canvas - and send us feedback at* `tobias.leonhardt@zalando.de <mailto:tobias.leonhardt@zalando.de>`_.
+| 
 
 .. image:: /images/project-management-framework-2.png
 
