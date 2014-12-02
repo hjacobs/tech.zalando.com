@@ -1,9 +1,9 @@
-.. title: Erik Schuenemann
-.. slug: erik-schuenemann
+.. title: Erik Schünemann
+.. slug: erik-schunemann
 .. date: 2014/12/01 16:58:00
 .. tags:
 .. link:
-.. description: Erik Schuenemann, Product Manager, Zalando
+.. description: Erik Schünemann, Product Manager, Zalando
 .. type: text
 .. author_title: Product Manager Product Presentation
 

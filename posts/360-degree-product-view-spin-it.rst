@@ -4,20 +4,20 @@
 .. tags: frontend,project-management,innovation
 .. link:
 .. description: This TechBlog post explains how 360-degree images are produced and the feature evolved at Zalando.
-.. author: Erik Schuenemann
+.. author: Erik Schünemann
 .. type: text
 .. image: 360-degree-product-1.jpg
 
-Have you ever taken a look at the shoe images in our Zalando Shop? You can see many views of the shoe and even get a detailed view of its interior. However, they are still just plain images showing the shoe from six different perspectives. To ensure that the customer can see the shoe from all horizontal angles, we developed the 360-degree feature. When the user tries this feature, he or she can see the shoe from all angles by dragging and dropping it. 
+Have you ever taken a look at the shoe images in our Zalando Shop? You can see many views of the shoe and even get a detailed view of its interior. However, they are still just plain images showing the shoe from six different perspectives. To ensure that the customer can see the shoe from all horizontal angles, we developed the 360-degree feature. When the user tries this feature, he or she can see the shoe from all angles by dragging and dropping it. This is an interactive feature that both engages and delights the customer. This takes us another step closer to our goal of achieving the best online product presentation.
 
 .. TEASER_END
 
-This is an interactive feature that both engages and delights the customer. This takes us another step closer to our goal of achieving the best online product presentation.
-
 **Production & Processing**
 
-But let’s start from the beginning and hear from to Katharina - Product Owner in our Technology Backend Team Production: 
+But let’s start from the beginning and hear from to Katharina - Product Owner in our Technology Backend Team Production:
+ 
 The 360-degree images are created by the Zalando Content Creation teams. They are photographed in a Packshot photo box, which was especially designed for 360-degree-images. This photo box works quite simple: Open the box, position the shoe precisely in the middle of a rotating plate, close the door, put a camera in front of the hole in this door and press the start button. The plate then starts turning and on every 12° angle a photo is taken automatically. This results in 30 raw images.
+
 Those images are then retouched by a designer using Photoshop, in order to make small corrections like adapting the color of the images to more closely resemble the physical article. Afterwards, the 30 images are uploaded into Zalando’s Content and Media Tool (CoMeT), which was developed by the Backend Team Production. CoMeT is the tool that enriches a basic article with all the information that is needed to display it in the shop. For example, you can upload descriptions, attributes, images, 360-degree images and style images. After uploading 30 individual images, CoMeT internally combines them into one large image, a so called “sprite”, which is then used to generate a preview of the rotating 360-degree image as it will appear in the shop.
 
 .. image:: /images/360-degree-product-2.jpg
