@@ -23,7 +23,7 @@ Please make sure your blog post contains all necessary meta information (in the 
 Getting started
 ===============
 
-You need Docker (should also work now with latest version of boot2docker and Docker 1.3):
+You need Docker_ (should also work now with latest version of boot2docker and Docker 1.3):
 
 .. code-block:: bash
 
@@ -38,3 +38,4 @@ Please see http://stackoverflow.com/questions/2746692/restructuredtext-tool-supp
 
 
 .. _tech.zalando.com: http://tech.zalando.com/
+.. _Docker: https://www.docker.com/
