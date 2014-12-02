@@ -1,10 +1,5 @@
 #!/bin/bash
 
-cp -vr /.ssh/ .ssh/
-chmod 700 .ssh/*
-
-export GIT_SSH=/git_ssh
-
 echo 'Sleeping 10s..'
 sleep 10
 

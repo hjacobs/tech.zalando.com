@@ -1,2 +1,0 @@
-#!/bin/sh
-exec /usr/bin/ssh -F /workdir/.ssh/config -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /workdir/.ssh/id_rsa "$@"

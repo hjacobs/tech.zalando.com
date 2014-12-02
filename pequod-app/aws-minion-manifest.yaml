@@ -1,0 +1,4 @@
+---
+application_name: techblog
+team_name: Techbloggers
+exposed_ports: [8000]
