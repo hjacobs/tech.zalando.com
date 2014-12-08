@@ -133,6 +133,7 @@ template {
 html {
   font-family: arial, sans-serif;
   /* 1 */
+  height: 100%;
   -moz-text-rendering: optimizeLegibility;
   -ms-text-rendering: optimizeLegibility;
   -o-text-rendering: optimizeLegibility;
@@ -146,11 +147,9 @@ html {
  * Remove default margin.
  */
 body {
+  position: relative;
   margin: 0;
-}
-html,
-body {
-  height: 100%;
+  min-height: 100%;
 }
 /* ==========================================================================
    Links
@@ -655,7 +654,22 @@ main {
 }
 .author img {
   float: left;
+  -ms-transition: max-width 0.2s ease;
+  -moz-transition: max-width 0.2s ease;
+  -webkit-transition: max-width 0.2s ease;
+  transition: max-width 0.2s ease;
   margin: 5px 20px 10px 0;
+  max-width: 100px;
+}
+@media screen and (min-width: 600px) {
+  .author img {
+    max-width: 150px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .author img {
+    max-width: 200px;
+  }
 }
 header {
   height: auto;
@@ -729,71 +743,117 @@ header .zalando:before {
   background-image: url('../img/welcome_IE.jpg');
   height: 240px;
 }
+.banner.welcome:before,
+.banner.welcome:after {
+  display: none;
+}
 .banner {
   overflow: hidden;
+  position: relative;
   -ms-transition: height 0.15s ease;
   -moz-transition: height 0.15s ease;
   -webkit-transition: height 0.15s ease;
   transition: height 0.15s ease;
   background-color: #ffffff;
-  background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (min-width: 600px) {
-  .banner {
-    margin-bottom: 40px;
-  }
+.banner:before,
+.banner:after {
+  position: relative;
+  -ms-transition: height 0.15s ease;
+  -moz-transition: height 0.15s ease;
+  -webkit-transition: height 0.15s ease;
+  transition: height 0.15s ease;
+  background-size: cover;
 }
 @media screen and (max-width: 599px) {
-  .banner {
-    margin-bottom: 20px;
-  }
   .banner:not(.welcome) {
-    background: url('../img/welcome_mobile.jpg') 35% bottom;
+    background: url('../img/hackweek3.2014_welcome_mobile.jpg') no-repeat 35% bottom;
     height: 50px;
   }
   .banner.welcome {
+    background: url('../img/hackweek3.2014_welcome_mobile.jpg') no-repeat 35% bottom;
+    /*&:before {                                                              */
+    /*    .fixed;                                                             */
+    /*    .pseudo('');                                                        */
+    /*    background: url('../img/chip_mobile.png') no-repeat 35% bottom;     */
+    /*}                                                                       */
+    /*&:after {                                                               */
+    /*    .pseudo('');                                                        */
+    /*    background: url('../img/hide_chip_mobile.png') no-repeat 35% bottom;*/
+    /*}                                                                       */
+  }
+  .banner.welcome,
+  .banner:before,
+  .banner:after {
     height: 70px;
     width: 100%;
-    background: url('../img/chip_mobile.png') 35% bottom, url('../img/welcome_mobile.jpg') 35% bottom;
   }
 }
 @media screen and (max-width: 599px) and (orientation: portrait) {
-  .banner.welcome {
+  .banner.welcome,
+  .banner:before,
+  .banner:after {
     height: 80px;
     width: 100%;
   }
 }
 @media screen and (max-width: 599px) and (orientation: landscape) {
-  .banner.welcome {
+  .banner.welcome,
+  .banner:before,
+  .banner:after {
     height: 80px;
     width: 100%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   .banner:not(.welcome) {
-    background: url('../img/welcome_tablet.jpg') center bottom;
+    background: url('../img/hackweek3.2014_welcome_tablet.jpg') no-repeat center bottom;
     height: 80px;
   }
   .banner.welcome {
+    background: url('../img/hackweek3.2014_welcome_tablet.jpg') no-repeat center bottom;
+    /*&:before {                                                                 */
+    /*    .fixed;                                                                */
+    /*    .pseudo('');                                                           */
+    /*    background: url('../img/chip_tablet.png') no-repeat center bottom;     */
+    /*}                                                                          */
+    /*&:after {                                                                  */
+    /*    .pseudo('');                                                           */
+    /*    background: url('../img/hide_chip_tablet.png') no-repeat center bottom;*/
+    /*}                                                                          */
+  }
+  .banner.welcome,
+  .banner:before,
+  .banner:after {
     height: 160px;
     width: 100%;
-    background: url('../img/chip_tablet.png') center bottom, url('../img/welcome_tablet.jpg') center bottom;
   }
 }
 @media screen and (min-width: 1024px) {
   .banner:not(.welcome) {
-    background: url('../img/welcome.jpg') center bottom;
+    background: url('../img/hackweek3.2014_welcome.jpg') no-repeat center bottom;
   }
   .banner.welcome {
-    background: url('../img/chip.png') center bottom, url('../img/welcome.jpg') center bottom;
+    background: url('../img/hackweek3.2014_welcome.jpg') no-repeat center bottom;
+    /*&:before {                                                          */
+    /*    .fixed;                                                         */
+    /*    .pseudo('');                                                    */
+    /*    background: url('../img/chip.png') no-repeat center bottom;     */
+    /*}                                                                   */
+    /*&:after {                                                           */
+    /*    .pseudo('');                                                    */
+    /*    background: url('../img/hide_chip.png') no-repeat center bottom;*/
+    /*}                                                                   */
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   .banner:not(.welcome) {
     height: 100px;
   }
-  .banner.welcome {
+  .banner.welcome,
+  .banner:before,
+  .banner:after {
     height: 200px;
     width: 100%;
   }
@@ -802,10 +862,11 @@ header .zalando:before {
   .banner:not(.welcome) {
     height: 100px;
   }
-  .banner.welcome {
+  .banner.welcome,
+  .banner:before,
+  .banner:after {
     height: 240px;
     width: 100%;
-    background-size: cover;
   }
 }
 .navBar {
@@ -905,8 +966,19 @@ main {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  border: 1px solid #ffffff;
+  border-width: 20px 0 0 0;
+  position: relative;
+  background-color: #ffffff;
   min-height: 100%;
-  padding-bottom: 140px;
+  padding-bottom: 200px;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+@media screen and (min-width: 600px) {
+  main {
+    border: 1px solid #ffffff;
+    border-width: 40px 0 0 0;
+  }
 }
 main .postbox a {
   text-decoration: none;
@@ -993,8 +1065,10 @@ main h3 a {
     margin-bottom: 60px;
   }
 }
-.pages .legalNote {
-  text-align: center;
+@media screen and (min-width: 600px) {
+  .pages .legalNote {
+    text-align: center;
+  }
 }
 .pages .legalNote strong {
   display: block;
@@ -1061,6 +1135,14 @@ article h4,
   clear: both;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+article h2 a,
+.pages h2 a,
+article h3 a,
+.pages h3 a,
+article h4 a,
+.pages h4 a {
+  text-decoration: underline;
 }
 article h2,
 .pages h2 {
@@ -1192,27 +1274,23 @@ article .signature img,
   max-width: 60px;
   widows: auto;
 }
-article .teaserImage {
-  padding-bottom: 10px;
-}
 @media screen and (max-width: 479px) and (orientation: portrait) {
-  article .teaserImage {
+  article:not(.author) .teaserImage {
     height: auto;
     width: 100%;
   }
 }
 @media screen and (orientation: landscape), (min-width: 480px) {
-  article .teaserImage {
+  article:not(.author) .teaserImage {
     height: auto;
     width: 35%;
-    margin-right: 20px;
     float: left;
-    margin-top: 5px;
+    margin: 5px 20px 5px 0;
     max-width: 150px;
   }
 }
 @media screen and (min-width: 600px) {
-  article .teaserImage p:first-child img {
+  article:not(.author) .teaserImage p:first-child img {
     height: auto;
     width: 50%;
     margin-right: 20px;
@@ -1220,24 +1298,27 @@ article .teaserImage {
     max-width: 200px;
   }
 }
-article li img,
-article p img {
+article:not(.author) img:not(.teaserImage):not(.imagefloat) {
   display: block;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding-right: 10px;
-  padding-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
   padding-bottom: 10px;
   height: auto;
   max-width: 100%;
 }
-@media screen and (min-width: 480px) {
-  article li img,
-  article p img {
-    margin-right: auto;
-    margin-left: auto;
+@media screen and (min-width: 600px) {
+  article:not(.author) .imagefloat {
+    float: left;
+    height: auto;
+    max-width: 35% !important;
+    padding: 0 10px 10px 0;
   }
+}
+article:not(.author) .signature img {
+  padding: 0 10px 0 0;
 }
 .code {
   padding: 10px;
@@ -1466,7 +1547,7 @@ article p img {
   width: 4em;
 }
 .pager {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 .pager .previous,
 .pager .next {
@@ -1609,12 +1690,13 @@ footer {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background-color: #f7f7f7;
-  margin-top: -140px;
   min-height: 130px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   footer {
     padding-top: 20px;
   }
@@ -1627,12 +1709,12 @@ footer .content li {
   *zoom: 1;
   *display: inline;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 799px) {
   footer .content li {
     width: 33%;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   footer .content li {
     position: relative;
   }
@@ -1657,7 +1739,7 @@ footer .content a {
   padding: 10px 5px;
   text-decoration: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   footer .content a {
     padding-left: 10px;
     padding-right: 9px;
