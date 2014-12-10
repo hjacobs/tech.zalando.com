@@ -751,20 +751,22 @@ header .zalando:before {
 }
 @media screen and (max-width: 599px) {
   .banner:not(.welcome) {
-    background: url('../img/hackweek3.2014_welcome_mobile.jpg') no-repeat 35% bottom;
+    background: url('../img/welcome_mobile.jpg') no-repeat 35% bottom;
     height: 50px;
   }
   .banner.welcome {
-    background: url('../img/hackweek3.2014_welcome_mobile.jpg') no-repeat 35% bottom;
-    /*&:before {                                                              */
-    /*    .fixed;                                                             */
-    /*    .pseudo('');                                                        */
-    /*    background: url('../img/chip_mobile.png') no-repeat 35% bottom;     */
-    /*}                                                                       */
-    /*&:after {                                                               */
-    /*    .pseudo('');                                                        */
-    /*    background: url('../img/hide_chip_mobile.png') no-repeat 35% bottom;*/
-    /*}                                                                       */
+    background: url('../img/welcome_mobile.jpg') no-repeat 35% bottom;
+  }
+  .banner.welcome:before {
+    position: fixed;
+    content: '';
+    display: block;
+    background: url('../img/chip_mobile.png') no-repeat 35% bottom;
+  }
+  .banner.welcome:after {
+    content: '';
+    display: block;
+    background: url('../img/hide_chip_mobile.png') no-repeat 35% bottom;
   }
   .banner.welcome,
   .banner:before,
@@ -791,20 +793,22 @@ header .zalando:before {
 }
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   .banner:not(.welcome) {
-    background: url('../img/hackweek3.2014_welcome_tablet.jpg') no-repeat center bottom;
+    background: url('../img/welcome_tablet.jpg') no-repeat center bottom;
     height: 80px;
   }
   .banner.welcome {
-    background: url('../img/hackweek3.2014_welcome_tablet.jpg') no-repeat center bottom;
-    /*&:before {                                                                 */
-    /*    .fixed;                                                                */
-    /*    .pseudo('');                                                           */
-    /*    background: url('../img/chip_tablet.png') no-repeat center bottom;     */
-    /*}                                                                          */
-    /*&:after {                                                                  */
-    /*    .pseudo('');                                                           */
-    /*    background: url('../img/hide_chip_tablet.png') no-repeat center bottom;*/
-    /*}                                                                          */
+    background: url('../img/welcome_tablet.jpg') no-repeat center bottom;
+  }
+  .banner.welcome:before {
+    position: fixed;
+    content: '';
+    display: block;
+    background: url('../img/chip_tablet.png') no-repeat center bottom;
+  }
+  .banner.welcome:after {
+    content: '';
+    display: block;
+    background: url('../img/hide_chip_tablet.png') no-repeat center bottom;
   }
   .banner.welcome,
   .banner:before,
@@ -815,19 +819,21 @@ header .zalando:before {
 }
 @media screen and (min-width: 1024px) {
   .banner:not(.welcome) {
-    background: url('../img/hackweek3.2014_welcome.jpg') no-repeat center bottom;
+    background: url('../img/welcome.jpg') no-repeat center bottom;
   }
   .banner.welcome {
-    background: url('../img/hackweek3.2014_welcome.jpg') no-repeat center bottom;
-    /*&:before {                                                          */
-    /*    .fixed;                                                         */
-    /*    .pseudo('');                                                    */
-    /*    background: url('../img/chip.png') no-repeat center bottom;     */
-    /*}                                                                   */
-    /*&:after {                                                           */
-    /*    .pseudo('');                                                    */
-    /*    background: url('../img/hide_chip.png') no-repeat center bottom;*/
-    /*}                                                                   */
+    background: url('../img/welcome.jpg') no-repeat center bottom;
+  }
+  .banner.welcome:before {
+    position: fixed;
+    content: '';
+    display: block;
+    background: url('../img/chip.png') no-repeat center bottom;
+  }
+  .banner.welcome:after {
+    content: '';
+    display: block;
+    background: url('../img/hide_chip.png') no-repeat center bottom;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -1841,4 +1847,58 @@ footer .zalando {
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 20px auto;
+}
+@media screen and (max-width: 599px) {
+  .banner:not(.welcome) {
+    background: url('../img/hackweek3.2014_welcome_mobile.jpg') no-repeat 35% bottom;
+    height: 110px;
+  }
+  .banner.welcome {
+    background: url('../img/hackweek3.2014_welcome_mobile.jpg') no-repeat 35% bottom;
+  }
+  .banner.welcome:before {
+    position: static;
+    background: none;
+  }
+  .banner.welcome:after {
+    background: none;
+  }
+  .banner.welcome,
+  .banner:before,
+  .banner:after {
+    height: 100px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .banner:not(.welcome) {
+    background: url('../img/hackweek3.2014_welcome_tablet.jpg') no-repeat 35% bottom;
+    height: 150px;
+  }
+  .banner.welcome {
+    background: url('../img/hackweek3.2014_welcome_tablet.jpg') no-repeat center bottom;
+  }
+  .banner.welcome:before {
+    position: static;
+    background: none;
+  }
+  .banner.welcome:after {
+    background: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner:not(.welcome) {
+    background: url('../img/hackweek3.2014_welcome.jpg') no-repeat center bottom;
+    height: 240px;
+  }
+  .banner.welcome {
+    background: url('../img/hackweek3.2014_welcome.jpg') no-repeat center bottom;
+  }
+  .banner.welcome:before {
+    position: static;
+    background: none;
+  }
+  .banner.welcome:after {
+    background: none;
+  }
 }

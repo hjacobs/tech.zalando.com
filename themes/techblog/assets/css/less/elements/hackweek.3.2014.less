@@ -1,0 +1,71 @@
+.banner {
+    @media screen and (max-width: (@screenTabletPortrait - 1px)) {
+
+        &:not(.welcome) {
+            background: url('../img/hackweek3.2014_welcome_mobile.jpg') no-repeat 35% bottom;
+            height: @distanceDefault * 11;
+        }
+
+        &.welcome {
+            background: url('../img/hackweek3.2014_welcome_mobile.jpg') no-repeat 35% bottom;
+
+            &:before {
+                .static;
+                background: none;
+            }
+
+            &:after {
+                background: none;
+            }
+        }
+
+        &.welcome,
+        &:before,
+        &:after {
+            .dimension(@distanceDefault * 10, 100%);
+        }
+    }
+
+    @media screen and (min-width: @screenTabletPortrait)
+    and (max-width: (@screenDesktop - 1px)) {
+
+        &:not(.welcome) {
+            background: url('../img/hackweek3.2014_welcome_tablet.jpg') no-repeat 35% bottom;
+            height: @distanceDefault * 15;
+        }
+
+        &.welcome {
+            background: url('../img/hackweek3.2014_welcome_tablet.jpg') no-repeat center bottom;
+
+            &:before {
+                .static;
+                background: none;
+            }
+
+            &:after {
+                background: none;
+            }
+        }
+    }
+
+    @media screen and (min-width: @screenDesktop) {
+
+        &:not(.welcome) {
+            background: url('../img/hackweek3.2014_welcome.jpg') no-repeat center bottom;
+            height: @distanceDefault * 24;
+        }
+
+        &.welcome {
+            background: url('../img/hackweek3.2014_welcome.jpg') no-repeat center bottom;
+
+            &:before {
+                .static;
+                background: none;
+            }
+
+            &:after {
+                background: none;
+            }
+        }
+    }
+}
