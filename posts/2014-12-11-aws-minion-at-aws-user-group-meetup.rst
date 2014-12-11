@@ -69,4 +69,4 @@ You can find the `slides of the AWS UG Dec Meetup online as PDF`_.
 .. _incomplete IAM support for some AWS products: http://stackoverflow.com/questions/25649564/amazon-web-services-why-iam-does-not-support-arn-for-autoscaling
 .. _AWS Overlord: https://github.com/zalando/aws-overlord
 .. _AWS Minion documentation: http://aws-minion.readthedocs.org/
-.. _slides of the AWS UG Dec Meetup online as PDF: files/2014/12/2014-12-09-AWS-UG-Dec-Meetup.pdf
+.. _slides of the AWS UG Dec Meetup online as PDF: /files/2014/12/2014-12-09-AWS-UG-Dec-Meetup.pdf
