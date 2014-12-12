@@ -10,7 +10,7 @@
 
 We had the chance to present our recent efforts on AWS account management and Docker application deployment at the `December Berlin AWS User Group Meetup`_.
 
-Our main presentation topic was the **AWS Minion** command line tool which allows managing immutable stacks of Docker applications.
+Our main presentation topic was the `AWS Minion`_ command line tool which allows managing immutable stacks of Docker applications.
 
 .. TEASER_END
 
