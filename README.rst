@@ -31,6 +31,13 @@ You need Docker_ (should also work now with latest version of boot2docker and Do
 
 Now open the generated HTML files in the "output" directory.
 
+You can also use the provided Makefile to achieve the same:
+
+.. code-block:: bash
+
+    $ make clean
+    $ make
+
 Editing files on Windows
 ========================
 
