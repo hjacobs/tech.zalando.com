@@ -1,9 +1,9 @@
-.. title: Hackweek: A Short Introduction
+.. title: Hack Week: A Short Introduction
 .. slug: hackweek-december-2014-a-short-introduction
 .. date: 2014/12/15 08:00:00
-.. tags: hackweek
+.. tags: hack-week, event
 .. link:
-.. description: ...
+.. description: A short introduction to our Hack Week
 .. author: Daniel Nowak
 .. type: text
 .. image: hackweek3logo.png
