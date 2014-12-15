@@ -13,7 +13,7 @@ Hack Week 3 starts today so it is now my pleasure to give you a short introducti
 .. TEASER_END
 
 The idea
-===================
+========
 
 If I have to summarize Hack Week in one sentence, I’d say it is similar to the Google Friday but here we have it for an entire week. The topics range from new digital shopping experiences like virtual reality dress rooms, trying on clothes digitally, robots, delivery by drones, and 3D-printing or experimenting with new technologies. The topics are all quite interesting but most importantly is that it's a week in the spirit of innovation, freedom and motivation that spreads over all Zalando tech facilities.
 
@@ -30,7 +30,7 @@ So that was a short introduction, now I have to join my team as well. ;-)
 
 
 Our Hack Week Video
-==================
+===================
 
 .. youtube:: pyTJfQIRWPM
    :width: 650
