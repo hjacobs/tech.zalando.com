@@ -28,5 +28,5 @@ Cream of the top is the week’s final presentation (and party) where every team
 
 So that was a short introduction, now I have to join my team as well. ;-)
 
-.. .. youtube: SU-IUjDnGes
-..   :width: 650
+.. youtube:: SU-IUjDnGes
+   :width: 650
