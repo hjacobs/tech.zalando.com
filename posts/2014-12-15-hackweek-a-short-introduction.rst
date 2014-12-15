@@ -6,38 +6,27 @@
 .. description: ...
 .. author: Daniel Nowak
 .. type: text
-.. image: ...
+.. image: hackweek3logo.png
 
-HackWeek 3 starts today so it is now my pleasure to give you a short introduction what
-hackweek is and what will happen at Zalando Technology in the next days.
+Hack Week 3 starts today so it is now my pleasure to give you a short introduction what Hack Week is and what will happen at Zalando Technology in the next days. 
 
 .. TEASER_END
 
-The idea
-========
+Star Wars Hack Week
+===================
 
-If I have to to explain hackweek in one sentence, I always say it is the google friday but for 
-a week. The topics that we are working on are ranging from new navigation types, virtual 
-reality dress rooms, trying on clothes digitally, robots, internal tools or experimenting with 
-new technologies. The topics are quite good but the most important thing in this week is the 
-atmosphere of innovation, freedom and motivation that is feelable in all zalando tech facilities.
+If I have to to summarize Hack Week in one sentence, I’d say it is similar to the Google Friday but here we have it for an entire week. The topics range from new digital shopping experiences like virtual reality dress rooms, trying on clothes digitally, robots, delivery by drones, and 3D-printing or experimenting with new technologies. The topics are all quite interesting but most importantly is that it's a week in the spirit of innovation, freedom and motivation that spreads over all zalando tech facilities.
 
 The process
 ===========
 
-pitching: 3 weeks before every hackweek the ideas board is opened. This is a place where you 
-can place your own concepts or find projects that you would like to support. In these 3 weeks 
-we additionally have pitch sessions where you can advertise your project personally to find 
-other people to join your projects.
+Three weeks before every Hack Week the ideaboard is opened and pitching begins. This is a place where everyone can share their concepts or find projects that they would like to support. In these three weeks we additionally hold pitch sessions where everyone can promote their projects to find other people to join their projects. 
 
-hacking: Then during the week all regular work stops and everybody is working on their 
-projects. Besides that we have a lot of social activities like a office mini golf or foosball 
-tournament.
+Then during the week all regular work stops and everybody starts hacking, programmers, designers, and product managers all come together in the name of technology. It's not all work though with various social activities like office mini-golf and table soccer tournaments running in parallel.
 
-rewarding: The best of the hackweek is the final presentation where every team presents theit 
-results. You see every three minutes a new project that makes you speechless. At the end the 
-best teams get awards in different catgories like 
-So that was a short introduction, now i have to join my team aswell. ;-)
+Cream of the top is the week’s final presentation (and party) where every team presents their hacks. Every three minutes a new project comes leaving you speechless. At the end the best teams get awards in different categories like best hardware project, most innovative project, best teamwork and many more. 
+
+So that was a short introduction, now I have to join my team as well. ;-)
 
 .. .. youtube: SU-IUjDnGes
 ..   :width: 650
