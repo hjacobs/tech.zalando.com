@@ -28,5 +28,9 @@ Cream of the top is the week’s final presentation (and party) where every team
 
 So that was a short introduction, now I have to join my team as well. ;-)
 
-.. youtube:: SU-IUjDnGes
+
+Our HackWeek Video
+==================
+
+.. youtube:: pyTJfQIRWPM
    :width: 650
