@@ -2,6 +2,8 @@
 Zalando Technology public "Tech Blog"
 =====================================
 
+**This repository contains the archive of Zalando's former tech blog (2013-2014).**
+
 This repository contains the source files for our public Tech Blog (tech.zalando.com_).
 
 Writing blog posts
